@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="init.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/SetupAsset/EmblemBlender.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/texture_logo.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/lang_popup.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/eula.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/init/init_sequence.fox2" />
+    <Entry FilePath="/Assets/tpp/script/mission/mission_main.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/init/init_sequence.lua" />
+  </Entries>
+  <References />
+</ArchiveFile>

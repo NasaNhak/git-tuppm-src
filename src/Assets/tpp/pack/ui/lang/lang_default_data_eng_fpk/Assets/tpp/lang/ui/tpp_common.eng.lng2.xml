@@ -1,0 +1,965 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="1004197738" Color="1" Value="m" />
+    <Entry Key="2687242322" Color="1" Value="GMP" />
+    <Entry Key="506983603" Color="1" Value="TIME" />
+    <Entry LangId="common_new" Color="1" Value="NEW" />
+    <Entry LangId="tpp_gmp" Color="1" Value="GMP" />
+    <Entry LangId="tpp_loc_afghan" Color="1" Value="Northern Kabul, Afghanistan" />
+    <Entry LangId="tpp_loc_africa" Color="1" Value="Angola-Zaire Border Region" />
+    <Entry LangId="tpp_loc_mb" Color="1" Value="Mother Base (Seychelles Waters)" />
+    <Entry LangId="tpp_afghan_en_ruins" Color="1" Value="Spugmay Keep" />
+    <Entry LangId="tpp_afghan_en_slopedTown" Color="1" Value="Da Ghwandai Khar" />
+    <Entry LangId="tpp_afghan_en_village" Color="1" Value="Da Wialo Kallai" />
+    <Entry LangId="tpp_afghan_en_commFacility" Color="1" Value="Eastern Communications Post" />
+    <Entry LangId="tpp_afghan_en_enemyBase" Color="1" Value="Wakh Sind Barracks" />
+    <Entry LangId="tpp_afghan_en_bridge" Color="1" Value="Mountain Relay Base" />
+    <Entry LangId="tpp_afghan_en_cliffTown" Color="1" Value="Qarya Sakhra Ee" />
+    <Entry LangId="tpp_afghan_en_fort" Color="1" Value="Da Smasei Laman" />
+    <Entry LangId="tpp_afghan_en_field" Color="1" Value="Da Shago Kallai" />
+    <Entry LangId="tpp_afghan_en_tent" Color="1" Value="Yakho Oboo Supply Outpost" />
+    <Entry LangId="tpp_afghan_en_remnant" Color="1" Value="Lamar Khaate Palace " />
+    <Entry LangId="tpp_afghan_en_waterway" Color="1" Value="Aabe Shifap Ruins" />
+    <Entry LangId="tpp_afghan_en_powerPlant" Color="1" Value="Serak Power Plant" />
+    <Entry LangId="tpp_afghan_en_sovietBase" Color="1" Value="Afghanistan Central Base Camp" />
+    <Entry LangId="tpp_afghan_en_citadel" Color="1" Value="OKB Zero" />
+    <Entry LangId="tpp_afghan_ruins" Color="1" Value="Spugmay Keep" />
+    <Entry LangId="tpp_afghan_slopedTown" Color="1" Value="Ghwandai Town (Da Ghwandai Khar)" />
+    <Entry LangId="tpp_afghan_village" Color="1" Value="Wialo Village (Da Wialo Kallai)" />
+    <Entry LangId="tpp_afghan_commFacility" Color="1" Value="Eastern Communications Post" />
+    <Entry LangId="tpp_afghan_enemyBase" Color="1" Value="Wakh Sind Barracks" />
+    <Entry LangId="tpp_afghan_bridge" Color="1" Value="Mountain Relay Base" />
+    <Entry LangId="tpp_afghan_cliffTown" Color="1" Value="Sakhra Ee Village (Qarya Sakhra Ee)" />
+    <Entry LangId="tpp_afghan_fort" Color="1" Value="Smasei Fort (Da Smasei Laman)" />
+    <Entry LangId="tpp_afghan_field" Color="1" Value="Shago Village (Da Shago Kallai)" />
+    <Entry LangId="tpp_afghan_tent" Color="1" Value="Yakho Oboo Supply Outpost" />
+    <Entry LangId="tpp_afghan_remnant" Color="1" Value="Lamar Khaate Palace " />
+    <Entry LangId="tpp_afghan_waterway" Color="1" Value="Aabe Shifap Ruins" />
+    <Entry LangId="tpp_afghan_powerPlant" Color="1" Value="Serak Power Plant" />
+    <Entry LangId="tpp_afghan_sovietBase" Color="1" Value="Afghanistan Central Base Camp" />
+    <Entry LangId="tpp_afghan_citadel" Color="1" Value="OKB Zero" />
+    <Entry LangId="mb_unit_RD" Color="1" Value="R&amp;D Team" />
+    <Entry LangId="mb_unit_base_dev" Color="1" Value="Base Development Unit" />
+    <Entry LangId="mb_unit_support" Color="1" Value="Support Unit" />
+    <Entry LangId="mb_unit_intel" Color="1" Value="Intel Team" />
+    <Entry LangId="mb_unit_combat" Color="1" Value="Combat Unit" />
+    <Entry LangId="mb_unit_security" Color="1" Value="Security Team" />
+    <Entry LangId="mb_unit_medical" Color="1" Value="Medical Team" />
+    <Entry LangId="mb_room_waiting" Color="1" Value="Waiting Room" />
+    <Entry LangId="mb_room_sickbay" Color="1" Value="Sickbay" />
+    <Entry LangId="mb_room_brig" Color="1" Value="Brig" />
+    <Entry LangId="mb_room_quarantine" Color="1" Value="Quarantine Facility" />
+    <Entry LangId="mb_staff_name" Color="1" Value="Staff Name" />
+    <Entry LangId="mb_staff_id" Color="1" Value="ID" />
+    <Entry LangId="cmmn_on" Color="1" Value="ON" />
+    <Entry LangId="cmmn_off" Color="1" Value="OFF" />
+    <Entry Key="2891126147" Color="1" Value="R&amp;D Team suitability" />
+    <Entry Key="1071007913" Color="1" Value="Base Development Unit suitability" />
+    <Entry Key="88686131" Color="1" Value="Support Unit suitability" />
+    <Entry Key="425398044" Color="1" Value="Intel Team suitability" />
+    <Entry Key="4277591681" Color="1" Value="Combat Unit suitability" />
+    <Entry Key="2384968754" Color="1" Value="Security Team suitability" />
+    <Entry Key="2534518169" Color="1" Value="Medical Team suitability" />
+    <Entry LangId="mb_language" Color="1" Value="Language" />
+    <Entry LangId="cmmn_wp_dmg" Color="1" Value="DMG" />
+    <Entry LangId="cmmn_wp_zzz" Color="1" Value="ZZZ" />
+    <Entry LangId="cmmn_wp_stn" Color="1" Value="STN" />
+    <Entry LangId="cmmn_wp_smk" Color="1" Value="SMK" />
+    <Entry LangId="cmmn_wp_none" Color="1" Value="---" />
+    <Entry LangId="cmmn_ammo_standard" Color="1" Value="Standard" />
+    <Entry Key="2048659051" Color="1" Value="Shotshell" />
+    <Entry LangId="cmmn_ammo_grenade" Color="1" Value="Grenade" />
+    <Entry LangId="cmmn_ammo_rocket" Color="1" Value="Rocket" />
+    <Entry LangId="cmmn_ammo_guided_missile" Color="1" Value="Guided Missile" />
+    <Entry LangId="cmmn_ammo_over-pressure_lv1" Color="1" Value="Over-pressure Lv. 1" />
+    <Entry LangId="cmmn_ammo_over-pressure_lv2" Color="1" Value="Over-pressure Lv. 2" />
+    <Entry LangId="cmmn_ammo_slug_lv1" Color="1" Value="Slug Lv. 1" />
+    <Entry LangId="cmmn_ammo_slug_lv2" Color="1" Value="Slug Lv. 2" />
+    <Entry Key="2064366158" Color="1" Value="Magnum Shotshell" />
+    <Entry LangId="cmmn_ammo_rpg" Color="1" Value="RPG" />
+    <Entry LangId="cmmn_ammo_high_explosive" Color="1" Value="High Explosive" />
+    <Entry LangId="cmmn_ammo_tandem_warhead" Color="1" Value="Tandem Warhead" />
+    <Entry LangId="cmmn_ammo_tranquilizer" Color="1" Value="Tranquilizer" />
+    <Entry Key="2877218749" Color="1" Value="Tranquilizer (Piercing)" />
+    <Entry Key="2126801859" Color="1" Value="Tranquilizer (Instant)" />
+    <Entry Key="3391306033" Color="1" Value="Air Shock" />
+    <Entry LangId="cmmn_ammo_stun" Color="1" Value="Stun" />
+    <Entry LangId="cmmn_ammo_smoke" Color="1" Value="Smoke" />
+    <Entry Key="2657209585" Color="1" Value="Sleeping Gas" />
+    <Entry LangId="cmmn_wp_ammo" Color="1" Value="Ammo" />
+    <Entry Key="119803940" Color="1" Value="Underbarrel Ammo" />
+    <Entry LangId="cmmn_wp_prm_dmg" Color="1" Value="Damage" />
+    <Entry LangId="cmmn_wp_prm_fire_spd" Color="1" Value="Firing Speed" />
+    <Entry LangId="cmmn_wp_prm_range" Color="1" Value="Effective Range" />
+    <Entry LangId="cmmn_wp_prm_grouping" Color="1" Value="Grouping" />
+    <Entry Key="658464483" Color="1" Value="Targeting Speed" />
+    <Entry Key="1003664226" Color="1" Value="Primary Weapon (HIP)" />
+    <Entry Key="3563433764" Color="1" Value="Primary Weapon (BACK)" />
+    <Entry LangId="cmmn_wp_sec" Color="1" Value="Secondary Weapon" />
+    <Entry LangId="cmmn_wp_sup" Color="1" Value="Support Weapon" />
+    <Entry LangId="cmmn_item" Color="1" Value="Item" />
+    <Entry LangId="cmmn_wp_handgun" Color="1" Value="Handgun" />
+    <Entry LangId="cmmn_wp_submachine_gun" Color="1" Value="Submachine Gun" />
+    <Entry LangId="cmmn_wp_shotgun" Color="1" Value="Shotgun" />
+    <Entry LangId="cmmn_wp_assault_rifle" Color="1" Value="Assault Rifle" />
+    <Entry LangId="cmmn_wp_grenade_launcher" Color="1" Value="Grenade Launcher" />
+    <Entry LangId="cmmn_wp_machine_gun" Color="1" Value="Machine Gun" />
+    <Entry LangId="cmmn_wp_sniper_rifle" Color="1" Value="Sniper Rifle" />
+    <Entry LangId="cmmn_wp_launcher" Color="1" Value="Launcher" />
+    <Entry LangId="cmmn_wp_prts_receiver" Color="1" Value="Receiver" />
+    <Entry LangId="cmmn_wp_prts_barrel" Color="1" Value="Barrel" />
+    <Entry LangId="cmmn_wp_prts_stock" Color="1" Value="Stock" />
+    <Entry LangId="cmmn_wp_prts_magazine" Color="1" Value="Magazine" />
+    <Entry LangId="cmmn_wp_prts_underbarrel" Color="1" Value="Underbarrel" />
+    <Entry LangId="cmmn_wp_prts_muzzle_accessory" Color="1" Value="Muzzle Accessory" />
+    <Entry LangId="cmmn_wp_prts_sight" Color="1" Value="Sight" />
+    <Entry LangId="cmmn_wp_prts_attachment" Color="1" Value="Attachment" />
+    <Entry LangId="cmmn_wp_placed" Color="1" Value="Placed Weapon" />
+    <Entry LangId="cmmn_wp_thrown" Color="1" Value="Throwing Weapon" />
+    <Entry Key="3389759358" Color="1" Value="Develops weapons and items. More equipment becomes available for development as the unit's level increases." />
+    <Entry Key="2491178407" Color="1" Value="Conducts materials procurement, providing a regular income of materials. The amount of materials procured increases &#xA;with the unit's level, while materials processing time &#xA;decreases. Also allows to you build new platforms and &#xA;expand your base." />
+    <Entry Key="3786775253" Color="1" Value="Provides support in the area of operations via weapon/ammo supply drops and airstrikes. As unit level increases, the types of attacks available increase, and response time becomes shorter. Fulton success rate during bad weather also improves." />
+    <Entry Key="3337008715" Color="1" Value="Scouts for the enemy in the area of operations.&#xA;As the unit's level increases, intel reports become&#xA;more detailed and more frequent. Reports on locations&#xA;of dumpsters, back roads, and other points of interest&#xA;are also added." />
+    <Entry Key="290661453" Color="1" Value="Hiring out combat units provides Mother Base with extra sources of GMP. More GMP is accrued as the unit's level&#xA;increases, and even more GMP can be earned by deploying&#xA;units on dispatch missions." />
+    <Entry Key="4192571157" Color="1" Value="Provides security for base facilities.&#xA;As unit level increases, better security &#xA;devices become available for development." />
+    <Entry Key="3064719849" Color="1" Value="Treats sick and injured staff members. As unit level&#xA;increases, the recovery time for patients decreases.&#xA;Success rate for Fulton extracting injured personnel&#xA;will also increase." />
+    <Entry Key="1083280244" Color="1" Value="Area for unassigned staff awaiting placement into a unit." />
+    <Entry Key="4001264269" Color="1" Value="Sick or injured staff are placed here to undergo treatment." />
+    <Entry Key="571799717" Color="1" Value="Confines soldiers requiring disciplinary action as well as reluctant recruits." />
+    <Entry Key="2757528607" Color="1" Value="Discharge staff from the organization." />
+    <Entry Key="1140829641" Color="1" Value="Biological Material" />
+    <Entry Key="1144115576" Color="1" Value="Fuel Resources" />
+    <Entry Key="1400707379" Color="1" Value="Precious Metal" />
+    <Entry Key="2603459233" Color="1" Value="Minor Metal" />
+    <Entry Key="2805039249" Color="1" Value="Common Metal" />
+    <Entry LangId="cmmn_tools" Color="1" Value="Tools" />
+    <Entry LangId="cmmn_items" Color="1" Value="Items" />
+    <Entry Key="1039122090" Color="1" Value="Golden Crescent" />
+    <Entry Key="881544268" Color="1" Value="African Peach" />
+    <Entry Key="280778597" Color="1" Value="Digitalis (Purpurea)" />
+    <Entry Key="497411360" Color="1" Value="Digitalis (Lutea)" />
+    <Entry Key="319982842" Color="1" Value="Black Carrot" />
+    <Entry Key="1667756681" Color="1" Value="Wormwood" />
+    <Entry Key="1237578971" Color="1" Value="Tarragon" />
+    <Entry Key="854188572" Color="1" Value="Haoma" />
+    <Entry LangId="vehicle_4wd_e" Color="1" Value="ZaAZ-S84/4W" />
+    <Entry LangId="vehicle_4wd_w" Color="1" Value="APE T-41LV" />
+    <Entry LangId="vehicle_truck_e" Color="1" Value="Zi-GRA 6T" />
+    <Entry LangId="vehicle_truck_w" Color="1" Value="BOAR-53CT" />
+    <Entry LangId="vehicle_armored_e" Color="1" Value="ZHUK BR-3 " />
+    <Entry LangId="vehicle_armored_w" Color="1" Value="STOUT IFV-SC" />
+    <Entry Key="3719820290" Color="1" Value="ZHUK RS-ZO " />
+    <Entry Key="892192386" Color="1" Value="STOUT IFV-FS" />
+    <Entry LangId="vehicle_tank_e" Color="1" Value="TT77 NOSOROG" />
+    <Entry LangId="vehicle_tank_w" Color="1" Value="M84A MAGLOADER" />
+    <Entry LangId="walkergear_w_1" Color="1" Value="CCCP-WG TYPE-R" />
+    <Entry LangId="walkergear_w_2" Color="1" Value="CCCP-WG TYPE-C" />
+    <Entry LangId="nucleus_weapon" Color="1" Value="Nuclear Weapon" />
+    <Entry LangId="nucleus_waste" Color="1" Value="Nuclear Waste" />
+    <Entry Key="4204900499" Color="1" Value="Multipurpose light transport vehicle.&#xA;A four-wheel drive vehicle built for harsh Russian weather and road conditions.&#xA;Exported around the world." />
+    <Entry Key="4218979038" Color="1" Value="Light assault transport vehicle.&#xA;Has good traversal capability and general versatility.&#xA;In addition to the U.S. military version, licensed versions are produced around the world." />
+    <Entry Key="4199955281" Color="1" Value="Multipurpose transport truck.&#xA;Its 6x6 all-wheel drive gives it great traversal and transport capability, and it has become firmly established as the Soviet Army's truck of choice." />
+    <Entry Key="1144158481" Color="1" Value="Operational frontline support carrier truck.&#xA;An all-wheel drive truck used by European as well as American forces.&#xA;Serves a key role in delivering supplies to the front line." />
+    <Entry Key="3277183385" Color="1" Value="Armored personnel carrier.&#xA;Used by many Eastern Bloc forces, mainly to transport troops.&#xA;Equipped with a 30mm heavy cannon turret." />
+    <Entry Key="513696461" Color="1" Value="Reconnaissance vehicle.&#xA;Armored vehicle used by many Western forces, mainly for reconnaissance missions.&#xA;Equipped with a 20mm cannon turret." />
+    <Entry Key="3466819964" Color="1" Value="Self-propelled multiple rocket launcher.&#xA;An armored vehicle equipped with a multiple launch rocket system.&#xA;Capable of attacking a wide area by firing a continuous barrage of 130mm rockets." />
+    <Entry Key="1894777786" Color="1" Value="Fire support armored vehicle.&#xA;A mobile fighting vehicle developed to provide fire support and equipped with a 105mm tank gun.&#xA;Its defensive capability is weaker than that of a tank." />
+    <Entry Key="1932469208" Color="1" Value="All-purpose model main battle tank.&#xA;Used by Eastern Bloc countries.&#xA;Sacrifices defensive capability for easier mass production, but is equipped with a powerful 125mm tank gun." />
+    <Entry Key="1898186023" Color="1" Value="Assault model main battle tank.&#xA;A well-balanced tank used by Western forces.&#xA;Dubbed an &quot;assault tank&quot; due to its high mobility and defensive capability.&#xA;Main armament is a 105mm tank gun." />
+    <Entry Key="2419347476" Color="1" Value="Resource" />
+    <Entry Key="925902176" Color="1" Value="Medicinal Plant" />
+    <Entry Key="4005275367" Color="1" Value="Vehicle" />
+    <Entry Key="480303076" Color="1" Value="Walker Gear" />
+    <Entry Key="487868445" Color="1" Value="Nuclear Weapon" />
+    <Entry LangId="platform_combat" Color="1" Value="Combat Unit Platform" />
+    <Entry LangId="platform_RD" Color="1" Value="R&amp;D Platform" />
+    <Entry LangId="platform_intel" Color="1" Value="Intel Platform" />
+    <Entry LangId="platform_medical" Color="1" Value="Medical Platform" />
+    <Entry LangId="platform_support" Color="1" Value="Support Platform" />
+    <Entry LangId="platform_base_dev" Color="1" Value="Base Development Platform" />
+    <Entry LangId="platform_main" Color="1" Value="Command Platform" />
+    <Entry LangId="platform_common" Color="1" Value="Multipurpose Platform" />
+    <Entry LangId="platform_isolation" Color="1" Value="Quarantine Platform" />
+    <Entry LangId="platform_protection" Color="1" Value="Animal Conservation Platform" />
+    <Entry Key="3433102977" Color="1" Value="HMG-3 WINGATE" />
+    <Entry Key="993457833" Color="1" Value="M2A-304 MORTAR" />
+    <Entry Key="3191582321" Color="1" Value="M276 AA G-GUN" />
+    <Entry Key="3716972119" Color="1" Value="Heavy machine gun.&#xA;A machine gun that has long been in service in the West.&#xA;Being chambered in .50 caliber gives it excellent anti-personnel suppression capability, and it is used for both outpost defense and as a mounted weapon on vehicles." />
+    <Entry Key="2501403580" Color="1" Value="Mortar.&#xA;An explosive projectile weapon in use since World War II.&#xA;Has a simple construction and can be operated by a small team, though it is not very accurate." />
+    <Entry Key="2742235534" Color="1" Value="Anti-air gatling gun.&#xA;Outpost defense weapon that spits a hailstorm of large-caliber rounds at an extremely high rate of fire.&#xA;Has more than enough power for anti-personnel use." />
+    <Entry LangId="tpp_gmp_total" Color="1" Value="Total GMP" />
+    <Entry LangId="tpp_rank" Color="1" Value="Rank" />
+    <Entry LangId="name_buddy_q" Color="1" Value="Quiet" />
+    <Entry LangId="name_buddy_dd" Color="1" Value="D-Dog" />
+    <Entry LangId="name_buddy_dh" Color="1" Value="D-Horse" />
+    <Entry LangId="name_buddy_dw" Color="1" Value="D-Walker" />
+    <Entry LangId="name_chara_snake" Color="1" Value="Snake" />
+    <Entry LangId="cmmn_items_e" Color="1" Value="ITEMS" />
+    <Entry LangId="cmmn_tools_e" Color="1" Value="TOOLS" />
+    <Entry LangId="cmmn_arm_e" Color="1" Value="PROSTHETIC ARM" />
+    <Entry LangId="cmmn_suit_e" Color="1" Value="UNIFORM" />
+    <Entry LangId="cmmn_arm" Color="1" Value="Prosthetic Arm" />
+    <Entry LangId="cmmn_suit" Color="1" Value="Uniform" />
+    <Entry LangId="tpp_africa_en_outland" Color="1" Value="Bwala ya Masa" />
+    <Entry LangId="tpp_africa_en_flowstation" Color="1" Value="Mfinda Oilfield" />
+    <Entry LangId="tpp_africa_en_swamp" Color="1" Value="Kiziba Camp" />
+    <Entry LangId="tpp_africa_en_pfcamp" Color="1" Value="Nova Braga Airport" />
+    <Entry LangId="tpp_africa_en_savannah" Color="1" Value="Ditadi Abandoned Village" />
+    <Entry LangId="tpp_africa_en_banana" Color="1" Value="Bampeve Plantation" />
+    <Entry LangId="tpp_africa_en_diamond" Color="1" Value="Kungenga Mine" />
+    <Entry LangId="tpp_africa_en_hill" Color="1" Value="Munoko ya Nioka Station" />
+    <Entry LangId="tpp_africa_en_factory" Color="1" Value="Ngumba Industrial Zone" />
+    <Entry LangId="tpp_africa_en_lab" Color="1" Value="Lufwa Valley" />
+    <Entry LangId="tpp_africa_outland" Color="1" Value="Masa Village (Bwala ya Masa)" />
+    <Entry LangId="tpp_africa_flowstation" Color="1" Value="Mfinda Oilfield" />
+    <Entry LangId="tpp_africa_swamp" Color="1" Value="Kiziba Camp" />
+    <Entry LangId="tpp_africa_pfcamp" Color="1" Value="Nova Braga Airport" />
+    <Entry LangId="tpp_africa_savannah" Color="1" Value="Ditadi Abandoned Village" />
+    <Entry LangId="tpp_africa_banana" Color="1" Value="Bampeve Plantation" />
+    <Entry LangId="tpp_africa_diamond" Color="1" Value="Kungenga Mine" />
+    <Entry LangId="tpp_africa_hill" Color="1" Value="Munoko ya Nioka Station" />
+    <Entry LangId="tpp_africa_factory" Color="1" Value="Ngumba Industrial Zone" />
+    <Entry LangId="tpp_africa_lab" Color="1" Value="Lufwa Valley" />
+    <Entry Key="4236873700" Color="1" Value="Placed Weapon" />
+    <Entry Key="3166011027" Color="1" Value="Parasite" />
+    <Entry Key="3712740788" Color="1" Value="Armor Parasites" />
+    <Entry Key="181764425" Color="1" Value="Camouflage Parasites" />
+    <Entry Key="547816195" Color="1" Value="Mist Parasites" />
+    <Entry LangId="tpp_fob_name4" Color="1" Value="FOB4" />
+    <Entry LangId="tpp_fob_name3" Color="1" Value="FOB3" />
+    <Entry LangId="tpp_fob_name2" Color="1" Value="FOB2" />
+    <Entry LangId="tpp_fob_name1" Color="1" Value="FOB1" />
+    <Entry LangId="result_tactical_takedown" Color="1" Value="TACTICAL TAKEDOWNS" />
+    <Entry LangId="func_spprt_artillery" Color="1" Value="Bombardment" />
+    <Entry LangId="func_spprt_smoke" Color="1" Value="Smoke Dispersal" />
+    <Entry LangId="func_spprt_sleep_gas" Color="1" Value="Sleeping Gas Dispersal" />
+    <Entry LangId="func_spprt_chaff" Color="1" Value="Chaff Dispersal" />
+    <Entry LangId="func_spprt_weather" Color="1" Value="Weather Modification" />
+    <Entry LangId="mb_staff_male" Color="1" Value="M" />
+    <Entry LangId="mb_staff_female" Color="1" Value="F" />
+    <Entry LangId="name_chara_snake_e" Color="1" Value="Snake" />
+    <Entry LangId="tpp_heroism" Color="1" Value="HEROISM" />
+    <Entry LangId="func_dev_weapon" Color="1" Value="R&amp;D: Weapons &amp; Items" />
+    <Entry LangId="func_dev_equip" Color="1" Value="R&amp;D: Equipment" />
+    <Entry LangId="func_dev_heli" Color="1" Value="R&amp;D: Support Helicopter" />
+    <Entry LangId="func_dev_quiet" Color="1" Value="R&amp;D: Quiet" />
+    <Entry LangId="func_dev_ddog" Color="1" Value="R&amp;D: D-Dog" />
+    <Entry LangId="func_dev_dhorse" Color="1" Value="R&amp;D: D-Horse" />
+    <Entry LangId="func_dev_dwalker" Color="1" Value="R&amp;D: D-Walker" />
+    <Entry LangId="func_dev_bgear" Color="1" Value="R&amp;D: Battle Gear" />
+    <Entry LangId="func_dev_sec_device" Color="1" Value="R&amp;D: Security Devices" />
+    <Entry LangId="func_fob_mining" Color="1" Value="Materials Procurement (Automatic)" />
+    <Entry LangId="func_fob_processing" Color="1" Value="Materials Processing" />
+    <Entry LangId="func_fob_extention" Color="1" Value="Platform Construction" />
+    <Entry Key="3516734880" Color="1" Value="FOB Construction" />
+    <Entry LangId="func_spprt_fulton" Color="1" Value="Rear Echelon Support: Fulton Extraction" />
+    <Entry LangId="func_spprt_supply" Color="1" Value="Rear Echelon Support: Deployment/Supply" />
+    <Entry LangId="func_spprt_battle" Color="1" Value="Fire Support" />
+    <Entry LangId="func_spprt_trans_rus" Color="1" Value="Comms Support: Russian" />
+    <Entry LangId="func_spprt_trans_afr" Color="1" Value="Comms Support: Afrikaans" />
+    <Entry LangId="func_spprt_trans_kon" Color="1" Value="Comms Support: Kikongo" />
+    <Entry LangId="func_intel_info" Color="1" Value="Information Gathering" />
+    <Entry Key="4182891496" Color="1" Value="Scouting" />
+    <Entry LangId="announce_pilot" Color="1" Value="Materials Surveying" />
+    <Entry Key="3512183100" Color="1" Value="Weather Information" />
+    <Entry LangId="func_bttl_deploy" Color="1" Value="Merc Deployment (Automatic)" />
+    <Entry LangId="func_bttl_defence" Color="1" Value="Defense Deployment" />
+    <Entry Key="3223470582" Color="1" Value="Base Security" />
+    <Entry Key="1927822950" Color="1" Value="Automated Security" />
+    <Entry Key="1841817910" Color="1" Value="Base Blockade" />
+    <Entry LangId="func_med_treatment" Color="1" Value="Medical Treatment" />
+    <Entry LangId="func_med_emergency" Color="1" Value="Aerial First Aid" />
+    <Entry Key="2531508488" Color="1" Value="RANK %d" />
+    <Entry Key="2969292237" Color="1" Value="Attack Type" />
+    <Entry Key="1148901089" Color="1" Value="Ammo Type" />
+    <Entry LangId="cmmn_wp_suppressor" Color="1" Value="Suppressor" />
+    <Entry LangId="cmmn_wp_prm_accurancy" Color="1" Value="Accuracy" />
+    <Entry Key="444462253" Color="1" Value="Recoil" />
+    <Entry Key="4116668265" Color="1" Value="Auto-Aim Correction" />
+    <Entry Key="1201111678" Color="1" Value="Main Chassis" />
+    <Entry Key="243248301" Color="1" Value="Head Section" />
+    <Entry Key="1958767960" Color="1" Value="Manipulator" />
+    <Entry Key="3696842428" Color="1" Value="Main Weapon" />
+    <Entry Key="1467180480" Color="1" Value="Sub Weapon" />
+    <Entry LangId="staff_prm_skill" Color="1" Value="Skill" />
+    <Entry LangId="staff_prm_ability" Color="1" Value="Ability" />
+    <Entry LangId="staff_prm_lang" Color="1" Value="Language" />
+    <Entry Key="4120181888" Color="1" Value="Analyzer" />
+    <Entry Key="297299936" Color="1" Value="Analyzer" />
+    <Entry Key="2422870576" Color="1" Value="Analyzer" />
+    <Entry LangId="cmmn_ok" Color="1" Value="OK" />
+    <Entry LangId="cmmn_cancel" Color="1" Value="Cancel" />
+    <Entry LangId="cmmn_yes" Color="1" Value="Yes" />
+    <Entry LangId="cmmn_no" Color="1" Value="No" />
+    <Entry Key="916797889" Color="1" Value="NAKED" />
+    <Entry Key="2900105171" Color="1" Value="SCARF" />
+    <Entry Key="3172154153" Color="1" Value="STANDARD" />
+    <Entry Key="2074806079" Color="1" Value="Handgun" />
+    <Entry Key="2292408201" Color="1" Value="Submachine Gun" />
+    <Entry Key="171008805" Color="1" Value="Shotgun" />
+    <Entry Key="4207589190" Color="1" Value="Assault Rifle" />
+    <Entry Key="3642851534" Color="1" Value="Grenade Launcher" />
+    <Entry Key="1401882626" Color="1" Value="Machine Gun" />
+    <Entry Key="3106656942" Color="1" Value="Sniper Rifle" />
+    <Entry Key="2154783457" Color="1" Value="Launcher" />
+    <Entry Key="4285759830" Color="1" Value="Placed Weapon" />
+    <Entry Key="945960311" Color="1" Value="Throwing Weapon" />
+    <Entry Key="1471579540" Color="1" Value="Items" />
+    <Entry Key="708830280" Color="1" Value="Tools" />
+    <Entry Key="696808963" Color="1" Value="Prosthetic Arm" />
+    <Entry Key="3072768434" Color="1" Value="Uniform" />
+    <Entry LangId="cmmn_eqp" Color="1" Value="EQP" />
+    <Entry LangId="func_fob_nuclear" Color="1" Value="Nuclear Development" />
+    <Entry LangId="walkergear_w_3" Color="1" Value="CCCP-WG TYPE-A" />
+    <Entry LangId="walkergear_cfa_1" Color="1" Value="CFA-WG TYPE-R" />
+    <Entry LangId="walkergear_cfa_2" Color="1" Value="CFA-WG TYPE-C" />
+    <Entry LangId="walkergear_cfa_3" Color="1" Value="CFA-WG TYPE-A" />
+    <Entry LangId="walkergear_lc_1" Color="1" Value="RC-WG TYPE-R" />
+    <Entry LangId="walkergear_lc_2" Color="1" Value="RC-WG TYPE-C" />
+    <Entry LangId="walkergear_lc_3" Color="1" Value="RC-WG TYPE-A" />
+    <Entry LangId="walkergear_zrs_1" Color="1" Value="ZRS-WG TYPE-R" />
+    <Entry LangId="walkergear_zrs_2" Color="1" Value="ZRS-WG TYPE-C" />
+    <Entry LangId="walkergear_zrs_3" Color="1" Value="ZRS-WG TYPE-A" />
+    <Entry Key="3342566353" Color="1" Value="Laser Sight" />
+    <Entry Key="265917028" Color="1" Value="Flashlight" />
+    <Entry Key="2861914124" Color="1" Value="Optics 2" />
+    <Entry Key="2166083610" Color="1" Value="Optics 1" />
+    <Entry LangId="cmmn_wp_prts_muzzle" Color="1" Value="Muzzle" />
+    <Entry Key="697949397" Color="1" Value="Gunman" />
+    <Entry Key="2658781588" Color="1" Value="Climber" />
+    <Entry Key="2627677106" Color="1" Value="Athlete" />
+    <Entry Key="98790371" Color="1" Value="Rescuer" />
+    <Entry Key="2698652011" Color="1" Value="Quick Reload" />
+    <Entry Key="3868607975" Color="1" Value="Tough Guy" />
+    <Entry Key="474655364" Color="1" Value="Fortunate" />
+    <Entry Key="1176010184" Color="1" Value="Savage" />
+    <Entry Key="1388495972" Color="1" Value="Boaster" />
+    <Entry Key="3098875702" Color="1" Value="Botanist" />
+    <Entry Key="1940556778" Color="1" Value="Vanguard Sharpshooter" />
+    <Entry Key="1187020372" Color="1" Value="Prosthetic Mobility [1]" />
+    <Entry Key="1008496431" Color="1" Value="Prosthetic Mobility [2]" />
+    <Entry Key="3645423580" Color="1" Value="Prosthetic Mobility [3]" />
+    <Entry Key="1873187161" Color="1" Value="Prosthetic Precision Movement [1]" />
+    <Entry Key="2496191378" Color="1" Value="Prosthetic Precision Movement [2]" />
+    <Entry Key="4036797601" Color="1" Value="Prosthetic Precision Movement [3]" />
+    <Entry Key="1693149375" Color="1" Value="Prosthetic First Aid Function [1]" />
+    <Entry Key="3113947034" Color="1" Value="Prosthetic First Aid Function [2]" />
+    <Entry Key="1014886466" Color="1" Value="Prosthetic First Aid Function [3]" />
+    <Entry Key="1014148504" Color="1" Value="Gunsmith (Handguns)" />
+    <Entry Key="1182603844" Color="1" Value="Gunsmith (Submachine Guns)" />
+    <Entry Key="36591461" Color="1" Value="Gunsmith (Assault Rifles)" />
+    <Entry Key="311381267" Color="1" Value="Gunsmith (Shotguns)" />
+    <Entry Key="2308115315" Color="1" Value="Gunsmith (Grenade Launchers)" />
+    <Entry Key="3154824649" Color="1" Value="Gunsmith (Sniper Rifles)" />
+    <Entry Key="1539384719" Color="1" Value="Gunsmith (Machine Guns)" />
+    <Entry Key="1000341934" Color="1" Value="Gunsmith (Missile Launchers)" />
+    <Entry Key="2214784161" Color="1" Value="Master Gunsmith" />
+    <Entry Key="3886805200" Color="1" Value="Anesthesia Specialist" />
+    <Entry Key="3234953819" Color="1" Value="Noise Suppression Specialist" />
+    <Entry Key="2891397202" Color="1" Value="Missile Guidance Specialist" />
+    <Entry Key="3743283714" Color="1" Value="Zoologist" />
+    <Entry Key="3269101410" Color="1" Value="Sleeping Gas Specialist" />
+    <Entry Key="2161188373" Color="1" Value="Trap Specialist" />
+    <Entry Key="2569221835" Color="1" Value="Electromagnetic Net Specialist" />
+    <Entry Key="4158558679" Color="1" Value="Radar Specialist" />
+    <Entry Key="4053421910" Color="1" Value="Metamaterials Specialist" />
+    <Entry Key="1681454494" Color="1" Value="Drug Developer" />
+    <Entry Key="1126522615" Color="1" Value="Bionics Specialist" />
+    <Entry Key="436912038" Color="1" Value="Mechatronics Specialist" />
+    <Entry Key="3594691454" Color="1" Value="Cybernetics Specialist" />
+    <Entry Key="280764519" Color="1" Value="Rocket Control Specialist" />
+    <Entry Key="3723221722" Color="1" Value="Electrospinning Specialist" />
+    <Entry Key="2888915026" Color="1" Value="Materials Engineer" />
+    <Entry Key="2460912349" Color="1" Value="Parasitologist" />
+    <Entry Key="609317803" Color="1" Value="Transportation Specialist" />
+    <Entry Key="349724670" Color="1" Value="Video Surveillance Specialist" />
+    <Entry Key="3719165093" Color="1" Value="Interpreter (Russian)" />
+    <Entry Key="3910671948" Color="1" Value="Interpreter (Afrikaans)" />
+    <Entry Key="509575310" Color="1" Value="Interpreter (Kikongo)" />
+    <Entry Key="2181885673" Color="1" Value="Tactical Instructor" />
+    <Entry Key="2783997069" Color="1" Value="Mother Base XO" />
+    <Entry Key="3328497058" Color="1" Value="Bipedal Weapons Developer" />
+    <Entry Key="1466252787" Color="1" Value="Troublemaker (Violence)" />
+    <Entry Key="771503913" Color="1" Value="Troublemaker (Unsanitary)" />
+    <Entry Key="3263360055" Color="1" Value="Troublemaker (Harassment)" />
+    <Entry Key="1301166013" Color="1" Value="Diplomat" />
+    <Entry LangId="tpp_afghan_commWest" Color="1" Value="19: Eastern Comm. Post, West Guard Post" />
+    <Entry LangId="tpp_afghan_villageWest" Color="1" Value="15: Wialo Village, NW Guard Post" />
+    <Entry LangId="tpp_afghan_ruinsNorth" Color="1" Value="24: Spugmay Keep, East Guard Post" />
+    <Entry LangId="tpp_afghan_villageNorth" Color="1" Value="18: Wialo Village, NE Guard Post" />
+    <Entry LangId="tpp_afghan_slopedWest" Color="1" Value="11: Ghwandai Town, NW Guard Post" />
+    <Entry LangId="tpp_afghan_fieldEast" Color="1" Value="25: Shago Village, East Guard Post" />
+    <Entry LangId="tpp_afghan_fieldWest" Color="1" Value="22: Shago Village, North Guard Post" />
+    <Entry LangId="tpp_afghan_remnantsNorth" Color="1" Value="12: Lamar Khaate Palace, North Guard Post" />
+    <Entry LangId="tpp_afghan_tentNorth" Color="1" Value="05: Yakho Oboo Supply Outpost, NE Guard Post" />
+    <Entry LangId="tpp_afghan_slopedEast" Color="1" Value="16: Ghwandai Town, SE Guard Post" />
+    <Entry LangId="tpp_afghan_villageEast" Color="1" Value="23: Wialo Village, SE Guard Post" />
+    <Entry LangId="tpp_afghan_bridgeWest" Color="1" Value="20: Mountain Relay Base, West Guard Post" />
+    <Entry LangId="tpp_afghan_fortSouth" Color="1" Value="17: Smasei Fort, SW Guard Post" />
+    <Entry LangId="tpp_afghan_fortWest" Color="1" Value="14: Smasei Fort, West Guard Post" />
+    <Entry LangId="tpp_afghan_cliffEast" Color="1" Value="10: Sakhra Ee Village, East Guard Post" />
+    <Entry LangId="tpp_afghan_cliffSouth" Color="1" Value="13: Sakhra Ee Village, South Guard Post" />
+    <Entry LangId="tpp_afghan_enemyNorth" Color="1" Value="06: Wakh Sind Barracks, NE Guard Post" />
+    <Entry LangId="tpp_afghan_bridgeNorth" Color="1" Value="21: Mountain Relay Base, SE Guard Post" />
+    <Entry LangId="tpp_afghan_cliffWest" Color="1" Value="07: Sakhra Ee Village, NW Guard Post" />
+    <Entry LangId="tpp_afghan_enemyEast" Color="1" Value="09: Wakh Sind Barracks, East Guard Post" />
+    <Entry LangId="tpp_afghan_tentEast" Color="1" Value="08: Yakho Oboo Supply Outpost, SE Guard Post" />
+    <Entry LangId="tpp_afghan_sovietSouth" Color="1" Value="02: Afgh. Central Base Camp, South Guard Post" />
+    <Entry LangId="tpp_afghan_plantWest" Color="1" Value="03: Serak Power Plant, NW Guard Post" />
+    <Entry LangId="tpp_afghan_waterWayEast" Color="1" Value="04: Aabe Shifap Ruins, East Guard Post" />
+    <Entry LangId="tpp_afghan_CitadelSouth" Color="1" Value="01: Afghanistan Central Base Camp, East Guard Post" />
+    <Entry LangId="tpp_africa_outlandNorth" Color="1" Value="06: Masa Village, North Guard Post" />
+    <Entry LangId="tpp_africa_swampWest" Color="1" Value="01: Kiziba Camp, NW Guard Post" />
+    <Entry LangId="tpp_africa_outlandEast" Color="1" Value="11: Masa Village, East Guard Post" />
+    <Entry LangId="tpp_africa_bananaSouth" Color="1" Value="04: Bampeve Plantation, SW Guard Post" />
+    <Entry LangId="tpp_africa_swampSouth" Color="1" Value="12: Kiziba Camp, South Guard Post" />
+    <Entry LangId="tpp_africa_swampEast" Color="1" Value="10: Kiziba Camp, SE Guard Post" />
+    <Entry LangId="tpp_africa_savannahWest" Color="1" Value="09: Ditadi Abandoned Village, North Guard Post" />
+    <Entry LangId="tpp_africa_bananaEast" Color="1" Value="03: Bampeve Plantation, SE Guard Post" />
+    <Entry LangId="tpp_africa_savannahNorth" Color="1" Value="05: Ditadi Abandoned Village, NE Guard Post" />
+    <Entry LangId="tpp_africa_diamondWest" Color="1" Value="07: Kungenga Mine, West Guard Post" />
+    <Entry LangId="tpp_africa_diamondSouth" Color="1" Value="13: Kungenga Mine, SW Guard Post" />
+    <Entry LangId="tpp_africa_hillNorth" Color="1" Value="16: Munoko ya Nioka Station, NE Guard Post" />
+    <Entry LangId="tpp_africa_hillSouth" Color="1" Value="23: Munoko ya Nioka Station, SW Guard Post" />
+    <Entry LangId="tpp_africa_savannahEast" Color="1" Value="15: Ditadi Abandoned Village, South Guard Post" />
+    <Entry LangId="tpp_africa_hillWest" Color="1" Value="19: Munoko ya Nioka Station, NW Guard Post" />
+    <Entry LangId="tpp_africa_hillWestNear" Color="1" Value="21: Munoko ya Nioka Station, West Guard Post" />
+    <Entry LangId="tpp_africa_pfCampEast" Color="1" Value="18: Nova Braga Airport, East Guard Post" />
+    <Entry LangId="tpp_africa_pfCampNorth" Color="1" Value="14: Nova Braga Airport, NE Guard Post" />
+    <Entry LangId="tpp_africa_factorySouth" Color="1" Value="20: Ngumba Industrial Zone, SW Guard Post" />
+    <Entry LangId="tpp_africa_diamondNorth" Color="1" Value="02: Kungenga Mine, NE Guard Post" />
+    <Entry LangId="tpp_africa_labWest" Color="1" Value="08: Lufwa Valley, NW Guard Post" />
+    <Entry LangId="tpp_africa_chicoVilWest" Color="1" Value="22: Nova Braga Airport, South Guard Post" />
+    <Entry LangId="tpp_afghan_commWest_no" Color="1" Value="19" />
+    <Entry LangId="tpp_afghan_villageWest_no" Color="1" Value="15" />
+    <Entry LangId="tpp_afghan_ruinsNorth_no" Color="1" Value="24" />
+    <Entry LangId="tpp_afghan_villageNorth_no" Color="1" Value="18" />
+    <Entry LangId="tpp_afghan_slopedWest_no" Color="1" Value="11" />
+    <Entry LangId="tpp_afghan_fieldEast_no" Color="1" Value="25" />
+    <Entry LangId="tpp_afghan_fieldWest_no" Color="1" Value="22" />
+    <Entry LangId="tpp_afghan_remnantsNorth_no" Color="1" Value="12" />
+    <Entry LangId="tpp_afghan_tentNorth_no" Color="1" Value="05" />
+    <Entry LangId="tpp_afghan_slopedEast_no" Color="1" Value="16" />
+    <Entry LangId="tpp_afghan_villageEast_no" Color="1" Value="23" />
+    <Entry LangId="tpp_afghan_bridgeWest_no" Color="1" Value="20" />
+    <Entry LangId="tpp_afghan_fortSouth_no" Color="1" Value="17" />
+    <Entry LangId="tpp_afghan_fortWest_no" Color="1" Value="14" />
+    <Entry LangId="tpp_afghan_cliffEast_no" Color="1" Value="10" />
+    <Entry LangId="tpp_afghan_cliffSouth_no" Color="1" Value="13" />
+    <Entry LangId="tpp_afghan_enemyNorth_no" Color="1" Value="06" />
+    <Entry LangId="tpp_afghan_bridgeNorth_no" Color="1" Value="21" />
+    <Entry LangId="tpp_afghan_cliffWest_no" Color="1" Value="07" />
+    <Entry LangId="tpp_afghan_enemyEast_no" Color="1" Value="09" />
+    <Entry LangId="tpp_afghan_tentEast_no" Color="1" Value="08" />
+    <Entry LangId="tpp_afghan_sovietSouth_no" Color="1" Value="02" />
+    <Entry LangId="tpp_afghan_plantWest_no" Color="1" Value="03" />
+    <Entry LangId="tpp_afghan_waterWayEast_no" Color="1" Value="04" />
+    <Entry LangId="tpp_afghan_CitadelSouth_no" Color="1" Value="01" />
+    <Entry LangId="tpp_africa_outlandNorth_no" Color="1" Value="06" />
+    <Entry LangId="tpp_africa_swampWest_no" Color="1" Value="01" />
+    <Entry LangId="tpp_africa_outlandEast_no" Color="1" Value="11" />
+    <Entry LangId="tpp_africa_bananaSouth_no" Color="1" Value="04" />
+    <Entry LangId="tpp_africa_swampSouth_no" Color="1" Value="12" />
+    <Entry LangId="tpp_africa_swampEast_no" Color="1" Value="10" />
+    <Entry LangId="tpp_africa_savannahWest_no" Color="1" Value="09" />
+    <Entry LangId="tpp_africa_bananaEast_no" Color="1" Value="03" />
+    <Entry LangId="tpp_africa_savannahNorth_no" Color="1" Value="05" />
+    <Entry LangId="tpp_africa_diamondWest_no" Color="1" Value="07" />
+    <Entry LangId="tpp_africa_diamondSouth_no" Color="1" Value="13" />
+    <Entry LangId="tpp_africa_hillNorth_no" Color="1" Value="16" />
+    <Entry LangId="tpp_africa_hillSouth_no" Color="1" Value="23" />
+    <Entry LangId="tpp_africa_savannahEast_no" Color="1" Value="15" />
+    <Entry LangId="tpp_africa_hillWest_no" Color="1" Value="19" />
+    <Entry LangId="tpp_africa_hillWestNear_no" Color="1" Value="21" />
+    <Entry LangId="tpp_africa_pfCampEast_no" Color="1" Value="18" />
+    <Entry LangId="tpp_africa_pfCampNorth_no" Color="1" Value="14" />
+    <Entry LangId="tpp_africa_factorySouth_no" Color="1" Value="20" />
+    <Entry LangId="tpp_africa_diamondNorth_no" Color="1" Value="02" />
+    <Entry LangId="tpp_africa_labWest_no" Color="1" Value="08" />
+    <Entry LangId="tpp_africa_chicoVilWest_no" Color="1" Value="22" />
+    <Entry LangId="cmmn_lang_eng" Color="1" Value="English" />
+    <Entry LangId="cmmn_lang_rus" Color="1" Value="Russian" />
+    <Entry LangId="cmmn_lang_pus" Color="1" Value="Pashto" />
+    <Entry LangId="cmmn_lang_afr" Color="1" Value="Afrikaans" />
+    <Entry LangId="cmmn_lang_kon" Color="1" Value="Kikongo" />
+    <Entry LangId="cmmn_lang_fra" Color="1" Value="French" />
+    <Entry LangId="cmmn_lang_deu" Color="1" Value="German" />
+    <Entry LangId="cmmn_lang_spa" Color="1" Value="Spanish" />
+    <Entry LangId="cmmn_lang_por" Color="1" Value="Portuguese" />
+    <Entry LangId="cmmn_lang_ita" Color="1" Value="Italian" />
+    <Entry LangId="cmmn_lang_ara" Color="1" Value="Arabic" />
+    <Entry LangId="cmmn_lang_jpn" Color="1" Value="Japanese" />
+    <Entry LangId="cmmn_lang_zho" Color="1" Value="Chinese" />
+    <Entry LangId="cmmn_lang_kor" Color="1" Value="Korean" />
+    <Entry Key="2751486860" Color="1" Value="Healthy" />
+    <Entry Key="1545569064" Color="1" Value="Injured" />
+    <Entry Key="964511724" Color="1" Value="Sick" />
+    <Entry Key="1679476584" Color="1" Value="PTSD" />
+    <Entry Key="1066673007" Color="1" Value="Infected" />
+    <Entry Key="1952142037" Color="1" Value="Deployed" />
+    <Entry Key="2758718913" Color="1" Value="KIA/Former" />
+    <Entry Key="2109414724" Color="1" Value="All Staff" />
+    <Entry LangId="func_spprt_trans_pus" Color="1" Value="Comms Support: Pashto" />
+    <Entry Key="2598593481" Color="1" Value="January" />
+    <Entry Key="1412530245" Color="1" Value="February" />
+    <Entry Key="1650456345" Color="1" Value="March" />
+    <Entry Key="668670820" Color="1" Value="April" />
+    <Entry Key="3204925472" Color="1" Value="May" />
+    <Entry Key="532988991" Color="1" Value="June" />
+    <Entry Key="2752513631" Color="1" Value="July" />
+    <Entry Key="3747685007" Color="1" Value="August" />
+    <Entry Key="1604516983" Color="1" Value="September" />
+    <Entry Key="3066697397" Color="1" Value="October" />
+    <Entry Key="3321100254" Color="1" Value="November" />
+    <Entry Key="1193191203" Color="1" Value="December" />
+    <Entry LangId="mb_staff_morale" Color="1" Value="Morale" />
+    <Entry Key="3634000957" Color="1" Value="Persuasion" />
+    <Entry LangId="tpp_heli_acc" Color="1" Value="Aerial Command Center" />
+    <Entry Key="2769572608" Color="1" Value="VOL-GA K12" />
+    <Entry Key="1357254056" Color="1" Value="General-purpose machine gun.&#xA;A machine gun commonly seen in Eastern Bloc countries.&#xA;Originally an anti-air machine gun, it has been repurposed as a stationary machine gun for anti-personnel use and outpost defense." />
+    <Entry Key="1712828030" Color="1" Value="ZHIZDRA-45" />
+    <Entry Key="945831409" Color="1" Value="Double-barrel anti-air cannon.&#xA;A high angle of fire makes this cannon suitable for defending mountainous regions, in addition to air defense.&#xA;The twin barrels firing at once make for a terrifying display of power." />
+    <Entry LangId="result_hit" Color="1" Value="HITS TAKEN" />
+    <Entry Key="2133756345" Color="1" Value="Shield" />
+    <Entry LangId="cmmn_wp_shield" Color="1" Value="Shield" />
+    <Entry Key="592642162" Color="1" Value="Character" />
+    <Entry Key="1224391890" Color="1" Value="BUDDY" />
+    <Entry Key="4214521781" Color="1" Value="COMMANDS" />
+    <Entry Key="2556171194" Color="1" Value="Durability" />
+    <Entry Key="3285811460" Color="1" Value="Top Speed" />
+    <Entry Key="170641532" Color="1" Value="Parts Breakdown" />
+    <Entry LangId="cmmn_wp_prm_penetration" Color="1" Value="Penetration" />
+    <Entry Key="2734568494" Color="1" Value="Effect Duration" />
+    <Entry Key="85702187" Color="1" Value="Battery" />
+    <Entry LangId="name_chara_code_talker_e" Color="1" Value="Code Talker" />
+    <Entry LangId="name_chara_huey_e" Color="1" Value="Huey" />
+    <Entry LangId="name_chara_miller_e" Color="1" Value="Miller" />
+    <Entry LangId="name_chara_ocelot_e" Color="1" Value="Ocelot" />
+    <Entry Key="3086470630" Color="1" Value="Color" />
+    <Entry Key="87550727" Color="1" Value="Eyepatch" />
+    <Entry Key="2118797552" Color="1" Value="Head Option" />
+    <Entry Key="332354194" Color="1" Value="Chassis" />
+    <Entry Key="246093185" Color="1" Value="Main Weapon" />
+    <Entry Key="1117541887" Color="1" Value="Option" />
+    <Entry Key="1062174047" Color="1" Value="Armor" />
+    <Entry LangId="anml_dog_100" Color="1" Value="Gray Wolf" />
+    <Entry LangId="anml_dog_110" Color="1" Value="African Wild Dog" />
+    <Entry LangId="anml_dog_120" Color="1" Value="Side-striped Jackal" />
+    <Entry LangId="anml_dog_130" Color="1" Value="Anubis" />
+    <Entry LangId="anml_dog_140" Color="1" Value="Peshak Palang" />
+    <Entry LangId="anml_horse_200" Color="1" Value="Wild Ass" />
+    <Entry LangId="anml_horse_210" Color="1" Value="Grant's Zebra" />
+    <Entry LangId="anml_horse_220" Color="1" Value="Okapi" />
+    <Entry LangId="anml_frog_300" Color="1" Value="African Bullfrog" />
+    <Entry LangId="anml_turtle_400" Color="1" Value="Russian Tortoise" />
+    <Entry LangId="anml_turtle_410" Color="1" Value="Leopard Tortoise" />
+    <Entry LangId="anml_fox_500" Color="1" Value="Red Fox" />
+    <Entry LangId="anml_fox_510" Color="1" Value="Blanford's Fox" />
+    <Entry LangId="anml_bear_600" Color="1" Value="Brown Bear" />
+    <Entry LangId="anml_bear_610" Color="1" Value="Himalayan Brown Bear" />
+    <Entry LangId="anml_bear_620" Color="1" Value="Agriotherium" />
+    <Entry LangId="anml_bat_700" Color="1" Value="Bechstein's Bat" />
+    <Entry LangId="anml_gecko_720" Color="1" Value="Rainbow Agama" />
+    <Entry LangId="anml_gecko_730" Color="1" Value="Namaqua Chameleon" />
+    <Entry LangId="anml_scorpion_800" Color="1" Value="Deathstalker" />
+    <Entry LangId="anml_scorpion_810" Color="1" Value="Emperor Scorpion" />
+    <Entry LangId="anml_civet_900" Color="1" Value="African Civet" />
+    <Entry LangId="anml_pangolin_1000" Color="1" Value="Tree Pangolin" />
+    <Entry LangId="anml_nokocchi_1100" Color="1" Value="Tsuchinoko" />
+    <Entry LangId="anml_bird_1200" Color="1" Value="Griffon Vulture" />
+    <Entry LangId="anml_bird_1210" Color="1" Value="Lappet-faced Vulture" />
+    <Entry LangId="anml_bird_1220" Color="1" Value="Martial Eagle" />
+    <Entry LangId="anml_cat_1300" Color="1" Value="Sand Cat" />
+    <Entry LangId="anml_cat_1310" Color="1" Value="Caracal" />
+    <Entry LangId="anml_mouse_1400" Color="1" Value="Gerbil" />
+    <Entry LangId="anml_mouse_1410" Color="1" Value="Long-eared Hedgehog" />
+    <Entry LangId="anml_mouse_1420" Color="1" Value="Four-toed Hedgehog" />
+    <Entry LangId="anml_mouse_1430" Color="1" Value="Afghan Pika" />
+    <Entry LangId="anml_hyrax_1500" Color="1" Value="Rock Hyrax" />
+    <Entry Key="1266974862" Color="1" Value="Kikomba" />
+    <Entry LangId="anml_snake_1700" Color="1" Value="Oriental Ratsnake" />
+    <Entry LangId="anml_snake_1710" Color="1" Value="Black Mamba" />
+    <Entry LangId="anml_mongoose_1800" Color="1" Value="Marsh Mongoose" />
+    <Entry LangId="anml_goat_1900" Color="1" Value="Karakul Sheep" />
+    <Entry LangId="anml_goat_1940" Color="1" Value="Nubian" />
+    <Entry LangId="anml_goat_1960" Color="1" Value="Boer Goat" />
+    <Entry LangId="anml_gecko_2000" Color="1" Value="Leopard Gecko" />
+    <Entry LangId="anml_gecko_2010" Color="1" Value="African Fat-tailed Gecko" />
+    <Entry LangId="anml_rateru_2100" Color="1" Value="Honey Badger" />
+    <Entry LangId="anml_bird_2200" Color="1" Value="Common Raven" />
+    <Entry LangId="anml_bird_2210" Color="1" Value="Trumpeter Hornbill" />
+    <Entry LangId="anml_bird_2220" Color="1" Value="Black-casqued Hornbill" />
+    <Entry LangId="anml_bird_2230" Color="1" Value="Brown-cheeked Hornbill" />
+    <Entry LangId="anml_bird_2240" Color="1" Value="Black Stork" />
+    <Entry LangId="anml_bird_2250" Color="1" Value="Jehuty" />
+    <Entry Key="789994656" Color="1" Value="Quiet's equipment" />
+    <Entry Key="1469458237" Color="1" Value="D-Dog Equipment" />
+    <Entry LangId="callheli_destroyed_boaster" Color="1" Value="D-Walker Armament" />
+    <Entry LangId="cmmn_dev_heli" Color="1" Value="Support Helicopter Armament" />
+    <Entry LangId="cmmn_dev_bgear" Color="1" Value="Battle Gear" />
+    <Entry Key="2733124022" Color="1" Value="Security Devices" />
+    <Entry LangId="cmmn_dev_nuclear" Color="1" Value="Nuclear Weapons" />
+    <Entry LangId="anml_goat_1920" Color="1" Value="Cashmere Goat" />
+    <Entry LangId="tpp_afghan_en_bridgeNorth" Color="1" Value="21: Mountain Relay Base, SE Guard Post" />
+    <Entry LangId="tpp_afghan_en_bridgeWest" Color="1" Value="20: Mountain Relay Base, West Guard Post" />
+    <Entry LangId="tpp_afghan_en_CitadelSouth" Color="1" Value="01: Afghanistan Central Base Camp, East Guard Post" />
+    <Entry LangId="tpp_afghan_en_cliffEast" Color="1" Value="10: Sakhra Ee Village, East Guard Post" />
+    <Entry LangId="tpp_afghan_en_cliffSouth" Color="1" Value="13: Sakhra Ee Village, South Guard Post" />
+    <Entry LangId="tpp_afghan_en_cliffWest" Color="1" Value="07: Sakhra Ee Village, NW Guard Post" />
+    <Entry LangId="tpp_afghan_en_commWest" Color="1" Value="19: Eastern Communications Post, West Guard Post" />
+    <Entry LangId="tpp_afghan_en_enemyEast" Color="1" Value="09: Wakh Sind Barracks, South Guard Post" />
+    <Entry LangId="tpp_afghan_en_enemyNorth" Color="1" Value="06: Wakh Sind Barracks, NE Guard Post" />
+    <Entry LangId="tpp_afghan_en_fieldEast" Color="1" Value="25: Shago Village, East Guard Post" />
+    <Entry LangId="tpp_afghan_en_fieldWest" Color="1" Value="22: Shago Village, North Guard Post" />
+    <Entry LangId="tpp_afghan_en_fortSouth" Color="1" Value="17: Smasei Fort, SW Guard Post" />
+    <Entry LangId="tpp_afghan_en_fortWest" Color="1" Value="14: Smasei Fort, West Guard Post" />
+    <Entry LangId="tpp_afghan_en_plantWest" Color="1" Value="03: Serak Power Plant, NW Guard Post" />
+    <Entry Key="1261612215" Color="1" Value="12: Lamar Khaate Palace, North Guard Post" />
+    <Entry LangId="tpp_afghan_en_ruinsNorth" Color="1" Value="24: Spugmay Keep, East Guard Post" />
+    <Entry LangId="tpp_afghan_en_slopedEast" Color="1" Value="16: Ghwandai Town, SE Guard Post" />
+    <Entry LangId="tpp_afghan_en_slopedWest" Color="1" Value="11: Ghwandai Town, NW Guard Post" />
+    <Entry LangId="tpp_afghan_en_sovietSouth" Color="1" Value="02: Afghanistan Central Base Camp, South Guard Post" />
+    <Entry LangId="tpp_afghan_en_tentEast" Color="1" Value="08: Yakho Oboo Supply Outpost, SE Guard Post" />
+    <Entry LangId="tpp_afghan_en_tentNorth" Color="1" Value="05: Yakho Oboo Supply Outpost, NE Guard Post" />
+    <Entry LangId="tpp_afghan_en_villageEast" Color="1" Value="23: Wialo Village, SE Guard Post" />
+    <Entry LangId="tpp_afghan_en_villageNorth" Color="1" Value="18: Wialo Village, NE Guard Post" />
+    <Entry LangId="tpp_afghan_en_villageWest" Color="1" Value="15: Wialo Village, West Guard Post" />
+    <Entry LangId="tpp_afghan_en_waterWayEast" Color="1" Value="04: Aabe Shifap Ruins, East Guard Post" />
+    <Entry LangId="tpp_africa_en_bananaEast" Color="1" Value="03: Bampeve Plantation, SE Guard Post" />
+    <Entry LangId="tpp_africa_en_bananaSouth" Color="1" Value="04: Bampeve Plantation, SW Guard Post" />
+    <Entry LangId="tpp_africa_en_chicoVilWest" Color="1" Value="22: Nova Braga Airport, South Guard Post" />
+    <Entry LangId="tpp_africa_en_diamondNorth" Color="1" Value="02: Kungenga Mine, NE Guard Post" />
+    <Entry LangId="tpp_africa_en_diamondSouth" Color="1" Value="13: Kungenga Mine, SW Guard Post" />
+    <Entry LangId="tpp_africa_en_diamondWest" Color="1" Value="07: Kungenga Mine, West Guard Post" />
+    <Entry LangId="tpp_africa_en_factorySouth" Color="1" Value="20: Ngumba Industrial Zone, SW Guard Post" />
+    <Entry LangId="tpp_africa_en_hillNorth" Color="1" Value="16: Munoko ya Nioka Station, NE Guard Post" />
+    <Entry LangId="tpp_africa_en_hillSouth" Color="1" Value="23: Munoko ya Nioka Station, SW Guard Post" />
+    <Entry LangId="tpp_africa_en_hillWest" Color="1" Value="19: Munoko ya Nioka Station, NW Guard Post" />
+    <Entry LangId="tpp_africa_en_hillWestNear" Color="1" Value="21: Munoko ya Nioka Station, West Guard Post" />
+    <Entry LangId="tpp_africa_en_labWest" Color="1" Value="08: Lufwa Valley, NW Guard Post" />
+    <Entry LangId="tpp_africa_en_outlandEast" Color="1" Value="11: Masa Village, East Guard Post" />
+    <Entry LangId="tpp_africa_en_outlandNorth" Color="1" Value="06: Masa Village, North Guard Post" />
+    <Entry LangId="tpp_africa_en_pfCampEast" Color="1" Value="18: Nova Braga Airport, East Guard Post" />
+    <Entry LangId="tpp_africa_en_pfCampNorth" Color="1" Value="14: Nova Braga Airport, NE Guard Post" />
+    <Entry LangId="tpp_africa_en_savannahEast" Color="1" Value="15: Ditadi Abandoned Village, South Guard Post" />
+    <Entry Key="184710415" Color="1" Value="05: Ditadi Abandoned Village, NE Guard Post" />
+    <Entry LangId="tpp_africa_en_savannahWest" Color="1" Value="09: Ditadi Abandoned Village, North Guard Post" />
+    <Entry LangId="tpp_africa_en_swampEast" Color="1" Value="10: Kiziba Camp, SE Guard Post" />
+    <Entry LangId="tpp_africa_en_swampSouth" Color="1" Value="12: Kiziba Camp, South Guard Post" />
+    <Entry LangId="tpp_africa_en_swampWest" Color="1" Value="01: Kiziba Camp, NW Guard Post" />
+    <Entry Key="3835429567" Color="1" Value="MB Coins" />
+    <Entry Key="3217621619" Color="1" Value="GOLDEN CRESCENT" />
+    <Entry Key="2247997610" Color="1" Value="AFRICAN PEACH" />
+    <Entry Key="475177585" Color="1" Value="DIGITALIS (PURPUREA)" />
+    <Entry Key="3499089365" Color="1" Value="DIGITALIS (LUTEA)" />
+    <Entry Key="1329713341" Color="1" Value="BLACK CARROT" />
+    <Entry Key="2176769478" Color="1" Value="WORMWOOD" />
+    <Entry Key="4069029365" Color="1" Value="TARRAGON" />
+    <Entry Key="3861921069" Color="1" Value="HAOMA" />
+    <Entry Key="2732454616" Color="1" Value="BIOLOGICAL MATERIAL" />
+    <Entry Key="2330056089" Color="1" Value="COMMON METAL" />
+    <Entry Key="3910621194" Color="1" Value="FUEL RESOURCES" />
+    <Entry Key="841167032" Color="1" Value="MINOR METAL" />
+    <Entry Key="3222548267" Color="1" Value="PRECIOUS METAL" />
+    <Entry Key="2054037013" Color="1" Value="Animal Conservation Platform (Seychelles Waters)" />
+    <Entry LangId="cmmn_vehicle_4wd" Color="1" Value="Four-Wheel Drive" />
+    <Entry LangId="cmmn_vehicle_truck" Color="1" Value="Truck" />
+    <Entry LangId="cmmn_vehicle_armored" Color="1" Value="Armored Vehicle" />
+    <Entry LangId="cmmn_vehicle_tank" Color="1" Value="Tank" />
+    <Entry Key="895224308" Color="1" Value="Leg Option" />
+    <Entry LangId="func_bttl_deploy_help" Color="1" Value="Dispatch mercenaries to conflict zones and receive regular GMP&#xA;income. Income increases according to rank." />
+    <Entry LangId="func_bttl_defence_help" Color="1" Value="During an FOB defense mission, enables you to carry on with a new character or guard when your current character or guard is defeated.&#xA;Redeployment time goes down, and the number of redeployable guards goes up, as rank increases." />
+    <Entry LangId="func_sec_base_defence_help" Color="1" Value="Places guards on Mother Base to protect the facilities." />
+    <Entry LangId="func_sec_base_defence2_help" Color="1" Value="Places guards on Mother Base/FOB to protect the facilities.&#xA;Better security devices can be developed as unit level increases." />
+    <Entry LangId="func_sec_machine_defence_help" Color="1" Value="Observes and forecasts changes in weather in the AO (area of operations).&#xA;Forecasts come in quicker as rank increases." />
+    <Entry LangId="func_sec_base_blockade_help" Color="1" Value="During an FOB defense mission, seals off the intruder's infiltration route and captures them.&#xA;Time required for blockade shortens as rank increases." />
+    <Entry LangId="func_dev_weapon_help" Color="1" Value="Develop weapons/items/tools/uniforms. &#xA;Better equipment becomes available as unit level increases." />
+    <Entry Key="3216689720" Color="1" Value="Develop weapons/items/tools/prosthetic arms/uniforms. &#xA;Better equipment becomes available as unit level increases." />
+    <Entry LangId="func_dev_heli_help" Color="1" Value="Develop armament for support helicopter. &#xA;Better armament becomes available as unit level increases." />
+    <Entry Key="2061735691" Color="1" Value="Develop weapons for Quiet. &#xA;Better weapons become available as unit level increases." />
+    <Entry Key="863722430" Color="1" Value="Develop equipment for D-Dog. &#xA;Better equipment becomes available as unit level increases." />
+    <Entry LangId="func_dev_dhorse_help" Color="1" Value="Develop equipment for D-Horse. &#xA;Better equipment becomes available as unit level increases." />
+    <Entry LangId="func_dev_dwalker_help" Color="1" Value="Develop armament for D-Walker. &#xA;Better armament becomes available as unit level increases." />
+    <Entry LangId="func_dev_bgear_help" Color="1" Value="Develop Battle Gear. &#xA;Gets closer to completion as unit level increases." />
+    <Entry LangId="func_dev_sec_device_help" Color="1" Value="Develop security devices. &#xA;Better security devices become available as unit level increases." />
+    <Entry Key="4170432572" Color="1" Value="Searches for materials (containers/processed materials) and rough diamonds in the AO (area of operations), and marks their predicted locations on the map.&#xA;Predicted locations become more accurate as rank increases." />
+    <Entry LangId="func_fob_processing_help" Color="1" Value="Processes materials stored in containers, making them available for practical use.&#xA;Time required for processing shortens as rank increases." />
+    <Entry LangId="func_fob_extention_help" Color="1" Value="Construct new platforms, which increase the number of staff and containers you can have. &#xA;Time required for construction shortens as rank increases." />
+    <Entry LangId="func_fob_construct_help" Color="1" Value="Construct FOBs (forward operating bases), which increase the number of staff and containers you can have, plus the amount of materials gained via materials procurement and processing." />
+    <Entry Key="1755929048" Color="1" Value="Develop or dispose of nuclear weapons.&#xA;Time required for development/disposal shortens as rank increases." />
+    <Entry LangId="func_spprt_fulton_help" Color="1" Value="Personnel/cargo lifted into the air by Fulton extraction device and picked up by extraction plane are transported to Mother Base, as are personnel/collectibles such as medicinal plants extracted by helicopter.&#xA;The drop in Fulton extraction success rate due to bad weather is lessened as rank increases." />
+    <Entry LangId="func_spprt_supply_help" Color="1" Value="Sends buddies/supply drops to the AO (area of operations).&#xA;Arrival becomes quicker as rank increases." />
+    <Entry Key="529974652" Color="1" Value="Sends buddies/supply drops/vehicles to the AO (area of operations).&#xA;Arrival becomes quicker as rank increases." />
+    <Entry LangId="func_spprt_battle_help" Color="1" Value="Attacks the enemy in the AO (area of operations).&#xA;Attack preparations become quicker as rank increases." />
+    <Entry LangId="func_spprt_artillery_help" Color="1" Value="Conducts artillery strikes in the AO (area of operations).&#xA;Number of shells increases as rank increases." />
+    <Entry LangId="func_spprt_smoke_help" Color="1" Value="Disperses smoke in the AO (area of operations).&#xA;Effective time lengthens as rank increases." />
+    <Entry LangId="func_spprt_sleep_gas_help" Color="1" Value="Disperses sleeping gas in the AO (area of operations).&#xA;Effect radius widens as rank increases." />
+    <Entry LangId="func_spprt_chaff_help" Color="1" Value="Disperses chaff in the AO (area of operations).&#xA;Effective time lengthens as rank increases." />
+    <Entry LangId="func_spprt_weather_help" Color="1" Value="Modifies weather conditions in the AO (area of operations)." />
+    <Entry LangId="func_spprt_trans_rus_help" Color="1" Value="Provides simultaneous interpretation of Russian." />
+    <Entry LangId="func_spprt_trans_pus_help" Color="1" Value="Provides simultaneous interpretation of Pashto." />
+    <Entry LangId="func_spprt_trans_afr_help" Color="1" Value="Provides simultaneous interpretation of Afrikaans." />
+    <Entry LangId="func_spprt_trans_kon_help" Color="1" Value="Provides simultaneous interpretation of Kikongo." />
+    <Entry LangId="func_intel_info_help" Color="1" Value="Conducts information gathering in the AO (area of operations).&#xA;Locations of dumpsters, toilets, back roads, and cracks are added to the map as rank increases." />
+    <Entry LangId="func_intel_search_ene1_help" Color="1" Value="Scouts for enemies within the AO (area of operations) and marks the map with predicted FOMs (fields of movement).&#xA;Accuracy of FOMs increases and update interval shortens as rank increases." />
+    <Entry LangId="func_fob_mining_help" Color="1" Value="Procures materials from the waters around Mother Base, providing regular increases in materials.&#xA;Amount of materials and chance of obtaining rare materials both increase as rank increases." />
+    <Entry LangId="func_intel_weather_info_help" Color="1" Value="Monitors the weather in the AO (area of operations) and forecasts weather changes.&#xA;Forecasts come in quicker as rank increases." />
+    <Entry LangId="func_med_emergency_help" Color="1" Value="Provides first aid to injured personnel recovered by Fulton extraction devices or support helicopter. &#xA;The drop in extraction success rate for injured Fulton extractees is lessened as rank increases." />
+    <Entry LangId="func_med_treatment_help" Color="1" Value="Treats staff injuries/illnesses in sickbay.&#xA;Staff recovery speed increases as rank increases." />
+    <Entry LangId="cmmn_lang_aze" Color="1" Value="Azerbaijani" />
+    <Entry LangId="cmmn_lang_arm" Color="1" Value="Armenian" />
+    <Entry LangId="cmmn_lang_ukr" Color="1" Value="Ukrainian" />
+    <Entry LangId="cmmn_lang_uzb" Color="1" Value="Uzbek" />
+    <Entry LangId="cmmn_lang_urd" Color="1" Value="Urdu" />
+    <Entry LangId="cmmn_lang_est" Color="1" Value="Estonian" />
+    <Entry LangId="cmmn_lang_kaz" Color="1" Value="Kazakh" />
+    <Entry LangId="cmmn_lang_kir" Color="1" Value="Kyrgyz" />
+    <Entry LangId="cmmn_lang_geo" Color="1" Value="Georgian" />
+    <Entry LangId="cmmn_lang_xho" Color="1" Value="Xhosa" />
+    <Entry LangId="cmmn_lang_sna" Color="1" Value="Shona" />
+    <Entry LangId="cmmn_lang_ssw" Color="1" Value="Swazi" />
+    <Entry LangId="cmmn_lang_zul" Color="1" Value="Zulu" />
+    <Entry LangId="cmmn_lang_sot" Color="1" Value="Sotho" />
+    <Entry LangId="cmmn_lang_tgk" Color="1" Value="Tajik" />
+    <Entry LangId="cmmn_lang_der" Color="1" Value="Dari" />
+    <Entry LangId="cmmn_lang_tso" Color="1" Value="Tsonga" />
+    <Entry LangId="cmmn_lang_tsn" Color="1" Value="Tswana" />
+    <Entry LangId="cmmn_lang_tuk" Color="1" Value="Turkmen" />
+    <Entry LangId="cmmn_lang_bel" Color="1" Value="Belarusian" />
+    <Entry LangId="cmmn_lang_per" Color="1" Value="Persian" />
+    <Entry LangId="cmmn_lang_ron" Color="1" Value="Moldovan" />
+    <Entry LangId="cmmn_lang_lav" Color="1" Value="Latvian" />
+    <Entry LangId="cmmn_lang_lit" Color="1" Value="Lithuanian" />
+    <Entry LangId="cmmn_lang_ven" Color="1" Value="Venda" />
+    <Entry LangId="cmmn_lang_nso" Color="1" Value="Northern Sotho" />
+    <Entry LangId="cmmn_lang_nbl" Color="1" Value="Ndebele" />
+    <Entry LangId="cmmn_lang_abk" Color="1" Value="Abkhaz" />
+    <Entry LangId="cmmn_lang_inh" Color="1" Value="Ingush" />
+    <Entry LangId="cmmn_lang_oss" Color="1" Value="Ossetian" />
+    <Entry LangId="cmmn_lang_crh" Color="1" Value="Crimean Tatar" />
+    <Entry LangId="cmmn_lang_swa" Color="1" Value="Swahili" />
+    <Entry LangId="cmmn_lang_tat" Color="1" Value="Tatar" />
+    <Entry LangId="cmmn_lang_che" Color="1" Value="Chechen" />
+    <Entry LangId="cmmn_buddy_equip" Color="1" Value="BUDDY EQUIPMENT" />
+    <Entry Key="4216662564" Color="1" Value="Bandana" />
+    <Entry Key="2806150701" Color="1" Value="Head Option" />
+    <Entry LangId="tpp_africa_factoryWest" Color="1" Value="17: Ngumba Industrial Zone, West Guard Post" />
+    <Entry LangId="tpp_africa_factoryWest_no" Color="1" Value="17" />
+    <Entry Key="520922115" Color="1" Value="17: Ngumba Industrial Zone, West Guard Post" />
+    <Entry Key="3467778123" Color="1" Value="BALACLAVA" />
+    <Entry Key="2621121839" Color="1" Value="HARD PROTECTOR" />
+    <Entry Key="1685740685" Color="1" Value="SOFT PROTECTOR" />
+    <Entry Key="1767754896" Color="1" Value="Central Indian Ridge" />
+    <Entry Key="3865612785" Color="1" Value="Mid-Atlantic Ridge" />
+    <Entry Key="2452903926" Color="1" Value="East of the Hawaiian Islands" />
+    <Entry Key="1386738852" Color="1" Value="South Atlantic Ocean" />
+    <Entry Key="1135884434" Color="1" Value="Indian Ocean" />
+    <Entry Key="3090577671" Color="1" Value="North Pacific Ocean" />
+    <Entry Key="2411440343" Color="1" Value="South Pacific Ocean" />
+    <Entry Key="97900333" Color="1" Value="North Atlantic Ocean" />
+    <Entry Key="1943380217" Color="1" Value="Symptomatic" />
+    <Entry LangId="anml_bird_2241" Color="1" Value="Oriental Stork" />
+    <Entry Key="1833493074" Color="1" Value="Quick Draw" />
+    <Entry Key="3318355372" Color="1" Value="Interpreter (Pashto)" />
+    <Entry Key="655168673" Color="1" Value="Counselor" />
+    <Entry Key="3497527950" Color="1" Value="Physician" />
+    <Entry Key="201661870" Color="1" Value="Surgeon" />
+    <Entry Key="670981184" Color="1" Value="Longer Reflex Mode time when you deploy as a Combat Unit staff member" />
+    <Entry Key="2991812651" Color="1" Value="Faster crawling and climbing speed when you deploy as a Combat Unit staff member" />
+    <Entry Key="1731150778" Color="1" Value="Faster sprinting speed when you deploy as a Combat Unit staff member" />
+    <Entry Key="505578726" Color="1" Value="Higher Fulton recovery success rate when you deploy as a Combat Unit staff member" />
+    <Entry Key="4006741845" Color="1" Value="Faster weapon reload speed when you deploy as a Combat Unit staff member" />
+    <Entry Key="2194955272" Color="1" Value="Higher damage resistance when you deploy as a Combat Unit staff member" />
+    <Entry Key="455385015" Color="1" Value="Fewer serious injuries when you deploy as a Combat Unit staff member" />
+    <Entry Key="4102159743" Color="1" Value="When deployed as a Combat Unit staff member, press the CQC Button while sprinting to unleash a devastating punch" />
+    <Entry Key="2969473248" Color="1" Value="Disguises abilities (rank) when scanned with an analyzer" />
+    <Entry Key="201406696" Color="1" Value="Increased medicinal plant harvest when you deploy as a Combat Unit staff member" />
+    <Entry Key="3424845019" Color="1" Value="Sniper who can pick off targets from long range and carry out covert scouting missions" />
+    <Entry Key="198896737" Color="1" Value="Longer Reflex Mode time" />
+    <Entry Key="402105171" Color="1" Value="Longer Reflex Mode time, faster crawling and climbing speed" />
+    <Entry Key="3858862489" Color="1" Value="Longer Reflex Mode time, faster crawling and climbing speed, faster sprinting speed" />
+    <Entry Key="956406594" Color="1" Value="Higher Fulton recovery success rate" />
+    <Entry Key="1777899278" Color="1" Value="Higher Fulton recovery success rate, faster weapon reload speed" />
+    <Entry Key="807319222" Color="1" Value="Higher Fulton recovery success rate, faster weapon reload speed, faster weapon aiming speed" />
+    <Entry Key="2208897116" Color="1" Value="Higher damage resistance" />
+    <Entry Key="2009652411" Color="1" Value="Higher damage resistance, fewer serious injuries" />
+    <Entry Key="4090045064" Color="1" Value="Higher damage resistance, fewer serious injuries, increased medicinal plant harvest" />
+    <Entry Key="2050176839" Color="1" Value="Faster weapon aiming when you deploy as a Combat Unit staff member" />
+    <Entry Key="950224328" Color="1" Value="Assign to R&amp;D Team to relax handgun development and usage requirements, and enable development of derivative models" />
+    <Entry Key="3978179202" Color="1" Value="Assign to R&amp;D Team to relax submachine gun development and usage requirements, and enable development of derivative models" />
+    <Entry Key="4035346348" Color="1" Value="Assign to R&amp;D Team to relax assault rifle development and usage requirements, and enable development of derivative models" />
+    <Entry Key="3475218650" Color="1" Value="Assign to R&amp;D Team to relax shotgun development and usage requirements, and enable development of derivative models" />
+    <Entry Key="663268310" Color="1" Value="Assign to R&amp;D Team to relax grenade launcher development and usage requirements, and enable development of derivative models" />
+    <Entry Key="219993004" Color="1" Value="Assign to R&amp;D Team to relax sniper rifle development and usage requirements, and enable development of derivative models" />
+    <Entry Key="2589479367" Color="1" Value="Assign to R&amp;D Team to relax machine gun development and usage requirements, and enable development of derivative models" />
+    <Entry Key="4225302899" Color="1" Value="Assign to R&amp;D Team to relax missile launcher development and usage requirements, and enable development of derivative models" />
+    <Entry Key="3839841772" Color="1" Value="Assign to R&amp;D Team to enable weapon customization" />
+    <Entry Key="1481122884" Color="1" Value="Assign to R&amp;D Team to enable tranquilizer round conversion for handguns" />
+    <Entry Key="2727631270" Color="1" Value="Assign to R&amp;D Team to enable built-in suppressor conversion for handguns" />
+    <Entry Key="2703495079" Color="1" Value="Assign to R&amp;D Team to enable development of [KILLER BEE] missile launcher and other equipment" />
+    <Entry Key="3975981746" Color="1" Value="Assign to R&amp;D Team to enable development of [BAIT BOTTLE] support weapon" />
+    <Entry Key="258703179" Color="1" Value="Assign to R&amp;D Team to enable development of [LLG-MINE] support weapon and other equipment" />
+    <Entry Key="1968768248" Color="1" Value="Assign to R&amp;D Team to enable development of [E-STUN DECOY] support weapon" />
+    <Entry Key="423538766" Color="1" Value="Assign to R&amp;D Team to enable development of [EMN-MINE] support weapon" />
+    <Entry Key="182038742" Color="1" Value="Assign to R&amp;D Team to enable development of [+ ACTIVE SONAR] prosthesis and other equipment" />
+    <Entry Key="954766031" Color="1" Value="Assign to R&amp;D Team to enable development of [STEALTH CAMO.PP] item and other equipment" />
+    <Entry Key="1344458247" Color="1" Value="Assign to Medical Team to enable development of [NOCTOCYANIN] item and other equipment" />
+    <Entry Key="906154028" Color="1" Value="Assign to R&amp;D Team to enable development of prosthetic arms" />
+    <Entry Key="3379967795" Color="1" Value="Assign to R&amp;D Team to enable development of [+ PRECISION 1] prosthesis and other equipment" />
+    <Entry Key="2181780188" Color="1" Value="Assign to R&amp;D Team to enable development of [+ MEDICAL 1] prosthesis" />
+    <Entry Key="4054333807" Color="1" Value="Assign to R&amp;D Team to enable development of [ROCKET ARM] prosthesis" />
+    <Entry Key="2085498947" Color="1" Value="Assign to R&amp;D Team to enable development of [SNEAKING (KNIFE)] D-Dog equipment and other equipment" />
+    <Entry Key="1783218568" Color="1" Value="Assign to R&amp;D Team to enable development of [BATTLE DRESS] uniform and other equipment" />
+    <Entry Key="1299764047" Color="1" Value="Assign to Medical Team to enable development of [PARASITE SUIT] uniform and other equipment" />
+    <Entry Key="2155879871" Color="1" Value="Assign to R&amp;D Team to enable development of [+ CARGO 2] tool and other equipment" />
+    <Entry Key="3462421644" Color="1" Value="Assign to R&amp;D Team to enable development of [SURVEILLANCE-CAM] security device and other equipment" />
+    <Entry Key="1408852113" Color="1" Value="Assign to Support Unit to enable simultaneous interpretation of Russian" />
+    <Entry Key="1095624620" Color="1" Value="Assign to Support Unit to enable simultaneous interpretation of Afrikaans" />
+    <Entry Key="148905364" Color="1" Value="Assign to Support Unit to enable simultaneous interpretation of Kikongo" />
+    <Entry Key="609763017" Color="1" Value="Lessens drops in morale among staff in unit" />
+    <Entry Key="1060718508" Color="1" Value="Facilitates increased morale among staff in unit" />
+    <Entry Key="4104591230" Color="1" Value="Assign to R&amp;D Team to enable development of D-Walker and other equipment" />
+    <Entry Key="1922016948" Color="1" Value="Assign to Medical Team to hasten recovery of injuries of those in sickbay" />
+    <Entry Key="1442286983" Color="1" Value="Assign to Medical Team to hasten recovery of illnesses of those in sickbay" />
+    <Entry Key="4188986256" Color="1" Value="Assign to Medical Team to hasten recovery of PTSD of those in sickbay" />
+    <Entry Key="881916452" Color="1" Value="Assign to Support Unit to enable simultaneous interpretation of Pashto" />
+    <Entry Key="224865058" Color="1" Value="Causes trouble within unit, injuring staff" />
+    <Entry Key="1110722440" Color="1" Value="Causes trouble within unit, making staff sick" />
+    <Entry Key="704128641" Color="1" Value="Causes trouble within unit, giving staff PTSD" />
+    <Entry Key="1881546480" Color="1" Value="Lessens instances of trouble within unit" />
+    <Entry LangId="name_buddy_bg" Color="1" Value="Battle Gear" />
+    <Entry Key="2259011824" Color="1" Value="For quarantining parasite-infected staff who have become symptomatic. Also, quarantining staff who are infected but not yet symptomatic will help to prevent the spread of infection." />
+    <Entry Key="2227014422" Color="1" Value="Increases maximum staff capacity of all units." />
+    <Entry Key="3896620046" Color="1" Value="Platform with facilities for the Combat Unit, which dispatches mercs for regular GMP income. Amount of GMP earned increases as you add more staff and unit level increases. Staff assigned to the Combat Unit can also deploy in place of Snake." />
+    <Entry Key="1014975012" Color="1" Value="Platform with facilities for the R&amp;D Team, which develops weapons, items, and other equipment. Higher-grade equipment can be developed as you add more staff and the unit level increases." />
+    <Entry Key="1446316571" Color="1" Value="Platform with facilities for the Base Development Unit, which procures materials on a regular basis. Amount of materials obtained increases, and materials processing time decreases, as you add more staff and the unit level increases." />
+    <Entry Key="3232714119" Color="1" Value="Platform with facilities for the Support Unit, which supports your actions in the area of operations via equipment supply drops and artillery strikes. Types of strikes available increase, and execution time decreases, as you add more staff and the unit level increases." />
+    <Entry Key="560528993" Color="1" Value="Platform with facilities for the Intel Team, which scouts the area of operations and provides reports on enemy activity. Accuracy and frequency of reports increase as you add more staff and the unit level increases." />
+    <Entry Key="3188824384" Color="1" Value="Platform with facilities for the Medical Team, which treats staff injuries and illnesses. Staff recovery time decreases as you add more staff and the unit level increases. Increasing the unit level also lessens the drop in Fulton extraction success rate of injured subjects." />
+    <Entry Key="1499469940" Color="1" Value="Plants Surveying" />
+    <Entry LangId="func_intel_search_plant_help" Color="1" Value="Searches for medicinal plants in the AO (area of operations), and marks their locations on the map.&#xA;Search radius widens as rank increases." />
+    <Entry Key="3148497739" Color="1" Value="WG.PP" />
+    <Entry LangId="cmmn_wp_prts_base" Color="1" Value="Base" />
+    <Entry Key="928340738" Color="1" Value="It is no nation we inhabit, but a language.&#xA;Make no mistake; our native tongue is our true fatherland." />
+    <Entry Key="499076535" Color="1" Value="D-Horse Equipment" />
+    <Entry Key="2011112581" Color="1" Value="Offline" />
+    <Entry Key="296777664" Color="1" Value="Online" />
+    <Entry LangId="mb_unit_none" Color="1" Value="Unassigned" />
+    <Entry LangId="func_heli_attack" Color="1" Value="Support Helicopter (Attack)" />
+    <Entry Key="749498839" Color="1" Value="Damage (VS Machines)" />
+    <Entry Key="549474664" Color="1" Value="Bond Level" />
+    <Entry Key="1238116608" Color="1" Value="&lt;I=G=LLINE&gt;&lt;I=G=RLINE&gt; Emil Cioran, Romanian philosopher." />
+    <Entry LangId="cmmn_skulls_mist" Color="1" Value="Mist" />
+    <Entry LangId="cmmn_skulls_camo" Color="1" Value="Camo" />
+    <Entry LangId="cmmn_skulls_armor" Color="1" Value="Armor" />
+    <Entry Key="1288135526" Color="1" Value="Purchase FOB." />
+    <Entry LangId="platform_en_main" Color="1" Value="Command Platform" />
+    <Entry LangId="platform_en_combat" Color="1" Value="Combat Unit Platform" />
+    <Entry LangId="platform_en_RD" Color="1" Value="R&amp;D Platform" />
+    <Entry LangId="platform_en_base_dev" Color="1" Value="Base Development Platform" />
+    <Entry LangId="platform_en_support" Color="1" Value="Support Platform" />
+    <Entry LangId="platform_en_intel" Color="1" Value="Intel Platform" />
+    <Entry LangId="platform_en_medical" Color="1" Value="Medical Platform" />
+    <Entry LangId="platform_en_isolation" Color="1" Value="Quarantine Platform" />
+    <Entry LangId="platform_en_protection" Color="1" Value="Animal Conservation Platform" />
+    <Entry LangId="platform_zoo_bird" Color="1" Value="Animal Conservation Platform: Avian Area" />
+    <Entry LangId="platform_zoo_herbivore1" Color="1" Value="Animal Conservation Platform: Herbivore Area 1" />
+    <Entry LangId="platform_zoo_herbivore2" Color="1" Value="Animal Conservation Platform: Herbivore Area 2" />
+    <Entry LangId="platform_zoo_canivore" Color="1" Value="Animal Conservation Platform: Carnivore Area" />
+    <Entry LangId="platform_en_zoo_bird" Color="1" Value="Animal Conservation Platform: Birds Area" />
+    <Entry LangId="platform_en_zoo_herbivore1" Color="1" Value="Animal Conservation Platform: Herbivore Area 1" />
+    <Entry LangId="platform_en_zoo_herbivore2" Color="1" Value="Animal Conservation Platform: Herbivore Area 2" />
+    <Entry LangId="platform_en_zoo_canivore" Color="1" Value="Animal Conservation Platform: Carnivore Area" />
+    <Entry Key="4086323116" Color="1" Value="Eyepatch" />
+    <Entry Key="1790235977" Color="1" Value="No Eyepatch" />
+    <Entry Key="1523079667" Color="1" Value="Artificial Eye" />
+    <Entry LangId="tpp_epigraph_nietzsche_quote" Color="1" Value="&lt;I=G=LLINE&gt;&lt;I=G=RLINE&gt; Friedrich Nietzsche" />
+    <Entry LangId="tpp_epigraph_nietzsche" Color="1" Value="Facts do not exist, there are only interpretations." />
+    <Entry Key="3420397830" Color="1" Value=" - " />
+    <Entry LangId="cmmn_etc_kb" Color="1" Value="KB" />
+    <Entry LangId="cmmn_etc_mb" Color="1" Value="MB" />
+    <Entry LangId="cmmn_etc_gb" Color="1" Value="GB" />
+    <Entry LangId="platform_1st" Color="1" Value="1st Deck" />
+    <Entry LangId="platform_2nd" Color="1" Value="2nd Deck" />
+    <Entry LangId="platform_3rd" Color="1" Value="3rd Deck" />
+    <Entry LangId="platform_4th" Color="1" Value="4th Deck" />
+    <Entry Key="3109470790" Color="1" Value=": " />
+    <Entry LangId="tpp_cyprus_xylotymvou" Color="1" Value="Outskirts of Xylotymbou" />
+    <Entry Key="1802336975" Color="1" Value="Western Ormideia" />
+    <Entry LangId="tpp_loc_cyprus" Color="1" Value="Cyprus: Sovereign Base Area of Dhekelia" />
+    <Entry Key="3093274229" Color="1" Value="Common" />
+    <Entry Key="19201305" Color="1" Value="Uncommon" />
+    <Entry Key="3746577048" Color="1" Value="Rare" />
+    <Entry Key="2322029629" Color="1" Value="Super Rare" />
+    <Entry Key="62989748" Color="1" Value="Ultra Rare" />
+    <Entry LangId="cmmn_lang_lua" Color="1" Value="Luba" />
+    <Entry LangId="cmmn_lang_lin" Color="1" Value="Lingala" />
+    <Entry Key="945228942" Color="1" Value="B" />
+    <Entry LangId="cmmn_empty" Color="1" Value="Empty" />
+    <Entry Key="1099032202" Color="1" Value="Security Planning" />
+    <Entry LangId="func_intel_fob_sec_help" Color="1" Value="Supports Security Team's defense of FOBs.&#xA;Maximum number of key defense points increases as rank increases." />
+    <Entry Key="2112235881" Color="1" Value="Primary Weapon (HIP)" />
+    <Entry Key="4236622412" Color="1" Value="Primary Weapon (BACK)" />
+    <Entry LangId="cmmn_sec_wp" Color="1" Value="Secondary Weapon" />
+    <Entry Key="4237405597" Color="1" Value="Support Weapon" />
+    <Entry LangId="cmmn_lang_nav" Color="1" Value="Navajo" />
+    <Entry LangId="cmmn_lang_heb" Color="1" Value="Hebrew" />
+    <Entry Key="1560314384" Color="1" Value="Materials (Processed)" />
+    <Entry Key="497917319" Color="1" Value="Rarity" />
+    <Entry Key="4205216160" Color="1" Value="C" />
+    <Entry Key="4160063204" Color="1" Value="UC" />
+    <Entry Key="4169237696" Color="1" Value="R" />
+    <Entry Key="2205016119" Color="1" Value="SR" />
+    <Entry Key="1613407054" Color="1" Value="UR" />
+    <Entry Key="1263364465" Color="1" Value="[GMP -%d]" />
+    <Entry Key="447413792" Color="1" Value="[GMP +%d]" />
+    <Entry LangId="cmmn_wp_prm_shock" Color="1" Value="Impact Force" />
+    <Entry LangId="platform_all" Color="1" Value="All Decks" />
+    <Entry Key="994901468" Color="1" Value="Deck 1 (Core)" />
+    <Entry LangId="cmmn_nuclear_waste_num" Color="1" Value="Decommissioned Nuclear Weapons: %d" />
+    <Entry LangId="cmmn_nuclear_weapon_num" Color="1" Value="Total Nuclear Weapons: %d" />
+    <Entry LangId="cmmn_vehicle_num" Color="1" Value="Non-combat Vehicles: %d" />
+    <Entry Key="2492477821" Color="1" Value="Armored Vehicles: %d" />
+    <Entry LangId="cmmn_tank_num" Color="1" Value="Tanks: %d" />
+    <Entry Key="1169597085" Color="1" Value="Walker Gears: %d" />
+    <Entry Key="3343200944" Color="1" Value="Virtual Earth" />
+    <Entry Key="3578380099" Color="1" Value="PF Rank" />
+    <Entry Key="3724527297" Color="1" Value="ET Rank" />
+    <Entry LangId="cmmn_name_gunsheet" Color="1" Value="Gun Emplacement" />
+    <Entry LangId="cmmn_name_mortar" Color="1" Value="Mortar" />
+    <Entry LangId="cmmn_name_antiair" Color="1" Value="Anti-Air Cannon" />
+    <Entry LangId="cmmn_name_container" Color="1" Value="Materials Container" />
+    <Entry LangId="cmmn_name_sec_staff" Color="1" Value="Guard" />
+    <Entry Key="2402122977" Color="1" Value=" (obtained)" />
+    <Entry Key="2776218837" Color="1" Value="ON" />
+    <Entry LangId="nuclear_zero" Color="1" Value="This world has been rid of every last nuclear weapon." />
+    <Entry LangId="cmmn_MMDD_hhmm" Color="1" Value="%d/%d %d:%d (MM/DD HH:MM)" />
+    <Entry Key="3209056876" Color="1" Value="Waters: North Atlantic Ocean (first time free)" />
+    <Entry Key="3271968863" Color="1" Value="Waters: South Pacific Ocean (first time free)" />
+    <Entry Key="3493637208" Color="1" Value="Waters: North Pacific Ocean (first time free)" />
+    <Entry Key="2289208712" Color="1" Value="Waters Transfer Fee" />
+    <Entry Key="2973080300" Color="1" Value="Waters: North Atlantic Ocean" />
+    <Entry Key="1018895909" Color="1" Value="Waters: South Pacific Ocean" />
+    <Entry Key="1556220341" Color="1" Value="Waters: North Pacific Ocean" />
+    <Entry Key="3564167605" Color="1" Value="Waters: Indian Ocean" />
+    <Entry Key="4078225369" Color="1" Value="Waters: South Atlantic Ocean" />
+    <Entry Key="3862391669" Color="1" Value="Waters: East of the Hawaiian Islands" />
+    <Entry Key="2989518266" Color="1" Value="Waters: Mid-Atlantic Ridge" />
+    <Entry Key="1137453886" Color="1" Value="Insurance: 7 days (first time free)" />
+    <Entry Key="223344759" Color="1" Value="Insurance: 60 days (auto-renewal)" />
+    <Entry Key="2960964693" Color="1" Value="Insurance: 30 days (auto-renewal)" />
+    <Entry Key="3725494814" Color="1" Value="Insurance: 7 days (auto-renewal)" />
+    <Entry Key="2598606212" Color="1" Value="Insurance: 60 days" />
+    <Entry Key="1295353019" Color="1" Value="Insurance: 30 days" />
+    <Entry Key="1378449932" Color="1" Value="Insurance: 7 days" />
+    <Entry Key="2448199474" Color="1" Value="Time Reduction (Construction)" />
+    <Entry Key="2868668556" Color="1" Value="Time Reduction (Development)" />
+    <Entry Key="56914631" Color="1" Value="Time Reduction (Dispatch Mission)" />
+    <Entry Key="2613706469" Color="1" Value="Materials Processing" />
+    <Entry Key="3287709919" Color="1" Value="Automatic Mining" />
+    <Entry Key="1578053021" Color="1" Value="Materials Recovery" />
+    <Entry LangId="nuclear_for_all_dd" Color="1" Value="All other Diamond Dogs" />
+    <Entry Key="2875797537" Color="1" Value="Total Nuclear Weapons in This World: %d" />
+  </Entries>
+</LangFile>

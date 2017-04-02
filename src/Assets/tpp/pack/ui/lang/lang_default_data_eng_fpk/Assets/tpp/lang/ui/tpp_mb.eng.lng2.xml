@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="3306066376" Color="1" Value="-----------" />
+    <Entry Key="1540823654" Color="1" Value="-----" />
+    <Entry Key="2232970559" Color="1" Value="--" />
+    <Entry Key="3178779730" Color="1" Value="Menu Selection" />
+    <Entry Key="4032470198" Color="1" Value="Assign/Relieve Staff" />
+    <Entry Key="192498347" Color="1" Value="&lt;I=G=PAD_Y&gt; Switch Display" />
+    <Entry Key="3305408552" Color="1" Value="&lt;I=G=PAD_Y&gt; Switch Display" />
+    <Entry Key="238245196" Color="1" Value="Switch to Staff View" />
+    <Entry Key="4275138306" Color="1" Value="Dispatch Unit" />
+    <Entry Key="1591729319" Color="1" Value="Select/Deselect Staff" />
+    <Entry Key="3735241369" Color="1" Value="Place Marker" />
+    <Entry Key="1840364671" Color="1" Value="Change Cassettes" />
+    <Entry Key="783399143" Color="1" Value="NO MARK" />
+    <Entry LangId="bonus_perfect_stealth" Color="1" Value="NO REFLEX" />
+    <Entry Key="3457665509" Color="1" Value="Mother Base" />
+    <Entry Key="3219397606" Color="1" Value="System" />
+    <Entry Key="3754588208" Color="1" Value="All" />
+    <Entry Key="2391239855" Color="1" Value="Trials" />
+    <Entry Key="4128901911" Color="1" Value="Cutscenes" />
+    <Entry Key="3246454137" Color="1" Value="Messages" />
+    <Entry Key="213841794" Color="1" Value="Radio" />
+    <Entry Key="2423267952" Color="1" Value="Conversations" />
+    <Entry LangId="marker_info_APC" Color="1" Value="Armored Vehicle" />
+    <Entry Key="185076356" Color="1" Value="Ammo" />
+    <Entry Key="178007526" Color="1" Value="Ammo (Non-lethal)" />
+    <Entry LangId="marker_info_enemy" Color="1" Value="Enemy" />
+    <Entry Key="2861664438" Color="1" Value="Enemy Predicted FOM" />
+    <Entry LangId="marker_info_heli" Color="1" Value="Support Chopper" />
+    <Entry LangId="marker_info_heli_battle" Color="1" Value="Gunship" />
+    <Entry LangId="marker_info_item" Color="1" Value="Item" />
+    <Entry LangId="marker_info_item_tape" Color="1" Value="Cassette Tape" />
+    <Entry Key="1006295328" Color="1" Value="Last Final Location" />
+    <Entry Key="384865711" Color="1" Value="Last Known Position" />
+    <Entry Key="4059712991" Color="1" Value="Danger High" />
+    <Entry Key="485341641" Color="1" Value="Danger Low" />
+    <Entry Key="1267939722" Color="1" Value="Danger Moderate" />
+    <Entry LangId="marker_info_mission_target" Color="1" Value="Target" />
+    <Entry LangId="marker_info_mission_targetArea" Color="1" Value="Target FOM" />
+    <Entry LangId="marker_info_moai" Color="1" Value="Moai" />
+    <Entry Key="4124011507" Color="1" Value="Marker" />
+    <Entry Key="1087705302" Color="1" Value="Switchboard" />
+    <Entry Key="172741102" Color="1" Value="Searchlight" />
+    <Entry Key="4111360919" Color="1" Value="Snake" />
+    <Entry Key="1062435685" Color="1" Value="Raiden" />
+    <Entry Key="4025703634" Color="1" Value="Rendezvous Point" />
+    <Entry Key="1611708390" Color="1" Value="Suppressor" />
+    <Entry Key="3340025643" Color="1" Value="Surveillance Camera" />
+    <Entry LangId="marker_info_truck" Color="1" Value="Truck" />
+    <Entry LangId="marker_info_unknown" Color="1" Value="???" />
+    <Entry LangId="marker_info_vehicle" Color="1" Value="Vehicle" />
+    <Entry LangId="marker_info_vehicle_4wd" Color="1" Value="Four-Wheel Drive" />
+    <Entry Key="293649262" Color="1" Value="Directional Mine" />
+    <Entry Key="2765426263" Color="1" Value="Rivals List" />
+    <Entry Key="788640278" Color="1" Value="&lt;I=G=PAD_Y&gt; Toggle MAP/NAV" />
+    <Entry Key="70909721" Color="1" Value="Map/Aerial Photo" />
+    <Entry Key="1451906161" Color="1" Value="&lt;I=G=PAD_L2&gt;&lt;I=G=PAD_R2&gt; Zoom In/Out" />
+    <Entry Key="1062118994" Color="1" Value="MOVE" />
+    <Entry Key="2019455096" Color="1" Value="Next" />
+    <Entry Key="3088772035" Color="1" Value="Photo" />
+    <Entry Key="4051751750" Color="1" Value="Play Song" />
+    <Entry Key="2274275606" Color="1" Value="Back" />
+    <Entry Key="2009800094" Color="1" Value="Resume Game" />
+    <Entry Key="269230239" Color="1" Value="Select Data" />
+    <Entry Key="424259850" Color="1" Value="&lt;I=G=PAD_X&gt; Set Helicopter Music" />
+    <Entry Key="3521295453" Color="1" Value="&lt;I=G=PAD_X&gt; Disable Helicopter Music" />
+    <Entry Key="1122914812" Color="1" Value="&lt;I=G=DECISION&gt; Set Marker" />
+    <Entry Key="3642160803" Color="1" Value="Switch Tape" />
+    <Entry Key="3033545620" Color="1" Value="Add/Remove Rival" />
+    <Entry Key="2641075775" Color="1" Value="Rivals List" />
+    <Entry Key="3228410966" Color="1" Value="Switch Missions" />
+    <Entry LangId="active_defeat" Color="1" Value="Display Gamercard" />
+    <Entry Key="3467818540" Color="1" Value="Display Profile" />
+    <Entry Key="3892029991" Color="1" Value="Display by Rank" />
+    <Entry Key="3518249919" Color="1" Value="Launcher Ammo" />
+    <Entry Key="2539067131" Color="1" Value="Launcher Ammo (Non-lethal)" />
+    <Entry LangId="marker_ammo_pri" Color="1" Value="Ammo (Primary)" />
+    <Entry Key="1807962292" Color="1" Value="Ammo (Primary, Non-lethal)" />
+    <Entry LangId="marker_ammo_sco" Color="1" Value="Ammo (Secondary)" />
+    <Entry Key="1885605065" Color="1" Value="Ammo (Secondary, Non-lethal)" />
+    <Entry LangId="marker_attack_point" Color="1" Value="Strike Target" />
+    <Entry Key="3834221767" Color="1" Value="(Alert Level: High)" />
+    <Entry Key="1937259991" Color="1" Value="(Alert Level: Low)" />
+    <Entry Key="2933194726" Color="1" Value="(Alert Level: Moderate)" />
+    <Entry LangId="marker_bird" Color="1" Value="Bird" />
+    <Entry LangId="marker_chara_miller" Color="1" Value="Miller" />
+    <Entry LangId="marker_chara_ocelot" Color="1" Value="Ocelot" />
+    <Entry LangId="marker_container" Color="1" Value="Container" />
+    <Entry LangId="marker_d_dog" Color="1" Value="D-Dog" />
+    <Entry LangId="marker_diamond_gem" Color="1" Value="Rough Diamond" />
+    <Entry LangId="marker_donkey" Color="1" Value="Donkey" />
+    <Entry LangId="marker_ene_soviet" Color="1" Value="Soviet Soldier" />
+    <Entry LangId="marker_ene_unknown" Color="1" Value="Unknown" />
+    <Entry LangId="marker_enemyarea_elite" Color="1" Value="Enemy FOM (Elite)" />
+    <Entry LangId="marker_enemyarea_skill" Color="1" Value="Enemy FOM (Specialist)" />
+    <Entry Key="3980845704" Color="1" Value="Enemy FOM (Sniper)" />
+    <Entry LangId="marker_enemyarea_trans" Color="1" Value="Enemy FOM (Interpreter)" />
+    <Entry LangId="marker_goat" Color="1" Value="Goat" />
+    <Entry LangId="marker_horse" Color="1" Value="Horse" />
+    <Entry LangId="marker_hostage" Color="1" Value="Prisoner" />
+    <Entry Key="1984117242" Color="1" Value="Anti-Air Cannon" />
+    <Entry Key="2068872527" Color="1" Value="Gun Emplacement" />
+    <Entry Key="90047453" Color="1" Value="Mortar" />
+    <Entry LangId="marker_info_LZ" Color="1" Value="Landing Zone (Selected)" />
+    <Entry Key="2929258794" Color="1" Value="Landing Zone (Not Selected)" />
+    <Entry LangId="marker_info_tank" Color="1" Value="Tank" />
+    <Entry LangId="marker_information" Color="1" Value="Intel" />
+    <Entry LangId="marker_mission_start_point" Color="1" Value="Mission Start Point" />
+    <Entry Key="232899582" Color="1" Value="Enemy Comms Network: Down" />
+    <Entry Key="210664715" Color="1" Value="Enemy Comms Network: Active" />
+    <Entry LangId="marker_quiet" Color="1" Value="Quiet" />
+    <Entry LangId="marker_sheep" Color="1" Value="Sheep" />
+    <Entry LangId="marker_supply" Color="1" Value="Supply Box" />
+    <Entry LangId="marker_supply_point" Color="1" Value="Supply Drop Point" />
+    <Entry LangId="marker_wep_assault" Color="1" Value="Assault Rifle" />
+    <Entry LangId="marker_wep_grenade" Color="1" Value="Grenades" />
+    <Entry LangId="marker_wep_grenade_launcher" Color="1" Value="Grenade Launcher" />
+    <Entry LangId="marker_wep_handgun" Color="1" Value="Handgun" />
+    <Entry LangId="marker_wep_machinegun" Color="1" Value="Machine Gun" />
+    <Entry Key="1435267756" Color="1" Value="Launcher" />
+    <Entry LangId="marker_wep_shotgun" Color="1" Value="Shotgun" />
+    <Entry Key="1765916988" Color="1" Value="Smoke Grenade" />
+    <Entry LangId="marker_wep_sniper" Color="1" Value="Sniper Rifle" />
+    <Entry Key="3077775232" Color="1" Value="Stun Grenade" />
+    <Entry Key="3221990119" Color="1" Value="Submachine Gun" />
+    <Entry Key="23944144" Color="1" Value="Sleeping Gas Grenade" />
+    <Entry LangId="marker_wolf" Color="1" Value="Wolf" />
+    <Entry LangId="marker_info_vantage_point" Color="1" Value="Vantage Point" />
+    <Entry Key="2922818196" Color="1" Value="Toilet" />
+    <Entry LangId="marker_dustbox" Color="1" Value="Dumpster" />
+    <Entry LangId="marker_power" Color="1" Value="Power System" />
+    <Entry LangId="marker_aa_radar" Color="1" Value="Anti-Air Radar" />
+    <Entry LangId="marker_antenna" Color="1" Value="Antenna" />
+    <Entry LangId="marker_comm_inst" Color="1" Value="Transmitter" />
+    <Entry Key="1506956695" Color="1" Value="&lt;I=G=PAD_X&gt; Intel Radio" />
+    <Entry Key="1872916835" Color="1" Value="&lt;I=G=PAD_Y&gt;Play Briefing Tape" />
+    <Entry Key="3179341811" Color="1" Value="&lt;I=G=DECISION&gt; Change Assignment" />
+    <Entry Key="2224402983" Color="1" Value="&lt;I=G=PAD_L3&gt; Reset Coordinates" />
+    <Entry Key="2896705580" Color="1" Value="&lt;I=G=PAD_X&gt; Select/Deselect" />
+    <Entry Key="1178325929" Color="1" Value="Cancel" />
+    <Entry Key="1909877280" Color="1" Value="&lt;I=G=DECISION&gt; OK" />
+    <Entry Key="2457683943" Color="1" Value="Enemy FOM (Wanderer)" />
+    <Entry Key="1983390884" Color="1" Value="Naked Woman" />
+    <Entry LangId="marker_hostage_hamid" Color="1" Value="Hamid Survivor" />
+    <Entry Key="2833962039" Color="1" Value="Predicted Minefield" />
+    <Entry LangId="marker_area_wildlife" Color="1" Value="Wild Animal Habitat" />
+    <Entry Key="533249452" Color="1" Value="Capturable Animal Habitat" />
+    <Entry LangId="marker_area_medicinal_plant" Color="1" Value="Medicinal Plants Region" />
+    <Entry Key="1648747357" Color="1" Value="Vehicle Drop Point" />
+    <Entry Key="714769688" Color="1" Value="Buddy Drop Point" />
+    <Entry Key="3772671080" Color="1" Value="Quiet (Reconning)" />
+    <Entry Key="3395206052" Color="1" Value="Sniping Point (Not Selected)" />
+    <Entry Key="525745728" Color="1" Value="Sniping Point (Selected)" />
+    <Entry LangId="marker_wep_molotov_cocktail" Color="1" Value="Molotov Cocktail" />
+    <Entry Key="789538686" Color="1" Value="Flying Disk" />
+    <Entry Key="3356316734" Color="1" Value="BAIT BOTTLE" />
+    <Entry LangId="marker_wep_C4" Color="1" Value="Radio-Detonated Explosive" />
+    <Entry Key="4224696381" Color="1" Value="Directional Mine" />
+    <Entry Key="950317059" Color="1" Value="Sleeping Gas Mine" />
+    <Entry LangId="marker_wep_antitank_mine" Color="1" Value="Anti-Tank Mine" />
+    <Entry Key="1644882125" Color="1" Value="Electromagnetic Net Mine" />
+    <Entry Key="1002999756" Color="1" Value="Capture Cage" />
+    <Entry LangId="marker_wep_decoy" Color="1" Value="Decoy" />
+    <Entry LangId="marker_wep_active_decoy" Color="1" Value="Active Decoy" />
+    <Entry Key="1226638030" Color="1" Value="Capture Cage (Full)" />
+    <Entry LangId="marker_ene_pf" Color="1" Value="PF Soldier" />
+    <Entry LangId="marker_ene_xof" Color="1" Value="XOF Soldier" />
+    <Entry LangId="marker_ene_dd" Color="1" Value="DD Soldier" />
+    <Entry LangId="marker_ene_boys" Color="1" Value="Child Soldier" />
+    <Entry Key="3540140652" Color="1" Value="Puppet Soldier" />
+    <Entry Key="755402833" Color="1" Value="Wandering Puppet" />
+    <Entry LangId="marker_ene_mb" Color="1" Value="Old Mother Base Soldier" />
+    <Entry LangId="marker_hostage_boys" Color="1" Value="Child Prisoner" />
+    <Entry LangId="marker_puppy" Color="1" Value="Puppy" />
+    <Entry Key="3426736839" Color="1" Value="Mother Base Staff" />
+    <Entry Key="4280179472" Color="1" Value="FOB Staff" />
+    <Entry Key="3699070171" Color="1" Value="Sahelanthropus" />
+    <Entry LangId="marker_ene_skulls" Color="1" Value="Skull Soldier" />
+    <Entry LangId="marker_gun_camera" Color="1" Value="Gun Camera" />
+    <Entry Key="705038149" Color="1" Value="UAV" />
+    <Entry LangId="marker_d-horse" Color="1" Value="D-Horse" />
+    <Entry LangId="marker_okapi" Color="1" Value="Okapi" />
+    <Entry LangId="marker_jackal" Color="1" Value="Jackal" />
+    <Entry LangId="marker_bear" Color="1" Value="Bear" />
+    <Entry LangId="marker_nuclear" Color="1" Value="Nuclear Weapon" />
+    <Entry LangId="marker_target_forecast_path" Color="1" Value="Target Predicted Route" />
+    <Entry LangId="marker_walker_gear" Color="1" Value="Walker Gear" />
+    <Entry LangId="marker_unkown_info" Color="1" Value="Unconfirmed Intel" />
+    <Entry LangId="marker_battle_gear" Color="1" Value="Battle Gear" />
+    <Entry Key="3208143697" Color="1" Value="&lt;I=G=PAD_X&gt; OK" />
+    <Entry Key="1657214500" Color="1" Value="&lt;I=G=PAD_Y&gt; Switch Display" />
+    <Entry Key="1565192095" Color="1" Value="&lt;I=G=PAD_LS&gt; Select Slot" />
+    <Entry LangId="marker_delivery" Color="1" Value="Delivery Point" />
+    <Entry Key="3445058847" Color="1" Value="Shock Decoy" />
+    <Entry Key="926473732" Color="1" Value="Fulton Extraction Device" />
+    <Entry LangId="marker_processed_res" Color="1" Value="Processed Materials" />
+    <Entry LangId="marker_tape" Color="1" Value="Cassette Tape" />
+    <Entry LangId="marker_keyitem" Color="1" Value="Key Item" />
+    <Entry LangId="marker_emblem" Color="1" Value="Emblem Part" />
+    <Entry LangId="marker_invoice" Color="1" Value="Invoice" />
+    <Entry Key="3291360965" Color="1" Value="Exposé" />
+    <Entry LangId="marker_ene_cfa" Color="1" Value="CFA Soldier" />
+    <Entry LangId="marker_ene_coyote" Color="1" Value="Rogue Coyote Soldier" />
+    <Entry LangId="marker_ene_zrs" Color="1" Value="ZRS Soldier" />
+    <Entry LangId="marker_ene_translator" Color="1" Value="Interpreter" />
+    <Entry LangId="marker_ene_tailing_trgt" Color="1" Value="Tailing Target" />
+    <Entry LangId="marker_staff_hostage" Color="1" Value="Hostage" />
+    <Entry LangId="marker_chara_codetalker" Color="1" Value="Code Talker" />
+    <Entry LangId="marker_chara_quiet" Color="1" Value="Quiet" />
+    <Entry LangId="marker_chara_huey" Color="1" Value="Dr. Emmerich" />
+    <Entry LangId="marker_chara_malak" Color="1" Value="Malak" />
+    <Entry LangId="marker_chara_ishmel" Color="1" Value="Ishmael" />
+    <Entry LangId="marker_chara_skullface" Color="1" Value="Skull Face" />
+    <Entry LangId="marker_chara_shabani" Color="1" Value="Shabani" />
+    <Entry LangId="marker_chara_eli" Color="1" Value="Eli" />
+    <Entry LangId="marker_chara_whitemanba" Color="1" Value="White Mamba" />
+    <Entry LangId="marker_chara_paz" Color="1" Value="Paz" />
+    <Entry LangId="marker_chara_unknown" Color="1" Value="Unknown" />
+    <Entry Key="2282185995" Color="1" Value="PLACE/REMOVE MARKER" />
+    <Entry Key="2653147980" Color="1" Value="RESUPPLY AMMO/FULTON" />
+    <Entry Key="1934386376" Color="1" Value="QUIET (ATTACK)" />
+    <Entry Key="1118105798" Color="1" Value="QUIET (SCOUT)" />
+    <Entry Key="3304156727" Color="1" Value="HELICOPTER" />
+    <Entry Key="103327279" Color="1" Value="REMOVE ALL MARKERS" />
+    <Entry Key="1441027558" Color="1" Value="&lt;I=G=DECISION&gt; Construct" />
+    <Entry Key="4062870610" Color="1" Value="Unit Function Help" />
+    <Entry Key="2573899807" Color="1" Value="&lt;I=G=PAD_R2&gt; Sort" />
+    <Entry LangId="marker_crack" Color="1" Value="Crack" />
+    <Entry Key="409404016" Color="1" Value="Infiltrate" />
+    <Entry Key="1594437408" Color="1" Value="Request Retaliation" />
+    <Entry Key="1481008043" Color="1" Value="Request Backup" />
+    <Entry Key="2155734829" Color="1" Value="Switch Details" />
+    <Entry Key="3616883879" Color="1" Value="&lt;I=G=DECISION&gt; Purchase" />
+    <Entry Key="2864331481" Color="1" Value="Construct" />
+    <Entry Key="3101997834" Color="1" Value="&lt;I=G=DECISION&gt; Select Preset" />
+    <Entry Key="46993673" Color="1" Value="&lt;I=G=PAD_Y&gt; Change Advanced Parameters" />
+    <Entry Key="2848615715" Color="1" Value="&lt;I=G=DECISION&gt; Accept" />
+    <Entry Key="286213746" Color="1" Value="&lt;I=G=PAD_X&gt; Accept All" />
+    <Entry Key="1491274628" Color="1" Value="Predicted Material Location" />
+    <Entry LangId="marker_child" Color="1" Value="Child" />
+    <Entry LangId="marker_q_jailcell" Color="1" Value="Quiet's Cell" />
+    <Entry LangId="marker_bg_hangar" Color="1" Value="Battle Gear Hangar" />
+    <Entry Key="4134271073" Color="1" Value="Recon Point (Not Selected)" />
+    <Entry Key="28393411" Color="1" Value="Recon Point (Selected)" />
+    <Entry Key="3080860947" Color="1" Value="&lt;I=G=PAD_L2&gt;&lt;I=G=PAD_R2&gt; Select Area" />
+    <Entry Key="2128360461" Color="1" Value="&lt;I=G=PAD_X&gt; Intel Radio" />
+    <Entry Key="541070071" Color="1" Value="&lt;I=G=PAD_R3&gt; Switch Zoom" />
+    <Entry Key="4133198369" Color="1" Value="Defense Log" />
+    <Entry Key="1697809955" Color="1" Value="View Results" />
+    <Entry Key="3497962260" Color="1" Value="Play Log" />
+    <Entry Key="904133920" Color="1" Value="Retaliate" />
+    <Entry Key="2020088290" Color="1" Value="&lt;I=G=DECISION&gt; Support" />
+    <Entry Key="1520044294" Color="1" Value="&lt;I=G=DECISION&gt; Discontinue Support" />
+    <Entry Key="1106747092" Color="1" Value="&lt;I=G=PAD_Y&gt; Infiltrate Rival Base" />
+    <Entry Key="546864363" Color="1" Value="To Base Development" />
+    <Entry Key="1244120227" Color="1" Value="&lt;I=G=DECISION&gt; Confirm" />
+    <Entry Key="2132206883" Color="1" Value="&lt;I=G=PAD_ALL&gt; Move" />
+    <Entry Key="4045855113" Color="1" Value="&lt;I=G=PAD_L1&gt;&lt;I=G=PAD_R1&gt; Rotate" />
+    <Entry Key="3944962911" Color="1" Value="&lt;I=G=PAD_L2&gt;&lt;I=G=PAD_R2&gt; Shrink/Enlarge" />
+    <Entry Key="1914010371" Color="1" Value="&lt;I=G=PAUSE&gt; Close" />
+    <Entry Key="1015635829" Color="1" Value="&lt;I=G=PAD_ALL&gt; Switch Pages" />
+    <Entry Key="3524269380" Color="1" Value="&lt;I=G=DECISION&gt; Develop Nuke" />
+    <Entry Key="4281048452" Color="1" Value="&lt;I=G=DECISION&gt; Nuclear Disposal" />
+    <Entry Key="391040831" Color="1" Value="Dispose" />
+    <Entry Key="4099936474" Color="1" Value="&lt;I=G=DECISION&gt;Finish Now" />
+    <Entry Key="1035491062" Color="1" Value="&lt;I=G=DECISION&gt;Finish Now" />
+    <Entry Key="2892915543" Color="1" Value="&lt;I=G=PAD_L2&gt; Direct Contract" />
+    <Entry Key="3054324502" Color="1" Value="Sell Materials" />
+    <Entry Key="336615889" Color="1" Value="Play" />
+    <Entry Key="958539818" Color="1" Value="Pause" />
+    <Entry Key="93162270" Color="1" Value="Security Settings" />
+    <Entry Key="2172011722" Color="1" Value="&lt;I=G=PAD_X&gt; Purchase" />
+    <Entry Key="2530752071" Color="1" Value="Recommended Settings" />
+    <Entry LangId="marker_bprint" Color="1" Value="Blueprint" />
+    <Entry LangId="marker_exit" Color="1" Value="Entrance/Exit" />
+    <Entry LangId="marker_enemy_forecast_path" Color="1" Value="Enemy Predicted Route" />
+    <Entry Key="3892387481" Color="1" Value="OK" />
+    <Entry Key="84042473" Color="1" Value="Guide" />
+    <Entry Key="1827896549" Color="1" Value="&lt;I=G=DECISION&gt; Deploy" />
+    <Entry Key="2706538318" Color="1" Value="&lt;I=G=PAD_R2&gt; PF Point(s) Exchange" />
+    <Entry Key="3840321416" Color="1" Value="&lt;I=G=PAD_R2&gt; PF Grade" />
+    <Entry Key="60481121" Color="1" Value="&lt;I=G=PAD_R2&gt; To Control Panel" />
+    <Entry Key="2964521580" Color="1" Value="&lt;I=G=PAD_R2&gt; To Tape List" />
+    <Entry Key="2416261401" Color="1" Value="&lt;I=G=PAD_Y&gt;Stop Briefing Tape" />
+    <Entry Key="3146701806" Color="1" Value="&lt;I=G=PAD_X&gt; Relocate FOB" />
+    <Entry Key="2080517939" Color="1" Value="&lt;I=G=DECISION&gt; Close" />
+    <Entry Key="3484566302" Color="1" Value="&lt;I=G=PAD_R2&gt; Deployment Cost" />
+    <Entry Key="3661399772" Color="1" Value="&lt;I=G=PAD_X&gt; Viewer ON/OFF" />
+    <Entry Key="798656951" Color="1" Value="&lt;I=G=PAD_UP&gt;&lt;I=G=PAD_DOWN&gt; Select" />
+    <Entry LangId="marker_ammo_sup" Color="1" Value="Ammo (Support)" />
+    <Entry LangId="marker_shower" Color="1" Value="Shower" />
+    <Entry Key="1063063973" Color="1" Value="&lt;I=G=PAD_X&gt; Train" />
+    <Entry LangId="marker_wep_shield" Color="1" Value="Shield" />
+    <Entry LangId="marker_wormhole" Color="1" Value="Wormhole" />
+    <Entry LangId="marker_ene_wp_supplier" Color="1" Value="Arms Dealer" />
+    <Entry Key="3235528312" Color="1" Value="&lt;I=G=PAD_ALL&gt; Select" />
+    <Entry Key="3517333669" Color="1" Value="&lt;I=G=PAD_UP&gt;&lt;I=G=PAD_DOWN&gt; Select" />
+    <Entry Key="195594377" Color="1" Value="&lt;I=G=DECISION&gt; Enter Name" />
+    <Entry Key="187532423" Color="1" Value="&lt;I=G=DECISION&gt; Enter Month of Birth" />
+    <Entry Key="454212750" Color="1" Value="&lt;I=G=DECISION&gt; Enter Day of Birth" />
+    <Entry Key="1841887435" Color="1" Value="&lt;I=G=PAD_R2&gt; Infiltrate" />
+    <Entry Key="1727649939" Color="1" Value="MB Coins" />
+    <Entry Key="3924491102" Color="1" Value="Purchased %d/%d/%d %s:%s:%s (YYYY/MM/DD HH:MM:SS)" />
+    <Entry Key="853099113" Color="1" Value="Purchased [%d MB Coins]&#xA;Current MB Coins: %d&#xA;Valid Until: %d/%d/%d %s:%s:%s (YYYY/MM/DD HH:MM:SS)" />
+    <Entry Key="3331212220" Color="1" Value="Purchased [%d MB Coins]&#xA;Current MB Coins: %d" />
+    <Entry Key="1096544788" Color="1" Value="Spent %d/%d/%d %s:%s:%s (YYYY/MM/DD HH:MM:SS)" />
+    <Entry Key="3709935185" Color="1" Value="Purchased [%s]&#xA;Spent [%d MB Coins]&#xA;Current MB Coins: %d&#xA;%s" />
+    <Entry Key="331831657" Color="1" Value="Expired %d/%d/%d %s:%s:%s (YYYY/MM/DD HH:MM:SS)" />
+    <Entry Key="438452232" Color="1" Value="[%d MB Coins] have passed their validity date and expired&#xA;Current MB Coins: %d" />
+    <Entry Key="1883642248" Color="1" Value="&lt;I=G=PAD_Y&gt; Reset" />
+    <Entry Key="1475442942" Color="1" Value="&lt;I=G=DECISION&gt; Develop" />
+    <Entry Key="3589371030" Color="1" Value="&lt;I=G=DECISION&gt; Supply Drop" />
+    <Entry Key="1368897523" Color="1" Value="Soldier" />
+    <Entry Key="953983036" Color="1" Value="Soldier" />
+    <Entry Key="2297983760" Color="1" Value="Soldier" />
+    <Entry Key="428544160" Color="1" Value="Soldier" />
+    <Entry Key="1954879599" Color="1" Value="HQ" />
+    <Entry Key="1054763012" Color="1" Value="Snake" />
+    <Entry Key="3223196574" Color="1" Value="Miller" />
+    <Entry Key="212163555" Color="1" Value="Ocelot" />
+    <Entry Key="2525095410" Color="1" Value="Nurse" />
+    <Entry Key="1859105205" Color="1" Value="Doctor" />
+    <Entry Key="1133390495" Color="1" Value="Doctor" />
+    <Entry Key="2879531546" Color="1" Value="Zero" />
+    <Entry Key="445170590" Color="1" Value="Doctor" />
+    <Entry Key="3422442414" Color="1" Value="The Man on Fire" />
+    <Entry Key="403891939" Color="1" Value="CP" />
+    <Entry Key="3520408867" Color="1" Value="Chico" />
+    <Entry Key="2046613161" Color="1" Value="Paz" />
+    <Entry Key="3554952101" Color="1" Value="Pequod" />
+    <Entry Key="2191951311" Color="1" Value="Huey" />
+    <Entry Key="188782011" Color="1" Value="Man" />
+    <Entry Key="2349059678" Color="1" Value="Ahab" />
+    <Entry Key="935141236" Color="1" Value="Ishmael" />
+    <Entry Key="2833609326" Color="1" Value="Skull Face" />
+    <Entry Key="2716400403" Color="1" Value="Medic" />
+    <Entry Key="2907929053" Color="1" Value="Nurse" />
+    <Entry Key="2686971855" Color="1" Value="Quiet" />
+    <Entry Key="2048326598" Color="1" Value="Patient" />
+    <Entry Key="2092532173" Color="1" Value="Patient" />
+    <Entry Key="623864891" Color="1" Value="Patient" />
+    <Entry Key="1237372946" Color="1" Value="Patient" />
+    <Entry Key="2130677515" Color="1" Value="Nurse" />
+    <Entry Key="3339439992" Color="1" Value="Doctor" />
+    <Entry Key="635305137" Color="1" Value="Doctor" />
+    <Entry Key="3542117182" Color="1" Value="Patient" />
+    <Entry Key="4294717163" Color="1" Value="Patient" />
+    <Entry Key="1426808222" Color="1" Value="Patient" />
+    <Entry Key="416315603" Color="1" Value="Patient" />
+    <Entry Key="2938304137" Color="1" Value="Patient" />
+    <Entry Key="3345487018" Color="1" Value="Patient" />
+    <Entry Key="3798838515" Color="1" Value="Patient" />
+    <Entry Key="2864073232" Color="1" Value="Patient" />
+    <Entry Key="2402809584" Color="1" Value="Patient" />
+    <Entry Key="2099304324" Color="1" Value="Patient" />
+    <Entry Key="3116205951" Color="1" Value="Patient" />
+    <Entry Key="256051212" Color="1" Value="Patient" />
+    <Entry Key="2073945237" Color="1" Value="Patient" />
+    <Entry Key="3475123542" Color="1" Value="Patient" />
+    <Entry Key="1641262681" Color="1" Value="Nurse" />
+    <Entry Key="3870510375" Color="1" Value="Nurse" />
+    <Entry Key="623091341" Color="1" Value="Nurse" />
+    <Entry Key="2506563524" Color="1" Value="Soldier" />
+    <Entry Key="4210874849" Color="1" Value="Soldier" />
+    <Entry Key="1252177776" Color="1" Value="Soldier" />
+    <Entry Key="1365253508" Color="1" Value="Soldier" />
+    <Entry Key="1474163198" Color="1" Value="Soldier" />
+    <Entry Key="3449930069" Color="1" Value="Soldier" />
+    <Entry Key="700477806" Color="1" Value="Patient" />
+    <Entry Key="863825239" Color="1" Value="Patient" />
+    <Entry Key="3103870610" Color="1" Value="Soldier" />
+    <Entry Key="892646520" Color="1" Value="Patient" />
+    <Entry Key="1203712820" Color="1" Value="Patient" />
+    <Entry Key="1911227173" Color="1" Value="Soldier" />
+    <Entry Key="790840280" Color="1" Value="Soldier" />
+    <Entry Key="1380786922" Color="1" Value="Soldier" />
+    <Entry Key="1830059241" Color="1" Value="Soldier" />
+    <Entry Key="2252158209" Color="1" Value="Code Talker" />
+    <Entry Key="577450345" Color="1" Value="Patient" />
+    <Entry Key="3982892365" Color="1" Value="Shabani" />
+    <Entry Key="3992953330" Color="1" Value="Mammal Pod" />
+    <Entry Key="1383172938" Color="1" Value="Soldier" />
+    <Entry Key="1968415348" Color="1" Value="Soldier" />
+    <Entry Key="1823434382" Color="1" Value="Medic" />
+    <Entry Key="2411095004" Color="1" Value="Child soldier" />
+    <Entry Key="330082684" Color="1" Value="Child" />
+    <Entry Key="141245410" Color="1" Value="Child" />
+    <Entry Key="2723643860" Color="1" Value="Child" />
+    <Entry Key="3019352313" Color="1" Value="Eli" />
+    <Entry Key="1903063946" Color="1" Value="Strangelove" />
+    <Entry Key="3201138975" Color="1" Value="Patient" />
+    <Entry Key="3969439739" Color="1" Value="Child soldier" />
+    <Entry Key="853671502" Color="1" Value="Prisoner" />
+    <Entry Key="3638492531" Color="1" Value="Prisoner" />
+    <Entry Key="3522870747" Color="1" Value="Prisoner" />
+    <Entry Key="3291019778" Color="1" Value="Prisoner" />
+    <Entry Key="3544738680" Color="1" Value="Soldier" />
+    <Entry Key="2182204585" Color="1" Value="iDROID" />
+    <Entry Key="567688999" Color="1" Value="HIDEO" />
+    <Entry Key="473009865" Color="1" Value="Prisoner" />
+    <Entry Key="3939381312" Color="1" Value="Radio" />
+    <Entry Key="1693433091" Color="1" Value="Soldier" />
+    <Entry Key="2288795315" Color="1" Value="Soldier" />
+    <Entry Key="323520113" Color="1" Value="Soldier" />
+    <Entry Key="434818131" Color="1" Value="Soldier" />
+    <Entry Key="4272212451" Color="1" Value="Soldier" />
+    <Entry Key="2270682331" Color="1" Value="Soldier" />
+    <Entry Key="3096211535" Color="1" Value="Soldier" />
+    <Entry Key="962174719" Color="1" Value="Soldier" />
+    <Entry Key="1263895230" Color="1" Value="Soldier" />
+    <Entry Key="2628886732" Color="1" Value="Soldier" />
+    <Entry Key="4070423065" Color="1" Value="Soldier" />
+    <Entry Key="2745086313" Color="1" Value="Soldier" />
+    <Entry Key="3829914940" Color="1" Value="Soldier" />
+    <Entry Key="1014494045" Color="1" Value="Soldier" />
+    <Entry Key="3847858474" Color="1" Value="Soldier" />
+    <Entry Key="1219066057" Color="1" Value="Soldier" />
+    <Entry Key="1860978956" Color="1" Value="Prisoner" />
+    <Entry Key="3290147034" Color="1" Value="Prisoner" />
+    <Entry Key="2909624355" Color="1" Value="Prisoner" />
+    <Entry Key="3871360598" Color="1" Value="Prisoner" />
+    <Entry Key="2854854991" Color="1" Value="Prisoner" />
+    <Entry Key="884621241" Color="1" Value="Prisoner" />
+    <Entry Key="104040311" Color="1" Value="Prisoner" />
+    <Entry Key="188596117" Color="1" Value="Prisoner" />
+    <Entry Key="138254085" Color="1" Value="Prisoner" />
+    <Entry Key="65589494" Color="1" Value="Prisoner" />
+    <Entry Key="2773276652" Color="1" Value="Prisoner" />
+    <Entry Key="3871224615" Color="1" Value="Prisoner" />
+    <Entry Key="4009404913" Color="1" Value="Prisoner" />
+    <Entry Key="321856923" Color="1" Value="Prisoner" />
+    <Entry Key="3508984555" Color="1" Value="Prisoner" />
+    <Entry Key="3289806249" Color="1" Value="Prisoner" />
+    <Entry Key="2032240959" Color="1" Value="Prisoner" />
+    <Entry Key="2438671202" Color="1" Value="Prisoner" />
+    <Entry Key="1795950877" Color="1" Value="CP" />
+    <Entry Key="179122038" Color="1" Value="CP" />
+    <Entry Key="3765252275" Color="1" Value="CP" />
+    <Entry Key="2554392398" Color="1" Value="Child soldier" />
+    <Entry Key="3728283548" Color="1" Value="Child soldier" />
+    <Entry Key="2587280467" Color="1" Value="Child soldier" />
+    <Entry Key="2382022121" Color="1" Value="Child soldier" />
+    <Entry Key="2816649549" Color="1" Value="Radio" />
+    <Entry Key="2373079536" Color="1" Value="Captain" />
+    <Entry LangId="cmmn_ene_soviet" Color="1" Value="Soviet" />
+    <Entry LangId="cmmn_ene_coyote" Color="1" Value="Rogue Coyote" />
+    <Entry LangId="cmmn_ene_pf" Color="1" Value="PF" />
+    <Entry LangId="cmmn_ene_cfa" Color="1" Value="CFA" />
+    <Entry LangId="cmmn_ene_zrs" Color="1" Value="ZRS" />
+    <Entry LangId="cmmn_ene_xof" Color="1" Value="XOF" />
+    <Entry LangId="marker_ene_elite" Color="1" Value="Elite" />
+    <Entry LangId="marker_ene_skill" Color="1" Value="Specialist" />
+    <Entry Key="1347449561" Color="1" Value="&lt;I=G=PAD_R3&gt; Auto Assign" />
+    <Entry LangId="marker_rodent" Color="1" Value="Rodent" />
+    <Entry LangId="marker_rabbit" Color="1" Value="Rabbit" />
+    <Entry Key="3382469598" Color="1" Value="Close" />
+  </Entries>
+</LangFile>

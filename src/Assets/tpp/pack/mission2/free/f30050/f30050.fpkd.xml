@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="f30050.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/ui/Subtitles/boot/f30050_subtitles_boot.fox2" />
+    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/music_telop.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/single_player2_instance.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/player2_vram_motion_loader.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/player/game_object/player2_pipe_motion.fox2" />
+    <Entry FilePath="/Assets/tpp/level_asset/chara/heli/support_heli_mtbs.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_trap.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_sound_se.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_sound_music.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_sequence.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_radio.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_npc.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_marker.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_item.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_heli.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_collectible.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/plv/plv0_main0_def.parts" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/weapon/fx_tpp_wepltb04_s0.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/smoke/fx_tpp_smkflr01_m1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfrpg01_s0MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfgg01_s0FG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfbkfrpg01_s0MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthdnwblr01d_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthdnwblr01_s5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchuthblh00_s3.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchnadblhsmk00_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchlpbplv00_s5MD.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrmchsrclgt01flr_m5.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrmchsrclgt01_m5MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/explosion/fx_tpp_expmch03_m2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlnslgt15_s2VG.vfxlf" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/plv/plv.veh" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/plv/plv_defense_target.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/plv/plv.phsd" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/plv/plv.ph" />
+    <Entry FilePath="/Assets/tpp/sound/package/vox_f30050.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/vehicle_plv_media.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_mtbs_phase.sdf" />
+    <Entry FilePath="/Assets/tpp/script/mission/mission_main.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/story/s10070/npc_block.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_sound.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_sequence.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_radio.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_enemy.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30050/f30050_demo.lua" />
+  </Entries>
+  <References />
+</ArchiveFile>

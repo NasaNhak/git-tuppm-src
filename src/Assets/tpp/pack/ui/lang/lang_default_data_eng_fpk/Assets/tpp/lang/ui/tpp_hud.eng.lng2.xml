@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="1429877049" Color="1" Value="CATEGORY" />
+    <Entry Key="3054879075" Color="1" Value="DMG" />
+    <Entry Key="2088011168" Color="1" Value="ZZZ" />
+    <Entry Key="1658083500" Color="1" Value="STN" />
+    <Entry Key="80995366" Color="1" Value="PRIMARY WEAPON (HIP)" />
+    <Entry Key="1366510762" Color="1" Value="PRIMARY WEAPON (BACK)" />
+    <Entry Key="2305549111" Color="1" Value="FULL" />
+    <Entry Key="3784429972" Color="1" Value="AMMO" />
+    <Entry Key="2658025494" Color="1" Value="---" />
+    <Entry Key="589874780" Color="1" Value="MISMATCH" />
+    <Entry Key="2990779871" Color="1" Value="ZZZ" />
+    <Entry Key="2157290135" Color="1" Value="STN" />
+    <Entry Key="860752596" Color="1" Value="EQP" />
+    <Entry Key="4049616142" Color="1" Value="SUPPORT WEAPON" />
+    <Entry Key="1279590439" Color="1" Value="SECONDARY WEAPON" />
+    <Entry Key="2206232046" Color="1" Value="ITEM" />
+    <Entry Key="1409672664" Color="1" Value="Change zoom" />
+    <Entry Key="1773778542" Color="1" Value="ELEVATION" />
+    <Entry Key="3604349637" Color="1" Value="EAST" />
+    <Entry Key="655716177" Color="1" Value="NORTH" />
+    <Entry Key="3459066385" Color="1" Value="NE" />
+    <Entry Key="4070279546" Color="1" Value="NW" />
+    <Entry Key="896113109" Color="1" Value="SOUTH" />
+    <Entry Key="3573798400" Color="1" Value="SE" />
+    <Entry Key="3423508040" Color="1" Value="SW" />
+    <Entry Key="427692412" Color="1" Value="WEST" />
+    <Entry LangId="bino_zoom" Color="1" Value="ZOOM" />
+    <Entry Key="860372738" Color="1" Value="Intel radio" />
+    <Entry Key="1524422008" Color="1" Value="NONE" />
+    <Entry Key="2679672721" Color="1" Value="Get down" />
+    <Entry Key="2294716133" Color="1" Value="Cancel" />
+    <Entry Key="1335272666" Color="1" Value="Change Function" />
+    <Entry Key="2505063035" Color="1" Value="Place/Remove Marker" />
+    <Entry Key="3185195885" Color="1" Value="Knock (lure enemy)" />
+    <Entry Key="3964541718" Color="1" Value="Fire (kill enemy)" />
+    <Entry Key="3128952223" Color="1" Value="Cover me" />
+    <Entry Key="1881607845" Color="1" Value="Cease cover" />
+    <Entry Key="2714139338" Color="1" Value="Quiet" />
+    <Entry Key="633756952" Color="1" Value="Shoot this (grenade ricochet)" />
+    <Entry Key="2006662254" Color="1" Value="DD (call)" />
+    <Entry Key="1624093462" Color="1" Value="Whistle (call)" />
+    <Entry Key="629477338" Color="1" Value="Wait" />
+    <Entry Key="2513888508" Color="1" Value="Bark" />
+    <Entry Key="3567088777" Color="1" Value="Keep 'em busy" />
+    <Entry Key="3110998215" Color="1" Value="Get it" />
+    <Entry Key="1643306307" Color="1" Value="Whistle (call D-Horse)" />
+    <Entry Key="226845478" Color="1" Value="Stay back" />
+    <Entry Key="3781163827" Color="1" Value="Whistle (call D-Walker)" />
+    <Entry Key="1858657954" Color="1" Value="Stealth Mode" />
+    <Entry Key="885103234" Color="1" Value="Search Mode" />
+    <Entry Key="1317062385" Color="1" Value="Keep watch" />
+    <Entry Key="3113328702" Color="1" Value="Intercept Mode" />
+    <Entry Key="3787558279" Color="1" Value="Wait" />
+    <Entry Key="168656649" Color="1" Value="Spit it out" />
+    <Entry Key="3573213266" Color="1" Value="Where are the rest?" />
+    <Entry Key="2172808201" Color="1" Value="Sonar (bio-detector)" />
+    <Entry Key="961939747" Color="1" Value="Take aim" />
+    <Entry Key="1487250863" Color="1" Value="Do it (kill enemy)" />
+    <Entry Key="570049524" Color="1" Value="Do it (knock out enemy)" />
+    <Entry Key="3647679286" Color="1" Value="Do it (wound enemy)" />
+    <Entry Key="3088402232" Color="1" Value="Do it (defecate)" />
+    <Entry Key="3062408579" Color="1" Value="Normal Mode" />
+    <Entry Key="409917250" Color="1" Value="Go" />
+    <Entry Key="609228034" Color="1" Value="Function" />
+    <Entry Key="58989723" Color="1" Value="Select Function/Rank" />
+    <Entry Key="1354731301" Color="1" Value="OK" />
+    <Entry Key="2015848683" Color="1" Value="Place Marker" />
+    <Entry Key="3758334928" Color="1" Value="SCANNING..." />
+    <Entry Key="432211963" Color="1" Value="UNIT SUITABILITY" />
+    <Entry Key="1529552969" Color="1" Value="SKILLS" />
+    <Entry LangId="reticle_target" Color="1" Value="TARGET" />
+    <Entry Key="595007902" Color="1" Value="LOCKED" />
+    <Entry Key="326403090" Color="1" Value="&lt;I=G=DECISION&gt; USE" />
+    <Entry Key="1085071424" Color="1" Value="SCAN COMPLETED" />
+    <Entry LangId="bino_mic" Color="1" Value="MIC" />
+    <Entry Key="2083113819" Color="1" Value="Select" />
+    <Entry Key="2195468327" Color="1" Value="&lt;I=G=PAUSE&gt;: %s" />
+    <Entry Key="1669028384" Color="1" Value="Fire (tranq enemy)" />
+    <Entry Key="2933494209" Color="1" Value="Have Quiet fire on and kill the target viewed through your binoculars." />
+    <Entry Key="2528356521" Color="1" Value="Have Quiet fire on and tranquilize the target viewed through your binoculars." />
+    <Entry Key="3481261784" Color="1" Value="Have Quiet aim at the target viewed through your binoculars. Once her aim is set, Quiet will fire in response to the &quot;Fire&quot; command, or when you next fire your weapon." />
+    <Entry Key="1226642988" Color="1" Value="Have Quiet fire at will, at targets of her choice." />
+    <Entry Key="1635660207" Color="1" Value="Have Quiet cease firing." />
+    <Entry Key="1313072863" Color="1" Value="Have Quiet shoot a grenade thrown by you, so it will detonate next to the nearest enemy." />
+    <Entry Key="4203556174" Color="1" Value="Talk to Quiet." />
+    <Entry Key="4084394436" Color="1" Value="Whistle for D-Dog to come over." />
+    <Entry Key="2446264583" Color="1" Value="Have D-Dog wait at his current position." />
+    <Entry Key="1495167482" Color="1" Value="Have D-Dog bark to attract nearby enemies." />
+    <Entry Key="1569800202" Color="1" Value="Have D-Dog attack the enemy in the center of your view, keeping the enemy busy." />
+    <Entry Key="3306436196" Color="1" Value="Have D-Dog attack the enemy in the center of your view, killing the enemy." />
+    <Entry Key="811317848" Color="1" Value="Have D-Dog attack the enemy in the center of your view, rendering the enemy unconscious." />
+    <Entry Key="3707287124" Color="1" Value="Have D-Dog attack the enemy in the center of your view, critically wounding the enemy." />
+    <Entry Key="329720035" Color="1" Value="Have D-Dog Fulton extract nearby soldiers/prisoners/wild animals." />
+    <Entry Key="3576477250" Color="1" Value="Talk to DD." />
+    <Entry Key="3903802904" Color="1" Value="Whistle for D-Horse to come over." />
+    <Entry Key="1159535405" Color="1" Value="Have D-Horse wait at the current position." />
+    <Entry Key="3656539742" Color="1" Value="Have D-Horse defecate." />
+    <Entry Key="3176962469" Color="1" Value="Whistle for D-Walker to come over." />
+    <Entry Key="3492384684" Color="1" Value="Have D-Walker disengage from its current mode." />
+    <Entry Key="3357898054" Color="1" Value="Have D-Walker engage stealth camouflage and wait." />
+    <Entry Key="110129584" Color="1" Value="Have D-Walker switch to Search Mode and mark nearby enemies." />
+    <Entry Key="431310056" Color="1" Value="Have D-Walker switch to Intercept Mode and attack nearby enemies." />
+    <Entry Key="3134698857" Color="1" Value="Intimidate the enemy and gain intel." />
+    <Entry Key="399195004" Color="1" Value="Intimidate the enemy into marking other nearby enemies." />
+    <Entry Key="1793970551" Color="1" Value="Intimidate the enemy into staying on the ground at that location." />
+    <Entry Key="646272963" Color="1" Value="Command the children to move on." />
+    <Entry Key="2846012367" Color="1" Value="Command the children to wait in place." />
+    <Entry Key="2441626489" Color="1" Value="Send a sonar ping from your prosthetic arm, to detect nearby soldiers/prisoners/wild animals." />
+    <Entry Key="3298808829" Color="1" Value="Produce a knocking sound from your prosthetic arm to attract nearby soldiers." />
+    <Entry Key="2282310330" Color="1" Value="ERROR" />
+    <Entry Key="1312761050" Color="1" Value="X" />
+    <Entry Key="3503217664" Color="1" Value="RELOAD" />
+    <Entry LangId="hud_quest_start" Color="1" Value="COMMENCING SIDE OPS" />
+    <Entry LangId="hud_quest_finish" Color="1" Value="SIDE OPS COMPLETE" />
+    <Entry Key="247750941" Color="1" Value="COMMENCING FOB MISSION" />
+    <Entry Key="148953249" Color="1" Value="FOB MISSION COMPLETE" />
+    <Entry LangId="hud_fob_abort" Color="1" Value="FOB MISSION CANCELED" />
+    <Entry LangId="hud_fob_defense" Color="1" Value="FOB DEFENSES ENGAGED" />
+    <Entry LangId="hud_fob_rival_name" Color="1" Value="Player: %s" />
+    <Entry LangId="hud_fob_rival_approach" Color="1" Value="Rival Approaching" />
+    <Entry Key="231462290" Color="1" Value="&lt;I=G=PAD_X&gt; Change Poster" />
+    <Entry Key="2511542304" Color="1" Value="&lt;I=G=ACTION&gt; Equip/Unequip Underbarrel" />
+    <Entry Key="4224088879" Color="1" Value="&lt;I=G=HUD_DECIDE&gt;: Use" />
+    <Entry LangId="mtv_The_Man_Who_Sold_The_World" Color="1" Value="&quot;The Man Who Sold The World&quot;&#xA;Written by David Bowie&#xA;Performed by Midge Ure" />
+    <Entry LangId="mtv_Sins_of_the_Father" Color="1" Value="&quot;Sins of the Father&quot;&#xA;Written by Akihiro Honda&#xA;Lyrics by Ludvig Forssell&#xA;Performed by Donna Burke" />
+    <Entry Key="2635143781" Color="1" Value="&quot;Quiet's Theme&quot;&#xA;Written by Akihiro Honda&#xA;Lyrics by Ludvig Forssell&#xA;Performed by Stefanie Joosten" />
+    <Entry LangId="mtv_Take_On_Me" Color="1" Value="&quot;Take On Me&quot;&#xA;Written by Magne Furuholmen,&#xA;Morten Harket, Pal Waaktaar&#xA;Performed by A-ha" />
+    <Entry LangId="mtv_Only_Time_Will_Tell" Color="1" Value="&quot;Only Time Will Tell&quot; &#xA;Written by John Kenneth Wetton&#xA;and Geoffrey Downes&#xA;Performed by Asia" />
+    <Entry LangId="mtv_You_Spin_Me_Round" Color="1" Value="&quot;You Spin Me Round (Like a Record)&quot;&#xA;Written by Peter Jozzepi Burns, Stephen Coy,&#xA;Michael David Percy, and Timothy John Lever&#xA;Performed by Dead or Alive" />
+    <Entry LangId="mtv_Party_All_The_Time" Color="1" Value="&quot;Party All The Time&quot;&#xA;Written by Rick James&#xA;Performed by Eddie Murphy" />
+    <Entry LangId="mtv_The_Final_Countdown" Color="1" Value="&quot;The Final Countdown&quot;&#xA;Written by Joey Tempest&#xA;Performed by Europe" />
+    <Entry LangId="mtv_Maneater" Color="1" Value="&quot;Maneater&quot;&#xA;Written by Daryl Hall, John Oates and Sara Allen&#xA;Performed by Daryl Hall and John Oates" />
+    <Entry LangId="mtv_Love_Will_Tear_Us_Apart" Color="1" Value="&quot;Love Will Tear Us Apart&quot;&#xA;Written by Ian Kevin Curtis, Peter Hook,&#xA;Stephen Paul David Morris, Bernard Sumner&#xA;Performed by Joy Division" />
+    <Entry LangId="mtv_Too_Shy" Color="1" Value="&quot;Too Shy&quot;&#xA;Written by Nick Beggs, Steven Askew, Stuart Neale,&#xA;Christopher Hamill, &amp; Jeremy Strode&#xA;Performed by Kajagoogoo" />
+    <Entry LangId="mtv_Kids_In_America" Color="1" Value="&quot;Kids In America&quot;&#xA;Written by Ricky Wilde and Marty Wilde&#xA;Performed by Kim Wilde" />
+    <Entry LangId="mtv_TRUE" Color="1" Value="&quot;True&quot;&#xA;Written by Gary Kemp&#xA;Performed by Spandau Ballet" />
+    <Entry LangId="mtv_Friday_Im_In_Love" Color="1" Value="&quot;Friday I'm In Love&quot;&#xA;Written by Perry Bamonte, Simon Johnathon Gallup,&#xA;Robert James Smith, Porl Thompson, Boris Williams&#xA;Performed by The Cure" />
+    <Entry LangId="mtv_She_Blinded_Me_With_Science" Color="1" Value="&quot;She Blinded Me With Science&quot;&#xA;Written by Thomas Dolby and Jonathan Kerr&#xA;Performed by Thomas Dolby" />
+    <Entry LangId="mtv_Dancing_With_Tears_In_My_Eyes" Color="1" Value="&quot;Dancing With Tears In My Eyes&quot;&#xA;Written by Christopher Thomas Allen,&#xA;Warren Reginald Cann, William Lee Currie, Midge Ure&#xA;Performed by Ultravox" />
+    <Entry LangId="mtv_Heavens_Divide" Color="1" Value="&quot;Heavens Divide&quot;&#xA;Written by Akihiro Honda" />
+    <Entry LangId="mtv_Koi_no_Yokushiryoku" Color="1" Value="&quot;Koi no Yokushiryoku (Love Deterrence)&quot;&#xA;Written by Akihiro Honda" />
+    <Entry LangId="mtv_Gloria" Color="1" Value="&quot;Gloria&quot;&#xA;Written by Giancarlo Bigazzi,&#xA;Umberto Tozzi and Trevor Veitch&#xA;Performed by Laura Branigan" />
+    <Entry LangId="mtv_Rebel_Yell" Color="1" Value="&quot;Rebel Yell - 1999 Digital Remaster&quot;&#xA;Written by Steve Stevens and Billy Idol&#xA;Performed by Billy Idol" />
+    <Entry LangId="mtv_Nitrogen" Color="1" Value="&quot;Nitrogen&quot;&#xA;Written by Steve Henifin" />
+    <Entry LangId="mtv_Ride_A_White_Horse" Color="1" Value="&quot;Ride A White Horse&quot;&#xA;Written by Kazuki Muraoka" />
+    <Entry LangId="mtv_A_Phantom_Pain" Color="1" Value="&quot;A Phantom Pain&quot;&#xA;Written and Performed by Ludvig Forssell" />
+    <Entry LangId="mtv_Behind_the_Drapery" Color="1" Value="&quot;Behind the Drapery&quot;&#xA;Written and Performed by Ludvig Forssell" />
+    <Entry LangId="mtv_All_the_Sun_Touches" Color="1" Value="&quot;All the Sun Touches&quot;&#xA;Written by Ludvig Forssell" />
+    <Entry LangId="mtv_Take_The_DW" Color="1" Value="&quot;Take The D.W.&quot;&#xA;Written by Kazuki Muraoka" />
+    <Entry LangId="mtv_Midnight_Mirage" Color="1" Value="&quot;Midnight Mirage&quot;&#xA;Written by Kazuki Muraoka" />
+    <Entry LangId="mtv_The_Tangerine" Color="1" Value="&quot;The Tangerine&quot;&#xA;Written by Kazuki Muraoka" />
+    <Entry LangId="mtv_How_'bout_them_zombies_ey" Color="1" Value="&quot;How 'bout them zombies ey?&quot;&#xA;Written by Ludvig Forssell" />
+    <Entry LangId="mtv_Snake_Eater" Color="1" Value="&quot;Snake Eater&quot;&#xA;Written by Norihiko Hibino&#xA;Performed by Cynthia Harrell" />
+    <Entry LangId="mtv_204863" Color="1" Value="&quot;204863&quot;&#xA;Written by Ludvig Forssell" />
+    <Entry LangId="mtv_Quiet_Life" Color="1" Value="&quot;Quiet Life&quot;&#xA;Written by David Sylvian&#xA;Performed by Japan" />
+    <Entry LangId="mtv_Dormant_Stream" Color="1" Value="&quot;Dormant Stream&quot;&#xA;Written by Ludvig Forssell" />
+    <Entry LangId="mtv_Planet_Scape" Color="1" Value="&quot;Planet Scape&quot;&#xA;Written by Steve Henifin" />
+  </Entries>
+</LangFile>
