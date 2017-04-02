@@ -6,4 +6,4 @@ http://www.nexusmods.com/metalgearsolidvtpp/mods/188?
 All the mod files. All the source and custom code is there. Code is a useful mess.
 
 # Useful links/guides:
-https://github.com/NasaNhak/git-tuppm-src/wiki/Guide:-Adding-BGM-From-Other-Missions
+1. [Guide: Adding BGM From Other Missions](https://github.com/NasaNhak/git-tuppm-src/wiki/Guide:-Adding-BGM-From-Other-Missions)
