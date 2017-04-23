@@ -239,7 +239,7 @@ local this={
 	player_customHealthPoints=2000, --VANILLA: 6000 --Min 1(LOL - have fun), Max 50410(max possible without breaking 16 bit overflow with the game's health modifiers). player_ENABLE_customHealth has to be true. Does not affect FOBs
 
 
-	--:TOOLS SETTINGS
+	--:HANDS AND TOOLS SETTINGS
 	tool_bioArm_activeSonar=3, --DEFAULT: 3 --Change the active sonar arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
 	tool_bioArm_mobility=3, --DEFAULT: 3 --Change the mobility arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
 	tool_bioArm_precision=3, --DEFAULT: 3 --Change the precision arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
