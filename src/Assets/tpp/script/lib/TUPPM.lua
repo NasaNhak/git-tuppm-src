@@ -636,7 +636,10 @@ function this.ModSettingsReloadCommonFuncs()
 	this.SetCustomCamera()
 	this.SetBuddyBondPoints()
 	--r66 Custom UI markers settings
-	this.ChangeUIMarkers()
+	this.ChangeUIElements()
+	--r67 Modify hand and tool levels
+	this.ModifyHandsLevels()
+	this.ModifyToolsLevels()
 end
 
 ---r63 Custom camera settings
@@ -833,8 +836,8 @@ function this._OnMarkerChangeToEnable(unusedArg1, unusedArg2, markedTargetId, ma
 --	,3,true)
 end
 
---r66 UI markers changing
-function this.ChangeUIMarkers()
+---r66 UI elements changing
+function this.ChangeUIElements()
 
 	if TppMission.IsFOBMission(vars.missionCode) then return end
 
@@ -869,6 +872,144 @@ function this.ChangeUIMarkers()
 	end
 end
 
+---r67 UI elements changing for demos only
+--This function only affects markers and X-ray effect and disables them after demos
+function this.ChangeUIElementsForDemos()
+
+	if TppMission.IsFOBMission(vars.missionCode) then return end
+
+	if TUPPMSettings.ui_disableHeadMarkers then
+		TppUiStatusManager.SetStatus("HeadMarker","INVALID")
+	end
+
+	if TUPPMSettings.ui_disableWorldMarkers then
+		TppUiStatusManager.SetStatus("WorldMarker","INVALID")
+	end
+
+	if
+		vars.missionCode==10240 --M43 explicitly disables the effect so continue to do the same
+		or TUPPMSettings.ui_disableXrayMarkers
+	then
+		TppSoldier2.SetDisableMarkerModelEffect{enabled=true}
+	end
+end
+
+---r67
+--Modify tools upgrades
+function this.ModifyToolsLevels()
+
+	local function GetMaxToolLevel(toolType)
+		local toolsToEquipIds={
+			[TppEquip.EQP_IT_Binocle] = {14001,14003,14004,14005},
+			[TppEquip.EQP_IT_IDroid] = {15001,15002,15003,15004},
+		}
+		local maxToolLevel = 0 --Default
+		for _, toolEquipId in ipairs(toolsToEquipIds[toolType]) do
+			if (TppMotherBaseManagement.IsEquipDevelopableWithDevelopID{equipDevelopID=toolEquipId}) then
+				maxToolLevel=maxToolLevel+1
+			end
+		end
+		return maxToolLevel
+	end
+
+	local toolTypesTable={
+		TppEquip.EQP_IT_Binocle,
+		TppEquip.EQP_IT_IDroid,
+	}
+
+	--Get and set max tool upgrade levels for all tool types the player has developed
+	local maxToolTypeDeveloped={}
+	for _,toolType in ipairs(toolTypesTable) do
+		maxToolTypeDeveloped[toolType]=GetMaxToolLevel(toolType)
+	end
+
+	--Read tool levels from TUPPM settings
+	--Also set default value of 4 and check range of 0-4
+	local toolTypeSettings={
+		[TppEquip.EQP_IT_Binocle] = math.min(math.max(TUPPMSettings.tool_intScope or 4,1),4),
+		[TppEquip.EQP_IT_IDroid] = math.min(math.max(TUPPMSettings.tool_iDroid or 4,1),4),
+	}
+
+	--Set max tool level setting based on tool upgrades developed
+	for _,toolType in ipairs(toolTypesTable) do
+		toolTypeSettings[toolType] = math.min(toolTypeSettings[toolType],maxToolTypeDeveloped[toolType])
+	end
+
+	TUPPMLog.Log("maxToolTypeDeveloped:"..tostring(InfInspect.Inspect(maxToolTypeDeveloped)),3)
+	TUPPMLog.Log("toolTypeSettings:"..tostring(InfInspect.Inspect(toolTypeSettings)),3)
+
+	--Finally set the tool upgrade level for each type
+	for _,toolType in ipairs(toolTypesTable) do
+		Player.SetItemLevel(toolType,toolTypeSettings[toolType])
+	end
+end
+
+---r67
+--Modify hands upgrades
+function this.ModifyHandsLevels()
+
+	local function GetMaxHandLevel(handType)
+		local handToEquipIds={
+			[TppEquip.EQP_HAND_ACTIVESONAR] = {18030,18031,18032},
+			[TppEquip.EQP_HAND_PHYSICAL] = {17002,17003,17004},
+			[TppEquip.EQP_HAND_PRECISION] = {17011,17012,17013},
+			[TppEquip.EQP_HAND_MEDICAL] = {17021,17022,17023},
+		}
+		local maxHandLevel = 0 --Default
+		if TppMotherBaseManagement.IsEquipDeveloped{equipID=handType} then
+			maxHandLevel=maxHandLevel+1
+		end
+		for _, handEquipId in ipairs(handToEquipIds[handType]) do
+			if (TppMotherBaseManagement.IsEquipDevelopableWithDevelopID{equipDevelopID=handEquipId}) then
+				maxHandLevel=maxHandLevel+1
+			end
+		end
+		return maxHandLevel
+	end
+
+	local handTypesTable={
+		TppEquip.EQP_HAND_ACTIVESONAR,
+		TppEquip.EQP_HAND_PHYSICAL,
+		TppEquip.EQP_HAND_PRECISION,
+		TppEquip.EQP_HAND_MEDICAL,
+	}
+
+	--Get and set max hand upgrade levels for all hand types the player has developed
+	local maxHandTypeDeveloped={}
+	for _,handType in ipairs(handTypesTable) do
+		maxHandTypeDeveloped[handType]=GetMaxHandLevel(handType)
+	end
+
+	--Read hand levels from TUPPM settings
+	--Also set default value of 3 and check range of 0-3
+	local handTypeSettings={
+		[TppEquip.EQP_HAND_ACTIVESONAR] = math.min(math.max(TUPPMSettings.tool_bioArm_activeSonar or 3,0),3),
+		[TppEquip.EQP_HAND_PHYSICAL] = math.min(math.max(TUPPMSettings.tool_bioArm_mobility or 3,0),3),
+		[TppEquip.EQP_HAND_PRECISION] = math.min(math.max(TUPPMSettings.tool_bioArm_precision or 3,0),3),
+		[TppEquip.EQP_HAND_MEDICAL] = math.min(math.max(TUPPMSettings.tool_bioArm_medical or 3,0),3),
+	}
+
+	--Set max hand level setting based on hand upgrades developed
+	--0 is not developed
+	--1 is a fake equipped (not shown as ON in dev menu) - evident by active sonar being present
+	--2,3,4 correspond to upgrades 1,2,3 for hands
+	for _,handType in ipairs(handTypesTable) do
+		handTypeSettings[handType] = math.min(handTypeSettings[handType],maxHandTypeDeveloped[handType])
+		if handTypeSettings[handType]~=0 then
+			--If hand level setting is not 0 then increment by 1 to match actual value the game accepts
+			--This skips the actual value of 1 (fake equipped) from being set
+			handTypeSettings[handType]=handTypeSettings[handType]+1
+		end
+	end
+
+	TUPPMLog.Log("maxHandTypeDeveloped:"..tostring(InfInspect.Inspect(maxHandTypeDeveloped)),3)
+	TUPPMLog.Log("handTypeSettings:"..tostring(InfInspect.Inspect(handTypeSettings)),3)
+
+	--Finally set the hand upgrade level for each type
+	for _,handType in ipairs(handTypesTable) do
+		Player.SetItemLevel(handType,handTypeSettings[handType])
+	end
+end
 -----------------------------
 --r63 Added the below functions for getting Update working, not sure if they are needed or not
 

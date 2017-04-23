@@ -239,6 +239,15 @@ local this={
 	player_customHealthPoints=2000, --VANILLA: 6000 --Min 1(LOL - have fun), Max 50410(max possible without breaking 16 bit overflow with the game's health modifiers). player_ENABLE_customHealth has to be true. Does not affect FOBs
 
 
+	--:TOOLS SETTINGS
+	tool_bioArm_activeSonar=3, --DEFAULT: 3 --Change the active sonar arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
+	tool_bioArm_mobility=3, --DEFAULT: 3 --Change the mobility arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
+	tool_bioArm_precision=3, --DEFAULT: 3 --Change the precision arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
+	tool_bioArm_medical=3, --DEFAULT: 3 --Change the medical arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
+	tool_intScope=4, --DEFAULT: 4 --Change the intScope upgrade levels. Range 1-4. IntScope upgrades must be developed or will not equip
+	tool_iDroid=4, --DEFAULT: 4 --Change the iDroid upgrade levels. Range 1-4. iDroid upgrades must be developed or will not equip
+
+
 	--:BUDDY SETTINGS
 	buddy_ENABLE_setCustomPoints=false, --DEFAULT: false --Enable to set buddy points from below. Range 0 to 100. Negative or values over 100 will max bond
 	buddy_ddBondPoints=100, --Set D-Dog's bond points

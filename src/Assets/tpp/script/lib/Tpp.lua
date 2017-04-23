@@ -363,9 +363,9 @@ function this.SetGameStatus(statusDetails)
 		end
 		for statusType,value in pairs(TppDefine.UI_STATUS_TYPE_ALL)do
 			local valueToSet=target[statusType]
-			local e=mvars.ui_unsetUiSetting
-			if IsTypeTable(e)and e[statusType]then
-				TppUiStatusManager.UnsetStatus(statusType,e[statusType])
+			local ui_unsetUiSetting=mvars.ui_unsetUiSetting
+			if IsTypeTable(ui_unsetUiSetting)and ui_unsetUiSetting[statusType]then
+				TppUiStatusManager.UnsetStatus(statusType,ui_unsetUiSetting[statusType])
 			else
 				if valueToSet then
 					TppUiStatusManager.ClearStatus(statusType)
@@ -392,6 +392,9 @@ function this.SetGameStatus(statusDetails)
 	if TUPPMSettings._debug_ENABLE then
 		TppUiStatusManager.ClearStatus("AnnounceLog") --rX44 DEBUG AID--
 	end
+
+	--r67 BUGIX: Demos were resetting marker and X-ray effect
+	TUPPM.ChangeUIElementsForDemos()
 end
 function this.GetAllDisableGameStatusTable()
 	local e={}

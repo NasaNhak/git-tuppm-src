@@ -634,7 +634,8 @@ function this.ExecuteOnReturnToMissionCallback()
 	end
 	if n then
 		TppMain.DisablePause()Player.SetPause()
-		TppUiStatusManager.ClearStatus"AnnounceLog"n()
+		TppUiStatusManager.ClearStatus"AnnounceLog"
+		n()
 		TppTerminal.AddStaffsFromTempBuffer()
 		TppSave.VarSave()
 		TppSave.SaveGameData(nil,nil,nil,true)
@@ -3200,7 +3201,8 @@ function this.OnMissionGameEndFadeOutFinish()
 end
 function this.OnMissionGameEndFadeOutFinish2nd()
 	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish2nd START",1)
-	TppUiStatusManager.ClearStatus"GmpInfo"TppStory.UpdateStorySequence{updateTiming="OnMissionClear",missionId=this.GetMissionID()}
+	TppUiStatusManager.ClearStatus"GmpInfo"
+	TppStory.UpdateStorySequence{updateTiming="OnMissionClear",missionId=this.GetMissionID()}
 	TppResult.SetMissionFinalScore()
 	this.KillDyingQuiet()
 	TppTrophy.UnlockOnBuddyFriendlyMax()

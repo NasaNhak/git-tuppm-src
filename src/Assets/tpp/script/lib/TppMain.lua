@@ -1534,8 +1534,8 @@ function this.OnMissionCanStart()
 	TUPPM.SetHeliLife()
 
 	--r66 Custom UI markers settings
-	TUPPM.ChangeUIMarkers()
-	
+	TUPPM.ChangeUIElements()
+
 	--TODO --rX66 Zombie testing
 	--	this.SetZombie()
 	--	this.UnSetZombie()
@@ -3191,6 +3191,10 @@ function this.DoSpecialThings(missionTable)
 	TUPPM.SetBuddyBondPoints()
 	--r63 Max MB Morale
 	TUPPM.MaxMBMorale()
+
+	--r67 Modify hand and tool levels
+	TUPPM.ModifyHandsLevels()
+	TUPPM.ModifyToolsLevels()
 
 end
 

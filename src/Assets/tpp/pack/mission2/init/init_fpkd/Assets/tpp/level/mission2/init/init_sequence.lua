@@ -2477,9 +2477,9 @@ sequences.Seq_Demo_LogInKonamiServer = {
 		if
 			TUPPMSettings.startup_ENABLE_reattempLogin 
 			and (TppGameMode.GetUserMode()<=TppGameMode.U_1ST_PARTY_SIGN_IN)
-			and TppUiCommand.IsShowPopup()
+			--and TppUiCommand.IsShowPopup() --rX67 Not sure if this works correctly or not
 		then
-			if loginSequencePopupTime > 2 then
+			if loginSequencePopupTime > 1 then
 				TppUiCommand.ErasePopup()
 				loginSequencePopupTime=0
 			end

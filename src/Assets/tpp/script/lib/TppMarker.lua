@@ -43,19 +43,19 @@ end
 function this.Enable(gameObjectIdOrString,radiusLevel,goalTypeInput,viewLayerInput,randomLevel,isImportant,isNew,registerMapRadioInput,iconLangId,goalLangId,isInterrogation)
 
 	--rX66 Never used for any marking by Player/Buddies
-	TUPPMLog.Log(
-	"gameObjectIdOrString:"..tostring(gameObjectIdOrString)..
-	" radiusLevel:"..tostring(radiusLevel)..
-	" goalTypeInput:"..tostring(goalTypeInput)..
-	" viewLayerInput:"..tostring(viewLayerInput)..
-	" randomLevel:"..tostring(randomLevel)..
-	" isImportant:"..tostring(isImportant)..
-	" isNew:"..tostring(isNew)..
-	" registerMapRadioInput:"..tostring(registerMapRadioInput)..
-	" iconLangId:"..tostring(iconLangId)..
-	" goalLangId:"..tostring(goalLangId)..
-	" isInterrogation:"..tostring(isInterrogation)
-	,3,true)
+	--	TUPPMLog.Log(
+	--	"gameObjectIdOrString:"..tostring(gameObjectIdOrString)..
+	--	" radiusLevel:"..tostring(radiusLevel)..
+	--	" goalTypeInput:"..tostring(goalTypeInput)..
+	--	" viewLayerInput:"..tostring(viewLayerInput)..
+	--	" randomLevel:"..tostring(randomLevel)..
+	--	" isImportant:"..tostring(isImportant)..
+	--	" isNew:"..tostring(isNew)..
+	--	" registerMapRadioInput:"..tostring(registerMapRadioInput)..
+	--	" iconLangId:"..tostring(iconLangId)..
+	--	" goalLangId:"..tostring(goalLangId)..
+	--	" isInterrogation:"..tostring(isInterrogation)
+	--	,3,true)
 
 	local gameObjectId
 	if Tpp.IsTypeString(gameObjectIdOrString)then

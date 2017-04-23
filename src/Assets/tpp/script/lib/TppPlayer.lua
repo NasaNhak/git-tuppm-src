@@ -1553,16 +1553,16 @@ function this.UseCheatCodes()
 		godModeDisabled=true
 		return
 	end
-	
+
 	--r51 Settings
 	if TUPPMSettings.cheats_ENABLE_cheatsAlwaysOn then
 		cheatModeActive=TUPPMSettings.cheats_ENABLE_cheatsAlwaysOn
 	end
 	this.ChangeCheatsStatus()
 	this.HandleGodMode()
-	
+
 	if not cheatModeActive then return end
-	
+
 	--r40 Invincible on takng damage
 	this.SetFOBInvincible()
 	this.SuperWarp()
@@ -1639,19 +1639,19 @@ end
 
 --r51 Settings - Allows for always on cheats
 function this.HandleGodMode()
---r60 Disable God mode effects
-if TUPPMSettings.cheats_DISABLE_godMode then return end
-this.EnableGodMode()
-this.DisableGodMode()
+	--r60 Disable God mode effects
+	if TUPPMSettings.cheats_DISABLE_godMode then return end
+	this.EnableGodMode()
+	this.DisableGodMode()
 end
 
 function this.EnableGodMode()
 	if not cheatModeActive then return end
 	if godModeEnabled then return end
-	
+
 	godModeEnabled=true
 	godModeDisabled=false
-	
+
 	--  if mvars.mis_missionStateIsNotInGame then
 	--    return
 	--  end
@@ -1782,10 +1782,10 @@ end
 function this.DisableGodMode()
 	if cheatModeActive then return end
 	if godModeDisabled then return end
-	
+
 	godModeEnabled=false
 	godModeDisabled=true
-	
+
 	--  if mvars.mis_missionStateIsNotInGame then
 	--    return
 	--  end
@@ -1796,7 +1796,7 @@ function this.DisableGodMode()
 
 	Player.ResetLifeMaxValue()
 	--  vars.playerStamina=1000
-	
+
 	--r51 Settings
 	this.SetCustomPlayerHealth()
 
@@ -1928,8 +1928,8 @@ function this.WarpToUserMarker(index)
 
 	--r51 Settings
 	local cheats_wormholeWarpOutHeight = math.max(TUPPMSettings.cheats_wormholeWarpOutHeight or 3,0)
-	
-	
+
+
 	--  TUPPMLog.Log("gameId: "..tostring(gameId))
 
 	if gameId==GameObject.NULL_ID then
@@ -2140,10 +2140,10 @@ function this.MissionStartCommonFunctions()
 	if TppMission.IsFOBMission(vars.missionCode)then return end
 
 	TppMain.MBMoraleBoost()
-	
+
 	if not TppMission.IsHelicopterSpace(vars.missionCode) then
-	
---		TppMain.ForceChangeWildWeather() --Will mess up weather at checkpoints like SKULLS fog
+
+		--		TppMain.ForceChangeWildWeather() --Will mess up weather at checkpoints like SKULLS fog
 
 		this.ForceActivateQuietsCellRadio() --r45 Quiet's cell radio now starts correctly with on foot deployment to Med platform
 		this.FultonHandler()
@@ -2153,7 +2153,7 @@ function this.MissionStartCommonFunctions()
 			GkEventTimerManager.Start("AutoMarkingTimer",0.01)
 		end
 		GkEventTimerManager.Start("RemoveFirstFakeHeliTimer",5)
-		
+
 		--r51 Settings
 		this.SetCustomPlayerHealth()
 		--TUPPM.SetCustomSoldierParams() --Not ALL params are reflected, needs to be load time
@@ -2162,17 +2162,17 @@ function this.MissionStartCommonFunctions()
 		if TUPPMSettings.phase_ENABLE_alwaysAlertCPs then
 			TUPPM.AlwaysAlertCPs()
 		end
-		
+
 		--rX58 No go
 		--TUPPM.SuperSprint()
-		
+
 		--r63 Set custom camera properties
 		TUPPM.SetCustomCamera()
-		
+
 		--r66 Custom UI markers settings
-		TUPPM.ChangeUIMarkers()
+		TUPPM.ChangeUIElements()
 	end
-	
+
 end
 
 --rX45 table to hold all LZ takeoff routes and print them when going to MB on foot
@@ -2223,11 +2223,11 @@ function this.Messages()
 					TppMain.ForceChangeWildWeather()
 				end,
 			},
---			{msg="PlayInit",
---				func=function()
---					TppMain.ForceChangeWildWeather()
---				end,
---			},
+			--			{msg="PlayInit",
+			--				func=function()
+			--					TppMain.ForceChangeWildWeather()
+			--				end,
+			--			},
 			{msg="Finish",
 				func=function()
 					this.MissionStartCommonFunctions()
@@ -2269,6 +2269,14 @@ function this.Messages()
 					--Coming out of Cbox
 					--					TUPPMLog.Log("OnComeOutSupplyCbox",3)
 					this.FultonHandler()
+				end
+			},
+			{
+				msg = "OnPickUpSupplyCbox",
+				func = function ()
+					--r67 Modify hand and tool levels
+					TUPPM.ModifyHandsLevels()
+					TUPPM.ModifyToolsLevels()
 				end
 			},
 			--r48 Only for NOT-DEBUG mode - Wormhole effect drops carry object and not cool as a result
@@ -2389,17 +2397,17 @@ function this.Messages()
 					--            TUPPMLog.Log("Removed marker so total can increment for: "..tostring(gameObjectId))
 				end
 			},
-			--TODO --rX55 Nope - music has to be loaded
---			{
---				msg = "StartedPullingOut",
---			
---				func = function ()
---					if not TppMission.IsMbFreeMissions(vars.missionCode) then return end
---					TppSound.SetSceneBGM("bgm_mtbs_departure")
---					TppSound.SetSceneBGMSwitch("Set_Switch_bgm_s10030_departure")
---					TppSoundDaemon.SetMute( 'HeliClosing' )
---				end
---			},
+		--TODO --rX55 Nope - music has to be loaded
+		--			{
+		--				msg = "StartedPullingOut",
+		--
+		--				func = function ()
+		--					if not TppMission.IsMbFreeMissions(vars.missionCode) then return end
+		--					TppSound.SetSceneBGM("bgm_mtbs_departure")
+		--					TppSound.SetSceneBGMSwitch("Set_Switch_bgm_s10030_departure")
+		--					TppSoundDaemon.SetMute( 'HeliClosing' )
+		--				end
+		--			},
 		--rX45 Monitor pullout routes --rX45 table to hold all LZ takeoff routes and print them when going to MB on foot
 		--      {
 		--        msg = "StartedPullingOut",
@@ -2468,20 +2476,20 @@ function this.Messages()
 			{msg="EndFadeIn",
 				sender="FadeInOnGameStart",
 				func=function()
-				--fires on: most mission starts, on-foot free and story missions, not mb on-foot, but does mb heli start --EDIT: fires on Zoo and MBQF as well, just not on MB
-				this.MissionStartCommonFunctions()
+					--fires on: most mission starts, on-foot free and story missions, not mb on-foot, but does mb heli start --EDIT: fires on Zoo and MBQF as well, just not on MB
+					this.MissionStartCommonFunctions()
 				end},
 			{msg="EndFadeIn",
 				sender="OnEndGameStartFadeIn",
 				func=function()
-				--fires on: on-foot mother base, both initial and continue
-				this.MissionStartCommonFunctions()
+					--fires on: on-foot mother base, both initial and continue
+					this.MissionStartCommonFunctions()
 				end},
 			{msg="EndFadeIn",
 				sender="FadeInOnStartMissionGame",
 				func=function()
-				--fires on: returning to heli from mission
-				this.MissionStartCommonFunctions()
+					--fires on: returning to heli from mission
+					this.MissionStartCommonFunctions()
 				end},
 			{msg="EndFadeOut",
 				sender="OnSelectCboxDelivery",
@@ -2640,7 +2648,7 @@ function this.Messages()
 			{msg="Enter",
 				sender="fallDeath_camera",
 				func=function()
-				this.SetLimitFallDeadCameraOffsetPosY(-18)
+					this.SetLimitFallDeadCameraOffsetPosY(-18)
 				end,
 				option={isExecMissionPrepare=true}},
 			{msg="Exit",
@@ -2711,7 +2719,7 @@ function this.MissionStartPlayerTypeSetting()
 	end
 
 	--r51 Settings
-	if 
+	if
 		TUPPMSettings.player_ENABLE_ddSoldiersForM2andM43 and
 		(vars.missionCode==10030 -- Mission 2 Diamond Dogs - use Avatar/DD soldiers
 		or vars.missionCode==10240) --r14 removing restriction For Mission 43 - 10240 - default DD soldiers to Avatar in the below if condition at e.ApplyTemporaryPlayerType()
@@ -2892,21 +2900,21 @@ function this.OnMessage(sender,messageId,arg0,arg1,arg2,arg3,strLogText)
 end
 function this.Update()
 	this.UpdateDeliveryWarp()
-	
+
 	--r51 Using separate update functions
 
 	--r46 Drop weapons/items :)
---	this.DropCurrentWeaponOrItem()
-	
+	--	this.DropCurrentWeaponOrItem()
+
 	--r47 Disable radio calls if cassette tape playing
---	this.DisableAllRadioIfCassettePlaying()
+	--	this.DisableAllRadioIfCassettePlaying()
 
 	--r37 CHEAT MODE
---	this.UseCheatCodes()
+	--	this.UseCheatCodes()
 
 	--r44 Enable/disable debug logs
 	--r46 Moved here
---	this.EnableDisableDebugMode()
+	--	this.EnableDisableDebugMode()
 
 	--rX45 Alternate method with distance based heli removal
 	--  this.FindDistanceFromFakeHeliForMb()
@@ -3821,9 +3829,9 @@ end
 --
 --	--Early return if both are false
 --	if not (printToFile or announceLog) then return end
---	
+--
 ----		message="vars.missionCode:"..tostring(vars.missionCode).." - "..message
---	
+--
 --	if printToFile then
 --		this.PrintToFileTex(message)
 --	end
@@ -3973,7 +3981,7 @@ end
 --function this.PrintToFileTex(message)
 --	--r47 Only for Windows
 --	if Fox.GetPlatformName()~="Windows" then return end
---	
+--
 --	--r51 Settings
 --	if not logFilePath then
 --		if not TUPPMSettings._debug_ENABLE_forcePrintLogs then return end
@@ -4020,7 +4028,7 @@ end
 --r45 Quiet's cell radio now starts correctly with on foot deployment to Med platform
 function this.ForceActivateQuietsCellRadio()
 	if vars.missionCode~=30050 then return end
-	
+
 	if f30050_sequence and f30050_sequence.PlayMusicFromQuietRoom then
 		--        if TppStory.CanArrivalQuietInMB( false ) and not TppQuest.IsActive("mtbs_q99011") then
 		--          local totalPlayTime = TppScriptVars.GetTotalPlayTime()
@@ -4069,7 +4077,7 @@ function this.RemoveFirstFakeHeli()
 	end
 
 	local route = TppMain.GetUsingRouteDetails()
-	
+
 	if route==nil then
 		return
 	end
@@ -4228,7 +4236,7 @@ function this.RemoveFirstFakeHeli2()
 	end
 
 	local route = TppMain.GetUsingRouteDetails()
-	
+
 	if route==nil then
 		return
 	end
@@ -4252,7 +4260,7 @@ function this.PullOutFakeHeli()
 	end
 
 	local route = TppMain.GetUsingRouteDetails()
-	
+
 	if route==nil then
 		return
 	end
@@ -4361,7 +4369,7 @@ end
 --Refine - not in vehicle, not on buddy
 local dropKeyButtonsHoldTime=0
 function this.DropCurrentWeaponOrItem()
-	
+
 	if TppMission.IsFOBMission(vars.missionCode) then return end
 	if vars.playerVehicleGameObjectId~=GameObject.NULL_ID then return end --takes care of vehicles, D-Horse, D-Walker and heli
 
@@ -4402,7 +4410,7 @@ end
 
 --r47 Disable radio calls if cassette tape playing
 function this.DisableAllRadioIfCassettePlaying()
-	
+
 	if not TppMusicManager.IsPlayingMusicPlayer() then return end
 	--want to play end mission result radio
 	if mvars.mis_missionStateIsNotInGame or mvars.mis_loadRequest then
@@ -4444,31 +4452,31 @@ function this.SetRealTime()
 	if time_clockScale==3600 then
 		time_clockScale=3601
 	end
-	
---	if varsclockTimeScale~=vars.clockTimeScale then
-		--    TUPPMLog.Log("vars.clockTimeScale: "..tostring(vars.clockTimeScale))
 
-		if
-			vars.clockTimeScale==3600
-		--      or (vars.clockTimeScale>=0 and vars.clockTimeScale<1) --Not necessary - high speed cam is safe
-		then
-		--      TUPPMLog.Log("Using cigar")
-		--    TppCommand.Weather.SetClockTimeScale(vars.clockTimeScale) --this defines actual time scale
+	--	if varsclockTimeScale~=vars.clockTimeScale then
+	--    TUPPMLog.Log("vars.clockTimeScale: "..tostring(vars.clockTimeScale))
+
+	if
+		vars.clockTimeScale==3600
+	--      or (vars.clockTimeScale>=0 and vars.clockTimeScale<1) --Not necessary - high speed cam is safe
+	then
+	--      TUPPMLog.Log("Using cigar")
+	--    TppCommand.Weather.SetClockTimeScale(vars.clockTimeScale) --this defines actual time scale
+	else
+		--      TUPPMLog.Log("Normal gameplay so setting time scale")
+		--r51 Settings
+		if TUPPMSettings.time_ENABLE_localComputerTime then
+			local todaysDate=os.date("*t")
+			local todaysTime=todaysDate.hour*60*60+todaysDate.min*60+todaysDate.sec
+			vars.clock=todaysTime
+			vars.clockTimeScale=1
 		else
-			--      TUPPMLog.Log("Normal gameplay so setting time scale")
-			--r51 Settings
-			if TUPPMSettings.time_ENABLE_localComputerTime then
-				local todaysDate=os.date("*t")
-				local todaysTime=todaysDate.hour*60*60+todaysDate.min*60+todaysDate.sec
-				vars.clock=todaysTime
-				vars.clockTimeScale=1
-			else
-				vars.clockTimeScale=time_clockScale
-			end
-			--      TppCommand.Weather.SetClockTimeScale(vars.clockTimeScale) --this defines actual time scale
+			vars.clockTimeScale=time_clockScale
 		end
---		varsclockTimeScale=vars.clockTimeScale
---	end
+		--      TppCommand.Weather.SetClockTimeScale(vars.clockTimeScale) --this defines actual time scale
+	end
+	--		varsclockTimeScale=vars.clockTimeScale
+	--	end
 
 end
 
