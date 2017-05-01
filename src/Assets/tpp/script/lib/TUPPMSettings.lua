@@ -1,6 +1,6 @@
 --r51 Settings file driven approach
 local this={
-	--Yes this is a lua file instead of a settings text file, I am just too lazy to write a Lua I/O read - does that make me a bad programmer? Well that's up for debate but this method saves unnecessary processing to read variables and assign them to a table
+	--Yes this is a Lua file instead of a settings text file, I am just too lazy to write a Lua I/O read - does that make me a bad programmer? Well that's up for debate but this method saves unnecessary processing to read variables and assign them to a table
 
 	--:READ THIS FIRST!
 	--DO NOT DELETE ANY ENTRIES FROM THIS FILE
@@ -9,8 +9,8 @@ local this={
 	--Variables have to be comma separated! No double commas after the last variable!
 	--Adding brand new entries will not do anything at all - they are custom conditions defined by me
 	--Multipliers are number based and will have a VANILLA game value of 1, unless specified
-	--For multiplier, do not use negative values or very large values that may result in Lua going over the 16 bit limit
-	--For all variables, no type checks have been setup so changing to non-number or non-boolean values will definitely break the game+mod combo
+	--For multipliers, do not use negative numbers or very large numbers that may result in Lua going over the 16 bit limit. Do not use anything other than a number
+	--For all variables, type checks have not been setup so changing to non-number or non-boolean values will definitely break the game+mod combo
 
 
 	--:DEBUG MODE SETTINGS
@@ -20,50 +20,50 @@ local this={
 
 
 	--:NEW GAME+ MODE SETTINGS
-	newGamePlus_ENABLE=false, --DEFAULT: false --Switches the mod to New Game + mode. BACKUP your save before you switch this on! No issues but your save state will never be the same!
+	newGamePlus_ENABLE=false, --DEFAULT: false --Switches the mod to New Game+ mode. *BACKUP YOUR SAVE* before you switch this on! There are no issues but your save state will never be the same!
 
 
 	--:HELI SETTINGS
-	heli_ENABLE_skipRides=true, --DEFAULT: true --Skips Heli Rides! Best feature ever too!
-	heli_ENABLE_forceSearchLightAlwaysOn=true, --DEFAULT: true --Force the heli search light to be always on
+	heli_ENABLE_skipRides=true, --DEFAULT: true --Enable to skip heli rides completely
+	heli_ENABLE_forceSearchLightAlwaysOn=true, --DEFAULT: true --Force the heli search light to always ON
 	heli_ENABLE_heroicMusicOnLeaveMotherbase=true, --DEFAULT: true --Plays the awesome BGM from M2 every time you leave MB via heli
-	heli_ENABLE_customLife=false, --DEFAULT: false --Set custom heli health
+	heli_ENABLE_customLife=false, --DEFAULT: false --Enable to set custom heli health
 	heli_lifePoints=10000, --Set heli health points. heli_ENABLE_customLife has to be true. No idea about vanilla heli life points but less than 8,000 and the heli starts smoking. Min 1
 
 
 	--:TIME SCALE SETTINGS
-	time_ENABLE_customScale=false, --DEFAULT: false --Allows setting a custom time scale in the game
+	time_ENABLE_customScale=false, --DEFAULT: false --Enable to allow changing of time scale
 	time_clockScale=1, --VANILLA: 20 --Set to 1 to have real time scale. time_ENABLE_customScale has to be true. Set to large values to view a time lapse. Does not time lapse soldiers like the Phantom Cigar however
-	time_ENABLE_localComputerTime=false, --DEFAULT: false --time_ENABLE_customScale has to be true. When true, the game's clock will sync with your computer clock. As soon as the Phantom Cigar is finished, time of day will sync to system time so day may turn to night!
+	time_ENABLE_localComputerTime=false, --DEFAULT: false --time_ENABLE_customScale has to be true. When true, the game's clock will sync with your computer clock. As soon as the Phantom Cigar is finished, time of day will sync to system time so day will turn to night and vice versa!
 
 
 	--:HARDCORE SETTINGS
-	hardcore_ENABLE_useCustomSoldierParams=false, --DEFAULT: false --Set custom soldier parameters below. Does not affect FOBs. Below values will only be used when this is true. Will override Hardcore mod
+	hardcore_ENABLE_useCustomSoldierParams=false, --DEFAULT: false --Enable to set custom soldier parameters below. Does not affect FOBs. Below values will only be used when this is true. Will override Hardcore mod settings
 	hardcore_maxLife=2600, --VANILLA: 2600 --Soldier torso life. Less than 530 will instant kill. Min 0
 	hardcore_maxStamina=3000, --VANILLA: 3000 --Soldier stamina. Min 0
 	hardcore_maxLimbLife=1500, --VANILLA: 1500 --Soldier limb life. Less than 530 will instant kill. Min 0
-	hardcore_maxArmorLife=7500, --VANILLA: 7500 --ARMOR life. Min 0 --Interesting, this decides only torso health for ARMORed soldiers, limbs and helmet life for ARMOR is not set via ReloadSoldier2ParameterTables
+	hardcore_maxArmorLife=7500, --VANILLA: 7500 --ARMOR life. Min 0 --This decides only torso health for ARMORed soldiers, limbs and helmet life for ARMOR is not set via ReloadSoldier2ParameterTables
 	hardcore_maxHelmetLife=500, --VANILLA: 500 --Helmet life. Min 0
 	hardcore_sleepRecoverSec=300, --VANILLA: 300 --Sleep recovery time. Set to 0 to never wake up
 	--NOT USED --hardcore_faintRecoverSec=50, --VANILLA: 50 --Faint recovery time. Does not seem to have any effect sadly :/ STN knockout time seems to be very different for different damage types. Also, a Grade 8 STN shotgun causes much longer KO times than tranq! Did not test thoroughly with other STN weapons. My guess is that STN KO times are longer cause enemies go on alert when they wake up
-	hardcore_dyingSec=60, --VANILLA: 60 --Dying time for soldiers. Set to 0 to never die
+	hardcore_dyingSec=60, --VANILLA: 60 --Dying time for soldiers when injured. Set to 0 to never die
 	hardcore_enemySightScale=1, --VANILLA: 1 --Multiplier for soldier sight. Value of 1.5 means 150%. Set to 0 to never be seen, except when using Phantom Cigar
 	hardcore_enemySoundScale=1, --VANILLA: 1 --Multiplier for soldier noise hearing. Value of 1.5 means 150%. Set to 0 to never be heard
 
 
 	--WEAPONS SETTINGS
-	weapons_ENABLE_useCustomWeaponsSettings=false, --DEFAULT: false --Enable to use custom weapon settings below. Will override Hardcore mod
-	weapons_infiniteSuppressorsValue=-1, --VANILLA: -1 --When -1 suppressors are infinite. Set to 60 to give all vanilla infinite suppressors 60 shot breaking. If you are setting this to 0, you would want to set weapons_normalSuppressorMultiplier to 0 as well. Changes may not be reflected mid mission. Min -1
-	weapons_normalSuppressorMultiplier=1, --VANILLA: 1 --Set to -1 to set infinite suppressors(very huge values have the same effect). Set to 0 to remove suppressors. Set to 2 to have twice stronger suppressors and so on. Changes may not be reflected mid mission. Min -1
+	weapons_ENABLE_useCustomWeaponsSettings=false, --DEFAULT: false --Enable to use custom weapon settings below. Will override Hardcore mod settings
+	weapons_infiniteSuppressorsValue=-1, --VANILLA: -1 --When -1 suppressors are infinite. Set to 60 to change all vanilla infinite suppressors to break after 60 shots. If you are setting this to 0, you would want to set weapons_normalSuppressorMultiplier to 0 as well. Changes may not be reflected mid mission. Min -1
+	weapons_normalSuppressorMultiplier=1, --VANILLA: 1 --Set to -1 to set infinite suppressors(very huge values have the same effect). Set to 0 to remove suppressors. Set to 2 to have two times stronger suppressors and so on. Changes may not be reflected mid mission. Min -1
 	weapons_totalAmmoMultiplier=1,  --VANILLA: 1 --Set to 0 for infinite ammo(very huge values have the same effect). Set to 2 to double the total weapon ammo. Set to the value 0.71428571428571428571428571428571 for best effect. Changes may not be reflected mid mission. Min 0
 	weapons_supportAmmoMultiplier=1, --VANILLA: 1 --Multiplier for support weapons and items ammo. Best value is 0.4. Set to 0 for infinite(large values have same effect). Min 0
 	weapons_supportMagazineValue=-1, --VANILLA: -1 --Set the amount of spare magazines you want. -1 or 0 means infinite. Affects FOBs! Min -1
 	weapons_damageMultiplier=1, --VANILLA: 1 --Multiplier for all kinds of damage! Set to 999 to max all weapon damage. Set to 0 to remove all bullet damage(Lethal headshots no longer work, Non lethal headshots still work though). A fail safe has been added to ensure damage lies between 0 and 65535. Min 0
-	weapons_weaponSwayMultiplier=1, --VANILLA: 1 --Multiplier for weapons sway in Third person/ADS mode. Best value to remove sway is 0.1. When set to 0, bullet drop effect of lethal weapons is not shown but still exists. Set to more than 1 to increase sway. Min 0
+	weapons_weaponSwayMultiplier=1, --VANILLA: 1 --Multiplier for weapons sway/accuracy in Third person/ADS mode. Best value to remove sway(max accuracy) is 0.1. When set to 0, bullet drop effect of lethal weapons is not shown but still exists. Set to more than 1 to increase sway(or decrease accuracy). Min 0
 
 
 	--CAMO SETTINGS
-	camo_ENABLE_useCustomCamoSettings=false, --DEFAULT: false --Enable to use custom camo settings below. Will override Hardcore mod
+	camo_ENABLE_useCustomCamoSettings=false, --DEFAULT: false --Enable to use custom camo settings below. Will override Hardcore mod settings
 	camo_camoIndexValue=50, --VANILLA: 50 --Camouflage index. TBH changing this seems to have little to no effect if the value is between 0 and 100. A value like 1000 will hide u in plain sight provided u have the right camo! But if they hear you, they will eventually see you. 2000 will ensure they do not even see u sprinting. Min 0
 
 
@@ -89,7 +89,7 @@ local this={
 	res_containerProcessingAmountsMultiplier=10, --DEFAULT: 10, VANILLA: 1 --Container resource reward multiplier. Min 0
 	res_containerProcessingTimeMultiplier=0.2, --DEFAULT: 0.2, VANILLA: 1 --Container processing time multiplier. Min 0
 	res_ENABLE_additionalMissionCompletionRewards=true, --DEFAULT: true --Receive a fixed amount of resources based on mission clear rank
-	res_ENABLE_doNotReduceFultonedContainerResources=true, --DEFAULT: true --Containers fultoned repeatedly in certain missions do not reduce resources received. Seems to be for mission specific containers only like in M12
+	res_ENABLE_doNotReduceFultonedContainerResources=true, --DEFAULT: true --Containers fultoned repeatedly in certain missions do not give reduced resources. Seems to be for mission specific containers only like in M12
 	res_ENABLE_doNotReduceMissionGMPReward=true, --DEFAULT: true --Mission GMP reward is not reduced upon completing a mission multiple times
 	res_ENABLE_instantRepopOfCollectibles=true, --DEFAULT: true --Instantly repopulate collectibles in the game world. This includes diamonds, processed resources and plants
 
@@ -101,29 +101,29 @@ local this={
 	mtbs_ENABLE_extraSoldiersOnMB=true, --DEFAULT: true --Allow extra soldiers on MB
 	mtbs_totalStaffCountOnEachMBCluster=36, --DEFAULT: 36, VANILLA: 18 --Sets the total staff per MB cluster. Min 18(vanilla), Max 36. mtbs_ENABLE_extraSoldiersOnMB has to be true
 	mtbs_ENABLE_moreFemalesOnMB=true, --DEFAULT: true --Allows more females on MB cluster. Min will always be 2(vanilla)
-	mtbs_ENABLE_staffOnMBQFAfterCapture=true, --DEFAULT: true --Allows staff to show up on MBQF after SKULLS/MOF have been captured
-	mtbs_ENABLE_mixedStaffForMBQF=true, --DEFAULT: true --Allow staff from all units on MBQF and allow females as well. Vanilla game only uses staff from Security team
-	mtbs_ENABLE_lethalWeaponsOnMB=true, --DEFAULT: true --Allows lethal weapons on MB and MBQF
+	mtbs_ENABLE_staffOnMBQFAfterCapture=true, --DEFAULT: true --Allows staff to show up on Quarantine platform after SKULLS/MOF have been captured
+	mtbs_ENABLE_mixedStaffForMBQF=true, --DEFAULT: true --Allow staff from all units on Quarantine platform and allow females as well. Vanilla game only uses staff from Security team
+	mtbs_ENABLE_lethalWeaponsOnMB=true, --DEFAULT: true --Allows lethal weapons on MB and Quarantine platform
 	mtbs_ENABLE_moreSaluteDialogue=true, --DEFAULT: true --Enables more salute dialogue by not disabling salutes due to story progress
 	mtbs_ENABLE_randomShifts=true, --DEFAULT: true --Enables frequent staff patrol shifts on MB
 	mtbs_ENABLE_unlockFOBGoalDoors=true, --DEFAULT: true --Unlocks FOB Goal Doors on MB
 	mtbs_ENABLE_theBratDidntReallyStealSahelan=true, --DEFAULT: true --Always show Sahelanthropus
 	mtbs_ENABLE_bbPostersOnMB=true, --DEFAULT: true --Enable BB Posters on MB even after beating M43
 	mtbs_bbPostersChance=0.15, --DEFAULT: 0.15 --Percentage(%) chance for BB posters to show up even after beating M43. Fractional value between 0 and 1. Min 0(vanilla), Max 1. mtbs_ENABLE_bbPostersOnMB has to be true
-	mtbs_dDogMovementRadius=3000, --DEFAULT: 3000, VANILLA: 45 --Define how far DD can follow you on MB. Min 45(vanilla), Max 3000(enough to cover all 7 clusters)
+	mtbs_dDogMovementRadius=3000, --DEFAULT: 3000, VANILLA: 45 --Set how far DD can follow you on MB. Min 45(vanilla), Max 3000(enough to cover all 7 clusters)
 	mtbs_ENABLE_maxStaffMorale=false, --DEFAULT: false --When enabled staff morale will always be maxed out. Never be bothered by dropping morale :)
 
 
 	--:REVENGE SYSTEM SETTINGS
 	rev_ENABLE_maxRevengeAlways=true, --DEFAULT: true --Max all revenge levels always. If rev_ENABLE_maxRevengeLvlLimitFromStart is true then all revenge levels will be maxed out irrespective of story sequence. If rev_ENABLE_maxRevengeLvlLimitFromStart is false then revenge levels will be maxed as much as the current story sequence allows
 	rev_ENABLE_maxRevengeLvlLimitFromStart=true, --DEFAULT: true --Enable max revenge level(6 - this is an index! Each revenge type has varying number of levels) irrespective of story progress
-	rev_ENABLE_customModAbilitiesProfile=true, --DEFAULT: true --Enable custom mod based abilities profile. All soldier attack and defense abilities are maxed out. Fulton shooting ability is varied from soldier to soldier for better balance, instead of having them always shoot down the balloon. If rev_ENABLE_maxRevengeAlways is true, then I suggest to make this true as well
 	rev_ENABLE_customModRevengeProfile=true, --DEFAULT: true --Enable custom mod based revenge profile. This changes the vanilla revenge settings and also adds a lot of randomization
+	rev_ENABLE_customModAbilitiesProfile=true, --DEFAULT: true --Enable custom mod based abilities profile. All soldier attack and defense abilities are maxed out. Fulton shooting ability is varied from soldier to soldier for better balance, instead of having them always shoot down the balloon. If rev_ENABLE_maxRevengeAlways is true, then I suggest to make this true as well
 	rev_ENABLE_powersForLRRPAndGuardposts=true, --DEFAULT: true --LRRP and Guardpost soldiers have revenge applied to them as well. rev_ENABLE_customModRevengeProfile has to be true
 	rev_ENABLE_weaponCombos=true, --DEFAULT: true --Enables new weapon combos. Allows weapon combos not available in vanilla game
-	rev_ENABLE_weaponsVariety=true, --DEFAULT: true --Enables weapon variety. Allows different weapons for each category
+	rev_ENABLE_weaponsVariety=true, --DEFAULT: true --Enables weapon variety. Allows different weapons for each weapon type
 	rev_ENABLE_allWeaponsInRestrictedMissions=true, --DEFAULT: true --Removes weapon restrictions from certain missions
-	rev_ENABLE_ARMORInExtraMissions=true, --DEFAULT: true --Allow use of ARMORed soldiers in free roam and extra missions
+	rev_ENABLE_ARMORInExtraMissions=true, --DEFAULT: true --Allow use of ARMORed soldiers in free roam and certain missions
 	rev_freeMissionARMORCountPerOutpost=2, --DEFAULT: 2 --Min 0(vanilla), Max 4. Is slightly buggy when playing around in free roam for long periods of time. Quit to title screen and continue to fix missing ARMOR/collision issues. rev_ENABLE_ARMORInExtraMissions has to be true
 	rev_ENABLE_allMinefields=true, --DEFAULT: true --Enable all mine fields around an outpost
 	rev_ENABLE_2ndStrongestMines=true, --DEFAULT: true --All mine fields have the 2nd strongest mines. Strongest mines cannot be marked by D-Dog
@@ -131,6 +131,7 @@ local this={
 	rev_ENABLE_moreChatDialogue=true, --DEFAULT: true --Enables more chat dialogue by not disabling chats due to story progress
 	rev_ENABLE_minOutRevengePoints=false, --DEFAULT: false --Reset revenge points to 0. This is a one time setting and you do not want it enabled all the time!
 	rev_ENABLE_maxOutRevengePoints=false, --DEFAULT: false --Max out all revenge points. This is a one time setting and you do not want it enabled all the time!
+	rev_ENABLE_maxReinforceCalls=true, --DEFAULT: true --Enables 99 reinforcement calls during combat alert. 99 calls will never really be hit as the game has some check to prevent unlimited reinforcement calls. Does not require any other revenge settings to work
 
 
 	--:REINFORCEMENTS SYSTEM SETTINGS
@@ -141,7 +142,7 @@ local this={
 
 
 	--:ENEMY PHASE SETTINGS
-	phase_ENABLE_alwaysAlertCPs=false, --DEFAULT: false --When true alerts will be triggered regularly for nearby CPs
+	phase_ENABLE_alwaysAlertCPs=false, --DEFAULT: false --When true combat alerts will be triggered constantly for nearby CPs. 
 
 
 	--:WILDCARD SOLDIER SETTINGS
@@ -154,18 +155,18 @@ local this={
 
 	--:GAMEPLAY SETTINGS
 	game_DISABLE_missionRankRestrictions=true, --DEFAULT: true --Disables rank being restricted on the use of Stealth Camo, Fulton Launcher, Parasites, Infinity Bandanna, High Grade Sneaking Suit/Battledress, Heli support, Fire support
-	game_ENABLE_autoMarking=true, --DEFAULT: true --Enables auto marking :) Best feature ever! Auto marking increments mark counter for all objects except animals and the in mission re-marking counter for disappearing SKULLS snipers/Quiet
+	game_ENABLE_autoMarking=true, --DEFAULT: true --Enables auto marking. Auto marking increments mark counter for all objects except animals and except the in mission re-marking counter for disappearing SKULLS snipers/Quiet
 	game_ENABLE_autoMarkWithoutSRank=false, --DEFAULT: false --Enables auto marking even if Intel Unit Scouting Function is not S rank. game_ENABLE_autoMarking has to be true
 	game_ENABLE_armoredVehiclesAndTanksInFreeRoam=true, --DEFAULT: true --APCs and Tanks are seen in free roam
 	game_ENABLE_hideCredits=true, --DEFAULT: true --In game credits are not shown. Removes cutscene credits as well. May separate the two later
 	game_ENABLE_highRankingSoldiersInTheField=true, --DEFAULT: true --Enables S++ and S+ soldiers in the field as average base unit level increases
-	game_ENABLE_clearCompletedTasksDuringMission=true, --DEFAULT: true --Clears mission tasks during a mission so they do not appear grayed out
+	game_ENABLE_clearCompletedTasksDuringMission=true, --DEFAULT: true --Clears mission tasks during a mission so they do not appear grayed out. They will look like incompleted onjectives.
 	game_ENABLE_mbMoraleBoost=true, --DEFAULT: true --Allow MB morale boost from time to time
 	game_ENABLE_noWaitAfterLoadingScreen=true, --DEFAULT: true --No need to hit SPACE to start a mission after loading. _debug_ENABLE will override this however
-	game_ENABLE_awardHonorMedalToStaff=true, --DEFAULT: true --Allow Honor Medal to be awarded to DD staff if a mission is S ranked with no kills and no alerts
-	game_ENABLE_fastHeliPulloutDuringFreeRoamAlert=true, --DEFAULT: true --If an alert has been triggered during free roam, the heli will pull out with a 1 second(minimum possible) delay when you get in
-	game_ENABLE_realTimeSpySearch=true,  --DEFAULT: true --Enable real time, highly accurate spy search for Intel A/S Rank Scouting Unit Function for Intel Unit. game_ENABLE_autoMarking should be false for S Rank effect to be seen
-	game_ENABLE_repopRadioCassettesInGameWorld=true, --DEFAULT: true --All radios in the game world are repopulated with Cassette tapes so that the world feels a bit more lively. This seems a little off and may not always work for a reason I haven't tracked down yet
+	game_ENABLE_awardHonorMedalToStaff=true, --DEFAULT: true --Allow Honor Medal to be awarded to DD staff if a mission is S ranked with no kills and no alerts when playing as a staff member
+	game_ENABLE_fastHeliPulloutDuringFreeRoamAlert=true, --DEFAULT: true --If an alert has been triggered during free roam, the heli will pull out with a 1 second(minimum possible) delay as you get into it
+	game_ENABLE_realTimeSpySearch=true,  --DEFAULT: true --Enable real time, highly accurate spy search for Intel A/S Rank Scouting Unit Function for Intel Unit. game_ENABLE_autoMarking should be false for effect to be seen on iDroid map
+	game_ENABLE_repopRadioCassettesInGameWorld=true, --DEFAULT: true --All radios in the game world are repopulated with cassette tapes so that the world feels a bit more lively. This seems a little off and may not always work for a reason I haven't tracked down yet
 	game_ENABLE_resetAllGimmicks=true, --DEFAULT: true --Gimmicks like cargo containers, guard towers, AA guns, mortars, machine guns etc etc are reset between missions. May separate this into individual categories in the future
 	game_timeToLittleChickenHatReuse=(24*60)*60, --DEFAULT: (24*60)*60 --Decides time(in seconds) before little chicken hat can be used again. Min 1 second, Max 1 day(vanilla). Current value is 1 day
 	game_ENABLE_missionFailureOnCombatAlert=false, --DEFAULT: false --Enables instant mission failure on combat alert
@@ -184,7 +185,7 @@ local this={
 	mbBaseDev_resourceMultiplier=1, --DEFAULT: 1, VANILLA: 1  --Base dev resources multiplier
 	mbBaseDev_ENABLE_buildTimeOverride=true, --DEFAULT: true --Allow changing base dev time
 	mbBaseDev_fixedBuildTime=10, --DEFAULT: 10 --Set a fixed time for base platform development. mbBaseDev_ENABLE_buildTimeOverride has to be true. Min 0
-
+  mbBaseDev_ENABLE_maxOfflineMBStafflimits=false, --DEFAULT: false --Set to true to exceed offline MB unit limits to accommodate 700 staff under each unit for a fully built MB. Should be used only if you are playing offline and do not own FOBs at all
 
 	--:MOTHERBASE SUPPORT SETTINGS
 	mbSup_enemySoldierEnmityMultiplier=0, --DEFAULT: 0, VANILLA:1 --This sets the multiplier for the brig time it takes for captured soldiers to convert to DD Staff. Anything higher than 1 will increase the vanilla game brig time significantly! Safe values are between 0 and 1. Min 0
@@ -223,19 +224,19 @@ local this={
 	--:PLAYER AND EQUIPMENT SETTINGS
 	player_ENABLE_avatarWithoutBeatingM46=true, --DEFAULT: true --Unlocks Avatar from the start without having to complete M46
 	player_ENABLE_avatarInM1WhenPlayingNewGame=false, --DEFAULT: false --When playing a new game, start M1 with Avatar instead of Snake
-	player_ENABLE_disablingFultonOption=true, --DEFAULT: true --Fulton disabling device is optional. When 'No Fulton Device' is equipped you cannot fulton anything. If true and when playing a new game, remember to switch to the Grade 1 Balloon Fulton at least once to re-enable fultoning
+	player_ENABLE_disablingFultonOption=true, --DEFAULT: true --Fulton disabling device is optional. When 'No Fulton Device' is equipped you cannot fulton anything. If set to true and playing a new game, remember to switch to the Grade 1 Balloon Fulton at least once to enable fultoning
 	player_ENABLE_additionalNoneWeaponSlots=true, --DEFAULT: true --Adds NONE slots for Primary Hip and Secondary weapons. Do not use these NONE slots on FOBs!
 	player_ENABLE_ddSoldiersInCutscenes=true, --DEFAULT: true --Allows use of DD soldiers and Avatar in all cutscenes
 	player_ENABLE_ddSoldiersForM2andM43=true, --DEFAULT: true --Allows use of DD soldiers and Avatar for M2 and M43
-	player_ENABLE_autoAcquirePerishableCassettes=true, --DEFAULT: true --Perishable tapes will be automatically added to your tape player between missions provided M31 has been completed
+	player_ENABLE_autoAcquirePerishableCassettes=true, --DEFAULT: true --Perishable tapes will be automatically added to your cassette player between missions provided M31 has been completed
 	player_ENABLE_equipmentDropping=true, --DEFAULT: true --Allows dropping of weapons and support items. Hold <AIM> + <TOGGLE FLASHLIGHT> for 2 seconds
 	player_ENABLE_keepWeaponsBetweenFreeMissionTransitions=true, --DEFAULT: true --Keep weapons between free roam to missions and vice versa
-	player_ENABLE_missionPrepForMoreMissions=true, --DEFAULT: true --Allows Sortie Prep for all missions except M0 and M46. Enables buddy, vehicle and time selection for certain missions
-	player_ENABLE_refreshBloodyEffectBetweenMissions=false, --DEFAULT: false --Refreshes the player between missions, easily get rid of bloody effect.  Does not remove flies effect though! This is on purpose
-	player_ENABLE_refreshFliesBetweenMissions=true, --DEFAULT: true --Refreshes the player between missions, easily get rid of flies.  Does not remove blood effect though! This is on purpose. This resets the health to max
-	player_ENABLE_stopRadioWhenPlayingCassette=true, --DEFAULT: true --Stops all radio calls when a cassette tape is playing
-	player_ENABLE_demonPointsManipViaZoo=true, --DEFAULT: true --Kill animals at the Zoo to gain 40,000 demon points each. Fulton a single animal at the Zoo to reset demon points to 0
-	player_ENABLE_customHealth=false, --DEFAULT: false --Change player health. Works even when disabling cheat mode. Does not affect FOBs
+	player_ENABLE_missionPrepForMoreMissions=true, --DEFAULT: true --Allows sortie prep for all missions except M0 and M46. Enables buddy, vehicle and time selection for certain missions
+	player_ENABLE_refreshBloodyEffectBetweenMissions=false, --DEFAULT: false --Refreshes the player between missions to easily get rid of bloody effect.  Does not remove flies effect though!
+	player_ENABLE_refreshFliesBetweenMissions=true, --DEFAULT: true --Refreshes the player between missions to easily get rid of flies. Does not remove blood effect though! Also removes player health penalty
+	player_ENABLE_stopRadioWhenPlayingCassette=true, --DEFAULT: true --Stops all radio calls when playing a cassette tape
+	player_ENABLE_demonPointsManipViaZoo=true, --DEFAULT: true --Kill animals at the Zoo to gain 86,000 demon points each. Fulton a single animal at the Zoo to reset demon points to 0
+	player_ENABLE_customHealth=false, --DEFAULT: false --Enable to change player health. Works even when disabling cheat mode. Does not affect FOBs
 	player_customHealthPoints=2000, --VANILLA: 6000 --Min 1(LOL - have fun), Max 50410(max possible without breaking 16 bit overflow with the game's health modifiers). player_ENABLE_customHealth has to be true. Does not affect FOBs
 
 

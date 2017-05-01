@@ -548,8 +548,9 @@ this.revengeDefine={
 		{SOFT_ARMOR="75%",MG=2,SHIELD=1,ARMOR=1,STRONG_WEAPON=true,COMBAT_HIGH=true,SUPER_REINFORCE=true}
 	},
 	COMBAT_4={
-		{SOFT_ARMOR="100%",SHOTGUN=4,SHIELD=2,ARMOR=2,STRONG_WEAPON=true,COMBAT_HIGH=true,SUPER_REINFORCE=true,REINFORCE_COUNT=99},
-		{SOFT_ARMOR="100%",MG=4,SHIELD=2,ARMOR=2,STRONG_WEAPON=true,COMBAT_HIGH=true,SUPER_REINFORCE=true,REINFORCE_COUNT=99}
+		--r68 BUGFIX: reinforcement calls were 99 with Combat revenge lvl 4
+		{SOFT_ARMOR="100%",SHOTGUN=4,SHIELD=2,ARMOR=2,STRONG_WEAPON=true,COMBAT_HIGH=true,SUPER_REINFORCE=true,REINFORCE_COUNT=2},
+		{SOFT_ARMOR="100%",MG=4,SHIELD=2,ARMOR=2,STRONG_WEAPON=true,COMBAT_HIGH=true,SUPER_REINFORCE=true,REINFORCE_COUNT=2}
 	},
 	COMBAT_5={
 		{SOFT_ARMOR="100%",SHOTGUN=4,SHIELD=4,ARMOR=4,STRONG_WEAPON=true,COMBAT_SPECIAL=true,SUPER_REINFORCE=true,BLACK_SUPER_REINFORCE=true,REINFORCE_COUNT=3},
@@ -665,10 +666,8 @@ if TUPPMSettings.rev_ENABLE_customModRevengeProfile then
 		--  COMBAT_SPECIAL=true, --don't know what this is for. Heavy armor maybe? But ARMOR variable directly affects heavy armor so not sure
 		--  SUPER_REINFORCE=true, --Heli
 		--  BLACK_SUPER_REINFORCE=true, --Black Heli, much higher HP
-		{SOFT_ARMOR="100%",SHOTGUN=4,SHIELD=4,ARMOR=4,STRONG_WEAPON=true,COMBAT_SPECIAL=true,SUPER_REINFORCE=true,BLACK_SUPER_REINFORCE=true,REINFORCE_COUNT=99},
-		{SOFT_ARMOR="100%",MG=4,SHIELD=4,ARMOR=4,STRONG_WEAPON=true,COMBAT_SPECIAL=true,SUPER_REINFORCE=true,BLACK_SUPER_REINFORCE=true,REINFORCE_COUNT=99}
-	--    {SOFT_ARMOR="100%",SHOTGUN=4,SHIELD=4,ARMOR=4,STRONG_WEAPON=true,COMBAT_SPECIAL=true,SUPER_REINFORCE=true,BLACK_SUPER_REINFORCE=true,REINFORCE_COUNT=2},
-	--    {SOFT_ARMOR="100%",MG=4,SHIELD=4,ARMOR=4,STRONG_WEAPON=true,COMBAT_SPECIAL=true,SUPER_REINFORCE=true,BLACK_SUPER_REINFORCE=true,REINFORCE_COUNT=2}
+		{SOFT_ARMOR="100%",SHOTGUN=4,SHIELD=4,ARMOR=4,STRONG_WEAPON=true,COMBAT_SPECIAL=true,SUPER_REINFORCE=true,BLACK_SUPER_REINFORCE=true,REINFORCE_COUNT=3},
+		{SOFT_ARMOR="100%",MG=4,SHIELD=4,ARMOR=4,STRONG_WEAPON=true,COMBAT_SPECIAL=true,SUPER_REINFORCE=true,BLACK_SUPER_REINFORCE=true,REINFORCE_COUNT=3}
 	}
 	this.revengeDefine.NIGHT_C_1={GUN_LIGHT="100%"} --K all soldiers have gun lights
 	--K Adjusted helmets, 25% allows gas masks to show up, % is divided between nvg, helmets, gas masks and heavy armor
@@ -677,6 +676,12 @@ if TUPPMSettings.rev_ENABLE_customModRevengeProfile then
 	this.revengeDefine.SMOKE_3={GAS_MASK="20%"} --r48 set to 20% --r41 set to 25%
 
 	--	TUPPMLog.Log("AFTER this.revengeDefine:"..tostring(InfInspect.Inspect(this.revengeDefine)),1,true)
+end
+
+--r68 --Allow 99 reinforcement calls during combat alert
+if TUPPMSettings.rev_ENABLE_maxReinforceCalls then
+	this.revengeDefine.COMBAT_5[1].REINFORCE_COUNT=99
+	this.revengeDefine.COMBAT_5[2].REINFORCE_COUNT=99
 end
 
 --rX43 INFO Revenge in revengeDefine are loaded up here

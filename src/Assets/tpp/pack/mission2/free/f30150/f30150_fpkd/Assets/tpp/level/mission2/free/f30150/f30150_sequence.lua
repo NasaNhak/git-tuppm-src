@@ -349,7 +349,8 @@ local messagesTable = StrCode32Table {
 	      if not TUPPMSettings.player_ENABLE_demonPointsManipViaZoo then return end
 				--TppPlayer.TUPPMPrint("You demon you!")
 				--TppHero.SetOgrePoint( 40000 )
-	        TppMotherBaseManagement.AddOgrePoint{ogrePoint=40000}
+				--r68 Added better increment value for demon points as suggested by SoullessMadness to tinmantex
+	        TppMotherBaseManagement.AddOgrePoint{ogrePoint=90000}
 				--TppSoundDaemon.PostEvent( 'sfx_s_bgm_dead_body' )
 	        TppMusicManager.PostJingleEvent( 'SingleShot', 'sfx_s_bgm_change_situation' )
       end,
