@@ -4,178 +4,178 @@
     <Entry Key="3087066556" Color="1" Value="UNKNOWN TITLE" />
     <Entry Key="396075936" Color="1" Value="UNTITLED MISSION" />
     <Entry Key="1373758758" Color="1" Value="Aerial Command Center" />
-    <Entry LangId="sub_location_40" Color="1" Value="Guantanamo" />
+    <Entry Key="3427709187" Color="1" Value="Guantanamo" />
     <Entry LangId="sub_location_30" Color="1" Value="Dhekelia Sovereign Base Area, Cyprus" />
-    <Entry LangId="sub_location_20" Color="1" Value="Angola-Zaire Border Region" />
-    <Entry LangId="sub_location_10" Color="1" Value="Northern Kabul, Afghanistan" />
-    <Entry LangId="sub_mission_10_10040" Color="1" Value="WHERE DO THE BEES SLEEP?" />
-    <Entry LangId="name_mission_10_10040" Color="1" Value="WHERE DO THE BEES SLEEP?" />
-    <Entry LangId="sub_mission_10_10020" Color="1" Value="PHANTOM LIMBS" />
-    <Entry LangId="name_mission_10_10020" Color="1" Value="PHANTOM LIMBS" />
-    <Entry LangId="name_mission_30_10280" Color="1" Value="TRUTH: THE MAN WHO SOLD THE WORLD" />
-    <Entry LangId="name_mission_10_10260" Color="1" Value="A QUIET EXIT" />
-    <Entry LangId="name_mission_50_10240" Color="1" Value="SHINING LIGHTS, EVEN IN DEATH" />
-    <Entry LangId="name_mission_20_10200" Color="1" Value="AIM TRUE, YE VENGEFUL" />
-    <Entry LangId="name_mission_10_10150" Color="1" Value="SKULL FACE" />
-    <Entry LangId="name_mission_20_10140" Color="1" Value="METALLIC ARCHAEA" />
-    <Entry LangId="name_mission_20_10130" Color="1" Value="CODE TALKER" />
-    <Entry LangId="name_mission_20_10120" Color="1" Value="THE WHITE MAMBA" />
-    <Entry LangId="name_mission_20_10110" Color="1" Value="VOICES" />
-    <Entry LangId="name_mission_20_10100" Color="1" Value="BLOOD RUNS DEEP" />
-    <Entry LangId="name_mission_20_10090" Color="1" Value="TRAITORS' CARAVAN" />
-    <Entry LangId="name_mission_20_10080" Color="1" Value="PITCH DARK" />
-    <Entry LangId="name_mission_10_10070" Color="1" Value="HELLBOUND" />
-    <Entry LangId="name_mission_10_10050" Color="1" Value="CLOAKED IN SILENCE" />
-    <Entry LangId="name_mission_30_10010" Color="1" Value="PROLOGUE: AWAKENING" />
-    <Entry LangId="sub_mission_30_10280" Color="1" Value="TRUTH: THE MAN WHO SOLD THE WORLD" />
-    <Entry LangId="sub_mission_10_10260" Color="1" Value="A QUIET EXIT" />
-    <Entry LangId="sub_mission_50_10240" Color="1" Value="SHINING LIGHTS, EVEN IN DEATH" />
-    <Entry LangId="sub_mission_20_10200" Color="1" Value="AIM TRUE, YE VENGEFUL" />
-    <Entry LangId="sub_mission_10_10150" Color="1" Value="SKULL FACE" />
-    <Entry LangId="sub_mission_20_10140" Color="1" Value="METALLIC ARCHAEA" />
-    <Entry LangId="sub_mission_20_10130" Color="1" Value="CODE TALKER" />
-    <Entry LangId="sub_mission_20_10120" Color="1" Value="THE WHITE MAMBA" />
-    <Entry LangId="sub_mission_20_10110" Color="1" Value="VOICES" />
-    <Entry LangId="sub_mission_20_10100" Color="1" Value="BLOOD RUNS DEEP" />
-    <Entry LangId="sub_mission_20_10090" Color="1" Value="TRAITORS' CARAVAN" />
-    <Entry LangId="sub_mission_20_10080" Color="1" Value="PITCH DARK" />
-    <Entry LangId="sub_mission_10_10070" Color="1" Value="HELLBOUND" />
-    <Entry LangId="sub_mission_10_10050" Color="1" Value="CLOAKED IN SILENCE" />
-    <Entry LangId="info_mission_10_10260_00" Color="1" Value="Extract Quiet, who has been captured by the Soviets." />
-    <Entry LangId="info_mission_50_10240_00" Color="1" Value="Investigate the Laboratory, where a new vocal cord parasite outbreak has occurred, and find out how to identify who is infected. The Laboratory has been sealed off, and contact has been lost with the men inside." />
-    <Entry LangId="info_mission_30_10280_00" Color="1" Value="Escape the hospital." />
-    <Entry LangId="info_mission_30_10010_00" Color="1" Value="Escape the hospital." />
-    <Entry LangId="info_mission_20_10200_00" Color="1" Value="A group of child soldiers who have broken away from the Mbele rebels have abducted their XO. Extract both the child soldiers' commander and the XO." />
-    <Entry LangId="info_mission_20_10140_00" Color="1" Value="Fight off the Skulls' assault, and return to base with Code Talker. An unusual mist has blanketed the area. The Skulls must be eliminated before it will clear." />
-    <Entry LangId="info_mission_20_10130_00" Color="1" Value="Make contact with and extract Code Talker, the old man who knows how to treat the pathogen affecting Mother Base. In addition to the local PF guarding the mansion where he is located, an unidentified force has been observed operating in the area." />
-    <Entry LangId="info_mission_20_10120_00" Color="1" Value="Eliminate the militants at Masa Village who have been pillaging nearby settlements. They are said to all be children. Extract their commander, the &quot;White Mamba,&quot; and the group will fall apart." />
-    <Entry LangId="info_mission_20_10110_00" Color="1" Value="Rescue Shabani, the leader of the boys who were forced to work at the mine. He was taken to Ngumba Industrial Zone, the place the locals call &quot;the Devil's House.&quot;" />
-    <Entry LangId="info_mission_20_10100_00" Color="1" Value="Eliminate the six rebel Mbele soldiers taken prisoner by the ruling Buta tribe, to ensure they cannot talk." />
-    <Entry LangId="info_mission_20_10090_00" Color="1" Value="Extract the cargo a PF convoy is believed to be transporting as payment to Cipher. The cargo must be extracted along with the transport truck." />
-    <Entry LangId="info_mission_20_10080_00" Color="1" Value="Crude oil is leaking from an oilfield facility occupied by local forces. To stop the leak, shut down the facility's oil transfer pump, and use explosives to destroy the oily water separator tank." />
-    <Entry LangId="info_mission_10_10150_00" Color="1" Value="Skull Face has occupied the secret Soviet weapon design bureau OKB Zero, and advanced his plan to its final phase. Prevent the combat deployment of the upright bipedal weapon Sahelanthropus, and take vengeance on Skull Face." />
-    <Entry LangId="info_mission_10_10070_00" Color="1" Value="Aid in the defection of Dr. Emmerich, a scientist involved with secret Soviet weapons development. He is suspected of having a close connection with the group that attacked Mother Base 9 years ago." />
-    <Entry LangId="info_mission_10_10050_00" Color="1" Value="Eliminate the sniper known as Quiet." />
-    <Entry LangId="info_mission_10_10040_00" Color="1" Value="Recover the U.S. military's new weapon, code-named Honey Bee, hidden at Smasei Fort. The Soviets are also after it. " />
-    <Entry LangId="info_mission_10_10020_00" Color="1" Value="Rescue your old partner, Kazuhira Miller. He has been captured by the Soviets and is being interrogated at Ghwandai Town." />
-    <Entry LangId="info_mission_10_10050_01" Color="1" Value="Eliminate the sniper known as Quiet." />
-    <Entry LangId="info_mission_10_10070_01" Color="1" Value="Get to the rendezvous point." />
-    <Entry LangId="name_mission_10_10043" Color="1" Value="C2W" />
-    <Entry LangId="name_mission_10_10036" Color="1" Value="A HERO'S WAY" />
-    <Entry LangId="name_mission_10_10033" Color="1" Value="OVER THE FENCE" />
-    <Entry LangId="sub_mission_10_10043" Color="1" Value="C2W" />
-    <Entry LangId="sub_mission_10_10036" Color="1" Value="A HERO'S WAY" />
-    <Entry LangId="sub_mission_10_10033" Color="1" Value="OVER THE FENCE" />
-    <Entry LangId="info_mission_10_10043_00" Color="1" Value="Destroy the Soviet comms equipment to prevent reinforcements being sent between outposts." />
-    <Entry LangId="info_mission_10_10036_00" Color="1" Value="Eliminate the Spetsnaz detachment commander secretly involved in the scorched earth operation in Afghanistan. The target and his recon unit have occupied Shago Village and are ready to meet an assault." />
-    <Entry LangId="info_mission_10_10033_00" Color="1" Value="Extract the engineer who tried to defect from a Soviet base camp and is now being held at Wakh Sind Barracks." />
-    <Entry LangId="name_mission_50_10030" Color="1" Value="DIAMOND DOGS" />
-    <Entry LangId="sub_mission_50_10030" Color="1" Value="DIAMOND DOGS" />
-    <Entry LangId="info_mission_50_10030_00" Color="1" Value="Complete Ocelot's basic training covering the operation of Mother Base." />
-    <Entry LangId="info_mission_50_10115_00" Color="1" Value="Infiltrate the platform captured by the enemy PF, and eliminate their commander. They have taken Mother Base staff hostage." />
-    <Entry LangId="name_mission_50_10115" Color="1" Value="RETAKE THE PLATFORM" />
-    <Entry LangId="info_mission_20_10091_00" Color="1" Value="Rescue the two Intel Team members being held at Kiziba Camp." />
-    <Entry LangId="name_mission_20_10091" Color="1" Value="RESCUE THE INTEL AGENTS" />
-    <Entry LangId="sub_mission_50_10115" Color="1" Value="RETAKE THE PLATFORM" />
-    <Entry LangId="sub_mission_20_10091" Color="1" Value="RESCUE THE INTEL AGENTS" />
-    <Entry LangId="info_mission_20_10093_00" Color="1" Value="Recover the two containers loaded with Code Talker's research materials. The containers are hidden in the jungle, and XOF choppers are en route to collect them.&#xA;&lt;I=C=cmn-col-special|Required tool: [+ CARGO 2]&gt;" />
-    <Entry LangId="sub_mission_20_10093" Color="1" Value="CURSED LEGACY" />
-    <Entry LangId="name_mission_20_10093" Color="1" Value="CURSED LEGACY" />
-    <Entry LangId="info_mission_20_10081_00" Color="1" Value="Rescue the Intel Team member who has obtained information on the epidemic at Mother Base." />
-    <Entry LangId="sub_mission_20_10081" Color="1" Value="ROOT CAUSE" />
-    <Entry LangId="name_mission_20_10081" Color="1" Value="ROOT CAUSE" />
-    <Entry LangId="info_mission_10_10045_00" Color="1" Value="A Soviet soldier who had been collaborating with the CIA has gone missing. Extract this CIA mole." />
-    <Entry LangId="sub_mission_10_10045" Color="1" Value="TO KNOW TOO MUCH" />
-    <Entry LangId="name_mission_10_10045" Color="1" Value="TO KNOW TOO MUCH" />
-    <Entry LangId="info_mission_10_10054_00" Color="1" Value="Rebel guerrillas are launching an offensive. Eliminate as many fighting vehicles as possible in order to weaken the Soviets' reinforcements.&#xA;&lt;I=C=cmn-col-special|Recommended Weapon(s): Missile&gt;" />
-    <Entry LangId="sub_mission_10_10054" Color="1" Value="BACKUP, BACK DOWN" />
-    <Entry LangId="name_mission_10_10054" Color="1" Value="BACKUP, BACK DOWN" />
-    <Entry LangId="info_mission_10_10052_00" Color="1" Value="Extract Malak, the Mujahideen prisoner who is being held at Lamar Khaate Palace." />
-    <Entry LangId="sub_mission_10_10052" Color="1" Value="ANGEL WITH BROKEN WINGS" />
-    <Entry LangId="name_mission_10_10052" Color="1" Value="ANGEL WITH BROKEN WINGS" />
-    <Entry LangId="info_mission_20_10082_00" Color="1" Value="Eliminate all the Walker Gears deployed to Ditadi Abandoned Village." />
-    <Entry LangId="sub_mission_20_10082" Color="1" Value="FOOTPRINTS OF PHANTOMS" />
-    <Entry LangId="name_mission_20_10082" Color="1" Value="FOOTPRINTS OF PHANTOMS" />
-    <Entry LangId="info_mission_10_10156_00" Color="1" Value="Using the photograph in an informant's final transmission, retrieve the film canister containing classified information." />
-    <Entry LangId="sub_mission_10_10156" Color="1" Value="EXTRAORDINARY" />
-    <Entry LangId="name_mission_10_10156" Color="1" Value="EXTRAORDINARY" />
-    <Entry LangId="sub_mission_20_10151" Color="1" Value="SAHELANTHROPUS" />
-    <Entry LangId="name_mission_20_10151" Color="1" Value="SAHELANTHROPUS" />
-    <Entry LangId="info_mission_20_10195_00" Color="1" Value="The commander of a PF, known as the Major, has been spreading a rumor about selling nuclear weapons. Tail his subordinate, and eliminate the Major." />
-    <Entry LangId="sub_mission_20_10195" Color="1" Value="ON THE TRAIL" />
-    <Entry LangId="name_mission_20_10195" Color="1" Value="ON THE TRAIL" />
-    <Entry LangId="info_mission_20_10211_00" Color="1" Value="Locate and eliminate the human trafficker who is on the run on the savanna. &#xA;Reports suggest that locating the target will not be easy." />
-    <Entry LangId="sub_mission_20_10211" Color="1" Value="HUNTING DOWN" />
-    <Entry LangId="name_mission_20_10211" Color="1" Value="HUNTING DOWN" />
-    <Entry LangId="date_mission_10_10020" Color="1" Value="March 21st, 1984 14:06" />
-    <Entry LangId="area_mission_10_10020" Color="1" Value="Northern Kabul, Afghanistan" />
-    <Entry LangId="info_mission_10_10052_01" Color="1" Value="Extract Malak, the Mujahideen prisoner who is being held at Yakho Oboo Supply Outpost." />
-    <Entry LangId="info_mission_20_10100_01" Color="1" Value="Rescue the children who were being held prisoner at Kungenga Mine." />
-    <Entry LangId="info_mission_20_10100_02" Color="1" Value="Eliminate the former rebel Mbele soldier working security at Bampeve Plantation." />
-    <Entry LangId="sub_mission_20_10086" Color="1" Value="LINGUA FRANCA" />
-    <Entry LangId="sub_mission_10_10044" Color="1" Value="OCCUPATION FORCES" />
-    <Entry LangId="info_mission_10_10044_00" Color="1" Value="Eliminate the colonel who has been reassigned from Sakhra Ee Village to Smasei Fort, and prevent the tanks from redeploying to Smasei Fort.&#xA;&lt;I=C=cmn-col-special|Recommended Weapon(s): Missile&gt;" />
-    <Entry LangId="info_mission_20_10086_00" Color="1" Value="Tail the Afrikaans interpreter working with the interrogator at Kiziba Camp, and rescue the British prisoner known as the Viscount." />
-    <Entry LangId="name_mission_10_10044" Color="1" Value="OCCUPATION FORCES" />
-    <Entry LangId="name_mission_20_10086" Color="1" Value="LINGUA FRANCA" />
-    <Entry LangId="name_mission_20_10121" Color="1" Value="THE WAR ECONOMY" />
-    <Entry LangId="sub_mission_20_10121" Color="1" Value="THE WAR ECONOMY" />
-    <Entry LangId="info_mission_20_10121_00" Color="1" Value="Eliminate the CFA official stationed at Nova Braga Airport. He is due to conduct an inspection with a visiting arms dealer, so expect heavy security." />
-    <Entry LangId="info_mission_10_10041_00" Color="1" Value="Three commanders of key Soviet units are holding an emergency meeting at Wialo Village. Use this opportunity to eliminate all of them at once." />
-    <Entry LangId="info_mission_20_10085_00" Color="1" Value="Rescue the two civilian engineers, one male, one female, being held at Ngumba Industrial Zone, SW Guard Post. They were sent to the area by a medical NGO, but subsequently went missing." />
-    <Entry LangId="sub_mission_30_10010" Color="1" Value="PROLOGUE: AWAKENING" />
-    <Entry LangId="sub_mission_10_10041" Color="1" Value="RED BRASS" />
-    <Entry LangId="sub_mission_20_10085" Color="1" Value="CLOSE CONTACT" />
-    <Entry LangId="name_mission_10_10041" Color="1" Value="RED BRASS" />
-    <Entry LangId="name_mission_20_10085" Color="1" Value="CLOSE CONTACT" />
-    <Entry LangId="obj_mission_30_10010_00" Color="1" Value="Escape the Hospital" />
-    <Entry LangId="obj_mission_10_10020_00" Color="1" Value="Rescue Kazuhira Miller" />
-    <Entry LangId="obj_mission_50_10030_00" Color="1" Value="Learn How to Run Mother Base" />
-    <Entry LangId="obj_mission_10_10036_00" Color="1" Value="Eliminate the Spetsnaz Commander" />
-    <Entry LangId="obj_mission_10_10043_00" Color="1" Value="Destroy the Comms Equipment" />
-    <Entry LangId="obj_mission_10_10033_00" Color="1" Value="Extract the Prosthetics Developer" />
-    <Entry LangId="obj_mission_10_10040_00" Color="1" Value="Recover the Honey Bee Weapon System" />
-    <Entry LangId="obj_mission_10_10041_00" Color="1" Value="Eliminate the Three Commanders" />
-    <Entry LangId="obj_mission_10_10044_00" Color="1" Value="Eliminate the Colonel and His Tanks" />
-    <Entry LangId="obj_mission_10_10050_00" Color="1" Value="Eliminate the Sniper" />
-    <Entry LangId="obj_mission_10_10052_00" Color="1" Value="Extract the Mujahideen Prisoner" />
-    <Entry LangId="obj_mission_10_10054_00" Color="1" Value="Eliminate the Soviet Fighting Vehicles" />
-    <Entry LangId="obj_mission_10_10070_00" Color="1" Value="Extract Dr. Emmerich" />
-    <Entry LangId="obj_mission_20_10080_00" Color="1" Value="Destroy the Oilfield Facility" />
-    <Entry LangId="obj_mission_20_10086_00" Color="1" Value="Rescue the Viscount" />
-    <Entry LangId="obj_mission_20_10082_00" Color="1" Value="Eliminate All Walker Gears" />
-    <Entry LangId="obj_mission_20_10090_00" Color="1" Value="Steal the Cargo" />
-    <Entry LangId="obj_mission_20_10195_00" Color="1" Value="Eliminate the Major" />
-    <Entry LangId="obj_mission_20_10091_00" Color="1" Value="Rescue the Two Intel Team Members" />
-    <Entry LangId="obj_mission_20_10100_00" Color="1" Value="Eliminate the Six Prisoners" />
-    <Entry LangId="obj_mission_20_10110_00" Color="1" Value="Rescue Shabani" />
-    <Entry LangId="obj_mission_20_10121_00" Color="1" Value="Eliminate the CFA Official" />
-    <Entry LangId="obj_mission_50_10115_00" Color="1" Value="Eliminate the Commander" />
-    <Entry LangId="obj_mission_20_10120_00" Color="1" Value="Extract the White Mamba" />
-    <Entry LangId="obj_mission_20_10085_00" Color="1" Value="Extract the Two Civilians" />
-    <Entry LangId="obj_mission_20_10200_00" Color="1" Value="Extract the XO and the Child Soldiers' Leader" />
-    <Entry LangId="obj_mission_20_10211_00" Color="1" Value="Eliminate the Human Trafficker" />
-    <Entry LangId="obj_mission_20_10081_00" Color="1" Value="Rescue the Intel Team Member" />
-    <Entry LangId="obj_mission_20_10130_00" Color="1" Value="Extract Code Talker" />
+    <Entry Key="1031205248" Color="1" Value="Angola-Zaire Border Region" />
+    <Entry Key="583793986" Color="1" Value="Northern Kabul, Afghanistan" />
+    <Entry Key="2841069185" Color="1" Value="WHERE DO THE BEES SLEEP?" />
+    <Entry Key="3801321906" Color="1" Value="WHERE DO THE BEES SLEEP?" />
+    <Entry Key="1535982434" Color="1" Value="PHANTOM LIMBS" />
+    <Entry Key="273789338" Color="1" Value="PHANTOM LIMBS" />
+    <Entry Key="692316386" Color="1" Value="TRUTH: THE MAN WHO SOLD THE WORLD" />
+    <Entry Key="3779733479" Color="1" Value="A QUIET EXIT" />
+    <Entry Key="761830582" Color="1" Value="SHINING LIGHTS, EVEN IN DEATH" />
+    <Entry Key="2051775459" Color="1" Value="AIM TRUE, YE VENGEFUL" />
+    <Entry Key="1129816823" Color="1" Value="SKULL FACE" />
+    <Entry Key="2532503317" Color="1" Value="METALLIC ARCHAEA" />
+    <Entry Key="200885913" Color="1" Value="CODE TALKER" />
+    <Entry Key="3865352951" Color="1" Value="THE WHITE MAMBA" />
+    <Entry Key="4170971583" Color="1" Value="VOICES" />
+    <Entry Key="3211410109" Color="1" Value="BLOOD RUNS DEEP" />
+    <Entry Key="394160509" Color="1" Value="TRAITORS' CARAVAN" />
+    <Entry Key="3918081252" Color="1" Value="PITCH DARK" />
+    <Entry Key="73201356" Color="1" Value="HELLBOUND" />
+    <Entry Key="590695453" Color="1" Value="CLOAKED IN SILENCE" />
+    <Entry Key="2661342932" Color="1" Value="PROLOGUE: AWAKENING" />
+    <Entry Key="3297811024" Color="1" Value="TRUTH: THE MAN WHO SOLD THE WORLD" />
+    <Entry Key="3949078053" Color="1" Value="A QUIET EXIT" />
+    <Entry Key="3091860075" Color="1" Value="SHINING LIGHTS, EVEN IN DEATH" />
+    <Entry Key="1553429339" Color="1" Value="AIM TRUE, YE VENGEFUL" />
+    <Entry Key="2356281802" Color="1" Value="SKULL FACE" />
+    <Entry Key="721206740" Color="1" Value="METALLIC ARCHAEA" />
+    <Entry Key="230114890" Color="1" Value="CODE TALKER" />
+    <Entry Key="2250098042" Color="1" Value="THE WHITE MAMBA" />
+    <Entry Key="1705716407" Color="1" Value="VOICES" />
+    <Entry Key="1497878216" Color="1" Value="BLOOD RUNS DEEP" />
+    <Entry Key="3689300973" Color="1" Value="TRAITORS' CARAVAN" />
+    <Entry Key="3198958122" Color="1" Value="PITCH DARK" />
+    <Entry Key="1576279604" Color="1" Value="HELLBOUND" />
+    <Entry Key="2324117526" Color="1" Value="CLOAKED IN SILENCE" />
+    <Entry Key="3702503914" Color="1" Value="Extract Quiet, who has been captured by the Soviets." />
+    <Entry Key="1723377081" Color="1" Value="Investigate the Laboratory, where a new vocal cord parasite outbreak has occurred, and find out how to identify who is infected. The Laboratory has been sealed off, and contact has been lost with the men inside." />
+    <Entry Key="3193375696" Color="1" Value="Escape the hospital." />
+    <Entry Key="2357035776" Color="1" Value="Escape the hospital." />
+    <Entry Key="2604004326" Color="1" Value="A group of child soldiers who have broken away from the Mbele rebels have abducted their XO. Extract both the child soldiers' commander and the XO." />
+    <Entry Key="1377341504" Color="1" Value="Fight off the Skulls' assault, and return to base with Code Talker. An unusual mist has blanketed the area. The Skulls must be eliminated before it will clear." />
+    <Entry Key="756063984" Color="1" Value="Make contact with and extract Code Talker, the old man who knows how to treat the pathogen affecting Mother Base. In addition to the local PF guarding the mansion where he is located, an unidentified force has been observed operating in the area." />
+    <Entry Key="185356606" Color="1" Value="Eliminate the militants at Masa Village who have been pillaging nearby settlements. They are said to all be children. Extract their commander, the &quot;White Mamba,&quot; and the group will fall apart." />
+    <Entry Key="233534196" Color="1" Value="Rescue Shabani, the leader of the boys who were forced to work at the mine. He was taken to Ngumba Industrial Zone, the place the locals call &quot;the Devil's House.&quot;" />
+    <Entry Key="1796559241" Color="1" Value="Eliminate the six rebel Mbele soldiers taken prisoner by the ruling Buta tribe, to ensure they cannot talk." />
+    <Entry Key="3732780262" Color="1" Value="Extract the cargo a PF convoy is believed to be transporting as payment to Cipher. The cargo must be extracted along with the transport truck." />
+    <Entry Key="701518998" Color="1" Value="Crude oil is leaking from an oilfield facility occupied by local forces. To stop the leak, shut down the facility's oil transfer pump, and use explosives to destroy the oily water separator tank." />
+    <Entry Key="612813056" Color="1" Value="Skull Face has occupied the secret Soviet weapon design bureau OKB Zero, and advanced his plan to its final phase. Prevent the combat deployment of the upright bipedal weapon Sahelanthropus, and take vengeance on Skull Face." />
+    <Entry Key="2403885287" Color="1" Value="Aid in the defection of Dr. Emmerich, a scientist involved with secret Soviet weapons development. He is suspected of having a close connection with the group that attacked Mother Base 9 years ago." />
+    <Entry Key="1971068235" Color="1" Value="Eliminate the sniper known as Quiet." />
+    <Entry Key="2416493823" Color="1" Value="Recover the U.S. military's new weapon, code-named Honey Bee, hidden at Smasei Fort. The Soviets are also after it. " />
+    <Entry Key="316674058" Color="1" Value="Rescue your old partner, Kazuhira Miller. He has been captured by the Soviets and is being interrogated at Ghwandai Town." />
+    <Entry Key="699029472" Color="1" Value="Eliminate the sniper known as Quiet." />
+    <Entry Key="671908713" Color="1" Value="Get to the rendezvous point." />
+    <Entry Key="3308118963" Color="1" Value="C2W" />
+    <Entry Key="2877401623" Color="1" Value="A HERO'S WAY" />
+    <Entry Key="4018207542" Color="1" Value="OVER THE FENCE" />
+    <Entry Key="2947625992" Color="1" Value="C2W" />
+    <Entry Key="981956520" Color="1" Value="A HERO'S WAY" />
+    <Entry Key="354542020" Color="1" Value="OVER THE FENCE" />
+    <Entry Key="673870485" Color="1" Value="Destroy the Soviet comms equipment to prevent reinforcements being sent between outposts." />
+    <Entry Key="2651014233" Color="1" Value="Eliminate the Spetsnaz detachment commander secretly involved in the scorched earth operation in Afghanistan. The target and his recon unit have occupied Shago Village and are ready to meet an assault." />
+    <Entry Key="1448135509" Color="1" Value="Extract the engineer who tried to defect from a Soviet base camp and is now being held at Wakh Sind Barracks." />
+    <Entry Key="4183524766" Color="1" Value="DIAMOND DOGS" />
+    <Entry Key="3936402134" Color="1" Value="DIAMOND DOGS" />
+    <Entry Key="1454622565" Color="1" Value="Complete Ocelot's basic training covering the operation of Mother Base." />
+    <Entry Key="2411146420" Color="1" Value="Infiltrate the platform captured by the enemy PF, and eliminate their commander. They have taken Mother Base staff hostage." />
+    <Entry Key="373981739" Color="1" Value="RETAKE THE PLATFORM" />
+    <Entry Key="295510807" Color="1" Value="Rescue the two Intel Team members being held at Kiziba Camp." />
+    <Entry Key="1457323364" Color="1" Value="RESCUE THE INTEL AGENTS" />
+    <Entry Key="3982386624" Color="1" Value="RETAKE THE PLATFORM" />
+    <Entry Key="945663439" Color="1" Value="RESCUE THE INTEL AGENTS" />
+    <Entry Key="2039519813" Color="1" Value="Recover the two containers loaded with Code Talker's research materials. The containers are hidden in the jungle, and XOF choppers are en route to collect them.&#xA;&lt;I=C=cmn-col-special|Required tool: [+ CARGO 2]&gt;" />
+    <Entry Key="3055885947" Color="1" Value="CURSED LEGACY" />
+    <Entry Key="2090423932" Color="1" Value="CURSED LEGACY" />
+    <Entry Key="2463046515" Color="1" Value="Rescue the Intel Team member who has obtained information on the epidemic at Mother Base." />
+    <Entry Key="993746323" Color="1" Value="ROOT CAUSE" />
+    <Entry Key="1727830491" Color="1" Value="ROOT CAUSE" />
+    <Entry Key="2685183527" Color="1" Value="A Soviet soldier who had been collaborating with the CIA has gone missing. Extract this CIA mole." />
+    <Entry Key="515936659" Color="1" Value="TO KNOW TOO MUCH" />
+    <Entry Key="1886442708" Color="1" Value="TO KNOW TOO MUCH" />
+    <Entry Key="315317296" Color="1" Value="Rebel guerrillas are launching an offensive. Eliminate as many fighting vehicles as possible in order to weaken the Soviets' reinforcements.&#xA;&lt;I=C=cmn-col-special|Recommended Weapon(s): Missile&gt;" />
+    <Entry Key="2763214328" Color="1" Value="BACKUP, BACK DOWN" />
+    <Entry Key="964402969" Color="1" Value="BACKUP, BACK DOWN" />
+    <Entry Key="3854187624" Color="1" Value="Extract Malak, the Mujahideen prisoner who is being held at Lamar Khaate Palace." />
+    <Entry Key="1503070118" Color="1" Value="ANGEL WITH BROKEN WINGS" />
+    <Entry Key="3736894102" Color="1" Value="ANGEL WITH BROKEN WINGS" />
+    <Entry Key="1005550295" Color="1" Value="Eliminate all the Walker Gears deployed to Ditadi Abandoned Village." />
+    <Entry Key="1104796996" Color="1" Value="FOOTPRINTS OF PHANTOMS" />
+    <Entry Key="942255612" Color="1" Value="FOOTPRINTS OF PHANTOMS" />
+    <Entry Key="2493753561" Color="1" Value="Using the photograph in an informant's final transmission, retrieve the film canister containing classified information." />
+    <Entry Key="1614988807" Color="1" Value="EXTRAORDINARY" />
+    <Entry Key="1913335411" Color="1" Value="EXTRAORDINARY" />
+    <Entry Key="3865427009" Color="1" Value="SAHELANTHROPUS" />
+    <Entry Key="1389976401" Color="1" Value="SAHELANTHROPUS" />
+    <Entry Key="879867328" Color="1" Value="The commander of a PF, known as the Major, has been spreading a rumor about selling nuclear weapons. Tail his subordinate, and eliminate the Major." />
+    <Entry Key="2622064914" Color="1" Value="ON THE TRAIL" />
+    <Entry Key="1302224619" Color="1" Value="ON THE TRAIL" />
+    <Entry Key="889313007" Color="1" Value="Locate and eliminate the human trafficker who is on the run on the savanna. &#xA;Reports suggest that locating the target will not be easy." />
+    <Entry Key="2389105062" Color="1" Value="HUNTING DOWN" />
+    <Entry Key="2572979422" Color="1" Value="HUNTING DOWN" />
+    <Entry Key="274497774" Color="1" Value="March 21st, 1984 14:06" />
+    <Entry Key="3438240887" Color="1" Value="Northern Kabul, Afghanistan" />
+    <Entry Key="1265814672" Color="1" Value="Extract Malak, the Mujahideen prisoner who is being held at Yakho Oboo Supply Outpost." />
+    <Entry Key="3257088057" Color="1" Value="Rescue the children who were being held prisoner at Kungenga Mine." />
+    <Entry Key="2787897301" Color="1" Value="Eliminate the former rebel Mbele soldier working security at Bampeve Plantation." />
+    <Entry Key="3967122775" Color="1" Value="LINGUA FRANCA" />
+    <Entry Key="994754812" Color="1" Value="OCCUPATION FORCES" />
+    <Entry Key="439704363" Color="1" Value="Eliminate the colonel who has been reassigned from Sakhra Ee Village to Smasei Fort, and prevent the tanks from redeploying to Smasei Fort.&#xA;&lt;I=C=cmn-col-special|Recommended Weapon(s): Missile&gt;" />
+    <Entry Key="1344173250" Color="1" Value="Tail the Afrikaans interpreter working with the interrogator at Kiziba Camp, and rescue the British prisoner known as the Viscount." />
+    <Entry Key="325532487" Color="1" Value="OCCUPATION FORCES" />
+    <Entry Key="1602603591" Color="1" Value="LINGUA FRANCA" />
+    <Entry Key="859240033" Color="1" Value="THE WAR ECONOMY" />
+    <Entry Key="786160425" Color="1" Value="THE WAR ECONOMY" />
+    <Entry Key="1720622883" Color="1" Value="Eliminate the CFA official stationed at Nova Braga Airport. He is due to conduct an inspection with a visiting arms dealer, so expect heavy security." />
+    <Entry Key="3753955613" Color="1" Value="Three commanders of key Soviet units are holding an emergency meeting at Wialo Village. Use this opportunity to eliminate all of them at once." />
+    <Entry Key="2327729638" Color="1" Value="Rescue the two civilian engineers, one male, one female, being held at Ngumba Industrial Zone, SW Guard Post. They were sent to the area by a medical NGO, but subsequently went missing." />
+    <Entry Key="1778763865" Color="1" Value="PROLOGUE: AWAKENING" />
+    <Entry Key="4158967163" Color="1" Value="RED BRASS" />
+    <Entry Key="3012480939" Color="1" Value="CLOSE CONTACT" />
+    <Entry Key="4223141117" Color="1" Value="RED BRASS" />
+    <Entry Key="593491502" Color="1" Value="CLOSE CONTACT" />
+    <Entry Key="618635307" Color="1" Value="Escape the Hospital" />
+    <Entry Key="3850856314" Color="1" Value="Rescue Kazuhira Miller" />
+    <Entry Key="4083231918" Color="1" Value="Learn How to Run Mother Base" />
+    <Entry Key="3763315516" Color="1" Value="Eliminate the Spetsnaz Commander" />
+    <Entry Key="3150632767" Color="1" Value="Destroy the Comms Equipment" />
+    <Entry Key="1448615660" Color="1" Value="Extract the Prosthetics Developer" />
+    <Entry Key="30132939" Color="1" Value="Recover the Honey Bee Weapon System" />
+    <Entry Key="2808496330" Color="1" Value="Eliminate the Three Commanders" />
+    <Entry Key="1090695094" Color="1" Value="Eliminate the Colonel and His Tanks" />
+    <Entry Key="540058933" Color="1" Value="Eliminate the Sniper" />
+    <Entry Key="2949041890" Color="1" Value="Extract the Mujahideen Prisoner" />
+    <Entry Key="3008870430" Color="1" Value="Eliminate the Soviet Fighting Vehicles" />
+    <Entry Key="3385531607" Color="1" Value="Extract Dr. Emmerich" />
+    <Entry Key="1410326263" Color="1" Value="Destroy the Oilfield Facility" />
+    <Entry Key="3585391198" Color="1" Value="Rescue the Viscount" />
+    <Entry Key="2660389403" Color="1" Value="Eliminate All Walker Gears" />
+    <Entry Key="2349526372" Color="1" Value="Steal the Cargo" />
+    <Entry Key="2338117241" Color="1" Value="Eliminate the Major" />
+    <Entry Key="2924318228" Color="1" Value="Rescue the Two Intel Team Members" />
+    <Entry Key="2859494688" Color="1" Value="Eliminate the Six Prisoners" />
+    <Entry Key="4205388314" Color="1" Value="Rescue Shabani" />
+    <Entry Key="1219047242" Color="1" Value="Eliminate the CFA Official" />
+    <Entry Key="1160852002" Color="1" Value="Eliminate the Commander" />
+    <Entry Key="2044870344" Color="1" Value="Extract the White Mamba" />
+    <Entry Key="2249352740" Color="1" Value="Extract the Two Civilians" />
+    <Entry Key="2708937336" Color="1" Value="Extract the XO and the Child Soldiers' Leader" />
+    <Entry Key="4033767106" Color="1" Value="Eliminate the Human Trafficker" />
+    <Entry Key="2296261747" Color="1" Value="Rescue the Intel Team Member" />
+    <Entry Key="2434376386" Color="1" Value="Extract Code Talker" />
     <Entry LangId="obj_mission_20_10140_00" Color="1" Value="Defeat the Skulls" />
-    <Entry LangId="obj_mission_10_10150_00" Color="1" Value="Take Vengeance on Skull Face" />
-    <Entry LangId="obj_mission_10_10045_00" Color="1" Value="Extract the CIA Agent" />
-    <Entry LangId="obj_mission_10_10156_00" Color="1" Value="Secure the Classified Information" />
-    <Entry LangId="obj_mission_20_10093_00" Color="1" Value="Extract the Containers" />
-    <Entry LangId="obj_mission_20_10171_00" Color="1" Value="Eliminate the CFA Armored Column" />
-    <Entry LangId="obj_mission_50_10240_00" Color="1" Value="Discover the Truth behind the New Outbreak" />
-    <Entry LangId="obj_mission_10_10260_00" Color="1" Value="Extract Quiet" />
-    <Entry LangId="obj_mission_30_10280_00" Color="1" Value="Escape the Hospital" />
+    <Entry Key="257400260" Color="1" Value="Take Vengeance on Skull Face" />
+    <Entry Key="451504061" Color="1" Value="Extract the CIA Agent" />
+    <Entry Key="2962822914" Color="1" Value="Secure the Classified Information" />
+    <Entry Key="970370144" Color="1" Value="Extract the Containers" />
+    <Entry Key="106375479" Color="1" Value="Eliminate the CFA Armored Column" />
+    <Entry Key="1321826458" Color="1" Value="Discover the Truth behind the New Outbreak" />
+    <Entry Key="428604830" Color="1" Value="Extract Quiet" />
+    <Entry Key="1895295726" Color="1" Value="Escape the Hospital" />
     <Entry LangId="timeCount_10054_00" Color="1" Value="Time until rebel guerrillas' operation is over:" />
-    <Entry LangId="mission_episode" Color="1" Value="Episode" />
-    <Entry LangId="name_mission_10_10151" Color="1" Value="SAHELANTHROPUS" />
-    <Entry LangId="sub_mission_10_10151" Color="1" Value="SAHELANTHROPUS" />
-    <Entry LangId="info_mission_10_10151_00" Color="1" Value="Prevent the combat deployment of the upright bipedal weapon Sahelanthropus, and take vengeance on Skull Face." />
+    <Entry Key="226067771" Color="1" Value="Episode" />
+    <Entry Key="3757674897" Color="1" Value="SAHELANTHROPUS" />
+    <Entry Key="1065698051" Color="1" Value="SAHELANTHROPUS" />
+    <Entry Key="1655034217" Color="1" Value="Prevent the combat deployment of the upright bipedal weapon Sahelanthropus, and take vengeance on Skull Face." />
     <Entry LangId="mission_to_be_continued" Color="1" Value="To Be Continued" />
-    <Entry LangId="name_mission_20_10171" Color="1" Value="PROXY WAR WITHOUT END" />
-    <Entry LangId="sub_mission_20_10171" Color="1" Value="PROXY WAR WITHOUT END" />
-    <Entry LangId="info_mission_20_10110_01" Color="1" Value="Immobilize the Man on Fire, and exfiltrate the hot zone." />
-    <Entry LangId="info_mission_20_10171_00" Color="1" Value="Eliminate the CFA armored column assembling to the north of Nova Braga Airport. The column contains many large-scale fighting vehicles." />
+    <Entry Key="1526401906" Color="1" Value="PROXY WAR WITHOUT END" />
+    <Entry Key="3993514220" Color="1" Value="PROXY WAR WITHOUT END" />
+    <Entry Key="2301502572" Color="1" Value="Immobilize the Man on Fire, and exfiltrate the hot zone." />
+    <Entry Key="886887523" Color="1" Value="Eliminate the CFA armored column assembling to the north of Nova Braga Airport. The column contains many large-scale fighting vehicles." />
     <Entry Key="3526009397" Color="5" Value="Locate and rescue Kazuhira Miller" />
     <Entry Key="1230328457" Color="5" Value="Transport Kazuhira Miller to the rendezvous point" />
     <Entry Key="1838526035" Color="5" Value="Put Kazuhira Miller on the chopper and escape" />
@@ -265,240 +265,240 @@
     <Entry Key="499798224" Color="5" Value="Eliminate the Soviet mechanized unit" />
     <Entry Key="3400027565" Color="5" Value="Transport Quiet to the landing zone" />
     <Entry Key="2849826491" Color="5" Value="Locate Quiet" />
-    <Entry LangId="task_mission_10_10020_00" Color="5" Value="Pinpointed Kazuhira Miller's whereabouts" />
-    <Entry LangId="task_mission_10_10020_01" Color="5" Value="Extracted Kazuhira Miller" />
-    <Entry LangId="task_mission_10_10020_02" Color="5" Value="Extracted the commander from Wakh Sind Barracks" />
-    <Entry LangId="task_mission_10_10020_03" Color="5" Value="Completed the mission without being discovered by the Skulls" />
-    <Entry LangId="task_mission_10_10020_04" Color="5" Value="Secured the rough diamonds hidden in Spugmay Keep" />
-    <Entry LangId="task_mission_10_10020_05" Color="5" Value="Extracted the transport truck driver" />
-    <Entry LangId="task_mission_50_10030_00" Color="5" Value="Completed the Fulton extraction training" />
-    <Entry LangId="task_mission_50_10030_01" Color="5" Value="Extracted staff, raising your R&amp;D Team's level" />
-    <Entry LangId="task_mission_50_10030_02" Color="5" Value="Developed the cardboard box, and completed basic training" />
-    <Entry LangId="task_mission_50_10030_03" Color="5" Value="Completed restrain training" />
-    <Entry LangId="task_mission_50_10030_04" Color="5" Value="Completed strike training" />
-    <Entry LangId="task_mission_10_10036_00" Color="5" Value="Eliminated the Spetsnaz commander" />
-    <Entry LangId="task_mission_10_10036_01" Color="5" Value="Neutralized the Spetsnaz commander from long distance (100m or more)" />
-    <Entry LangId="task_mission_10_10036_02" Color="5" Value="Extracted the Spetsnaz commander" />
-    <Entry LangId="task_mission_10_10036_03" Color="5" Value="Picked a haoma in the desert between Shago Village and Spugmay Keep" />
-    <Entry LangId="task_mission_10_10036_04" Color="5" Value="Secured the processed materials hidden in Shago Village" />
-    <Entry LangId="task_mission_10_10043_00" Color="5" Value="Identified the comms equipment at the Eastern Communications Post" />
-    <Entry LangId="task_mission_10_10043_01" Color="5" Value="Destroyed the comms equipment at the Eastern Communications Post" />
-    <Entry LangId="task_mission_10_10043_02" Color="5" Value="Secured the rough diamonds hidden near the Eastern Communications Post" />
-    <Entry LangId="task_mission_10_10043_03" Color="5" Value="Destroyed the transmitter at the Eastern Communications Post" />
-    <Entry LangId="task_mission_10_10043_04" Color="5" Value="Extracted 2 prisoners being held at Wialo Village" />
-    <Entry LangId="task_mission_10_10043_05" Color="5" Value="Extracted the materials container from the Eastern Communications Post" />
-    <Entry LangId="task_mission_10_10033_00" Color="5" Value="Extracted the captive engineer" />
-    <Entry LangId="task_mission_10_10033_01" Color="5" Value="Fulton extracted the engineer through the hole in the facility's basement ceiling" />
-    <Entry LangId="task_mission_10_10033_02" Color="5" Value="Extracted the prisoner plotting to escape from Wakh Sind Barracks" />
-    <Entry LangId="task_mission_10_10033_03" Color="5" Value="Extracted the four-wheel drive patrolling between outposts" />
-    <Entry LangId="task_mission_10_10033_04" Color="5" Value="Secured the blueprint at Wakh Sind Barracks" />
-    <Entry LangId="task_mission_10_10040_00" Color="5" Value="Secured the Honey Bee" />
-    <Entry LangId="task_mission_10_10040_01" Color="5" Value="Eliminated the Skulls" />
-    <Entry LangId="task_mission_10_10040_03" Color="5" Value="Extracted the prisoner who cannot speak" />
-    <Entry LangId="task_mission_10_10040_02" Color="5" Value="Secured the Honey Bee with its ammunition intact" />
-    <Entry LangId="task_mission_10_10040_04" Color="5" Value="Extracted 2 snipers at the Mountain Relay Base" />
-    <Entry LangId="task_mission_10_10040_05" Color="5" Value="Eliminated the gunship" />
-    <Entry LangId="task_mission_10_10041_00" Color="5" Value="Eliminated the commander of the company stationed at Wialo Village" />
-    <Entry LangId="task_mission_10_10041_01" Color="5" Value="Eliminated the commander of the platoon stationed at Shago Village" />
-    <Entry LangId="task_mission_10_10041_02" Color="5" Value="Eliminated the commander of the platoon stationed at Wakh Sind Barracks" />
-    <Entry LangId="task_mission_10_10041_03" Color="5" Value="Extracted the commander and the soldiers riding in his vehicle (4 total)" />
-    <Entry LangId="task_mission_10_10041_04" Color="5" Value="Extracted the 3 commanders" />
-    <Entry LangId="task_mission_10_10041_05" Color="5" Value="Listened to the end of the 3 commanders' conversation" />
-    <Entry LangId="task_mission_10_10041_06" Color="5" Value="Extracted 2 prisoners being held at Ghwandai Town" />
-    <Entry LangId="task_mission_10_10044_00" Color="5" Value="Secured the deployment plans" />
-    <Entry LangId="task_mission_10_10044_02" Color="5" Value="Eliminated the colonel" />
-    <Entry LangId="task_mission_10_10044_03" Color="5" Value="Eliminated all tanks" />
-    <Entry LangId="task_mission_10_10044_04" Color="5" Value="Extracted the colonel" />
-    <Entry LangId="task_mission_10_10044_05" Color="5" Value="Eliminated the colonel and all tanks before they reached Smasei Fort" />
-    <Entry LangId="task_mission_10_10044_06" Color="5" Value="Extracted the prisoner being held at Sakhra Ee Village" />
-    <Entry LangId="task_mission_10_10044_07" Color="5" Value="Extracted all tanks" />
-    <Entry LangId="task_mission_10_10050_00" Color="5" Value="Eliminated Quiet" />
-    <Entry LangId="task_mission_10_10050_01" Color="5" Value="Determined what to do with Quiet" />
-    <Entry LangId="task_mission_10_10050_02" Color="5" Value="Neutralized Quiet without hitting her with lethal weapons" />
-    <Entry LangId="task_mission_10_10050_03" Color="5" Value="Neutralized Quiet via hold-up" />
-    <Entry LangId="task_mission_10_10052_01" Color="5" Value="Extracted the Mujahideen prisoner called Malak" />
-    <Entry LangId="task_mission_10_10052_02" Color="5" Value="Extracted the escort vehicle (armored vehicle)" />
-    <Entry LangId="task_mission_10_10052_03" Color="5" Value="Extracted 3 prisoners being held at Lamar Khaate Palace" />
-    <Entry LangId="task_mission_10_10052_04" Color="5" Value="Extracted 2 prisoners being held at Yakho Oboo Supply Outpost" />
-    <Entry LangId="task_mission_10_10052_05" Color="5" Value="Listened to the last conversation between the transport truck driver and Malak" />
-    <Entry LangId="task_mission_10_10054_00" Color="5" Value="Eliminated an armored vehicle" />
-    <Entry LangId="task_mission_10_10054_01" Color="5" Value="Eliminated multiple fighting vehicles or gunships" />
-    <Entry LangId="task_mission_10_10054_02" Color="5" Value="Eliminated all armored vehicles without receiving a resupply or fire support" />
-    <Entry LangId="task_mission_10_10054_03" Color="5" Value="Secured the weapon the transport truck was carrying" />
-    <Entry LangId="task_mission_10_10054_04" Color="5" Value="Extracted an armored vehicle" />
-    <Entry LangId="task_mission_10_10054_05" Color="5" Value="Extracted 4 soldiers searching for the escaped prisoner" />
-    <Entry LangId="task_mission_10_10054_06" Color="5" Value="Extracted 6 prisoners" />
-    <Entry LangId="task_mission_10_10054_07" Color="5" Value="Extracted 3 tanks" />
-    <Entry LangId="task_mission_10_10070_00" Color="5" Value="Made contact with Dr. Emmerich" />
-    <Entry LangId="task_mission_10_10070_01" Color="5" Value="Extracted Dr. Emmerich" />
-    <Entry LangId="task_mission_10_10070_02" Color="5" Value="Extracted 3 Walker Gears from Central Base Camp" />
-    <Entry LangId="task_mission_10_10070_03" Color="5" Value="Extracted Dr. Emmerich without him taking damage" />
-    <Entry LangId="task_mission_10_10070_04" Color="5" Value="Secured the Glamor Model (Vertical) poster at Central Base Camp" />
-    <Entry LangId="task_mission_10_10070_05" Color="5" Value="Secured the blueprint at Central Base Camp" />
-    <Entry LangId="task_mission_20_10080_00" Color="5" Value="Shut down the oil transfer pump" />
-    <Entry LangId="task_mission_20_10080_01" Color="5" Value="Destroyed the oily water separator tank" />
-    <Entry LangId="task_mission_20_10080_02" Color="5" Value="Extracted 4 child soldiers being trained at Masa Village" />
-    <Entry LangId="task_mission_20_10080_03" Color="5" Value="Exfiltrated the hot zone before Mfinda Oilfield was sealed off" />
-    <Entry LangId="task_mission_20_10080_04" Color="5" Value="Extracted the lappet-faced vulture that wandered into the burned-down village" />
-    <Entry LangId="task_mission_20_10080_05" Color="5" Value="Extracted 4 Walker Gears sealing off Mfinda Oilfield" />
-    <Entry LangId="task_mission_20_10086_00" Color="5" Value="Identified the Afrikaans interpreter" />
-    <Entry LangId="task_mission_20_10086_01" Color="5" Value="Identified the Viscount" />
-    <Entry LangId="task_mission_20_10086_02" Color="5" Value="Extracted the Viscount" />
-    <Entry LangId="task_mission_20_10086_03" Color="5" Value="Pinpointed the locations of the 4 prisoners from an intel file" />
-    <Entry LangId="task_mission_20_10086_04" Color="5" Value="Extracted 3 prisoners being held at Kiziba Camp" />
-    <Entry LangId="task_mission_20_10086_05" Color="5" Value="Extracted a materials container at Kiziba Camp" />
-    <Entry LangId="task_mission_20_10086_06" Color="5" Value="Listened to all 4 prisoners' interrogations" />
-    <Entry LangId="task_mission_20_10082_01" Color="5" Value="Eliminated all Walker Gears" />
-    <Entry LangId="task_mission_20_10082_02" Color="5" Value="Extracted 2 prisoners being held at Ditadi Abandoned Village" />
-    <Entry LangId="task_mission_20_10082_03" Color="5" Value="Extracted all Walker Gears" />
-    <Entry LangId="task_mission_20_10082_04" Color="5" Value="Picked a digitalis (lutea) at Ditadi Abandoned Village" />
-    <Entry LangId="task_mission_20_10082_05" Color="5" Value="Extracted a truck at Ditadi Abandoned Village" />
-    <Entry LangId="task_mission_20_10090_00" Color="5" Value="Identified escort unit (armored vehicle)" />
-    <Entry LangId="task_mission_20_10090_01" Color="5" Value="Identified transport truck" />
-    <Entry LangId="task_mission_20_10090_02" Color="5" Value="Extracted transport truck" />
-    <Entry LangId="task_mission_20_10090_03" Color="5" Value="Eliminated the Skulls" />
-    <Entry LangId="task_mission_20_10090_04" Color="5" Value="Extracted the transport truck driver" />
-    <Entry LangId="task_mission_20_10090_05" Color="5" Value="Pinpointed escort unit's estimated route from an intel file" />
-    <Entry LangId="task_mission_20_10090_06" Color="5" Value="Listened to all conversations between transport truck driver and outpost/guard post soldiers" />
-    <Entry LangId="task_mission_20_10090_07" Color="5" Value="Extracted 3 Zero Risk Security soldiers" />
-    <Entry LangId="task_mission_20_10195_00" Color="5" Value="Identified subordinate of the PF commander, the Major" />
-    <Entry LangId="task_mission_20_10195_01" Color="5" Value="Identified the PF commander, the Major" />
-    <Entry LangId="task_mission_20_10195_02" Color="5" Value="Eliminated the PF commander, the Major" />
-    <Entry LangId="task_mission_20_10195_03" Color="5" Value="Extracted the PF commander, the Major" />
-    <Entry LangId="task_mission_20_10195_04" Color="5" Value="Extracted the subordinate of the PF commander, the Major" />
-    <Entry LangId="task_mission_20_10195_05" Color="5" Value="Extracted prisoner being held at Munoko ya Nioka Station, NE Guard Post" />
-    <Entry LangId="task_mission_20_10195_06" Color="5" Value="Listened to the conversation between the PF commander (the Major) and his subordinate" />
-    <Entry LangId="task_mission_20_10091_01" Color="5" Value="Extracted Intel Team member escaping through the forest north of the camp" />
-    <Entry LangId="task_mission_20_10091_03" Color="5" Value="Extracted Intel Team member being held at Kiziba Camp" />
-    <Entry LangId="task_mission_20_10091_04" Color="5" Value="Extracted 2 CFA officials" />
-    <Entry LangId="task_mission_20_10091_05" Color="5" Value="Extracted prisoner being held at Kiziba Camp" />
-    <Entry LangId="task_mission_20_10091_06" Color="5" Value="Extracted 4 search team reinforcements" />
-    <Entry LangId="task_mission_20_10091_07" Color="5" Value="Extracted the transport truck driver" />
-    <Entry LangId="task_mission_20_10100_00" Color="5" Value="Eliminated the former rebel Mbele soldier" />
-    <Entry LangId="task_mission_20_10100_01" Color="5" Value="Eliminated 5 prisoners being held at Kungenga Mine" />
-    <Entry LangId="task_mission_20_10100_02" Color="5" Value="Extracted child prisoner" />
-    <Entry LangId="task_mission_20_10100_03" Color="5" Value="Extracted the former rebel Mbele soldier" />
-    <Entry LangId="task_mission_20_10100_04" Color="5" Value="Completed the mission by extracting 5 child soldiers without the enemy discovering their escape" />
-    <Entry LangId="task_mission_20_10100_05" Color="5" Value="Eliminated the gunship" />
-    <Entry LangId="task_mission_20_10100_06" Color="5" Value="Extracted 5 snipers from areas near Kungenga Mine, NE and SW Guard Posts" />
-    <Entry LangId="task_mission_20_10100_07" Color="5" Value="Extracted 3 armored vehicles" />
-    <Entry LangId="task_mission_20_10110_00" Color="5" Value="Extracted Shabani" />
-    <Entry LangId="task_mission_20_10110_01" Color="5" Value="Successfully hit the floating boy with an attack" />
-    <Entry LangId="task_mission_20_10110_02" Color="5" Value="Fought off the Man on Fire" />
-    <Entry LangId="task_mission_20_10110_03" Color="5" Value="Pinpointed route to Ngumba Industrial Zone, West Guard Post from an intel file" />
-    <Entry LangId="task_mission_20_10110_04" Color="5" Value="Extracted an African wild dog near Ngumba Industrial Zone, West Guard Post" />
-    <Entry LangId="task_mission_20_10110_05" Color="5" Value="Listened to the conversation about the &quot;bodies at Munoko ya Nioka Station&quot;" />
-    <Entry LangId="task_mission_20_10121_00" Color="5" Value="Identified the arms dealer" />
-    <Entry LangId="task_mission_20_10121_01" Color="5" Value="Identified the CFA official" />
-    <Entry LangId="task_mission_20_10121_02" Color="5" Value="Eliminated the CFA official" />
-    <Entry LangId="task_mission_20_10121_03" Color="5" Value="Extracted the CFA official" />
-    <Entry LangId="task_mission_20_10121_04" Color="5" Value="Extracted the arms dealer" />
-    <Entry LangId="task_mission_20_10121_05" Color="5" Value="Listened to all conversations between the arms dealer and the CFA official" />
-    <Entry LangId="task_mission_20_10121_06" Color="5" Value="Secured the blueprint the gunship was carrying" />
-    <Entry LangId="task_mission_20_10121_07" Color="5" Value="Extracted the materials container inside the Nova Braga Airport hangar" />
-    <Entry LangId="task_mission_50_10115_00" Color="5" Value="Eliminated the enemy commander" />
-    <Entry LangId="task_mission_20_10120_01" Color="5" Value="Extracted the White Mamba" />
-    <Entry LangId="task_mission_20_10120_02" Color="5" Value="Extracted the prisoner being held at Masa Village" />
-    <Entry LangId="task_mission_20_10120_03" Color="5" Value="Extracted the White Mamba without giving him the opportunity to resist" />
-    <Entry LangId="task_mission_20_10120_04" Color="5" Value="Secured the rough diamonds hidden near Masa Village" />
-    <Entry LangId="task_mission_20_10120_05" Color="5" Value="Extracted 20 child soldiers" />
-    <Entry LangId="task_mission_20_10085_00" Color="5" Value="Extracted the male engineer" />
-    <Entry LangId="task_mission_20_10085_01" Color="5" Value="Extracted the female engineer" />
-    <Entry LangId="task_mission_20_10085_02" Color="5" Value="Extracted 6 nubians near Ngumba Industrial Zone, SW Guard Post" />
-    <Entry LangId="task_mission_20_10085_03" Color="5" Value="Extracted 2 four-wheel drives" />
-    <Entry LangId="task_mission_20_10085_04" Color="5" Value="Extracted 4 materials containers from Munoko ya Nioka Station, NE Guard Post" />
-    <Entry LangId="task_mission_20_10085_05" Color="5" Value="Picked an African peach near Munoko ya Nioka Station" />
-    <Entry LangId="task_mission_20_10085_06" Color="5" Value="Extracted a martial eagle near Munoko ya Nioka Station" />
-    <Entry LangId="task_mission_20_10200_02" Color="5" Value="Extracted the militants' XO" />
-    <Entry LangId="task_mission_20_10200_03" Color="5" Value="Extracted the child soldiers' commander" />
-    <Entry LangId="task_mission_20_10200_04" Color="5" Value="Extracted the prisoner who escaped from Munoko ya Nioka Station, NE Guard Post" />
-    <Entry LangId="task_mission_20_10200_05" Color="5" Value="Extracted 12 child soldiers" />
-    <Entry LangId="task_mission_20_10200_06" Color="5" Value="Used a vehicle to extract the child soldiers' commander and the militants' XO simultaneously" />
-    <Entry LangId="task_mission_20_10200_07" Color="5" Value="Picked a digitalis (purpurea) at Munoko ya Nioka Station, NE Guard Post" />
-    <Entry LangId="task_mission_20_10211_00" Color="5" Value="Pinpointed the trafficker's escape route from an intel file" />
-    <Entry LangId="task_mission_20_10211_02" Color="5" Value="Eliminated the trafficker" />
-    <Entry LangId="task_mission_20_10211_03" Color="5" Value="Eliminated the trafficker before he reached Kiziba Camp" />
-    <Entry LangId="task_mission_20_10211_04" Color="5" Value="Extracted the trafficker and 5 escort soldiers" />
-    <Entry LangId="task_mission_20_10211_05" Color="5" Value="Extracted 4 prisoners being held at Ditadi Abandoned Village" />
-    <Entry LangId="task_mission_20_10211_06" Color="5" Value="Extracted a side-striped jackal near Kiziba Camp" />
-    <Entry LangId="task_mission_20_10081_01" Color="5" Value="Extracted Intel Team member" />
-    <Entry LangId="task_mission_20_10081_02" Color="5" Value="Extracted Intel Team member before he could have an accident" />
-    <Entry LangId="task_mission_20_10081_03" Color="5" Value="Exfiltrated the hot zone with Intel Team member by land" />
-    <Entry LangId="task_mission_20_10130_00" Color="5" Value="Made contact with Code Talker" />
-    <Entry LangId="task_mission_20_10130_01" Color="5" Value="Extracted Code Talker" />
-    <Entry LangId="task_mission_20_10130_02" Color="5" Value="Extracted Code Talker without him taking damage" />
-    <Entry LangId="task_mission_20_10130_03" Color="5" Value="Eliminated the Skulls" />
-    <Entry LangId="task_mission_20_10130_04" Color="5" Value="Extracted the Skulls" />
-    <Entry LangId="task_mission_20_10130_05" Color="5" Value="Extracted the armored vehicle sealing off Lufwa Valley" />
-    <Entry LangId="task_mission_20_10140_00" Color="5" Value="Eliminated the Skulls" />
-    <Entry LangId="task_mission_20_10140_01" Color="5" Value="Extracted Code Talker" />
-    <Entry LangId="task_mission_20_10140_02" Color="5" Value="Completed the mission without being grabbed by a puppet soldier" />
-    <Entry LangId="task_mission_20_10140_03" Color="5" Value="Extracted the Skulls" />
-    <Entry LangId="task_mission_10_10150_00" Color="5" Value="Made contact with Skull Face" />
-    <Entry LangId="task_mission_10_10150_01" Color="5" Value="Got information from Skull Face" />
-    <Entry LangId="task_mission_10_10150_02" Color="5" Value="Extracted 4 Walker Gears" />
-    <Entry LangId="task_mission_10_10150_03" Color="5" Value="Obtained cassette tape at OKB Zero" />
-    <Entry LangId="task_mission_10_10150_04" Color="5" Value="Extracted 7 red containers from OKB Zero" />
-    <Entry LangId="task_mission_10_10150_05" Color="5" Value="Extracted 3 tanks from OKB Zero" />
-    <Entry LangId="task_mission_10_10151_00" Color="5" Value="Destroyed Sahelanthropus" />
-    <Entry LangId="task_mission_10_10151_01" Color="5" Value="Destroyed Sahelanthropus's head" />
-    <Entry LangId="task_mission_10_10151_02" Color="5" Value="Successfully hit the floating boy with an attack" />
-    <Entry LangId="task_mission_10_10045_01" Color="5" Value="Extracted CIA agent" />
-    <Entry LangId="task_mission_10_10045_02" Color="5" Value="Extracted CIA agent before his discovery by the search team" />
-    <Entry LangId="task_mission_10_10045_03" Color="5" Value="Extracted 4 search team soldiers" />
-    <Entry LangId="task_mission_10_10045_04" Color="5" Value="Extracted driver of transport vehicle" />
-    <Entry LangId="task_mission_10_10045_05" Color="5" Value="Extracted 2 prisoners being held in Shago Village and Lamar Khaate Palace" />
-    <Entry LangId="task_mission_10_10045_06" Color="5" Value="Extracted the Soviet soldier planning to assassinate the CIA agent" />
-    <Entry LangId="task_mission_10_10156_00" Color="5" Value="Secured film canister" />
-    <Entry LangId="task_mission_10_10156_01" Color="5" Value="Captured Spugmay Keep" />
-    <Entry LangId="task_mission_10_10156_02" Color="5" Value="Secured film canister before reinforcements arrived" />
-    <Entry LangId="task_mission_10_10156_03" Color="5" Value="Extracted prisoner being held at Spugmay Keep, East Guard Post" />
-    <Entry LangId="task_mission_10_10156_04" Color="5" Value="Extracted a griffon vulture near Spugmay Keep" />
-    <Entry LangId="task_mission_20_10093_00" Color="5" Value="Extracted 2 containers" />
-    <Entry LangId="task_mission_20_10093_02" Color="5" Value="Completed the mission by riding a Fulton extracted container out of the hot zone" />
-    <Entry LangId="task_mission_20_10093_03" Color="5" Value="Completed the mission without the enemy discovering the container extraction" />
-    <Entry LangId="task_mission_20_10093_04" Color="5" Value="Pinpointed the soldier's location from an intel file" />
-    <Entry LangId="task_mission_20_10093_05" Color="5" Value="Extracted the commander of the Zero Risk Security force guarding the mansion" />
-    <Entry LangId="task_mission_20_10093_06" Color="5" Value="Recovered the rough diamonds snatched by the common raven near Lufwa Valley, NW Guard Post" />
-    <Entry LangId="task_mission_20_10171_00" Color="5" Value="Eliminated the gunship" />
-    <Entry LangId="task_mission_20_10171_01" Color="5" Value="Eliminated 2 tanks" />
-    <Entry LangId="task_mission_20_10171_03" Color="5" Value="Eliminated 2 armored vehicles" />
-    <Entry LangId="task_mission_20_10171_04" Color="5" Value="Extracted 2 tanks and 2 armored vehicles" />
-    <Entry LangId="task_mission_20_10171_05" Color="5" Value="Extracted the armored column's commander" />
-    <Entry LangId="task_mission_20_10171_06" Color="5" Value="Secured the rough diamond hidden by the armored column's commander" />
-    <Entry LangId="task_mission_20_10171_07" Color="5" Value="Secured the blueprint the gunship was carrying" />
-    <Entry LangId="task_mission_50_10240_00" Color="5" Value="Identified the person who sent the transmission" />
-    <Entry LangId="task_mission_50_10240_01" Color="5" Value="Eliminated the infected" />
-    <Entry LangId="task_mission_10_10260_00" Color="5" Value="Made contact with Quiet" />
-    <Entry LangId="task_mission_10_10260_01" Color="5" Value="Eliminated the Soviet mechanized unit" />
-    <Entry LangId="task_mission_10_10260_02" Color="5" Value="Obtained Quiet's cassette tape" />
-    <Entry LangId="task_mission_10_10260_03" Color="5" Value="Extracted 7 tanks and 7 armored vehicles" />
-    <Entry LangId="task_mission_10_10260_04" Color="5" Value="Completed the mission without Quiet taking damage" />
+    <Entry Key="676350211" Color="5" Value="Pinpointed Kazuhira Miller's whereabouts" />
+    <Entry Key="3552107161" Color="5" Value="Extracted Kazuhira Miller" />
+    <Entry Key="3681564275" Color="5" Value="Extracted the commander from Wakh Sind Barracks" />
+    <Entry Key="1547518358" Color="5" Value="Completed the mission without being discovered by the Skulls" />
+    <Entry Key="3744617069" Color="5" Value="Secured the rough diamonds hidden in Spugmay Keep" />
+    <Entry Key="1441103692" Color="5" Value="Extracted the transport truck driver" />
+    <Entry Key="868527951" Color="5" Value="Completed the Fulton extraction training" />
+    <Entry Key="2224452782" Color="5" Value="Extracted staff, raising your R&amp;D Team's level" />
+    <Entry Key="2891786937" Color="5" Value="Developed the cardboard box, and completed basic training" />
+    <Entry Key="3220862752" Color="5" Value="Completed restrain training" />
+    <Entry Key="3145884870" Color="5" Value="Completed strike training" />
+    <Entry Key="4158943057" Color="5" Value="Eliminated the Spetsnaz commander" />
+    <Entry Key="1536367477" Color="5" Value="Neutralized the Spetsnaz commander from long distance (100m or more)" />
+    <Entry Key="3513455081" Color="5" Value="Extracted the Spetsnaz commander" />
+    <Entry Key="2408710873" Color="5" Value="Picked a haoma in the desert between Shago Village and Spugmay Keep" />
+    <Entry Key="599823231" Color="5" Value="Secured the processed materials hidden in Shago Village" />
+    <Entry Key="1017927242" Color="5" Value="Identified the comms equipment at the Eastern Communications Post" />
+    <Entry Key="2849860650" Color="5" Value="Destroyed the comms equipment at the Eastern Communications Post" />
+    <Entry Key="1508270287" Color="5" Value="Secured the rough diamonds hidden near the Eastern Communications Post" />
+    <Entry Key="1113158535" Color="5" Value="Destroyed the transmitter at the Eastern Communications Post" />
+    <Entry Key="4121284254" Color="5" Value="Extracted 2 prisoners being held at Wialo Village" />
+    <Entry Key="2224299956" Color="5" Value="Extracted the materials container from the Eastern Communications Post" />
+    <Entry Key="2560560555" Color="5" Value="Extracted the captive engineer" />
+    <Entry Key="1978448049" Color="5" Value="Fulton extracted the engineer through the hole in the facility's basement ceiling" />
+    <Entry Key="1204821246" Color="5" Value="Extracted the prisoner plotting to escape from Wakh Sind Barracks" />
+    <Entry Key="344993589" Color="5" Value="Extracted the four-wheel drive patrolling between outposts" />
+    <Entry Key="3115945785" Color="5" Value="Secured the blueprint at Wakh Sind Barracks" />
+    <Entry Key="3516940031" Color="5" Value="Secured the Honey Bee" />
+    <Entry Key="2450403854" Color="5" Value="Eliminated the Skulls" />
+    <Entry Key="268672307" Color="5" Value="Extracted the prisoner who cannot speak" />
+    <Entry Key="4223475714" Color="5" Value="Secured the Honey Bee with its ammunition intact" />
+    <Entry Key="3761595184" Color="5" Value="Extracted 2 snipers at the Mountain Relay Base" />
+    <Entry Key="3047654139" Color="5" Value="Eliminated the gunship" />
+    <Entry Key="56262739" Color="5" Value="Eliminated the commander of the company stationed at Wialo Village" />
+    <Entry Key="1138732894" Color="5" Value="Eliminated the commander of the platoon stationed at Shago Village" />
+    <Entry Key="1713409822" Color="5" Value="Eliminated the commander of the platoon stationed at Wakh Sind Barracks" />
+    <Entry Key="3426657688" Color="5" Value="Extracted the commander and the soldiers riding in his vehicle (4 total)" />
+    <Entry Key="208295977" Color="5" Value="Extracted the 3 commanders" />
+    <Entry Key="3364647051" Color="5" Value="Listened to the end of the 3 commanders' conversation" />
+    <Entry Key="3340014916" Color="5" Value="Extracted 2 prisoners being held at Ghwandai Town" />
+    <Entry Key="697115494" Color="5" Value="Secured the deployment plans" />
+    <Entry Key="2211966734" Color="5" Value="Eliminated the colonel" />
+    <Entry Key="2451838940" Color="5" Value="Eliminated all tanks" />
+    <Entry Key="2636238513" Color="5" Value="Extracted the colonel" />
+    <Entry Key="2950442142" Color="5" Value="Eliminated the colonel and all tanks before they reached Smasei Fort" />
+    <Entry Key="1205774774" Color="5" Value="Extracted the prisoner being held at Sakhra Ee Village" />
+    <Entry Key="1410097924" Color="5" Value="Extracted all tanks" />
+    <Entry Key="4244620829" Color="5" Value="Eliminated Quiet" />
+    <Entry Key="167938598" Color="5" Value="Determined what to do with Quiet" />
+    <Entry Key="2210219991" Color="5" Value="Neutralized Quiet without hitting her with lethal weapons" />
+    <Entry Key="1753865132" Color="5" Value="Neutralized Quiet via hold-up" />
+    <Entry Key="837352421" Color="5" Value="Extracted the Mujahideen prisoner called Malak" />
+    <Entry Key="820582992" Color="5" Value="Extracted the escort vehicle (armored vehicle)" />
+    <Entry Key="2932774381" Color="5" Value="Extracted 3 prisoners being held at Lamar Khaate Palace" />
+    <Entry Key="4009963780" Color="5" Value="Extracted 2 prisoners being held at Yakho Oboo Supply Outpost" />
+    <Entry Key="3034915053" Color="5" Value="Listened to the last conversation between the transport truck driver and Malak" />
+    <Entry Key="903570279" Color="5" Value="Eliminated an armored vehicle" />
+    <Entry Key="2466914796" Color="5" Value="Eliminated multiple fighting vehicles or gunships" />
+    <Entry Key="451505131" Color="5" Value="Eliminated all armored vehicles without receiving a resupply or fire support" />
+    <Entry Key="3602459361" Color="5" Value="Secured the weapon the transport truck was carrying" />
+    <Entry Key="273421309" Color="5" Value="Extracted an armored vehicle" />
+    <Entry Key="3353388281" Color="5" Value="Extracted 4 soldiers searching for the escaped prisoner" />
+    <Entry Key="3410480718" Color="5" Value="Extracted 6 prisoners" />
+    <Entry Key="4128533991" Color="5" Value="Extracted 3 tanks" />
+    <Entry Key="728774390" Color="5" Value="Made contact with Dr. Emmerich" />
+    <Entry Key="138596484" Color="5" Value="Extracted Dr. Emmerich" />
+    <Entry Key="1675395600" Color="5" Value="Extracted 3 Walker Gears from Central Base Camp" />
+    <Entry Key="1973100883" Color="5" Value="Extracted Dr. Emmerich without him taking damage" />
+    <Entry Key="542031764" Color="5" Value="Secured the Glamor Model (Vertical) poster at Central Base Camp" />
+    <Entry Key="2962968362" Color="5" Value="Secured the blueprint at Central Base Camp" />
+    <Entry Key="3069744116" Color="5" Value="Shut down the oil transfer pump" />
+    <Entry Key="3032661926" Color="5" Value="Destroyed the oily water separator tank" />
+    <Entry Key="165510607" Color="5" Value="Extracted 4 child soldiers being trained at Masa Village" />
+    <Entry Key="3742971989" Color="5" Value="Exfiltrated the hot zone before Mfinda Oilfield was sealed off" />
+    <Entry Key="1216633120" Color="5" Value="Extracted the lappet-faced vulture that wandered into the burned-down village" />
+    <Entry Key="1697752444" Color="5" Value="Extracted 4 Walker Gears sealing off Mfinda Oilfield" />
+    <Entry Key="2451205320" Color="5" Value="Identified the Afrikaans interpreter" />
+    <Entry Key="739161041" Color="5" Value="Identified the Viscount" />
+    <Entry Key="1309488273" Color="5" Value="Extracted the Viscount" />
+    <Entry Key="441588516" Color="5" Value="Pinpointed the locations of the 4 prisoners from an intel file" />
+    <Entry Key="1869070284" Color="5" Value="Extracted 3 prisoners being held at Kiziba Camp" />
+    <Entry Key="2407072545" Color="5" Value="Extracted a materials container at Kiziba Camp" />
+    <Entry Key="1648999700" Color="5" Value="Listened to all 4 prisoners' interrogations" />
+    <Entry Key="315001387" Color="5" Value="Eliminated all Walker Gears" />
+    <Entry Key="4153206237" Color="5" Value="Extracted 2 prisoners being held at Ditadi Abandoned Village" />
+    <Entry Key="1149617496" Color="5" Value="Extracted all Walker Gears" />
+    <Entry Key="3245011875" Color="5" Value="Picked a digitalis (lutea) at Ditadi Abandoned Village" />
+    <Entry Key="3069288685" Color="5" Value="Extracted a truck at Ditadi Abandoned Village" />
+    <Entry Key="3430945629" Color="5" Value="Identified escort unit (armored vehicle)" />
+    <Entry Key="2347072752" Color="5" Value="Identified transport truck" />
+    <Entry Key="1834563446" Color="5" Value="Extracted transport truck" />
+    <Entry Key="3184228447" Color="5" Value="Eliminated the Skulls" />
+    <Entry Key="657086322" Color="5" Value="Extracted the transport truck driver" />
+    <Entry Key="575352393" Color="5" Value="Pinpointed escort unit's estimated route from an intel file" />
+    <Entry Key="2451125857" Color="5" Value="Listened to all conversations between transport truck driver and outpost/guard post soldiers" />
+    <Entry Key="560534899" Color="5" Value="Extracted 3 Zero Risk Security soldiers" />
+    <Entry Key="1110040553" Color="5" Value="Identified subordinate of the PF commander, the Major" />
+    <Entry Key="3476392651" Color="5" Value="Identified the PF commander, the Major" />
+    <Entry Key="3661499592" Color="5" Value="Eliminated the PF commander, the Major" />
+    <Entry Key="3951377075" Color="5" Value="Extracted the PF commander, the Major" />
+    <Entry Key="783251999" Color="5" Value="Extracted the subordinate of the PF commander, the Major" />
+    <Entry Key="1925932872" Color="5" Value="Extracted prisoner being held at Munoko ya Nioka Station, NE Guard Post" />
+    <Entry Key="1021194626" Color="5" Value="Listened to the conversation between the PF commander (the Major) and his subordinate" />
+    <Entry Key="3917915426" Color="5" Value="Extracted Intel Team member escaping through the forest north of the camp" />
+    <Entry Key="1664281132" Color="5" Value="Extracted Intel Team member being held at Kiziba Camp" />
+    <Entry Key="124700819" Color="5" Value="Extracted 2 CFA officials" />
+    <Entry Key="4160387689" Color="5" Value="Extracted prisoner being held at Kiziba Camp" />
+    <Entry Key="1691813392" Color="5" Value="Extracted 4 search team reinforcements" />
+    <Entry Key="1632505510" Color="5" Value="Extracted the transport truck driver" />
+    <Entry Key="2907629530" Color="5" Value="Eliminated the former rebel Mbele soldier" />
+    <Entry Key="1429654232" Color="5" Value="Eliminated 5 prisoners being held at Kungenga Mine" />
+    <Entry Key="1774189263" Color="5" Value="Extracted child prisoner" />
+    <Entry Key="147896840" Color="5" Value="Extracted the former rebel Mbele soldier" />
+    <Entry Key="276828794" Color="5" Value="Completed the mission by extracting 5 child soldiers without the enemy discovering their escape" />
+    <Entry Key="432046459" Color="5" Value="Eliminated the gunship" />
+    <Entry Key="2472364887" Color="5" Value="Extracted 5 snipers from areas near Kungenga Mine, NE and SW Guard Posts" />
+    <Entry Key="4068438074" Color="5" Value="Extracted 3 armored vehicles" />
+    <Entry Key="2701151602" Color="5" Value="Extracted Shabani" />
+    <Entry Key="2546446194" Color="5" Value="Successfully hit the floating boy with an attack" />
+    <Entry Key="1560332819" Color="5" Value="Fought off the Man on Fire" />
+    <Entry Key="2031622156" Color="5" Value="Pinpointed route to Ngumba Industrial Zone, West Guard Post from an intel file" />
+    <Entry Key="3763895512" Color="5" Value="Extracted an African wild dog near Ngumba Industrial Zone, West Guard Post" />
+    <Entry Key="4067958435" Color="5" Value="Listened to the conversation about the &quot;bodies at Munoko ya Nioka Station&quot;" />
+    <Entry Key="2557753715" Color="5" Value="Identified the arms dealer" />
+    <Entry Key="4195180855" Color="5" Value="Identified the CFA official" />
+    <Entry Key="2975257047" Color="5" Value="Eliminated the CFA official" />
+    <Entry Key="3663803085" Color="5" Value="Extracted the CFA official" />
+    <Entry Key="559223168" Color="5" Value="Extracted the arms dealer" />
+    <Entry Key="87718574" Color="5" Value="Listened to all conversations between the arms dealer and the CFA official" />
+    <Entry Key="1534891465" Color="5" Value="Secured the blueprint the gunship was carrying" />
+    <Entry Key="1386861649" Color="5" Value="Extracted the materials container inside the Nova Braga Airport hangar" />
+    <Entry Key="3665619971" Color="5" Value="Eliminated the enemy commander" />
+    <Entry Key="2695207294" Color="5" Value="Extracted the White Mamba" />
+    <Entry Key="3403677261" Color="5" Value="Extracted the prisoner being held at Masa Village" />
+    <Entry Key="455486701" Color="5" Value="Extracted the White Mamba without giving him the opportunity to resist" />
+    <Entry Key="1443576604" Color="5" Value="Secured the rough diamonds hidden near Masa Village" />
+    <Entry Key="3901516219" Color="5" Value="Extracted 20 child soldiers" />
+    <Entry Key="361857792" Color="5" Value="Extracted the male engineer" />
+    <Entry Key="549018744" Color="5" Value="Extracted the female engineer" />
+    <Entry Key="2290791921" Color="5" Value="Extracted 6 nubians near Ngumba Industrial Zone, SW Guard Post" />
+    <Entry Key="447624967" Color="5" Value="Extracted 2 four-wheel drives" />
+    <Entry Key="4192080777" Color="5" Value="Extracted 4 materials containers from Munoko ya Nioka Station, NE Guard Post" />
+    <Entry Key="3064894298" Color="5" Value="Picked an African peach near Munoko ya Nioka Station" />
+    <Entry Key="1104296415" Color="5" Value="Extracted a martial eagle near Munoko ya Nioka Station" />
+    <Entry Key="3860684368" Color="5" Value="Extracted the militants' XO" />
+    <Entry Key="238380652" Color="5" Value="Extracted the child soldiers' commander" />
+    <Entry Key="1319941271" Color="5" Value="Extracted the prisoner who escaped from Munoko ya Nioka Station, NE Guard Post" />
+    <Entry Key="3158993422" Color="5" Value="Extracted 12 child soldiers" />
+    <Entry Key="169262441" Color="5" Value="Used a vehicle to extract the child soldiers' commander and the militants' XO simultaneously" />
+    <Entry Key="2067506467" Color="5" Value="Picked a digitalis (purpurea) at Munoko ya Nioka Station, NE Guard Post" />
+    <Entry Key="433082851" Color="5" Value="Pinpointed the trafficker's escape route from an intel file" />
+    <Entry Key="2393294743" Color="5" Value="Eliminated the trafficker" />
+    <Entry Key="3831608050" Color="5" Value="Eliminated the trafficker before he reached Kiziba Camp" />
+    <Entry Key="3350933466" Color="5" Value="Extracted the trafficker and 5 escort soldiers" />
+    <Entry Key="1720275703" Color="5" Value="Extracted 4 prisoners being held at Ditadi Abandoned Village" />
+    <Entry Key="698250040" Color="5" Value="Extracted a side-striped jackal near Kiziba Camp" />
+    <Entry Key="2231482898" Color="5" Value="Extracted Intel Team member" />
+    <Entry Key="3564747308" Color="5" Value="Extracted Intel Team member before he could have an accident" />
+    <Entry Key="695273660" Color="5" Value="Exfiltrated the hot zone with Intel Team member by land" />
+    <Entry Key="3212040958" Color="5" Value="Made contact with Code Talker" />
+    <Entry Key="815655575" Color="5" Value="Extracted Code Talker" />
+    <Entry Key="2216494103" Color="5" Value="Extracted Code Talker without him taking damage" />
+    <Entry Key="1169937189" Color="5" Value="Eliminated the Skulls" />
+    <Entry Key="2639726521" Color="5" Value="Extracted the Skulls" />
+    <Entry Key="1386090271" Color="5" Value="Extracted the armored vehicle sealing off Lufwa Valley" />
+    <Entry Key="3660447625" Color="5" Value="Eliminated the Skulls" />
+    <Entry Key="49663277" Color="5" Value="Extracted Code Talker" />
+    <Entry Key="1932536634" Color="5" Value="Completed the mission without being grabbed by a puppet soldier" />
+    <Entry Key="1374429348" Color="5" Value="Extracted the Skulls" />
+    <Entry Key="1528728477" Color="5" Value="Made contact with Skull Face" />
+    <Entry Key="1811077381" Color="5" Value="Got information from Skull Face" />
+    <Entry Key="4045211330" Color="5" Value="Extracted 4 Walker Gears" />
+    <Entry Key="343693703" Color="5" Value="Obtained cassette tape at OKB Zero" />
+    <Entry Key="3281766878" Color="5" Value="Extracted 7 red containers from OKB Zero" />
+    <Entry Key="608685501" Color="5" Value="Extracted 3 tanks from OKB Zero" />
+    <Entry Key="202980586" Color="5" Value="Destroyed Sahelanthropus" />
+    <Entry Key="3565185956" Color="5" Value="Destroyed Sahelanthropus's head" />
+    <Entry Key="3206407848" Color="5" Value="Successfully hit the floating boy with an attack" />
+    <Entry Key="455241661" Color="5" Value="Extracted CIA agent" />
+    <Entry Key="357679137" Color="5" Value="Extracted CIA agent before his discovery by the search team" />
+    <Entry Key="164891220" Color="5" Value="Extracted 4 search team soldiers" />
+    <Entry Key="671179004" Color="5" Value="Extracted driver of transport vehicle" />
+    <Entry Key="3548970200" Color="5" Value="Extracted 2 prisoners being held in Shago Village and Lamar Khaate Palace" />
+    <Entry Key="147338947" Color="5" Value="Extracted the Soviet soldier planning to assassinate the CIA agent" />
+    <Entry Key="4168378335" Color="5" Value="Secured film canister" />
+    <Entry Key="2328048919" Color="5" Value="Captured Spugmay Keep" />
+    <Entry Key="2515129770" Color="5" Value="Secured film canister before reinforcements arrived" />
+    <Entry Key="141989182" Color="5" Value="Extracted prisoner being held at Spugmay Keep, East Guard Post" />
+    <Entry Key="3429234738" Color="5" Value="Extracted a griffon vulture near Spugmay Keep" />
+    <Entry Key="3537558259" Color="5" Value="Extracted 2 containers" />
+    <Entry Key="1320128212" Color="5" Value="Completed the mission by riding a Fulton extracted container out of the hot zone" />
+    <Entry Key="3622772223" Color="5" Value="Completed the mission without the enemy discovering the container extraction" />
+    <Entry Key="2430310088" Color="5" Value="Pinpointed the soldier's location from an intel file" />
+    <Entry Key="2781561275" Color="5" Value="Extracted the commander of the Zero Risk Security force guarding the mansion" />
+    <Entry Key="2089541070" Color="5" Value="Recovered the rough diamonds snatched by the common raven near Lufwa Valley, NW Guard Post" />
+    <Entry Key="3111642209" Color="5" Value="Eliminated the gunship" />
+    <Entry Key="4288104364" Color="5" Value="Eliminated 2 tanks" />
+    <Entry Key="3258579551" Color="5" Value="Eliminated 2 armored vehicles" />
+    <Entry Key="1372068249" Color="5" Value="Extracted 2 tanks and 2 armored vehicles" />
+    <Entry Key="2129759484" Color="5" Value="Extracted the armored column's commander" />
+    <Entry Key="3530109790" Color="5" Value="Secured the rough diamond hidden by the armored column's commander" />
+    <Entry Key="950324627" Color="5" Value="Secured the blueprint the gunship was carrying" />
+    <Entry Key="2840600738" Color="5" Value="Identified the person who sent the transmission" />
+    <Entry Key="2037029441" Color="5" Value="Eliminated the infected" />
+    <Entry Key="2797439297" Color="5" Value="Made contact with Quiet" />
+    <Entry Key="2877398204" Color="5" Value="Eliminated the Soviet mechanized unit" />
+    <Entry Key="1614009465" Color="5" Value="Obtained Quiet's cassette tape" />
+    <Entry Key="4044732974" Color="5" Value="Extracted 7 tanks and 7 armored vehicles" />
+    <Entry Key="75771457" Color="5" Value="Completed the mission without Quiet taking damage" />
     <Entry LangId="timeCount_50050_01" Color="1" Value="Time until Security Team blockades surrounding waters:" />
     <Entry LangId="timeCount_50050_00" Color="1" Value="Time until surrounding waters are blockaded:" />
     <Entry LangId="timeCount_50050_11" Color="1" Value="Time until intruder's wormhole reconnects:" />
     <Entry LangId="timeCount_50050_10" Color="1" Value="Time until wormhole reconnects:" />
-    <Entry LangId="info_mission_20_10211_01" Color="1" Value="Locate and eliminate the human trafficker who has fled to an enemy outpost." />
-    <Entry LangId="info_mission_50_10240_02" Color="1" Value="If staff inside the Laboratory are infected with the vocal cord parasite, eliminate them. Anyone not infected is to be rescued. Use the researcher's goggles to identify who is infected." />
-    <Entry LangId="info_mission_50_10240_01" Color="1" Value="Search the Laboratory for the individual who sent the transmission. It is possible this person knows how to identify who is infected with the vocal cord parasite." />
-    <Entry LangId="task_mission_10_10050_05" Color="5" Value="Neutralized Quiet with non-firearm attacks" />
-    <Entry LangId="info_mission_10_10041_01" Color="1" Value="Eliminate the commanders of three key Soviet units. The targets are stationed at Wialo Village, Shago Village, and Wakh Sind Barracks." />
-    <Entry LangId="obj_mission_10_10151_00" Color="513" Value="Destroy Sahelanthropus" />
+    <Entry Key="1967794924" Color="1" Value="Locate and eliminate the human trafficker who has fled to an enemy outpost." />
+    <Entry Key="1173944672" Color="1" Value="If staff inside the Laboratory are infected with the vocal cord parasite, eliminate them. Anyone not infected is to be rescued. Use the researcher's goggles to identify who is infected." />
+    <Entry Key="1916651545" Color="1" Value="Search the Laboratory for the individual who sent the transmission. It is possible this person knows how to identify who is infected with the vocal cord parasite." />
+    <Entry Key="2500418754" Color="5" Value="Neutralized Quiet with non-firearm attacks" />
+    <Entry Key="2834732035" Color="1" Value="Eliminate the commanders of three key Soviet units. The targets are stationed at Wialo Village, Shago Village, and Wakh Sind Barracks." />
+    <Entry Key="2494258759" Color="513" Value="Destroy Sahelanthropus" />
     <Entry LangId="date_mission_30_10010" Color="1" Value="March 11th, 1984 02:03" />
     <Entry LangId="area_mission_30_10010" Color="1" Value="Dhekelia SBA Memorial Hospital, Cyprus" />
     <Entry LangId="area_mission_20_10080" Color="1" Value="Angola-Zaire border region, Central Africa" />
     <Entry Key="1881884010" Color="5" Value="Locate and make contact with whoever sent the transmission" />
     <Entry Key="327088677" Color="5" Value="Eliminate the infected" />
     <Entry Key="2053599086" Color="5" Value="Head for the Laboratory exit" />
-    <Entry LangId="task_mission_55_10240_00" Color="5" Value="Identified the person who sent the transmission" />
-    <Entry LangId="task_mission_55_10240_01" Color="5" Value="Eliminated the infected" />
-    <Entry LangId="obj_mission_55_10240_00" Color="1" Value="Discover the Truth behind the New Outbreak" />
-    <Entry LangId="name_mission_55_10240" Color="1" Value="SHINING LIGHTS, EVEN IN DEATH" />
-    <Entry LangId="sub_mission_55_10240" Color="1" Value="SHINING LIGHTS, EVEN IN DEATH" />
-    <Entry LangId="info_mission_55_10240_00" Color="1" Value="Investigate the Laboratory, where a new vocal cord parasite outbreak has occurred, and find out how to identify who is infected. The Laboratory has been sealed off, and contact has been lost with the men inside." />
-    <Entry LangId="info_mission_55_10240_01" Color="1" Value="Search the Laboratory for the individual who sent the transmission. It is possible this person knows how to identify who is infected with the vocal cord parasite." />
-    <Entry LangId="info_mission_55_10240_02" Color="1" Value="If staff inside the Laboratory are infected with the vocal cord parasite, eliminate them. Anyone not infected is to be rescued. Use the researcher's goggles to identify who is infected." />
-    <Entry LangId="mission_episode_1" Color="1" Value="Episode 1" />
+    <Entry Key="1509541589" Color="5" Value="Identified the person who sent the transmission" />
+    <Entry Key="27105352" Color="5" Value="Eliminated the infected" />
+    <Entry Key="3768735560" Color="1" Value="Discover the Truth behind the New Outbreak" />
+    <Entry Key="1987609776" Color="1" Value="SHINING LIGHTS, EVEN IN DEATH" />
+    <Entry Key="3588998045" Color="1" Value="SHINING LIGHTS, EVEN IN DEATH" />
+    <Entry Key="1954471212" Color="1" Value="Investigate the Laboratory, where a new vocal cord parasite outbreak has occurred, and find out how to identify who is infected. The Laboratory has been sealed off, and contact has been lost with the men inside." />
+    <Entry Key="2565278768" Color="1" Value="Search the Laboratory for the individual who sent the transmission. It is possible this person knows how to identify who is infected with the vocal cord parasite." />
+    <Entry Key="1255415546" Color="1" Value="If staff inside the Laboratory are infected with the vocal cord parasite, eliminate them. Anyone not infected is to be rescued. Use the researcher's goggles to identify who is infected." />
+    <Entry Key="1849269773" Color="1" Value="Episode 1" />
     <Entry Key="3482316484" Color="1" Value="2 weeks after awakening" />
     <Entry Key="3740912152" Color="1" Value="1 week after awakening" />
     <Entry Key="3541018718" Color="1" Value="3 days after awakening" />
@@ -506,7 +506,7 @@
     <Entry Key="2313493646" Color="1" Value="OUTER HEAVEN" />
     <Entry LangId="timeCount_10093_00" Color="1" Value="Until enemy retrieval chopper arrives:" />
     <Entry Key="1213870447" Color="5" Value="Put Code Talker on the support helicopter, and exfiltrate" />
-    <Entry LangId="mission_complete" Color="1" Value="Mission Complete" />
+    <Entry Key="21443538" Color="1" Value="Mission Complete" />
     <Entry Key="2514052135" Color="1" Value="" />
     <Entry Key="2160505778" Color="1" Value="" />
     <Entry Key="1459367093" Color="1" Value="" />
@@ -547,78 +547,78 @@
     <Entry Key="1863428387" Color="1" Value="" />
     <Entry Key="273584559" Color="1" Value="" />
     <Entry Key="1705081452" Color="1" Value="" />
-    <Entry LangId="date_mission_30_10280" Color="1" Value="March 16th, 1975 13:31" />
-    <Entry LangId="area_mission_30_10280" Color="1" Value="Hospital Mena de Barranquilla, Colombia" />
+    <Entry Key="3375158226" Color="1" Value="March 16th, 1975 13:31" />
+    <Entry Key="744102497" Color="1" Value="Hospital Mena de Barranquilla, Colombia" />
     <Entry LangId="obj_mission_50_50050_00" Color="1" Value="Infiltrate the Platform Core" />
     <Entry LangId="obj_mission_50_50050_10" Color="1" Value="Eliminate the Intruder" />
-    <Entry LangId="info_mission_50_50050_00" Color="1" Value="Infiltrate the rival's FOB, slipping through its security measures, and make it to the platform core. If you successfully infiltrate the core, all staff inside will be automatically extracted." />
-    <Entry LangId="info_mission_50_50050_10" Color="1" Value="Eliminate the intruder, and protect your staff inside the platform." />
-    <Entry LangId="task_mission_50_50050_00" Color="5" Value="Infiltrate to the core of the platform" />
-    <Entry LangId="task_mission_50_50050_10" Color="5" Value="Locate and eliminate the intruder" />
+    <Entry Key="3798646550" Color="1" Value="Infiltrate the rival's FOB, slipping through its security measures, and make it to the platform core. If you successfully infiltrate the core, all staff inside will be automatically extracted." />
+    <Entry Key="350748110" Color="1" Value="Eliminate the intruder, and protect your staff inside the platform." />
+    <Entry Key="3242207001" Color="5" Value="Infiltrate to the core of the platform" />
+    <Entry Key="3808741160" Color="5" Value="Locate and eliminate the intruder" />
     <Entry Key="2304236037" Color="1" Value="Episode %d: %s" />
-    <Entry LangId="area_mission_20_11080" Color="1" Value="Angola-Zaire border region, Central Africa" />
-    <Entry LangId="info_mission_10_11033_00" Color="1" Value="Extract the engineer who tried to defect from a Soviet base camp and is now being held at Wakh Sind Barracks." />
+    <Entry Key="946365776" Color="1" Value="Angola-Zaire border region, Central Africa" />
+    <Entry Key="3202050143" Color="1" Value="Extract the engineer who tried to defect from a Soviet base camp and is now being held at Wakh Sind Barracks." />
     <Entry Key="1397668916" Color="1" Value="Eliminate the Spetsnaz detachment commander secretly involved in the scorched earth operation in Afghanistan. The target and his recon unit have occupied Shago Village and are ready to meet an assault." />
     <Entry Key="360600185" Color="1" Value="Three commanders of key Soviet units are holding an emergency meeting at Wialo Village. Use this opportunity to eliminate all of them at once." />
     <Entry Key="1955332344" Color="1" Value="Eliminate the commanders of three key Soviet units. The targets are stationed at Wialo Village, Shago Village, and Wakh Sind Barracks." />
-    <Entry LangId="info_mission_10_11043_00" Color="1" Value="Destroy the Soviet comms equipment to prevent reinforcements being sent between outposts." />
-    <Entry LangId="info_mission_10_11044_00" Color="1" Value="Eliminate the colonel who has been reassigned from Sakhra Ee Village to Smasei Fort, and prevent the tanks from redeploying to Smasei Fort.&#xA;&lt;I=C=cmn-col-special|Recommended Weapon(s): Missile&gt;" />
-    <Entry LangId="info_mission_10_11050_00" Color="1" Value="Eliminate the sniper known as Quiet." />
-    <Entry LangId="info_mission_10_11050_01" Color="1" Value="Eliminate the sniper known as Quiet." />
+    <Entry Key="3203158868" Color="1" Value="Destroy the Soviet comms equipment to prevent reinforcements being sent between outposts." />
+    <Entry Key="1071606160" Color="1" Value="Eliminate the colonel who has been reassigned from Sakhra Ee Village to Smasei Fort, and prevent the tanks from redeploying to Smasei Fort.&#xA;&lt;I=C=cmn-col-special|Recommended Weapon(s): Missile&gt;" />
+    <Entry Key="2860420553" Color="1" Value="Eliminate the sniper known as Quiet." />
+    <Entry Key="2261367739" Color="1" Value="Eliminate the sniper known as Quiet." />
     <Entry Key="328305658" Color="1" Value="Extract Malak, the Mujahideen prisoner who is being held at Lamar Khaate Palace." />
     <Entry Key="2910750064" Color="1" Value="Extract Malak, the Mujahideen prisoner who is being held at Yakho Oboo Supply Outpost." />
-    <Entry LangId="info_mission_10_11054_00" Color="1" Value="Rebel guerrillas are launching an offensive. Eliminate as many fighting vehicles as possible in order to weaken the Soviets' reinforcements.&#xA;&lt;I=C=cmn-col-special|Recommended Weapon(s): Missile&gt;" />
-    <Entry LangId="info_mission_10_11151_00" Color="1" Value="Prevent the combat deployment of the upright bipedal weapon Sahelanthropus, and take vengeance on Skull Face." />
-    <Entry LangId="info_mission_20_11080_00" Color="1" Value="Crude oil is leaking from an oilfield facility occupied by local forces. To stop the leak, shut down the facility's oil transfer pump, and use explosives to destroy the oily water separator tank." />
-    <Entry LangId="info_mission_20_11082_00" Color="1" Value="Eliminate all the Walker Gears deployed to Ditadi Abandoned Village." />
+    <Entry Key="3075160889" Color="1" Value="Rebel guerrillas are launching an offensive. Eliminate as many fighting vehicles as possible in order to weaken the Soviets' reinforcements.&#xA;&lt;I=C=cmn-col-special|Recommended Weapon(s): Missile&gt;" />
+    <Entry Key="3770062186" Color="1" Value="Prevent the combat deployment of the upright bipedal weapon Sahelanthropus, and take vengeance on Skull Face." />
+    <Entry Key="470747762" Color="1" Value="Crude oil is leaking from an oilfield facility occupied by local forces. To stop the leak, shut down the facility's oil transfer pump, and use explosives to destroy the oily water separator tank." />
+    <Entry Key="59967311" Color="1" Value="Eliminate all the Walker Gears deployed to Ditadi Abandoned Village." />
     <Entry Key="1700451532" Color="1" Value="Rescue the two civilian engineers, one male, one female, being held at Ngumba Industrial Zone, SW Guard Post. They were sent to the area by a medical NGO, but subsequently went missing." />
-    <Entry LangId="info_mission_20_11090_00" Color="1" Value="Extract the cargo a PF convoy is believed to be transporting as payment to Cipher. The cargo must be extracted along with the transport truck." />
+    <Entry Key="2451346308" Color="1" Value="Extract the cargo a PF convoy is believed to be transporting as payment to Cipher. The cargo must be extracted along with the transport truck." />
     <Entry Key="895986317" Color="1" Value="Rescue the two Intel Team members being held at Kiziba Camp." />
-    <Entry LangId="info_mission_20_11121_00" Color="1" Value="Eliminate the CFA official stationed at Nova Braga Airport. He is due to conduct an inspection with a visiting arms dealer, so expect heavy security." />
-    <Entry LangId="info_mission_20_11130_00" Color="1" Value="Make contact with and extract Code Talker, the old man who knows how to treat the pathogen affecting Mother Base. In addition to the local PF guarding the mansion where he is located, an unidentified force has been observed operating in the area." />
-    <Entry LangId="info_mission_20_11140_00" Color="1" Value="Fight off the Skulls' assault, and return to base with Code Talker. An unusual mist has blanketed the area. The Skulls must be eliminated before it will clear." />
+    <Entry Key="645717157" Color="1" Value="Eliminate the CFA official stationed at Nova Braga Airport. He is due to conduct an inspection with a visiting arms dealer, so expect heavy security." />
+    <Entry Key="3902580900" Color="1" Value="Make contact with and extract Code Talker, the old man who knows how to treat the pathogen affecting Mother Base. In addition to the local PF guarding the mansion where he is located, an unidentified force has been observed operating in the area." />
+    <Entry Key="3101772473" Color="1" Value="Fight off the Skulls' assault, and return to base with Code Talker. An unusual mist has blanketed the area. The Skulls must be eliminated before it will clear." />
     <Entry Key="3927079097" Color="1" Value="Eliminate the CFA armored column assembling to the north of Nova Braga Airport. The column contains many large-scale fighting vehicles." />
     <Entry Key="940279348" Color="1" Value="The commander of a PF, known as the Major, has been spreading a rumor about selling nuclear weapons. Tail his subordinate, and eliminate the Major." />
     <Entry Key="193882281" Color="1" Value="A group of child soldiers who have broken away from the Mbele rebels have abducted their XO. Extract both the child soldiers' commander and the XO." />
     <Entry Key="623637940" Color="1" Value="Locate and eliminate the human trafficker who is on the run on the savanna. &#xA;Reports suggest that locating the target will not be easy." />
     <Entry Key="4230829035" Color="1" Value="Locate and eliminate the human trafficker who has fled to an enemy outpost." />
     <Entry Key="1696159781" Color="1" Value="Infiltrate the platform captured by the enemy PF, and eliminate their commander. They have taken Mother Base staff hostage." />
-    <Entry LangId="name_mission_10_11033" Color="1" Value="[TOTAL STEALTH] OVER THE FENCE" />
-    <Entry LangId="name_mission_10_11043" Color="1" Value="[SUBSISTENCE] C2W" />
-    <Entry LangId="name_mission_10_11044" Color="1" Value="[SUBSISTENCE] OCCUPATION FORCES" />
-    <Entry LangId="name_mission_10_11050" Color="1" Value="[EXTREME] CLOAKED IN SILENCE" />
-    <Entry LangId="name_mission_10_11054" Color="1" Value="[EXTREME] BACKUP, BACK DOWN" />
-    <Entry LangId="name_mission_10_11151" Color="1" Value="[EXTREME] SAHELANTHROPUS" />
-    <Entry LangId="name_mission_20_11080" Color="1" Value="[TOTAL STEALTH] PITCH DARK" />
-    <Entry LangId="name_mission_20_11082" Color="1" Value="[TOTAL STEALTH] FOOTPRINTS OF PHANTOMS" />
-    <Entry LangId="name_mission_20_11090" Color="1" Value="[EXTREME] TRAITORS' CARAVAN" />
-    <Entry LangId="name_mission_20_11121" Color="1" Value="[TOTAL STEALTH] THE WAR ECONOMY" />
-    <Entry LangId="name_mission_20_11130" Color="1" Value="[EXTREME] CODE TALKER" />
-    <Entry LangId="name_mission_20_11140" Color="1" Value="[EXTREME] METALLIC ARCHAEA" />
-    <Entry LangId="name_mission_20_11151" Color="1" Value="[EXTREME] SAHELANTHROPUS" />
-    <Entry LangId="sub_mission_10_11033" Color="1" Value="[TOTAL STEALTH] OVER THE FENCE" />
-    <Entry LangId="sub_mission_10_11043" Color="1" Value="[SUBSISTENCE] C2W" />
-    <Entry LangId="sub_mission_10_11044" Color="1" Value="[SUBSISTENCE] OCCUPATION FORCES" />
-    <Entry LangId="sub_mission_10_11050" Color="1" Value="[EXTREME] CLOAKED IN SILENCE" />
-    <Entry LangId="sub_mission_10_11054" Color="1" Value="[EXTREME] BACKUP, BACK DOWN" />
-    <Entry LangId="sub_mission_10_11151" Color="1" Value="[EXTREME] SAHELANTHROPUS" />
-    <Entry LangId="sub_mission_20_11080" Color="1" Value="[TOTAL STEALTH] PITCH DARK" />
-    <Entry LangId="sub_mission_20_11082" Color="1" Value="[TOTAL STEALTH] FOOTPRINTS OF PHANTOMS" />
-    <Entry LangId="sub_mission_20_11090" Color="1" Value="[EXTREME] TRAITORS' CARAVAN" />
-    <Entry LangId="sub_mission_20_11121" Color="1" Value="[TOTAL STEALTH] THE WAR ECONOMY" />
-    <Entry LangId="sub_mission_20_11130" Color="1" Value="[EXTREME] CODE TALKER" />
-    <Entry LangId="sub_mission_20_11140" Color="1" Value="[EXTREME] METALLIC ARCHAEA" />
-    <Entry LangId="sub_mission_20_11151" Color="1" Value="[EXTREME] SAHELANTHROPUS" />
+    <Entry Key="2669840143" Color="1" Value="[TOTAL STEALTH] OVER THE FENCE" />
+    <Entry Key="34262886" Color="1" Value="[SUBSISTENCE] C2W" />
+    <Entry Key="4045210367" Color="1" Value="[SUBSISTENCE] OCCUPATION FORCES" />
+    <Entry Key="2733137308" Color="1" Value="[EXTREME] CLOAKED IN SILENCE" />
+    <Entry Key="3270513865" Color="1" Value="[EXTREME] BACKUP, BACK DOWN" />
+    <Entry Key="248547736" Color="1" Value="[EXTREME] SAHELANTHROPUS" />
+    <Entry Key="1979856022" Color="1" Value="[TOTAL STEALTH] PITCH DARK" />
+    <Entry Key="4147293116" Color="1" Value="[TOTAL STEALTH] FOOTPRINTS OF PHANTOMS" />
+    <Entry Key="1292661690" Color="1" Value="[EXTREME] TRAITORS' CARAVAN" />
+    <Entry Key="4142415728" Color="1" Value="[TOTAL STEALTH] THE WAR ECONOMY" />
+    <Entry Key="2897412526" Color="1" Value="[EXTREME] CODE TALKER" />
+    <Entry Key="2974257648" Color="1" Value="[EXTREME] METALLIC ARCHAEA" />
+    <Entry Key="1788502566" Color="1" Value="[EXTREME] SAHELANTHROPUS" />
+    <Entry Key="3941514463" Color="1" Value="[TOTAL STEALTH] OVER THE FENCE" />
+    <Entry Key="712508012" Color="1" Value="[SUBSISTENCE] C2W" />
+    <Entry Key="1302635349" Color="1" Value="[SUBSISTENCE] OCCUPATION FORCES" />
+    <Entry Key="4005047706" Color="1" Value="[EXTREME] CLOAKED IN SILENCE" />
+    <Entry Key="2116732722" Color="1" Value="[EXTREME] BACKUP, BACK DOWN" />
+    <Entry Key="2895257519" Color="1" Value="[EXTREME] SAHELANTHROPUS" />
+    <Entry Key="1112748261" Color="1" Value="[TOTAL STEALTH] PITCH DARK" />
+    <Entry Key="230299502" Color="1" Value="[TOTAL STEALTH] FOOTPRINTS OF PHANTOMS" />
+    <Entry Key="2100389514" Color="1" Value="[EXTREME] TRAITORS' CARAVAN" />
+    <Entry Key="1145443251" Color="1" Value="[TOTAL STEALTH] THE WAR ECONOMY" />
+    <Entry Key="2975757864" Color="1" Value="[EXTREME] CODE TALKER" />
+    <Entry Key="1218184873" Color="1" Value="[EXTREME] METALLIC ARCHAEA" />
+    <Entry Key="4271357756" Color="1" Value="[EXTREME] SAHELANTHROPUS" />
     <Entry Key="2465680032" Color="1" Value="March 11th, 1984 03:07" />
     <Entry Key="2792514656" Color="1" Value="March 11th, 1984 02:32" />
     <Entry Key="1047356429" Color="1" Value="March 11th, 1984 05:59" />
     <Entry Key="3630454574" Color="1" Value="Outskirts of Xylotymbou, Dhekelia, Cyprus" />
     <Entry Key="4246035592" Color="1" Value="Western Ormideia, Dhekelia, Cyprus" />
-    <Entry LangId="sub_location_50" Color="1" Value="Mother Base, Seychelles Waters" />
-    <Entry LangId="task_mission_30_10010_00" Color="5" Value="Completed the mission without triggering Reflex Mode" />
-    <Entry LangId="task_mission_30_10010_01" Color="5" Value="Completed the mission without allowing the Man on Fire to attack even once after meeting up with Ocelot" />
-    <Entry LangId="task_mission_30_10280_00" Color="5" Value="Eliminated 6 soldiers at the hospital entrance" />
-    <Entry LangId="task_mission_30_10280_01" Color="5" Value="Landed 20 or more shots on the Man on Fire" />
+    <Entry Key="1195155294" Color="1" Value="Mother Base, Seychelles Waters" />
+    <Entry Key="1792314847" Color="5" Value="Completed the mission without triggering Reflex Mode" />
+    <Entry Key="1782355432" Color="5" Value="Completed the mission without allowing the Man on Fire to attack even once after meeting up with Ocelot" />
+    <Entry Key="3705886821" Color="5" Value="Eliminated 6 soldiers at the hospital entrance" />
+    <Entry Key="2802472220" Color="5" Value="Landed 20 or more shots on the Man on Fire" />
     <Entry LangId="area_demo_mb" Color="1" Value="Mother Base, Seychelles Waters" />
     <Entry LangId="area_demo_room101" Color="1" Value="&quot;Room 101,&quot; Level 1, Warehouse 01, Command Platform" />
     <Entry Key="705799624" Color="1" Value="%s %d" />
@@ -627,9 +627,9 @@
     <Entry Key="1360590697" Color="1" Value="6 hours after RTB: start of Wolbachia cultivation" />
     <Entry Key="4100163049" Color="1" Value="48 hours after RTB: end of vocal cord parasite infection" />
     <Entry LangId="area_demo_battle_gear" Color="1" Value="Battle Gear Hangar, R&amp;D Platform" />
-    <Entry LangId="sub_mission_50_50050_00" Color="1" Value="FOB INFILTRATION" />
+    <Entry Key="572302350" Color="1" Value="FOB INFILTRATION" />
     <Entry LangId="name_mission_50_50050_00" Color="1" Value="FOB INFILTRATION" />
-    <Entry LangId="sub_mission_50_50050_10" Color="1" Value="FOB DEFENSE" />
+    <Entry Key="3527413764" Color="1" Value="FOB DEFENSE" />
     <Entry LangId="name_mission_50_50050_10" Color="1" Value="FOB DEFENSE" />
     <Entry Key="1969455062" Color="1" Value="EXTRA EPISODE" />
     <Entry Key="1097527074" Color="1" Value="EMERGENCY EPISODE" />
@@ -645,11 +645,11 @@
     <Entry Key="350222076" Color="1" Value="Tailing Target" />
     <Entry LangId="area_demo_quiet_01" Color="1" Value="Arabian Sea, 20th Parallel North" />
     <Entry LangId="area_demo_quiet_02" Color="1" Value="1,900 miles from Mother Base" />
-    <Entry LangId="area_mission_10_10150" Color="1" Value="Northern Kabul, Afghanistan" />
+    <Entry Key="152702784" Color="1" Value="Northern Kabul, Afghanistan" />
     <Entry LangId="date_mission_30_10280_01" Color="1" Value="48 hours after" />
     <Entry LangId="timeCount_50050_20" Color="1" Value="Time remaining" />
-    <Entry LangId="info_mission_50_50050_50" Color="1" Value="Place cameras and mines in cunning positions to outfox rivals infiltrating your FOBs." />
-    <Entry LangId="name_mission_50_50050_50" Color="1" Value="Free Placement of Cameras/Mines" />
-    <Entry LangId="sub_mission_50_50050_50" Color="1" Value="Free Placement of Cameras/Mines" />
+    <Entry Key="4265426776" Color="1" Value="Place cameras and mines in cunning positions to outfox rivals infiltrating your FOBs." />
+    <Entry Key="2563118358" Color="1" Value="Free Placement of Cameras/Mines" />
+    <Entry Key="3207522366" Color="1" Value="Free Placement of Cameras/Mines" />
   </Entries>
 </LangFile>

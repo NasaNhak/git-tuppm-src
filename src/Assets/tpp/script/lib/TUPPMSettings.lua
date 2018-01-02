@@ -12,6 +12,9 @@ local this={
 	--For multipliers, do not use negative numbers or very large numbers that may result in Lua going over the 16 bit limit. Do not use anything other than a number
 	--For all variables, type checks have not been setup so changing to non-number or non-boolean values will definitely break the game+mod combo
 
+	-- Reload mod settings at any time by holding <FIRE> + <DASH> + <CALL> for 1 second. If the game refuses to load
+	-- your customized settings file when starting up, then reload the settings when in game using the mentioned key combination.
+	-- This will print the exact error message to the iDroid console(hopefully!)
 
 	--:DEBUG MODE SETTINGS
 	_debug_ENABLE=false, --DEFAULT: false --Enable or disable debug mode. Leads to logging under TUPPM folder in game directory. Hold <DASH> and <RELOAD> at any time to enable debug mode
@@ -97,10 +100,13 @@ local this={
 	--:MOTHERBASE GAMEPLAY SETTINGS
 	mtbs_ENABLE_randomMBStaffOutfits=true, --DEFAULT: true --Allow MB staff to use different outfits from Tiger stripe camo, Sneaking Suit and BattleDress
 	mtbs_ENABLE_alwaysUseSwimsuitsOnMB=false, --DEFAULT: false --Always use swimsuit on MB for Staff. mtbs_ENABLE_randomMBStaffOutfits has to be true
+	mtbs_maleSwimSuit=0, --Range (0 to 3) - 0 Random, 1 for Great White, 2 Goblin, 3 Megalodon
+	mtbs_femaleSwimSuit=0, --Range (0 to 3) - 0 Random, 1 for Great White, 2 Goblin, 3 Megalodon
 	mtbs_ENABLE_outfitRandomizationOnCheckpointReload=true, --DEFAULT: true --Randomizes DD Outfits on checkpoint reloads to be in sync with faces, names and guns. mtbs_ENABLE_randomMBStaffOutfits has to be true
 	mtbs_ENABLE_extraSoldiersOnMB=true, --DEFAULT: true --Allow extra soldiers on MB
 	mtbs_totalStaffCountOnEachMBCluster=36, --DEFAULT: 36, VANILLA: 18 --Sets the total staff per MB cluster. Min 18(vanilla), Max 36. mtbs_ENABLE_extraSoldiersOnMB has to be true
 	mtbs_ENABLE_moreFemalesOnMB=true, --DEFAULT: true --Allows more females on MB cluster. Min will always be 2(vanilla)
+	mtbs_ENABLE_tryForceAllFemaleMB=false, --DEFAULT: false --Set to true to try and force females only on MB *provided* you have enough females in your staffs. Max number of females will never exceed match mtbs_totalStaffCountOnEachMBCluster
 	mtbs_ENABLE_staffOnMBQFAfterCapture=true, --DEFAULT: true --Allows staff to show up on Quarantine platform after SKULLS/MOF have been captured
 	mtbs_ENABLE_mixedStaffForMBQF=true, --DEFAULT: true --Allow staff from all units on Quarantine platform and allow females as well. Vanilla game only uses staff from Security team
 	mtbs_ENABLE_lethalWeaponsOnMB=true, --DEFAULT: true --Allows lethal weapons on MB and Quarantine platform
@@ -185,7 +191,7 @@ local this={
 	mbBaseDev_resourceMultiplier=1, --DEFAULT: 1, VANILLA: 1  --Base dev resources multiplier
 	mbBaseDev_ENABLE_buildTimeOverride=true, --DEFAULT: true --Allow changing base dev time
 	mbBaseDev_fixedBuildTime=10, --DEFAULT: 10 --Set a fixed time for base platform development. mbBaseDev_ENABLE_buildTimeOverride has to be true. Min 0
-  mbBaseDev_ENABLE_maxOfflineMBStafflimits=false, --DEFAULT: false --Set to true to exceed offline MB unit limits to accommodate 700 staff under each unit for a fully built MB. Should be used only if you are playing offline and do not own FOBs at all
+  mbBaseDev_ENABLE_maxOfflineMBStafflimits=false, --DEFAULT: false --Set to true to exceed offline MB unit limits to accommodate 700 staff under each unit for a fully built MB. Should ONLY be used if you are playing offline and do not own FOBs at all otherwise this will bug out your staff - you have been warned!
 
 	--:MOTHERBASE SUPPORT SETTINGS
 	mbSup_enemySoldierEnmityMultiplier=0, --DEFAULT: 0, VANILLA:1 --This sets the multiplier for the brig time it takes for captured soldiers to convert to DD Staff. Anything higher than 1 will increase the vanilla game brig time significantly! Safe values are between 0 and 1. Min 0

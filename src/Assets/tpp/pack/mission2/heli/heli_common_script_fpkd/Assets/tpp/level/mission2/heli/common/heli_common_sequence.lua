@@ -2247,16 +2247,27 @@ sequences.Seq_Game_MissionPreparationAbort = {
 			TppMission.ClearFobMode()
 			vars.fobIsSneak = 0
 		end
-
+		--RETAILPATCH 1.12 >
+		self.waitPlayerLoadStartFlame = 5
+		--RETAILPATCH 1.12 <
 		mvars.startFadeIn = false
 	end,
 
-	OnUpdate = function()
+	OnUpdate = function(self)
+		--RETAILPATCH 1.12 >
+		if TppGameStatus.IsSet("heli_common_sequence.lua", "S_IS_SORTIE_PREPARATION") then
+			return
+		end
+		if self.waitPlayerLoadStartFlame > 0 then
+			self.waitPlayerLoadStartFlame = self.waitPlayerLoadStartFlame - 1
+			return 
+		end
+		--RETAILPATCH 1.12 <
 		if not mvars.heliSpace_doneReturnToMission then
 			if mvars.startFadeIn == false then
 				local isLoading = false
 				if Player.IsLoading ~= nil then
-					isLoading = Player.IsLoading()
+					isLoading = Player.IsLoading() 
 					Fox.Log("PlayerIsLoading : " .. tostring(isLoading))
 				end
 				if isLoading == false then

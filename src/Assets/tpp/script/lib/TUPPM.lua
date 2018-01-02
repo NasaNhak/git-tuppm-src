@@ -1050,6 +1050,70 @@ function this.Update()
 
 	--this.SetCustomCamera() --TODO r65 Fixed update call, now try this
 	--this.UpdateFixCameraRot() --rX65 Not very good workings
+
+	--rX69 Code to show movement speed
+	--this.ShowSpeed()
+end
+
+
+local keyToPadMapping={
+	--This is how buttons should be mapped and checked for. String keys with PlayerPad masks
+	["LIGHT_SWITCH"]=PlayerPad.LIGHT_SWITCH,
+}
+
+function this.playerPressed(pressedButton)
+	if not keyToPadMapping[pressedButton] then return false end --> return if String index not present in keyToPadMapping
+	return bit.band(PlayerVars.scannedButtonsDirect,keyToPadMapping[pressedButton])==keyToPadMapping[pressedButton]
+end
+
+this.localVar={
+	playerPos={vars.playerPosX, vars.playerPosY, vars.playerPosZ},
+	ride=false,
+	oldTime=0
+}
+
+function this.ShowSpeed()
+
+	if mvars.mis_missionStateIsNotInGame then return end --This is to ensure function runs only after title screen/in-game and playerPos data is available
+
+	if ((Time.GetRawElapsedTimeSinceStartUp()-this.localVar.oldTime)>=1) then
+
+		this.localVar.oldTime=Time.GetRawElapsedTimeSinceStartUp()
+		local l={vars=vars}
+		local m={floor=math.floor, sqrt=math.sqrt, ceil=math.ceil}
+
+
+		local function playerSpeed(newPos)
+			local op=this.localVar.playerPos
+			local np=newPos
+			local x,y,z=(np[1]-op[1]), (np[2]-op[2]), (np[3]-op[3])
+			op=nil
+			x=m.sqrt((x*x)+(y*y)+(z*z))
+			y=nil
+			x=(m.floor(x*10)*1e-1)
+			local secondsInHour=60*60
+			local metersInKm=1e3
+			x=x*secondsInHour
+			x=x/metersInKm
+			secondsInHour=nil
+			metersInKm=nil
+			z=x%1
+			if 0<z then
+				if z<0.5 then
+					x=(m.floor(x*10)*1e-1)
+				else
+					x=(m.ceil(x*10)*1e-1)
+				end
+			end
+			TppUiCommand.AnnounceLogView("Speed is "..x.." KPH. If not here then done fucked up")
+		end
+
+		if this.playerPressed("LIGHT_SWITCH") then
+			playerSpeed{l.vars.playerPosX, l.vars.playerPosY, l.vars.playerPosZ}
+		end
+
+		this.localVar.playerPos={l.vars.playerPosX, l.vars.playerPosY, l.vars.playerPosZ}
+	end
 end
 
 

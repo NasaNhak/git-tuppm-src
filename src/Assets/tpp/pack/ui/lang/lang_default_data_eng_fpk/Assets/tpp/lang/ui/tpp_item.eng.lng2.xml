@@ -511,5 +511,53 @@
     <Entry LangId="info_st_19160" Color="1" Value="Swimsuit (iron blue).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
     <Entry LangId="info_st_19161" Color="1" Value="Swimsuit (red rust).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
     <Entry LangId="info_st_19162" Color="1" Value="Swimsuit (mud).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="242085432" Color="1" Value="MEG SUIT(MUD)" />
+    <Entry Key="384950856" Color="1" Value="MEG SUIT(RED RST)" />
+    <Entry Key="3691968907" Color="1" Value="MEG SUIT(IRON BL)" />
+    <Entry Key="2708816007" Color="1" Value="MEG SUIT(CAMO GR)" />
+    <Entry Key="1467533731" Color="1" Value="MEG SUIT(OLD RS)" />
+    <Entry Key="3481152029" Color="1" Value="MEG SUIT(PRST M.)" />
+    <Entry Key="3843588214" Color="1" Value="MEG SUIT(SPLITTR)" />
+    <Entry Key="1885324177" Color="1" Value="MEG SUIT(WET_WRK)" />
+    <Entry Key="2245345547" Color="1" Value="MEG SUIT(DSRT FX)" />
+    <Entry Key="3892575325" Color="1" Value="MEG SUIT(GLD TGR)" />
+    <Entry Key="3288950276" Color="1" Value="MEG SUIT(TGR_ST)" />
+    <Entry Key="146182057" Color="1" Value="MEG SUIT(OLV DRB)" />
+    <Entry Key="1803398696" Color="1" Value="GOB SUIT(MUD)" />
+    <Entry Key="2114431902" Color="1" Value="GOB SUIT(RED RST)" />
+    <Entry Key="2629958770" Color="1" Value="GOB SUIT(IRON BL)" />
+    <Entry Key="3317661144" Color="1" Value="GOB SUIT(CAMO GR)" />
+    <Entry Key="2462560707" Color="1" Value="GOB SUIT(OLD RS)" />
+    <Entry Key="1472910641" Color="1" Value="GOB SUIT(PRST M.)" />
+    <Entry Key="2337853498" Color="1" Value="GOB SUIT(SPLITTR)" />
+    <Entry Key="2111736207" Color="1" Value="GOB SUIT(WET_WRK)" />
+    <Entry Key="4035390869" Color="1" Value="GOB SUIT(DSRT FX)" />
+    <Entry Key="1036953389" Color="1" Value="GOB SUIT(GLD TGR)" />
+    <Entry Key="972920312" Color="1" Value="GOB SUIT(TGR_ST)" />
+    <Entry Key="3267061206" Color="1" Value="GOB SUIT(OLV DRB)" />
+    <Entry Key="1701980731" Color="1" Value="Megalodon Suit (mud).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="2239620235" Color="1" Value="Megalodon Suit (red rust).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="3100708981" Color="1" Value="Megalodon Suit (iron blue).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="3152126114" Color="1" Value="Megalodon Suit (camouflage green).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="38080163" Color="1" Value="Megalodon Suit (old rose).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="4074661672" Color="1" Value="Megalodon Suit (parasite mist).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="3307021064" Color="1" Value="Megalodon Suit (splitter).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="1244942763" Color="1" Value="Megalodon Suit (wet work).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="1298555644" Color="1" Value="Megalodon Suit (desert fox).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="1591405357" Color="1" Value="Megalodon Suit (gold tiger).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="262743270" Color="1" Value="Megalodon Suit (tiger stripe).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="213918665" Color="1" Value="Megalodon Suit (olive drab).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="805017545" Color="1" Value="Goblin Suit (mud).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="1473743590" Color="1" Value="Goblin Suit (red rust).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="3059636623" Color="1" Value="Goblin Suit (iron blue).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="51142639" Color="1" Value="Goblin Suit (camouflage green).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="750709731" Color="1" Value="Goblin Suit (old rose).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="277627279" Color="1" Value="Goblin Suit (parasite mist).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="630930853" Color="1" Value="Goblin Suit (splitter).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="851516349" Color="1" Value="Goblin Suit (wet work).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="1157891996" Color="1" Value="Goblin Suit (desert fox).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="2807178624" Color="1" Value="Goblin Suit (gold tiger).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="1751952494" Color="1" Value="Goblin Suit (tiger stripe).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
+    <Entry Key="1746949482" Color="1" Value="Goblin Suit (olive drab).&#xA;Only equippable by DD soldiers.&#xA;Does nothing to camouflage the wearer, but is light and airy enough to aid mobility." />
   </Entries>
 </LangFile>

@@ -229,6 +229,9 @@ missionPackTable[30050]=function(missionCode)
 	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_ATTACKER)
 	--r42 Beach party mode bikinis pack
 	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT)
+	--r69 Using new swim suits on MB
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT2)
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT3)
 
 
 	--rX5 using non reinforce vehicles
@@ -343,6 +346,9 @@ missionPackTable[30250]=function(p)
 	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_BTRDRS)
 	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_ATTACKER)
 	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT)
+	--r69 Using new swim suits on MB
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT2)
+	TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT3)
 
 end
 
@@ -415,7 +421,19 @@ missionPackTable[50050]=function(s)
 	local p=TppEnemy.GetDDSuit()
 	--RETAILPATCH 1.10>
 	if TppMotherBaseManagement.GetMbsClusterSecurityIsEquipSwimSuit()then
-		TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT)
+		--RETAILPATCH 1.12 > New logic
+		local swimSuitType=TppMotherBaseManagement.GetMbsClusterSecuritySwimSuitInfo()
+		local missionPack
+		if swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_1 then
+			missionPack=TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT
+		elseif swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_2 then
+			missionPack=TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT2
+		elseif swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_3 then
+			missionPack=TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SWIM_SUIT3
+		end
+		TppPackList.AddMissionPack(missionPack)
+		--RETAILPATCH 1.12 <
+
 		--<
 	elseif p==TppEnemy.FOB_DD_SUIT_SNEAKING then
 		TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.DD_SOLDIER_SNEAKING)

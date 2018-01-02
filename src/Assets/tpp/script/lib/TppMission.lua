@@ -2179,6 +2179,9 @@ function this.GetNextMissionCodeForEmergency()
 	return(mvars.mis_emergencyMissionCode or gvars.mis_nextMissionCodeForEmergency)
 end
 function this.OnAbortMissionPreparation()
+	--RETAILPATCH 1.12 >
+	TppPlayer.ForceChangePlayerFromOcelot()
+	--RETAILPATCH 1.12 <
 	this.SetNextMissionCodeForMissionClear(missionClearCodeNone)
 	gvars.heli_missionStartRoute=0
 end

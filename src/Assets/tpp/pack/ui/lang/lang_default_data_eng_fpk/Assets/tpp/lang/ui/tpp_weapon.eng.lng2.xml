@@ -666,5 +666,9 @@
     <Entry LangId="ability_1112" Color="1" Value="Tranquilizer Neutralization Grade Up " />
     <Entry LangId="name_wp_7017" Color="1" Value="UN-AAM-NL" />
     <Entry LangId="real_wp_50090" Color="1" Value="TORNADO-6 Revolver" />
+    <Entry Key="1231972719" Color="1" Value="" />
+    <Entry Key="910147341" Color="1" Value="" />
+    <Entry Key="73923997" Color="1" Value="" />
+    <Entry Key="163133020" Color="1" Value="If the user is about to die, pass out, or similar, it will activate automatically." />
   </Entries>
 </LangFile>

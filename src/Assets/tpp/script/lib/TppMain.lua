@@ -1224,6 +1224,11 @@ function this.OnAllocate(missionTable)
 		TppCheckPoint.RegisterCheckPointList(missionTable.sequence.checkPointList)
 	end
 	--TUPPMLog.Log("TppMain.OnAllocate END",1)
+	--RETAILPATCH 1.12 >
+	if not TppMission.IsFOBMission(vars.missionCode)then
+		TppPlayer.ForceChangePlayerFromOcelot()
+	end
+	--RETAILPATCH 1.12 <
 end
 --r28 update
 function this.OnInitialize(missionTable)

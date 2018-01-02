@@ -800,6 +800,11 @@ function this.SetupStaffList()
 	  if TUPPMSettings.mtbs_ENABLE_moreFemalesOnMB then
 	  	femaleStaffCountRandom = math.random(2,MAX_STAFF_NUM_ON_CLUSTER) --r45 Females can now be randomized for max of 18 :)
 	  end
+	  --r69 Try to force all female MB staff
+	  if TUPPMSettings.mtbs_ENABLE_tryForceAllFemaleMB then
+	  	femaleStaffCountRandom = math.min(math.max(TUPPMSettings.mtbs_totalStaffCountOnEachMBCluster or 18,18),36)
+	  	TUPPMLog.Log("mtbs_ENABLE_forceAllFemaleMB is true",3)
+	  end
 		mvars.f30050_staffIdList[clusterIndex+1] = {}
 		do 
 			local staffNum = #staffListOnCluster

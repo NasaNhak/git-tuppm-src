@@ -27,6 +27,32 @@ local securitySwimSuitBodies={
 		TppEnemyBodyId.dlf_enef9_def,
 		TppEnemyBodyId.dlf_enef10_def,
 		TppEnemyBodyId.dlf_enef11_def,
+		--RETAILPATCH 1.12 >
+		TppEnemyBodyId.dlg_enef0_def,
+		TppEnemyBodyId.dlg_enef1_def,
+		TppEnemyBodyId.dlg_enef2_def,
+		TppEnemyBodyId.dlg_enef3_def,
+		TppEnemyBodyId.dlg_enef4_def,
+		TppEnemyBodyId.dlg_enef5_def,
+		TppEnemyBodyId.dlg_enef6_def,
+		TppEnemyBodyId.dlg_enef7_def,
+		TppEnemyBodyId.dlg_enef8_def,
+		TppEnemyBodyId.dlg_enef9_def,
+		TppEnemyBodyId.dlg_enef10_def,
+		TppEnemyBodyId.dlg_enef11_def,
+		TppEnemyBodyId.dlh_enef0_def,
+		TppEnemyBodyId.dlh_enef1_def,
+		TppEnemyBodyId.dlh_enef2_def,
+		TppEnemyBodyId.dlh_enef3_def,
+		TppEnemyBodyId.dlh_enef4_def,
+		TppEnemyBodyId.dlh_enef5_def,
+		TppEnemyBodyId.dlh_enef6_def,
+		TppEnemyBodyId.dlh_enef7_def,
+		TppEnemyBodyId.dlh_enef8_def,
+		TppEnemyBodyId.dlh_enef9_def,
+		TppEnemyBodyId.dlh_enef10_def,
+		TppEnemyBodyId.dlh_enef11_def,
+	--RETAILPATCH 1.12 <
 	},
 	male={
 		TppEnemyBodyId.dlf_enem0_def,
@@ -41,9 +67,132 @@ local securitySwimSuitBodies={
 		TppEnemyBodyId.dlf_enem9_def,
 		TppEnemyBodyId.dlf_enem10_def,
 		TppEnemyBodyId.dlf_enem11_def,
+		--RETAILPATCH 1.12 >
+		TppEnemyBodyId.dlg_enem0_def,
+		TppEnemyBodyId.dlg_enem1_def,
+		TppEnemyBodyId.dlg_enem2_def,
+		TppEnemyBodyId.dlg_enem3_def,
+		TppEnemyBodyId.dlg_enem4_def,
+		TppEnemyBodyId.dlg_enem5_def,
+		TppEnemyBodyId.dlg_enem6_def,
+		TppEnemyBodyId.dlg_enem7_def,
+		TppEnemyBodyId.dlg_enem8_def,
+		TppEnemyBodyId.dlg_enem9_def,
+		TppEnemyBodyId.dlg_enem10_def,
+		TppEnemyBodyId.dlg_enem11_def,
+		TppEnemyBodyId.dlh_enem0_def,
+		TppEnemyBodyId.dlh_enem1_def,
+		TppEnemyBodyId.dlh_enem2_def,
+		TppEnemyBodyId.dlh_enem3_def,
+		TppEnemyBodyId.dlh_enem4_def,
+		TppEnemyBodyId.dlh_enem5_def,
+		TppEnemyBodyId.dlh_enem6_def,
+		TppEnemyBodyId.dlh_enem7_def,
+		TppEnemyBodyId.dlh_enem8_def,
+		TppEnemyBodyId.dlh_enem9_def,
+		TppEnemyBodyId.dlh_enem10_def,
+		TppEnemyBodyId.dlh_enem11_def
+		--RETAILPATCH 1.12 <
 	}
 }
 --<
+
+
+--r69 Using new swim suits on MB
+local greatWhite = 1
+local goblin = 2
+local megalodon = 3
+
+local securitySwimSuitBodiesBetter = {
+	female = {
+		[greatWhite] = {
+			TppEnemyBodyId.dlf_enef0_def,
+			TppEnemyBodyId.dlf_enef1_def,
+			TppEnemyBodyId.dlf_enef2_def,
+			TppEnemyBodyId.dlf_enef3_def,
+			TppEnemyBodyId.dlf_enef4_def,
+			TppEnemyBodyId.dlf_enef5_def,
+			TppEnemyBodyId.dlf_enef6_def,
+			TppEnemyBodyId.dlf_enef7_def,
+			TppEnemyBodyId.dlf_enef8_def,
+			TppEnemyBodyId.dlf_enef9_def,
+			TppEnemyBodyId.dlf_enef10_def,
+			TppEnemyBodyId.dlf_enef11_def,
+		},
+		[goblin] = {
+			TppEnemyBodyId.dlg_enef0_def,
+			TppEnemyBodyId.dlg_enef1_def,
+			TppEnemyBodyId.dlg_enef2_def,
+			TppEnemyBodyId.dlg_enef3_def,
+			TppEnemyBodyId.dlg_enef4_def,
+			TppEnemyBodyId.dlg_enef5_def,
+			TppEnemyBodyId.dlg_enef6_def,
+			TppEnemyBodyId.dlg_enef7_def,
+			TppEnemyBodyId.dlg_enef8_def,
+			TppEnemyBodyId.dlg_enef9_def,
+			TppEnemyBodyId.dlg_enef10_def,
+			TppEnemyBodyId.dlg_enef11_def,
+		},
+		[megalodon] = {
+			TppEnemyBodyId.dlh_enef0_def,
+			TppEnemyBodyId.dlh_enef1_def,
+			TppEnemyBodyId.dlh_enef2_def,
+			TppEnemyBodyId.dlh_enef3_def,
+			TppEnemyBodyId.dlh_enef4_def,
+			TppEnemyBodyId.dlh_enef5_def,
+			TppEnemyBodyId.dlh_enef6_def,
+			TppEnemyBodyId.dlh_enef7_def,
+			TppEnemyBodyId.dlh_enef8_def,
+			TppEnemyBodyId.dlh_enef9_def,
+			TppEnemyBodyId.dlh_enef10_def,
+			TppEnemyBodyId.dlh_enef11_def,
+		},
+	},
+	male = {
+		[greatWhite] = {
+			TppEnemyBodyId.dlf_enem0_def,
+			TppEnemyBodyId.dlf_enem1_def,
+			TppEnemyBodyId.dlf_enem2_def,
+			TppEnemyBodyId.dlf_enem3_def,
+			TppEnemyBodyId.dlf_enem4_def,
+			TppEnemyBodyId.dlf_enem5_def,
+			TppEnemyBodyId.dlf_enem6_def,
+			TppEnemyBodyId.dlf_enem7_def,
+			TppEnemyBodyId.dlf_enem8_def,
+			TppEnemyBodyId.dlf_enem9_def,
+			TppEnemyBodyId.dlf_enem10_def,
+			TppEnemyBodyId.dlf_enem11_def,
+		},
+		[goblin] = {
+			TppEnemyBodyId.dlg_enem0_def,
+			TppEnemyBodyId.dlg_enem1_def,
+			TppEnemyBodyId.dlg_enem2_def,
+			TppEnemyBodyId.dlg_enem3_def,
+			TppEnemyBodyId.dlg_enem4_def,
+			TppEnemyBodyId.dlg_enem5_def,
+			TppEnemyBodyId.dlg_enem6_def,
+			TppEnemyBodyId.dlg_enem7_def,
+			TppEnemyBodyId.dlg_enem8_def,
+			TppEnemyBodyId.dlg_enem9_def,
+			TppEnemyBodyId.dlg_enem10_def,
+			TppEnemyBodyId.dlg_enem11_def,
+		},
+		[megalodon] = {
+			TppEnemyBodyId.dlh_enem0_def,
+			TppEnemyBodyId.dlh_enem1_def,
+			TppEnemyBodyId.dlh_enem2_def,
+			TppEnemyBodyId.dlh_enem3_def,
+			TppEnemyBodyId.dlh_enem4_def,
+			TppEnemyBodyId.dlh_enem5_def,
+			TppEnemyBodyId.dlh_enem6_def,
+			TppEnemyBodyId.dlh_enem7_def,
+			TppEnemyBodyId.dlh_enem8_def,
+			TppEnemyBodyId.dlh_enem9_def,
+			TppEnemyBodyId.dlh_enem10_def,
+			TppEnemyBodyId.dlh_enem11_def
+		},
+	},
+}
 
 --r13 New code to randomize MB staff outfits
 local maleSneakingSuit = false
@@ -55,6 +204,9 @@ local femaleTiger = false
 local femaleOlive = false
 --r42 Beach party mode - all MB staff in bikinis
 local beachParty = false
+--r69 Using new swim suits on MB
+local maleSwimSuit = 0
+local femaleSwimSuit = 0
 
 --r51 Settings - Removed missions from table to use ARMOR
 local armorUsableTableModded={
@@ -869,13 +1021,64 @@ function fovaSetupFunctions.Mb(areaName,nextMissionCode)
 					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19159} or
 					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19160} or
 					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19161} or
-					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19162}
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19162} or
+					--r69 Using new swim suits on MB
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19163} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19164} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19165} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19166} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19167} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19168} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19169} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19170} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19171} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19172} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19173} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19174} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19175} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19176} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19177} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19178} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19179} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19180} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19181} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19182} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19183} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19184} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19185} or
+					TppMotherBaseManagement.IsEquipDevelopedFromDevelopID{equipDevelopID=19186}
 				)
 				and math.random()<0.15
 			)
 		then
 			beachParty = true
-			TppMain.Randomize()
+			TUPPMLog.Log("beachParty true",3)
+			
+			--r69 Randomize or set male and female swim suits
+			maleSwimSuit = math.min(math.max(TUPPMSettings.mtbs_maleSwimSuit or 0, 0), 3)
+			femaleSwimSuit = math.min(math.max(TUPPMSettings.mtbs_femaleSwimSuit or 0, 0), 3)
+			
+			if maleSwimSuit == 0 then
+				TppMain.Randomize()
+				if math.random() < 0.33 then
+					maleSwimSuit = 1
+				elseif math.random() < 0.67 then
+					maleSwimSuit = 2
+				else
+					maleSwimSuit = 3
+				end
+			end
+			
+			if femaleSwimSuit == 0 then
+				TppMain.Randomize()
+				if math.random() < 0.33 then
+					femaleSwimSuit = 1
+				elseif math.random() < 0.67 then
+					femaleSwimSuit = 2
+				else
+					femaleSwimSuit = 3
+				end
+			end
 		end
 
 		math.randomseed(os.time())
@@ -982,11 +1185,30 @@ function fovaSetupFunctions.Mb(areaName,nextMissionCode)
 			TppSoldier2.SetDefaultPartsPath"/Assets/tpp/parts/chara/dds/dds5_enem0_def_v00.parts"table.insert(n,{TppEnemyFaceId.dds_balaclava0,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0})table.insert(n,{TppEnemyFaceId.dds_balaclava2,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0})table.insert(n,{TppEnemyFaceId.dds_balaclava3,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0})table.insert(n,{TppEnemyFaceId.dds_balaclava5,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0})
 		end
 		if this.IsUseGasMaskInFOB()then
-			n={{TppEnemyFaceId.dds_balaclava8,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},{TppEnemyFaceId.dds_balaclava9,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},{TppEnemyFaceId.dds_balaclava10,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},{TppEnemyFaceId.dds_balaclava11,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},{TppEnemyFaceId.dds_balaclava13,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},{TppEnemyFaceId.dds_balaclava15,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0}}
+			n={
+				{TppEnemyFaceId.dds_balaclava8,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},
+				{TppEnemyFaceId.dds_balaclava9,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},
+				{TppEnemyFaceId.dds_balaclava10,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},
+				{TppEnemyFaceId.dds_balaclava11,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},
+				{TppEnemyFaceId.dds_balaclava13,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0},
+				{TppEnemyFaceId.dds_balaclava15,MAX_REALIZED_COUNT,MAX_REALIZED_COUNT,0}
+			}
 		end
 		--RETAILPATCH 1.10>
 		if TppMotherBaseManagement.GetMbsClusterSecurityIsEquipSwimSuit()then
-			TppSoldier2.SetDefaultPartsPath"/Assets/tpp/parts/chara/dlf/dlf1_enem0_def_v00.parts"
+			--RETAILPATCH 1.12 > New logic
+			local swimSuitType=TppMotherBaseManagement.GetMbsClusterSecuritySwimSuitInfo()
+			local swimSuitPartsPath
+			if swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_1 then
+				swimSuitPartsPath="/Assets/tpp/parts/chara/dlf/dlf1_enem0_def_v00.parts"
+			elseif swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_2 then
+				swimSuitPartsPath="/Assets/tpp/parts/chara/dlg/dlg1_enem0_def_v00.parts"
+			elseif swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_3 then
+				swimSuitPartsPath="/Assets/tpp/parts/chara/dlh/dlh1_enem0_def_v00.parts"
+			end
+			TppSoldier2.SetDefaultPartsPath(swimSuitPartsPath)
+			--RETAILPATCH 1.12 <
+
 		end
 		--<
 		for a,e in ipairs(n)do
@@ -1008,7 +1230,17 @@ function fovaSetupFunctions.Mb(areaName,nextMissionCode)
 
 			--r42 Beach party mode
 			if beachParty then
-				TppSoldier2.SetDefaultPartsPath"/Assets/tpp/parts/chara/dlf/dlf1_enem0_def_v00.parts"
+				--r69 Using new swim suits on MB
+				local swimSuitPartsPath
+				if maleSwimSuit==1 then
+					swimSuitPartsPath="/Assets/tpp/parts/chara/dlf/dlf1_enem0_def_v00.parts"
+				elseif maleSwimSuit==2 then
+					swimSuitPartsPath="/Assets/tpp/parts/chara/dlg/dlg1_enem0_def_v00.parts"
+				else
+					swimSuitPartsPath="/Assets/tpp/parts/chara/dlh/dlh1_enem0_def_v00.parts"
+				end
+				TUPPMLog.Log("beachParty true, maleSwimSuit: "..tostring(maleSwimSuit)..", nextMissionCode: "..tostring(nextMissionCode),3)
+				TppSoldier2.SetDefaultPartsPath(swimSuitPartsPath)
 			end
 
 			for a,e in ipairs(faceIdsTable)
@@ -1178,7 +1410,29 @@ function fovaSetupFunctions.Mb(areaName,nextMissionCode)
 				end
 
 				if beachParty then
-					TppSoldier2.SetDefaultPartsPath"/Assets/tpp/parts/chara/dlf/dlf1_enem0_def_v00.parts"
+					--r69 Using new swim suits on MB
+					-- Also bug fix for missing female parts info
+					local swimSuitPartsPath
+					if maleSwimSuit==1 then
+						swimSuitPartsPath="/Assets/tpp/parts/chara/dlf/dlf1_enem0_def_v00.parts"
+					elseif maleSwimSuit==2 then
+						swimSuitPartsPath="/Assets/tpp/parts/chara/dlg/dlg1_enem0_def_v00.parts"
+					else
+						swimSuitPartsPath="/Assets/tpp/parts/chara/dlh/dlh1_enem0_def_v00.parts"
+					end
+					TUPPMLog.Log("beachParty true, maleSwimSuit: "..tostring(maleSwimSuit)..", nextMissionCode: "..tostring(nextMissionCode),3)
+					TppSoldier2.SetDefaultPartsPath(swimSuitPartsPath)
+
+					local swimSuitExtendedPartsPath
+					if femaleSwimSuit==1 then
+						swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlf/dlf0_enem0_def_f_v00.parts"
+					elseif femaleSwimSuit==2 then
+						swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlg/dlg0_enem0_def_f_v00.parts"
+					else
+						swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlh/dlh0_enem0_def_f_v00.parts"
+					end
+					TUPPMLog.Log("beachParty true, femaleSwimSuit: "..tostring(femaleSwimSuit)..", nextMissionCode: "..tostring(nextMissionCode),3)
+					TppSoldier2.SetExtendPartsInfo{type=1,path=swimSuitExtendedPartsPath}
 				end
 				
 				--END of mtbs_ENABLE_randomMBStaffOutfits check
@@ -1260,12 +1514,19 @@ function fovaSetupFunctions.Mb(areaName,nextMissionCode)
 
 		--r42 Beach party
 		if beachParty then
+			TUPPMLog.Log("loading beach bodies all!",3)
+			
+			--r69 Using new swim suits on MB
+			--r69 IMP! cannot load all bodies, load only the ones for the current swimsuit or else heads go missing and textures break. Am guessing bodies table becomes too large to handle
 			bodies={}
-			for sex, sexBodiesTable in pairs(securitySwimSuitBodies) do
-				for index, body in pairs(sexBodiesTable) do
-					table.insert(bodies,{sexBodiesTable[index],MAX_REALIZED_COUNT})
-				end
+			
+			for index, body in pairs(securitySwimSuitBodiesBetter.male[maleSwimSuit]) do
+				table.insert(bodies,{securitySwimSuitBodiesBetter.male[maleSwimSuit][index],MAX_REALIZED_COUNT})
 			end
+			for index, body in pairs(securitySwimSuitBodiesBetter.female[femaleSwimSuit]) do
+				table.insert(bodies,{securitySwimSuitBodiesBetter.female[femaleSwimSuit][index],MAX_REALIZED_COUNT})
+			end
+			
 		end
 
 	else
@@ -1300,7 +1561,18 @@ function fovaSetupFunctions.Mb(areaName,nextMissionCode)
 
 		--r42 Beach party
 		if beachParty then
-			TppSoldier2.SetExtendPartsInfo{type=1,path="/Assets/tpp/parts/chara/dlf/dlf0_enem0_def_f_v00.parts"}
+			--r69 Using new swim suits on MB
+			local swimSuitExtendedPartsPath
+			if femaleSwimSuit==1 then
+				swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlf/dlf0_enem0_def_f_v00.parts"
+			elseif femaleSwimSuit==2 then
+				swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlg/dlg0_enem0_def_f_v00.parts"
+			else
+				swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlh/dlh0_enem0_def_f_v00.parts"
+			end
+			
+			TUPPMLog.Log("beachParty true, femaleSwimSuit: "..tostring(femaleSwimSuit)..", vars.missionCode: "..tostring(vars.missionCode),3)
+			TppSoldier2.SetExtendPartsInfo{type=1,path=swimSuitExtendedPartsPath}
 		end
 
 	elseif not(nextMissionCode==10030 or nextMissionCode==10240)then
@@ -1315,7 +1587,19 @@ function fovaSetupFunctions.Mb(areaName,nextMissionCode)
 			end
 			--RETAILPATCH 1.10>
 			if TppMotherBaseManagement.GetMbsClusterSecurityIsEquipSwimSuit()then
-				TppSoldier2.SetExtendPartsInfo{type=1,path="/Assets/tpp/parts/chara/dlf/dlf0_enem0_def_f_v00.parts"}
+				--RETAILPATCH 1.12 > New logic
+				local swimSuitType=TppMotherBaseManagement.GetMbsClusterSecuritySwimSuitInfo()
+				local swimSuitExtendedPartsPath
+				if swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_1 then
+					swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlf/dlf0_enem0_def_f_v00.parts"
+				elseif swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_2 then
+					swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlg/dlg0_enem0_def_f_v00.parts"
+				elseif swimSuitType==TppMotherBaseManagementConst.SWIM_SUIT_TYPE_3 then
+					swimSuitExtendedPartsPath="/Assets/tpp/parts/chara/dlh/dlh0_enem0_def_f_v00.parts"
+				end
+				TppSoldier2.SetExtendPartsInfo{type=1,path=swimSuitExtendedPartsPath}
+				--RETAILPATCH 1.12 <
+
 			end
 			--<
 		elseif nextMissionCode~=10115 and nextMissionCode~=11115 then
@@ -1835,8 +2119,10 @@ function this.ApplyMTBSUniqueSetting(soldierId,assignedFaceId,useBalaclava,force
 
 				--r42 Beach party
 				if beachParty then
-					local index = math.random(1,#securitySwimSuitBodies.female)
-					assignedBodyId=securitySwimSuitBodies.female[index]
+					--r69 Using new swim suits on MB
+					TUPPMLog.Log("Applying femaleSwimSuit: "..tostring(femaleSwimSuit),3)
+					local index = math.random(1,#securitySwimSuitBodiesBetter.female[femaleSwimSuit])
+					assignedBodyId=securitySwimSuitBodiesBetter.female[femaleSwimSuit][index]
 					local t={id="UseExtendParts",enabled=true}
 					GameObject.SendCommand(soldierId,t)
 				end
@@ -1871,8 +2157,10 @@ function this.ApplyMTBSUniqueSetting(soldierId,assignedFaceId,useBalaclava,force
 
 				--r42 Beach party
 				if beachParty then
-					local index = math.random(1,#securitySwimSuitBodies.male)
-					assignedBodyId=securitySwimSuitBodies.male[index]
+					--r69 Using new swim suits on MB
+					TUPPMLog.Log("Applying maleSwimSuit: "..tostring(maleSwimSuit),3)
+					local index = math.random(1,#securitySwimSuitBodiesBetter.male[maleSwimSuit])
+					assignedBodyId=securitySwimSuitBodiesBetter.male[maleSwimSuit][index]
 					local t={id="UseExtendParts",enabled=false}
 					GameObject.SendCommand(soldierId,t)
 				end

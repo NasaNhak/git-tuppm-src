@@ -211,7 +211,8 @@ this.PERSONAL_DATA_SAVE_FILE_NAME="PERSONAL_DATA"
 this.CATEGORY_MISSION_RESTARTABLE=2
 this.SAVE_FILE_INFO={
 	[TppScriptVars.CATEGORY_GAME_GLOBAL]={version=107,slot=this.SAVE_SLOT.GLOBAL},
-	[TppScriptVars.CATEGORY_MISSION]={version=114,slot=this.SAVE_SLOT.CHECK_POINT},
+	--RETAILPATCH 1.12 > version changed from 114 to 115
+	[TppScriptVars.CATEGORY_MISSION]={version=115,slot=this.SAVE_SLOT.CHECK_POINT},
 	[TppScriptVars.CATEGORY_RETRY]={version=105,slot=this.SAVE_SLOT.RETRY},
 	[TppScriptVars.CATEGORY_MB_MANAGEMENT]={version=112,slot=this.SAVE_SLOT.MB_MANAGEMENT},
 	[TppScriptVars.CATEGORY_QUEST]={version=104,slot=this.SAVE_SLOT.QUEST},
@@ -528,6 +529,10 @@ this.MISSION_COMMON_PACK={AFGH_SCRIPT="/Assets/tpp/pack/location/afgh/pack_commo
 	--RETAILPATCH 1.10>
 	DD_SOLDIER_SWIM_SUIT="/Assets/tpp/pack/mission2/common/mis_com_dd_soldier_swim_suit.fpk",
 	--<
+	--RETAILPATCH 1.12 >
+	DD_SOLDIER_SWIM_SUIT2="/Assets/tpp/pack/mission2/common/mis_com_dd_soldier_swim_suit2.fpk",
+	DD_SOLDIER_SWIM_SUIT3="/Assets/tpp/pack/mission2/common/mis_com_dd_soldier_swim_suit3.fpk",
+	--RETAILPATCH 1.12 <
 	AFGH_DECOY="/Assets/tpp/pack/collectible/decoy/decoy_svs.fpk",
 	MAFR_DECOY="/Assets/tpp/pack/collectible/decoy/decoy_pf.fpk",
 	MTBS_DECOY="/Assets/tpp/pack/collectible/decoy/decoy_fob.fpk",
