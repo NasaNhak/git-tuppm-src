@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="1322044192" Color="1" Value="[HINT] The Tips Screen" />
+    <Entry Key="1916930998" Color="1" Value="[HINT] Surviving in Enemy Territory" />
+    <Entry Key="2387859240" Color="1" Value="[ACTION] Marking" />
+    <Entry Key="1196464835" Color="1" Value="[ACTION] Placing Markers" />
+    <Entry Key="1184641015" Color="1" Value="[HINT] Outgoing Calls &amp; Intel Radio" />
+    <Entry Key="851211977" Color="1" Value="[HINT] Radio/Message Log" />
+    <Entry Key="3413400080" Color="1" Value="[ACTION] Zooming In" />
+    <Entry Key="309843479" Color="1" Value="[ACTION] Smooth Traversing" />
+    <Entry Key="1238574402" Color="1" Value="[HINT] Staying Hidden" />
+    <Entry Key="2115474188" Color="1" Value="[HINT] Enemy Guard Shifts" />
+    <Entry Key="1292859269" Color="1" Value="[HINT] Night and Shadow" />
+    <Entry Key="552570924" Color="1" Value="[HINT] Grass" />
+    <Entry Key="3089362580" Color="1" Value="[HINT] Vehicle Cabins" />
+    <Entry Key="3996385590" Color="1" Value="[HINT] Sandstorms" />
+    <Entry Key="1786758813" Color="1" Value="[HINT] Mist" />
+    <Entry Key="2663508332" Color="1" Value="[HINT] Rain" />
+    <Entry Key="3123702124" Color="1" Value="[ACTION] Cover" />
+    <Entry Key="1394407579" Color="1" Value="[ACTION] Attacking from Cover" />
+    <Entry Key="2491493051" Color="1" Value="[ACTION] Hiding on Horseback" />
+    <Entry Key="946614553" Color="1" Value="[ACTION] Hiding in Trucks" />
+    <Entry Key="3713306065" Color="1" Value="[HINT] Dumpsters" />
+    <Entry Key="2377216076" Color="1" Value="[HINT] Toilets" />
+    <Entry Key="4124320775" Color="1" Value="[ACTION] Quick Dive" />
+    <Entry Key="102950228" Color="1" Value="[ACTION] Rolling" />
+    <Entry Key="2887938929" Color="1" Value="[ACTION] Crack Climbing" />
+    <Entry Key="4105282922" Color="1" Value="[ACTION] Hanging" />
+    <Entry Key="3400929280" Color="1" Value="[ACTION] Luring the Enemy" />
+    <Entry Key="1565985939" Color="1" Value="[ACTION] Reflex Mode" />
+    <Entry Key="4234278080" Color="1" Value="[HINT] Effective Range" />
+    <Entry Key="2777832087" Color="1" Value="[HINT] Shots on Target" />
+    <Entry Key="1791916738" Color="1" Value="[HINT] Tranquilizer Effectiveness" />
+    <Entry Key="3418131700" Color="1" Value="[ACTION] Reloading" />
+    <Entry Key="1529637040" Color="1" Value="[ACTION] Picking up Weapons" />
+    <Entry Key="2413743864" Color="1" Value="[ACTION] Picking up Ammunition" />
+    <Entry Key="3861907844" Color="1" Value="[ACTION] Switching Camera Position" />
+    <Entry Key="1687884636" Color="1" Value="[ACTION] Quick Change" />
+    <Entry Key="3903007907" Color="1" Value="[HINT] Weapon Limitations While Carrying" />
+    <Entry Key="2528995622" Color="1" Value="[ACTION] Serious Injuries" />
+    <Entry Key="1243377935" Color="1" Value="[ACTION] Serious Injuries" />
+    <Entry Key="141060437" Color="1" Value="[ACTION] Hold-ups" />
+    <Entry Key="3777963294" Color="1" Value="[ACTION] &quot;Get Down&quot; Command" />
+    <Entry Key="3249693488" Color="1" Value="[ACTION] CQC Overview" />
+    <Entry Key="2855700612" Color="1" Value="[ACTION] CQC: Throw" />
+    <Entry Key="475898453" Color="1" Value="[ACTION] CQC: Strike" />
+    <Entry Key="911642150" Color="1" Value="[ACTION] CQC to Hold-up" />
+    <Entry Key="3252426354" Color="1" Value="[ACTION] Consecutive CQC" />
+    <Entry Key="4074502945" Color="1" Value="[ACTION] CQC: Restrain" />
+    <Entry Key="770728275" Color="1" Value="[ACTION] CQC: Interrogation" />
+    <Entry Key="895954195" Color="1" Value="[ACTION] Interrogation During Hold-up" />
+    <Entry Key="3255030568" Color="1" Value="[ACTION] CQC: Choke" />
+    <Entry Key="3135020188" Color="1" Value="[ACTION] CQC: Throat Slit" />
+    <Entry Key="3675688258" Color="1" Value="[SUPPORT WEAPON] Sleeping Gas Mine" />
+    <Entry Key="1424366120" Color="1" Value="[HINT] Carrying as Human Shield" />
+    <Entry Key="2927828220" Color="1" Value="[HINT] Carrying as Disguise" />
+    <Entry Key="965402257" Color="1" Value="[ACTION] Auto-Aim" />
+    <Entry Key="2593307570" Color="1" Value="[HINT] Viewpoint When Readying Weapons" />
+    <Entry Key="2440717986" Color="1" Value="[HINT] Ammunition Penetration" />
+    <Entry Key="4024124449" Color="1" Value="[ACTION] Fulton Recovery Success Rate" />
+    <Entry Key="2174725872" Color="1" Value="[SUPPORT] Rear Echelon Support: Ammo/Suppr. Drops" />
+    <Entry Key="4255566804" Color="1" Value="[SUPPORT] Rear Echelon Support: Weapon/Item Drops" />
+    <Entry Key="36217231" Color="1" Value="[SUPPORT] Interpretation Support" />
+    <Entry Key="497824752" Color="1" Value="[SUPPORT] Fire Support" />
+    <Entry Key="1081840714" Color="1" Value="[SUPPORT] Support Helicopter" />
+    <Entry Key="1062759821" Color="1" Value="[HINT] Aerial Command Center" />
+    <Entry Key="2301970333" Color="1" Value="[SUPPORT] Tactical Buddies" />
+    <Entry Key="2641276567" Color="1" Value="[SUPPORT] Giving Orders to Buddies" />
+    <Entry Key="3494472831" Color="1" Value="[SUPPORT] Buddies: D-Horse" />
+    <Entry Key="3439338128" Color="1" Value="[SUPPORT] Buddies: D-Dog" />
+    <Entry Key="3288999650" Color="1" Value="[SUPPORT] Buddies: Quiet" />
+    <Entry Key="3313613323" Color="1" Value="[SUPPORT] Buddies: D-Walker" />
+    <Entry Key="767333629" Color="1" Value="[SUPPORT] Buddies: Battle Gear" />
+    <Entry Key="1776491684" Color="1" Value="[HINT] Wild Animals" />
+    <Entry Key="2660151959" Color="1" Value="[HINT] Capturing Animals" />
+    <Entry Key="4178458107" Color="1" Value="[HINT] Medicinal Plants" />
+    <Entry Key="1761690004" Color="1" Value="[HINT] Materials Containers" />
+    <Entry Key="1694265519" Color="1" Value="[HINT] Processed Materials" />
+    <Entry Key="3682855437" Color="1" Value="[HINT] Rough Diamonds" />
+    <Entry Key="1049829523" Color="1" Value="[HINT] Blueprints" />
+    <Entry Key="2162213438" Color="1" Value="[HINT] Emblems" />
+    <Entry Key="525048022" Color="1" Value="[HINT] Wooden Boxes" />
+    <Entry Key="3648685316" Color="1" Value="[HINT] Communications Equipment" />
+    <Entry Key="2764905169" Color="1" Value="[HINT] Power Systems" />
+    <Entry Key="3563378699" Color="1" Value="[HINT] Anti-Air Radar" />
+    <Entry Key="2004594928" Color="1" Value="[ACTION] Turning Lights On/Off" />
+    <Entry Key="173875468" Color="1" Value="[ACTION] Stealth Mode" />
+    <Entry Key="307763593" Color="1" Value="[HINT] Tactical Takedowns" />
+    <Entry Key="659513537" Color="1" Value="[HINT] Cardboard Box Deliveries" />
+    <Entry Key="2860093586" Color="1" Value="[HINT] Free Roam" />
+    <Entry Key="3464308094" Color="1" Value="[HINT] Heroism" />
+    <Entry Key="3777513374" Color="1" Value="[HINT] Codenames" />
+    <Entry Key="2099022940" Color="1" Value="[OPTION] Suppressor" />
+    <Entry Key="782552683" Color="1" Value="[OPTION] Flashlight" />
+    <Entry Key="1623885633" Color="1" Value="[OPTION] Underbarrel" />
+    <Entry Key="3797288503" Color="1" Value="[SUPPORT WEAPON] Throwing Weapons" />
+    <Entry Key="501221777" Color="1" Value="[PRIMARY WEAPON (BACK)] Sniper Rifle" />
+    <Entry Key="3527992484" Color="1" Value="[SUPPORT WEAPON] Decoy" />
+    <Entry Key="2626515107" Color="1" Value="[SUPPORT WEAPON] Flare Grenade" />
+    <Entry Key="3221424363" Color="1" Value="[SUPPORT WEAPON] Radio-detonated Explosive (C-4)" />
+    <Entry Key="1728919401" Color="1" Value="[SUPPORT WEAPON] Directional Mine" />
+    <Entry Key="1700177587" Color="1" Value="[ITEM] Items" />
+    <Entry Key="1211353418" Color="1" Value="[ITEM] Cardboard Box" />
+    <Entry Key="2965956386" Color="1" Value="[ITEM] Night Vision Goggles" />
+    <Entry Key="1624323613" Color="1" Value="[ITEM] Phantom Cigar" />
+    <Entry Key="1400550651" Color="1" Value="[TOOL] Binoculars" />
+    <Entry Key="3976792982" Color="1" Value="[TOOL] Binoculars Functions" />
+    <Entry Key="2668144841" Color="1" Value="[TOOL] iDroid Data Device" />
+    <Entry Key="202572811" Color="1" Value="[TOOL] Fulton Recovery Device" />
+    <Entry Key="2543011210" Color="1" Value="[BIONIC ARM] Active Sonar" />
+    <Entry Key="1347506881" Color="1" Value="[MOTHER BASE] R&amp;R" />
+    <Entry Key="2651658492" Color="1" Value="[MOTHER BASE] In the Red" />
+    <Entry Key="2886408040" Color="1" Value="[MOTHER BASE] Staff Morale" />
+    <Entry Key="3003569432" Color="1" Value="[HINT] Infiltration Basics" />
+    <Entry Key="3933029681" Color="1" Value="[HINT] Sensing the Enemy" />
+    <Entry Key="371465443" Color="1" Value="[HINT] Marking Recommendations" />
+    <Entry Key="1784243881" Color="1" Value="[HINT] When Spotted by the Enemy" />
+    <Entry Key="4105386923" Color="1" Value="[HINT] Tranquilizer Recommendations" />
+    <Entry Key="1447520719" Color="1" Value="[HINT] Night Infiltration" />
+    <Entry Key="1456099649" Color="1" Value="[HINT] When the Enemy Goes on Combat Alert" />
+    <Entry Key="2606753862" Color="1" Value="[HINT] Development Recommendations" />
+    <Entry Key="2610637924" Color="1" Value="[HINT] Tactics for Engaging Fighting Vehicles" />
+    <Entry Key="784627400" Color="1" Value="[HINT] Tactics for Engaging Gunships" />
+    <Entry Key="1965486223" Color="1" Value="[HINT] Aerial Command Center" />
+    <Entry Key="1936199291" Color="1" Value="[OPTION] Underbarrel" />
+    <Entry Key="987834470" Color="1" Value="[MOTHER BASE] GMP" />
+    <Entry Key="2174883544" Color="1" Value="[MOTHER BASE] Staff Ranks" />
+    <Entry Key="167266947" Color="1" Value="[MOTHER BASE] Staff Skills" />
+    <Entry Key="3665872016" Color="1" Value="[HINT] Metal Drums" />
+    <Entry Key="2798170369" Color="1" Value="[HINT] Vehicles" />
+    <Entry Key="211096107" Color="1" Value="[HINT] Weapon Emplacements" />
+    <Entry Key="1469845449" Color="1" Value="[HINT] Map Shortcut Features" />
+    <Entry Key="2578752451" Color="1" Value="[HINT] Non-Lethal Ammunition" />
+    <Entry Key="2801392712" Color="1" Value="[MOTHER BASE] Additional Unit Functions" />
+    <Entry Key="4184171773" Color="1" Value="[MOTHER BASE] Unit Functions Stopping/Resuming" />
+    <Entry Key="3465695619" Color="1" Value="[HINT] Call Menu" />
+    <Entry Key="3610385805" Color="1" Value="[MOTHER BASE] Troublemaker" />
+    <Entry Key="3032294595" Color="1" Value="[HINT] Wormholes" />
+    <Entry Key="1468214659" Color="1" Value="[HINT] Player Abilities During FOB Missions" />
+    <Entry Key="1713940190" Color="1" Value="[FOB] Scouting Enemies from the Helicopter Before Infiltration" />
+    <Entry Key="4189749681" Color="1" Value="[FOB] FOB Blockades" />
+    <Entry Key="2786489458" Color="1" Value="[FOB] Espionage Points" />
+    <Entry Key="3529809302" Color="1" Value="[FOB] Staff Rank Bonus" />
+    <Entry Key="1038843577" Color="1" Value="[FOB] Reaching the FOB Core" />
+    <Entry Key="1122602092" Color="1" Value="[FOB] Rewards for Reaching the FOB Core" />
+    <Entry Key="2010818208" Color="1" Value="[HINT] Direct Contracts" />
+    <Entry Key="1457867034" Color="1" Value="[FOB] Retaliatory Wormholes" />
+    <Entry Key="65646166" Color="1" Value="[FOB] Nuclear Weapons" />
+    <Entry Key="1191410585" Color="1" Value="[FOB] Heroism" />
+    <Entry Key="845014922" Color="1" Value="[FOB] Security Guard Equipment" />
+    <Entry Key="62593618" Color="1" Value="[HINT] PF Grade" />
+    <Entry Key="3203227745" Color="1" Value="[HINT] PF Points" />
+    <Entry Key="298075577" Color="1" Value="[FOB] Supporting Players" />
+    <Entry Key="2386130984" Color="1" Value="[FOB] Persuading New Staff and Rescuing Abductees" />
+    <Entry Key="727576239" Color="1" Value="[FOB] FOB Missions (Defense)" />
+    <Entry Key="1630487781" Color="1" Value="[FOB] Expanding an FOB" />
+    <Entry Key="1330670901" Color="1" Value="[FOB] Dispatch Missions (Online)" />
+  </Entries>
+</LangFile>

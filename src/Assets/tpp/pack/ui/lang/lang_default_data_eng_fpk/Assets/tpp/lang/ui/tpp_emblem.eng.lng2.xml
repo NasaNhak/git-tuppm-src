@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry LangId="emblem_base_01" Color="1" Value="Triangle" />
+    <Entry LangId="emblem_base_02" Color="1" Value="Isosceles Triangle" />
+    <Entry LangId="emblem_base_03" Color="1" Value="Inverted Triangle" />
+    <Entry LangId="emblem_base_04" Color="1" Value="Fan" />
+    <Entry LangId="emblem_base_05" Color="1" Value="Double Inverted Triangles" />
+    <Entry LangId="emblem_base_06" Color="1" Value="Square" />
+    <Entry LangId="emblem_base_07" Color="1" Value="Rectangle (Vertical)" />
+    <Entry LangId="emblem_base_08" Color="1" Value="Rectangle (Horizontal)" />
+    <Entry LangId="emblem_base_09" Color="1" Value="Trapezoid" />
+    <Entry LangId="emblem_base_10" Color="1" Value="Parallelogram" />
+    <Entry LangId="emblem_base_11" Color="1" Value="Flag" />
+    <Entry LangId="emblem_base_12" Color="1" Value="Arch" />
+    <Entry LangId="emblem_base_13" Color="1" Value="Rhombus" />
+    <Entry LangId="emblem_base_14" Color="1" Value="Cross" />
+    <Entry LangId="emblem_base_15" Color="1" Value="X" />
+    <Entry LangId="emblem_base_16" Color="1" Value="Pentagon" />
+    <Entry LangId="emblem_base_17" Color="1" Value="Hexagon" />
+    <Entry LangId="emblem_base_18" Color="1" Value="Octagon" />
+    <Entry LangId="emblem_base_19" Color="1" Value="Circle" />
+    <Entry LangId="emblem_base_20" Color="1" Value="Dog Tag" />
+    <Entry LangId="emblem_base_21" Color="1" Value="Barrel 01" />
+    <Entry LangId="emblem_base_22" Color="1" Value="Barrel 02" />
+    <Entry LangId="emblem_base_23" Color="1" Value="Shield 01" />
+    <Entry LangId="emblem_base_24" Color="1" Value="Shield 02" />
+    <Entry LangId="emblem_base_25" Color="1" Value="Shield 03" />
+    <Entry LangId="emblem_base_26" Color="1" Value="Shield 04" />
+    <Entry LangId="emblem_base_27" Color="1" Value="Shield 05" />
+    <Entry LangId="emblem_base_28" Color="1" Value="Shield 06" />
+    <Entry LangId="emblem_base_29" Color="1" Value="Shield 07" />
+    <Entry LangId="emblem_base_30" Color="1" Value="Shield 08" />
+    <Entry LangId="emblem_base_31" Color="1" Value="Shield 09" />
+    <Entry LangId="emblem_base_32" Color="1" Value="Leaf" />
+    <Entry LangId="emblem_base_33" Color="1" Value="Arrowhead 01" />
+    <Entry LangId="emblem_base_34" Color="1" Value="Arrowhead 02" />
+    <Entry LangId="emblem_base_35" Color="1" Value="Spade" />
+    <Entry LangId="emblem_base_36" Color="1" Value="Heart" />
+    <Entry LangId="emblem_base_37" Color="1" Value="Diamond" />
+    <Entry LangId="emblem_base_38" Color="1" Value="Club" />
+    <Entry LangId="emblem_base_39" Color="1" Value="Star" />
+    <Entry LangId="emblem_base_40" Color="1" Value="Lightning" />
+    <Entry LangId="emblem_base_41" Color="1" Value="Horseshoe" />
+    <Entry LangId="emblem_base_42" Color="1" Value="Ellipse" />
+    <Entry LangId="emblem_base_43" Color="1" Value="Circle (Old Mother Base)" />
+    <Entry LangId="emblem_base_44" Color="1" Value="Circle (Peace Walker)" />
+    <Entry LangId="emblem_base_45" Color="1" Value="Diamond" />
+    <Entry LangId="emblem_base_46" Color="1" Value="Shield (C.F.A.)" />
+    <Entry LangId="emblem_base_47" Color="1" Value="Inverted Spade" />
+    <Entry LangId="emblem_base_48" Color="1" Value="Inverted Triangle (Z.R.S.)" />
+    <Entry LangId="emblem_base_49" Color="1" Value="Circle (Outer Heaven)" />
+    <Entry LangId="emblem_base_50" Color="1" Value="Z.O.E." />
+    <Entry LangId="emblem_front_01" Color="1" Value="Arm" />
+    <Entry LangId="emblem_front_02" Color="1" Value="Sword" />
+    <Entry LangId="emblem_front_03" Color="1" Value="Axe" />
+    <Entry LangId="emblem_front_04" Color="1" Value="Spear" />
+    <Entry LangId="emblem_front_05" Color="1" Value="Handgun" />
+    <Entry LangId="emblem_front_06" Color="1" Value="Assault Rifle" />
+    <Entry LangId="emblem_front_07" Color="1" Value="Gas Mask" />
+    <Entry LangId="emblem_front_08" Color="1" Value="Cardboard Box" />
+    <Entry LangId="emblem_front_09" Color="1" Value="Parachute" />
+    <Entry LangId="emblem_front_10" Color="1" Value="Fulton Recovery Device (Soldier)" />
+    <Entry LangId="emblem_front_11" Color="1" Value="Fulton Recovery Device (Sheep)" />
+    <Entry LangId="emblem_front_12" Color="1" Value="Walker Gear" />
+    <Entry LangId="emblem_front_13" Color="1" Value="Tank" />
+    <Entry LangId="emblem_front_14" Color="1" Value="Gunship" />
+    <Entry LangId="emblem_front_15" Color="1" Value="Fighter Jet" />
+    <Entry LangId="emblem_front_16" Color="1" Value="Battleship" />
+    <Entry LangId="emblem_front_17" Color="1" Value="Nuke" />
+    <Entry LangId="emblem_front_18" Color="1" Value="Spade" />
+    <Entry LangId="emblem_front_19" Color="1" Value="Spade (Decorative)" />
+    <Entry LangId="emblem_front_20" Color="1" Value="Heart" />
+    <Entry LangId="emblem_front_21" Color="1" Value="Heart (Decorative)" />
+    <Entry LangId="emblem_front_22" Color="1" Value="Club" />
+    <Entry LangId="emblem_front_23" Color="1" Value="Club (Decorative)" />
+    <Entry LangId="emblem_front_24" Color="1" Value="Diamond" />
+    <Entry LangId="emblem_front_25" Color="1" Value="Diamond (Decorative)" />
+    <Entry LangId="emblem_front_26" Color="1" Value="Star" />
+    <Entry LangId="emblem_front_27" Color="1" Value="Star (Decorative)" />
+    <Entry LangId="emblem_front_28" Color="1" Value="Moon" />
+    <Entry LangId="emblem_front_29" Color="1" Value="Moon (Decorative)" />
+    <Entry LangId="emblem_front_30" Color="1" Value="Lightning 01" />
+    <Entry LangId="emblem_front_31" Color="1" Value="Lightning 02" />
+    <Entry LangId="emblem_front_32" Color="1" Value="Flames 01" />
+    <Entry LangId="emblem_front_33" Color="1" Value="Flames 02" />
+    <Entry LangId="emblem_front_34" Color="1" Value="Anchor" />
+    <Entry LangId="emblem_front_35" Color="1" Value="Musical Note" />
+    <Entry LangId="emblem_front_36" Color="1" Value="Diamond" />
+    <Entry LangId="emblem_front_37" Color="1" Value="Gear" />
+    <Entry LangId="emblem_front_38" Color="1" Value="Biohazard" />
+    <Entry LangId="emblem_front_39" Color="1" Value="Radiological Hazard" />
+    <Entry LangId="emblem_front_40" Color="1" Value="Earth (Map)" />
+    <Entry LangId="emblem_front_41" Color="1" Value="Earth (Wireframe)" />
+    <Entry LangId="emblem_front_42" Color="1" Value="Flower" />
+    <Entry LangId="emblem_front_43" Color="1" Value="Garland" />
+    <Entry LangId="emblem_front_44" Color="1" Value="Chick" />
+    <Entry LangId="emblem_front_45" Color="1" Value="Waterfowl" />
+    <Entry LangId="emblem_front_46" Color="1" Value="Crown" />
+    <Entry LangId="emblem_front_47" Color="1" Value="Jeweled Crown" />
+    <Entry LangId="emblem_front_48" Color="1" Value="Skull (Front)" />
+    <Entry LangId="emblem_front_49" Color="1" Value="Skull, Ring &amp; Wings" />
+    <Entry LangId="emblem_front_50" Color="1" Value="Skull, Horn &amp; Tail" />
+    <Entry LangId="emblem_front_51" Color="1" Value="Skull (Profile)" />
+    <Entry LangId="emblem_front_52" Color="1" Value="Heart, Ring &amp; Wings" />
+    <Entry LangId="emblem_front_53" Color="1" Value="Wings" />
+    <Entry LangId="emblem_front_54" Color="1" Value="Falcon" />
+    <Entry LangId="emblem_front_55" Color="1" Value="Lion" />
+    <Entry LangId="emblem_front_56" Color="1" Value="Pegasus" />
+    <Entry LangId="emblem_front_57" Color="1" Value="Unicorn" />
+    <Entry LangId="emblem_front_58" Color="1" Value="Griffon" />
+    <Entry LangId="emblem_front_59" Color="1" Value="Dragon" />
+    <Entry LangId="emblem_front_60" Color="1" Value="Archangel" />
+    <Entry LangId="emblem_front_61" Color="1" Value="Old Mother Base" />
+    <Entry LangId="emblem_front_62" Color="1" Value="Peace Walker" />
+    <Entry LangId="emblem_front_63" Color="1" Value="Diamond Dogs" />
+    <Entry LangId="emblem_front_64" Color="1" Value="C.F.A." />
+    <Entry LangId="emblem_front_65" Color="1" Value="Rogue Coyote" />
+    <Entry LangId="emblem_front_66" Color="1" Value="Zero Risk Security" />
+    <Entry LangId="emblem_front_67" Color="1" Value="Outer Heaven" />
+    <Entry LangId="emblem_front_68" Color="1" Value="Pieuvre Armement" />
+    <Entry LangId="emblem_front_69" Color="1" Value="Raven Sword" />
+    <Entry LangId="emblem_front_70" Color="1" Value="Werewolf" />
+    <Entry LangId="emblem_front_71" Color="1" Value="Praying Mantis" />
+    <Entry LangId="emblem_front_72" Color="1" Value="Otselotovaya Khvatka" />
+    <Entry LangId="emblem_front_73" Color="1" Value="Outer Haven" />
+    <Entry LangId="emblem_front_74" Color="1" Value="Moai" />
+    <Entry LangId="emblem_front_75" Color="1" Value="Martian" />
+    <Entry LangId="emblem_front_76" Color="1" Value="Jehuty" />
+    <Entry LangId="emblem_front_77" Color="1" Value="Anubis" />
+    <Entry LangId="emblem_front_78" Color="1" Value="Otenko" />
+    <Entry LangId="emblem_front_79" Color="1" Value="Nero" />
+    <Entry LangId="emblem_text_001" Color="1" Value="SOLID" />
+    <Entry LangId="emblem_text_002" Color="1" Value="SNAKE" />
+    <Entry LangId="emblem_text_003" Color="1" Value="GRAY" />
+    <Entry LangId="emblem_text_004" Color="1" Value="BIG" />
+    <Entry LangId="emblem_text_005" Color="1" Value="BOSS" />
+    <Entry LangId="emblem_text_006" Color="1" Value="SHOOT" />
+    <Entry LangId="emblem_text_007" Color="1" Value="GUNNER" />
+    <Entry LangId="emblem_text_008" Color="1" Value="MACHINEGUN" />
+    <Entry LangId="emblem_text_009" Color="1" Value="KID" />
+    <Entry LangId="emblem_text_010" Color="1" Value="FIRE" />
+    <Entry LangId="emblem_text_011" Color="1" Value="TROOPER" />
+    <Entry LangId="emblem_text_012" Color="1" Value="COWARD" />
+    <Entry LangId="emblem_text_013" Color="1" Value="DUCK" />
+    <Entry LangId="emblem_text_014" Color="1" Value="METAL" />
+    <Entry LangId="emblem_text_015" Color="1" Value="GEAR" />
+    <Entry Key="1483746703" Color="1" Value="FOX" />
+    <Entry Key="125916459" Color="1" Value="HOUND" />
+    <Entry LangId="emblem_text_018" Color="1" Value="OUTER" />
+    <Entry LangId="emblem_text_019" Color="1" Value="HEAVEN" />
+    <Entry Key="3960910909" Color="1" Value="CHICKEN" />
+    <Entry LangId="emblem_text_021" Color="1" Value="MASTER" />
+    <Entry LangId="emblem_text_022" Color="1" Value="MILLER" />
+    <Entry LangId="emblem_text_023" Color="1" Value="WHITE" />
+    <Entry LangId="emblem_text_024" Color="1" Value="BLACK" />
+    <Entry LangId="emblem_text_025" Color="1" Value="COLOR" />
+    <Entry LangId="emblem_text_026" Color="1" Value="RUNNING" />
+    <Entry LangId="emblem_text_027" Color="1" Value="MAN" />
+    <Entry LangId="emblem_text_028" Color="1" Value="RED" />
+    <Entry LangId="emblem_text_029" Color="1" Value="BLASTER" />
+    <Entry LangId="emblem_text_030" Color="1" Value="ULTRA" />
+    <Entry LangId="emblem_text_031" Color="1" Value="BOX" />
+    <Entry LangId="emblem_text_032" Color="1" Value="PREDATOR" />
+    <Entry LangId="emblem_text_033" Color="1" Value="NIGHT" />
+    <Entry LangId="emblem_text_034" Color="1" Value="SIGHT" />
+    <Entry LangId="emblem_text_035" Color="1" Value="ZANZIBAR" />
+    <Entry LangId="emblem_text_036" Color="1" Value="LAND" />
+    <Entry LangId="emblem_text_037" Color="1" Value="OTAKU" />
+    <Entry LangId="emblem_text_038" Color="1" Value="CYBORG" />
+    <Entry LangId="emblem_text_039" Color="1" Value="NINJA" />
+    <Entry LangId="emblem_text_040" Color="1" Value="LIQUID" />
+    <Entry LangId="emblem_text_041" Color="1" Value="REVOLVER" />
+    <Entry LangId="emblem_text_042" Color="1" Value="OCELOT" />
+    <Entry LangId="emblem_text_043" Color="1" Value="VULCAN" />
+    <Entry Key="560920157" Color="1" Value="RAVEN" />
+    <Entry LangId="emblem_text_045" Color="1" Value="PSYCHO" />
+    <Entry Key="963344248" Color="1" Value="MANTIS" />
+    <Entry LangId="emblem_text_047" Color="1" Value="SNIPER" />
+    <Entry Key="3425206968" Color="1" Value="WOLF" />
+    <Entry LangId="emblem_text_049" Color="1" Value="DECOY" />
+    <Entry Key="3927203649" Color="1" Value="OCTOPUS" />
+    <Entry LangId="emblem_text_051" Color="1" Value="REX" />
+    <Entry LangId="emblem_text_052" Color="1" Value="DIE" />
+    <Entry LangId="emblem_text_053" Color="1" Value="SHADOW" />
+    <Entry LangId="emblem_text_054" Color="1" Value="MOSES" />
+    <Entry LangId="emblem_text_055" Color="1" Value="ISLAND" />
+    <Entry LangId="emblem_text_056" Color="1" Value="RAIDEN" />
+    <Entry LangId="emblem_text_057" Color="1" Value="ROSE" />
+    <Entry LangId="emblem_text_058" Color="1" Value="SOLIDUS" />
+    <Entry LangId="emblem_text_059" Color="1" Value="KING" />
+    <Entry LangId="emblem_text_060" Color="1" Value="FORTUNE" />
+    <Entry LangId="emblem_text_061" Color="1" Value="QUEEN" />
+    <Entry LangId="emblem_text_062" Color="1" Value="VAMP" />
+    <Entry LangId="emblem_text_063" Color="1" Value="FAT" />
+    <Entry LangId="emblem_text_064" Color="1" Value="RAY" />
+    <Entry LangId="emblem_text_065" Color="1" Value="ARSENAL" />
+    <Entry LangId="emblem_text_066" Color="1" Value="PHILANTHROPY" />
+    <Entry LangId="emblem_text_067" Color="1" Value="SONS OF" />
+    <Entry LangId="emblem_text_068" Color="1" Value="LIBERTY" />
+    <Entry LangId="emblem_text_069" Color="1" Value="DEAD" />
+    <Entry LangId="emblem_text_070" Color="1" Value="CELL" />
+    <Entry LangId="emblem_text_071" Color="1" Value="TENGU" />
+    <Entry LangId="emblem_text_072" Color="1" Value="COMMANDOS" />
+    <Entry LangId="emblem_text_073" Color="1" Value="SHELL" />
+    <Entry LangId="emblem_text_074" Color="1" Value="NAKED" />
+    <Entry LangId="emblem_text_075" Color="1" Value="ZERO" />
+    <Entry LangId="emblem_text_076" Color="1" Value="ADAM" />
+    <Entry LangId="emblem_text_077" Color="1" Value="EVA" />
+    <Entry LangId="emblem_text_078" Color="1" Value="THUNDER" />
+    <Entry LangId="emblem_text_079" Color="1" Value="BOLT" />
+    <Entry LangId="emblem_text_080" Color="1" Value="THE" />
+    <Entry LangId="emblem_text_081" Color="1" Value="PAIN" />
+    <Entry LangId="emblem_text_082" Color="1" Value="FEAR" />
+    <Entry LangId="emblem_text_083" Color="1" Value="END" />
+    <Entry LangId="emblem_text_084" Color="1" Value="FURY" />
+    <Entry LangId="emblem_text_085" Color="1" Value="SORROW" />
+    <Entry LangId="emblem_text_086" Color="1" Value="JOY" />
+    <Entry LangId="emblem_text_087" Color="1" Value="SHAGOHOD" />
+    <Entry LangId="emblem_text_088" Color="1" Value="COBRA" />
+    <Entry LangId="emblem_text_089" Color="1" Value="UNIT" />
+    <Entry LangId="emblem_text_090" Color="1" Value="EATER" />
+    <Entry LangId="emblem_text_091" Color="1" Value="GROZNYJGRAD" />
+    <Entry LangId="emblem_text_092" Color="1" Value="OLD" />
+    <Entry LangId="emblem_text_093" Color="1" Value="DREBIN" />
+    <Entry LangId="emblem_text_094" Color="1" Value="893" />
+    <Entry LangId="emblem_text_095" Color="1" Value="MAMA" />
+    <Entry LangId="emblem_text_096" Color="1" Value="LAUGHING" />
+    <Entry LangId="emblem_text_097" Color="1" Value="RAGING" />
+    <Entry LangId="emblem_text_098" Color="1" Value="CRYING" />
+    <Entry LangId="emblem_text_099" Color="1" Value="SCREAMING" />
+    <Entry LangId="emblem_text_100" Color="1" Value="GECKO" />
+    <Entry LangId="emblem_text_101" Color="1" Value="DWARF" />
+    <Entry LangId="emblem_text_102" Color="1" Value="HAVEN" />
+    <Entry LangId="emblem_text_103" Color="1" Value="RAT" />
+    <Entry LangId="emblem_text_104" Color="1" Value="PATROL" />
+    <Entry LangId="emblem_text_105" Color="1" Value="TEAM" />
+    <Entry LangId="emblem_text_106" Color="1" Value="PARADISE" />
+    <Entry LangId="emblem_text_107" Color="1" Value="LOST" />
+    <Entry LangId="emblem_text_108" Color="1" Value="ARMY" />
+    <Entry LangId="emblem_text_109" Color="1" Value="ARMAMENTS" />
+    <Entry LangId="emblem_text_110" Color="1" Value="SWORD" />
+    <Entry LangId="emblem_text_111" Color="1" Value="WEREWOLF" />
+    <Entry LangId="emblem_text_112" Color="1" Value="PRAYING" />
+    <Entry LangId="emblem_text_113" Color="1" Value="CLAWING" />
+    <Entry LangId="emblem_text_114" Color="1" Value="BEAUTY" />
+    <Entry LangId="emblem_text_115" Color="1" Value="BEAST" />
+    <Entry LangId="emblem_text_116" Color="1" Value="GUNS OF" />
+    <Entry LangId="emblem_text_117" Color="1" Value="PATRIOTS" />
+    <Entry LangId="emblem_text_118" Color="1" Value="ALIVE" />
+    <Entry LangId="emblem_text_119" Color="1" Value="AREA" />
+    <Entry LangId="emblem_text_120" Color="1" Value="HOT" />
+    <Entry LangId="emblem_text_121" Color="1" Value="COLD" />
+    <Entry LangId="emblem_text_122" Color="1" Value="STRANGE" />
+    <Entry LangId="emblem_text_123" Color="1" Value="LOVE" />
+    <Entry LangId="emblem_text_124" Color="1" Value="PUPA" />
+    <Entry LangId="emblem_text_125" Color="1" Value="CHRYSALIS" />
+    <Entry LangId="emblem_text_126" Color="1" Value="COCOON" />
+    <Entry LangId="emblem_text_127" Color="1" Value="PEACE" />
+    <Entry LangId="emblem_text_128" Color="1" Value="WALKER" />
+    <Entry LangId="emblem_text_129" Color="1" Value="ZEKE" />
+    <Entry LangId="emblem_text_130" Color="1" Value="MILITAIRES" />
+    <Entry Key="2607341474" Color="1" Value="SANS FRONTIERES" />
+    <Entry LangId="emblem_text_132" Color="1" Value="SENTINEL" />
+    <Entry LangId="emblem_text_133" Color="1" Value="SKULL" />
+    <Entry LangId="emblem_text_134" Color="1" Value="FACE" />
+    <Entry LangId="emblem_text_135" Color="1" Value="CIPHER" />
+    <Entry LangId="emblem_text_136" Color="1" Value="XOF" />
+    <Entry LangId="emblem_text_137" Color="1" Value="SNATCHER" />
+    <Entry LangId="emblem_text_138" Color="1" Value="CAMP" />
+    <Entry LangId="emblem_text_139" Color="1" Value="OMEGA" />
+    <Entry LangId="emblem_text_140" Color="1" Value="GROUND" />
+    <Entry LangId="emblem_text_141" Color="1" Value="ZEROES" />
+    <Entry LangId="emblem_text_142" Color="1" Value="PUNISHED" />
+    <Entry LangId="emblem_text_143" Color="1" Value="VENOM" />
+    <Entry LangId="emblem_text_144" Color="1" Value="SHALASHASKA" />
+    <Entry LangId="emblem_text_145" Color="1" Value="HORSE" />
+    <Entry LangId="emblem_text_146" Color="1" Value="DOG" />
+    <Entry LangId="emblem_text_147" Color="1" Value="QUIET" />
+    <Entry LangId="emblem_text_148" Color="1" Value="BATTLE" />
+    <Entry LangId="emblem_text_149" Color="1" Value="MAMBA" />
+    <Entry LangId="emblem_text_150" Color="1" Value="CODE" />
+    <Entry LangId="emblem_text_151" Color="1" Value="TALKER" />
+    <Entry LangId="emblem_text_152" Color="1" Value="NUCLEAR" />
+    <Entry LangId="emblem_text_153" Color="1" Value="DIAMOND" />
+    <Entry LangId="emblem_text_154" Color="1" Value="DOGS" />
+    <Entry LangId="emblem_text_155" Color="1" Value="CONTRACT" />
+    <Entry LangId="emblem_text_156" Color="1" Value="FORCES" />
+    <Entry LangId="emblem_text_157" Color="1" Value="ROGUE" />
+    <Entry LangId="emblem_text_158" Color="1" Value="COYOTE" />
+    <Entry LangId="emblem_text_159" Color="1" Value="RISK" />
+    <Entry LangId="emblem_text_160" Color="1" Value="SECURITY" />
+    <Entry LangId="emblem_text_161" Color="1" Value=".INC" />
+    <Entry LangId="emblem_text_162" Color="1" Value="SKULLS" />
+    <Entry LangId="emblem_text_163" Color="1" Value="PHANTOM" />
+    <Entry LangId="emblem_text_164" Color="1" Value="HELL" />
+    <Entry LangId="emblem_text_165" Color="1" Value="SMALL" />
+    <Entry LangId="emblem_text_166" Color="1" Value="LITTLE" />
+    <Entry LangId="emblem_text_167" Color="1" Value="WOMAN" />
+    <Entry LangId="emblem_text_168" Color="1" Value="BOY" />
+    <Entry LangId="emblem_text_169" Color="1" Value="GIRL" />
+    <Entry LangId="emblem_text_170" Color="1" Value="NEW" />
+    <Entry LangId="emblem_text_171" Color="1" Value="BLUE" />
+    <Entry LangId="emblem_text_172" Color="1" Value="GREEN" />
+    <Entry LangId="emblem_text_173" Color="1" Value="YELLOW" />
+    <Entry LangId="emblem_text_174" Color="1" Value="ORANGE" />
+    <Entry LangId="emblem_text_175" Color="1" Value="PINK" />
+    <Entry LangId="emblem_text_176" Color="1" Value="PURPLE" />
+    <Entry LangId="emblem_text_177" Color="1" Value="BROWN" />
+    <Entry LangId="emblem_text_178" Color="1" Value="PLATINUM" />
+    <Entry LangId="emblem_text_179" Color="1" Value="GOLD" />
+    <Entry LangId="emblem_text_180" Color="1" Value="SILVER" />
+    <Entry LangId="emblem_text_181" Color="1" Value="BRONZE" />
+    <Entry Key="2425289064" Color="1" Value="KOJIMA" />
+    <Entry Key="2484600116" Color="1" Value="PRODUCTIONS" />
+    <Entry Key="1211650311" Color="1" Value="ARMS" />
+    <Entry Key="1921278682" Color="1" Value="TECH" />
+    <Entry Key="507180916" Color="1" Value="TOKUGAWA" />
+    <Entry Key="2142716653" Color="1" Value="HEAVY" />
+    <Entry Key="2258071064" Color="1" Value="INDUSTRIES" />
+    <Entry LangId="emblem_text_300" Color="1" Value="WESTERN" />
+    <Entry LangId="emblem_text_301" Color="1" Value="EASTERN" />
+    <Entry LangId="emblem_text_302" Color="1" Value="NORTHERN" />
+    <Entry LangId="emblem_text_303" Color="1" Value="SOUTHERN" />
+    <Entry LangId="emblem_text_304" Color="1" Value="SPECIAL" />
+    <Entry LangId="emblem_text_305" Color="1" Value="TACTICAL" />
+    <Entry LangId="emblem_text_306" Color="1" Value="RIOT" />
+    <Entry LangId="emblem_text_307" Color="1" Value="TECHNICAL" />
+    <Entry LangId="emblem_text_308" Color="1" Value="INTELLIGENCE" />
+    <Entry LangId="emblem_text_309" Color="1" Value="EMERGENCY" />
+    <Entry LangId="emblem_text_310" Color="1" Value="SERVICE" />
+    <Entry LangId="emblem_text_311" Color="1" Value="FLIGHT" />
+    <Entry LangId="emblem_text_312" Color="1" Value="AIRBORNE" />
+    <Entry LangId="emblem_text_313" Color="1" Value="CHEMICAL" />
+    <Entry LangId="emblem_text_314" Color="1" Value="MEDICAL" />
+    <Entry LangId="emblem_text_315" Color="1" Value="RESCUE" />
+    <Entry LangId="emblem_text_316" Color="1" Value="ENGINEER" />
+    <Entry LangId="emblem_text_317" Color="1" Value="SIGNAL" />
+    <Entry LangId="emblem_text_318" Color="1" Value="WARFARE" />
+    <Entry LangId="emblem_text_319" Color="1" Value="SURVIVAL" />
+    <Entry LangId="emblem_text_320" Color="1" Value="EVASION" />
+    <Entry LangId="emblem_text_321" Color="1" Value="RESISTANCE" />
+    <Entry LangId="emblem_text_322" Color="1" Value="ESCAPE" />
+    <Entry Key="341004498" Color="1" Value="SECURITY" />
+    <Entry LangId="emblem_text_324" Color="1" Value="CAMOUFLAGE" />
+    <Entry LangId="emblem_text_325" Color="1" Value="CONCEALMENT" />
+    <Entry Key="3082387096" Color="1" Value="DECOY" />
+    <Entry LangId="emblem_text_327" Color="1" Value="ANTI" />
+    <Entry LangId="emblem_text_328" Color="1" Value="TASK" />
+    <Entry LangId="emblem_text_329" Color="1" Value="COMMAND" />
+    <Entry LangId="emblem_text_330" Color="1" Value="OPERATIONS" />
+    <Entry LangId="emblem_text_331" Color="1" Value="ELEMENTS" />
+    <Entry LangId="emblem_text_332" Color="1" Value="DETACHMENT" />
+    <Entry Key="3724848057" Color="1" Value="UNIT" />
+    <Entry Key="123364013" Color="1" Value="FORCES" />
+    <Entry LangId="emblem_text_335" Color="1" Value="GROUP" />
+    <Entry Key="4126460044" Color="1" Value="ARMY" />
+    <Entry LangId="emblem_text_337" Color="1" Value="CORPS" />
+    <Entry LangId="emblem_text_338" Color="1" Value="DIVISION" />
+    <Entry LangId="emblem_text_339" Color="1" Value="BRIGADE" />
+    <Entry LangId="emblem_text_340" Color="1" Value="REGIMENT" />
+    <Entry LangId="emblem_text_341" Color="1" Value="BATTALION" />
+    <Entry LangId="emblem_text_342" Color="1" Value="COMPANY" />
+    <Entry LangId="emblem_text_343" Color="1" Value="PLATOON" />
+    <Entry LangId="emblem_text_344" Color="1" Value="SQUAD" />
+    <Entry Key="3488964496" Color="1" Value="TEAM" />
+    <Entry LangId="emblem_text_346" Color="1" Value="INFANTRY" />
+    <Entry LangId="emblem_text_347" Color="1" Value="ARMOR" />
+    <Entry LangId="emblem_text_348" Color="1" Value="AVIATION" />
+    <Entry LangId="emblem_text_349" Color="1" Value="ASSAULT" />
+    <Entry LangId="emblem_text_350" Color="1" Value="RADIO" />
+    <Entry LangId="emblem_text_351" Color="1" Value="RECON" />
+    <Entry LangId="emblem_text_352" Color="1" Value="SCOUT" />
+    <Entry Key="2549390344" Color="1" Value="SNIPER" />
+    <Entry LangId="emblem_text_354" Color="1" Value="RANGER" />
+    <Entry LangId="emblem_text_355" Color="1" Value="POLICE" />
+    <Entry LangId="emblem_text_356" Color="1" Value="ALFA" />
+    <Entry LangId="emblem_text_357" Color="1" Value="BRAVO" />
+    <Entry LangId="emblem_text_358" Color="1" Value="CHARLIE" />
+    <Entry LangId="emblem_text_359" Color="1" Value="DELTA" />
+    <Entry LangId="emblem_text_360" Color="1" Value="ECHO" />
+    <Entry LangId="emblem_text_361" Color="1" Value="FOXTROT" />
+    <Entry LangId="emblem_text_362" Color="1" Value="GOLF" />
+    <Entry LangId="emblem_text_363" Color="1" Value="HOTEL" />
+    <Entry LangId="emblem_text_364" Color="1" Value="INDIA" />
+    <Entry LangId="emblem_text_365" Color="1" Value="JULIETT" />
+    <Entry LangId="emblem_text_366" Color="1" Value="KILO" />
+    <Entry LangId="emblem_text_367" Color="1" Value="LIMA" />
+    <Entry LangId="emblem_text_368" Color="1" Value="MIKE" />
+    <Entry LangId="emblem_text_369" Color="1" Value="NOVEMBER" />
+    <Entry LangId="emblem_text_370" Color="1" Value="OSCAR" />
+    <Entry LangId="emblem_text_371" Color="1" Value="PAPA" />
+    <Entry LangId="emblem_text_372" Color="1" Value="QUEBEC" />
+    <Entry LangId="emblem_text_373" Color="1" Value="ROMEO" />
+    <Entry LangId="emblem_text_374" Color="1" Value="SIERRA" />
+    <Entry LangId="emblem_text_375" Color="1" Value="TANGO" />
+    <Entry LangId="emblem_text_376" Color="1" Value="UNIFORM" />
+    <Entry LangId="emblem_text_377" Color="1" Value="VICTOR" />
+    <Entry LangId="emblem_text_378" Color="1" Value="WHISKEY" />
+    <Entry LangId="emblem_text_379" Color="1" Value="X-RAY" />
+    <Entry LangId="emblem_text_380" Color="1" Value="YANKEE" />
+    <Entry LangId="emblem_text_381" Color="1" Value="ZULU" />
+    <Entry LangId="emblem_front_80" Color="1" Value="!" />
+    <Entry LangId="emblem_front_81" Color="1" Value="?" />
+    <Entry LangId="emblem_front_82" Color="1" Value="Otaku Spirit" />
+    <Entry LangId="emblem_front_83" Color="1" Value="Zan" />
+    <Entry LangId="emblem_front_84" Color="1" Value="Datsu" />
+    <Entry LangId="emblem_front_7008" Color="1" Value="PIGEON" />
+    <Entry LangId="emblem_front_7009" Color="1" Value="BLUE BIRD" />
+    <Entry LangId="emblem_front_7011" Color="1" Value="LITTLE GRAY" />
+    <Entry LangId="emblem_front_7012" Color="1" Value="ANT" />
+    <Entry LangId="emblem_front_7013" Color="1" Value="GIBBON" />
+    <Entry LangId="emblem_front_7015" Color="1" Value="RABBIT" />
+    <Entry LangId="emblem_front_7016" Color="1" Value="BEE" />
+    <Entry LangId="emblem_front_7017" Color="1" Value="GECKO" />
+    <Entry LangId="emblem_front_7018" Color="1" Value="SCARAB" />
+    <Entry LangId="emblem_front_7019" Color="1" Value="FROG" />
+    <Entry LangId="emblem_front_7020" Color="1" Value="INCHWORM" />
+    <Entry LangId="emblem_front_7021" Color="1" Value="LOBSTER" />
+    <Entry LangId="emblem_front_7022" Color="1" Value="HYENA" />
+    <Entry LangId="emblem_front_7024" Color="1" Value="PIG" />
+    <Entry LangId="emblem_front_7025" Color="1" Value="COW" />
+    <Entry LangId="emblem_front_7026" Color="1" Value="CROCODILE" />
+    <Entry LangId="emblem_front_7027" Color="1" Value="GIANT PANDA" />
+    <Entry LangId="emblem_front_7029" Color="1" Value="TARANTULA" />
+    <Entry LangId="emblem_front_7030" Color="1" Value="CENTIPEDE" />
+    <Entry LangId="emblem_front_7032" Color="1" Value="JAGUAR" />
+    <Entry LangId="emblem_front_7033" Color="1" Value="PANTHER" />
+    <Entry LangId="emblem_front_7034" Color="1" Value="LEOPARD" />
+    <Entry LangId="emblem_front_7037" Color="1" Value="STAR OF BETHLEHEM" />
+    <Entry LangId="emblem_front_7040" Color="1" Value="WATER BEAR" />
+    <Entry LangId="emblem_front_7041" Color="1" Value="FLYING SQUIRREL" />
+    <Entry LangId="emblem_front_7042" Color="1" Value="NIGHT OWL" />
+    <Entry LangId="emblem_front_7043" Color="1" Value="FIGHTING FISH" />
+    <Entry LangId="emblem_front_7044" Color="1" Value="KOMODO DRAGON" />
+    <Entry LangId="emblem_front_7045" Color="1" Value="ARCTIC SKUA" />
+    <Entry LangId="emblem_front_7048" Color="1" Value="CUCKOO" />
+    <Entry LangId="emblem_front_7049" Color="1" Value="SNAKE" />
+    <Entry LangId="emblem_front_7050" Color="1" Value="CHAMELEON" />
+    <Entry LangId="emblem_front_7051" Color="1" Value="RAT" />
+    <Entry LangId="emblem_front_7052" Color="1" Value="SLOTH" />
+    <Entry LangId="emblem_front_7054" Color="1" Value="DEER" />
+    <Entry LangId="emblem_front_7055" Color="1" Value="CAT" />
+    <Entry LangId="emblem_front_7056" Color="1" Value="GULL" />
+    <Entry LangId="emblem_front_7057" Color="1" Value="SWALLOW" />
+    <Entry LangId="emblem_front_7061" Color="1" Value="KANGAROO" />
+    <Entry LangId="emblem_front_7062" Color="1" Value="FIREFLY" />
+    <Entry LangId="emblem_front_7063" Color="1" Value="EEL" />
+    <Entry Key="1165097524" Color="1" Value="Normal" />
+    <Entry Key="170558145" Color="1" Value="Special" />
+    <Entry Key="3198521657" Color="1" Value="Normal" />
+    <Entry Key="3261613424" Color="1" Value="Animals" />
+    <Entry Key="3467745122" Color="1" Value="Codenames" />
+    <Entry Key="3430869520" Color="1" Value="Special" />
+    <Entry Key="594046564" Color="1" Value="MGO" />
+    <Entry Key="3937954832" Color="1" Value="Numerical" />
+    <Entry Key="290281094" Color="1" Value="Lettering" />
+    <Entry Key="2373283320" Color="1" Value="Phonetic Codes" />
+    <Entry Key="3320375258" Color="1" Value="Codenames" />
+    <Entry Key="1971571841" Color="1" Value="Normal" />
+    <Entry LangId="emblem_front_85" Color="1" Value="VENOM SNAKE" />
+    <Entry Key="1479191372" Color="1" Value="Color 2" />
+    <Entry Key="2913681031" Color="1" Value="Color 1" />
+    <Entry LangId="emblem_front_8000" Color="1" Value="Buddy: D-DOG (Puppy)" />
+    <Entry LangId="emblem_front_8001" Color="1" Value="Buddy: D-HORSE" />
+    <Entry LangId="emblem_front_8002" Color="1" Value="Buddy: D-DOG" />
+    <Entry LangId="emblem_front_8003" Color="1" Value="Buddy: QUIET" />
+    <Entry LangId="emblem_front_8004" Color="1" Value="Buddy: D-WALKER" />
+    <Entry LangId="emblem_front_8010" Color="1" Value="VENOM SNAKE2" />
+    <Entry LangId="emblem_front_8011" Color="1" Value="Miller" />
+    <Entry LangId="emblem_front_8012" Color="1" Value="Ocelot" />
+    <Entry LangId="emblem_front_8013" Color="1" Value="Quiet" />
+    <Entry LangId="emblem_front_8014" Color="1" Value="Emmerich" />
+    <Entry LangId="emblem_front_8015" Color="1" Value="Eli" />
+    <Entry LangId="emblem_front_8016" Color="1" Value="Third Child" />
+    <Entry LangId="emblem_front_8017" Color="1" Value="Skull Face" />
+    <Entry LangId="emblem_front_8018" Color="1" Value="Ishmael" />
+    <Entry LangId="emblem_front_8019" Color="1" Value="The Man on Fire" />
+    <Entry LangId="emblem_front_8025" Color="1" Value="BIONIC ARM : Paper" />
+    <Entry LangId="emblem_front_8026" Color="1" Value="BIONIC ARM : Rock" />
+    <Entry LangId="emblem_front_8027" Color="1" Value="BIONIC ARM : Scissors" />
+    <Entry LangId="emblem_front_8028" Color="1" Value="BIONIC ARM : No.1" />
+    <Entry LangId="emblem_front_8029" Color="1" Value="BIONIC ARM : Thumbs Up" />
+    <Entry LangId="emblem_front_8030" Color="1" Value="SAHELANTHROPUS" />
+    <Entry LangId="emblem_front_8031" Color="1" Value="MAMMAL POD" />
+    <Entry LangId="emblem_front_8032" Color="1" Value="HIDEO" />
+    <Entry LangId="emblem_front_8033" Color="1" Value="VENOM SNAKE 3" />
+    <Entry LangId="emblem_front_8034" Color="1" Value="DD SOLDIER" />
+    <Entry LangId="emblem_front_8005" Color="1" Value="STAMP: SERIOUS" />
+    <Entry LangId="emblem_front_8006" Color="1" Value="STAMP: LAUGHING" />
+    <Entry LangId="emblem_front_8007" Color="1" Value="STAMP: CRYING" />
+    <Entry LangId="emblem_front_8008" Color="1" Value="STAMP: RAGING" />
+    <Entry LangId="emblem_front_8009" Color="1" Value="STAMP: BLOODSTAINED" />
+  </Entries>
+</LangFile>

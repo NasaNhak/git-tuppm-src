@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry LangId="tutorial_bino" Color="1" Value="&lt;I=G=BINOS&gt; Hold: Binoculars" />
+    <Entry LangId="tutorial_bino_zoom" Color="1" Value="&lt;I=G=PAD_R3&gt;: Change zoom" />
+    <Entry LangId="tutorial_optionalradio" Color="1" Value="&lt;I=G=CALL&gt; Tap: Intel support call" />
+    <Entry LangId="tutorial_advice" Color="1" Value="&lt;I=G=CALL&gt; Tap: Radio (request intel)" />
+    <Entry LangId="tutorial_set_marker" Color="1" Value="&lt;I=G=HOLD&gt;: Place/remove marker" />
+    <Entry Key="3788606071" Color="1" Value="&lt;I=G=HOLD&gt;: Launch" />
+    <Entry Key="3751980165" Color="1" Value="&lt;I=G=HOLD&gt;: Disperse smoke" />
+    <Entry Key="1193010912" Color="1" Value="&lt;I=G=HOLD&gt;: Disperse sleeping gas" />
+    <Entry Key="1268604878" Color="1" Value="&lt;I=G=PAD_L2&gt;: Drop shield" />
+    <Entry Key="4149766436" Color="1" Value="&lt;I=G=PAD_Y&gt;: Change function" />
+    <Entry LangId="tutorial_horse_call" Color="1" Value="&lt;I=G=PAD_RS&gt; while holding &lt;I=G=CALL&gt;: Call horse" />
+    <Entry LangId="tutorial_horse_hide" Color="1" Value="&lt;I=G=STANCE&gt;: Hide on horseback/return upright" />
+    <Entry LangId="tutorial_horse_hide_change" Color="1" Value="&lt;I=G=STOCK&gt;: Change hiding position left/right" />
+    <Entry LangId="tutorial_horse_run" Color="1" Value="&lt;I=G=EVADE&gt;: Speed up horse" />
+    <Entry LangId="tutorial_horse_rideon" Color="1" Value="&lt;I=G=ACTION&gt;: Mount/dismount horse" />
+    <Entry Key="2650933936" Color="1" Value="&lt;I=G=RELOAD&gt; Hold: Place on horse" />
+    <Entry Key="2588907342" Color="1" Value="&lt;I=G=ACTION&gt;: Acquire intel" />
+    <Entry Key="4168838809" Color="1" Value="&lt;I=G=ACTION&gt;: Untie restraints" />
+    <Entry LangId="tutorial_mb_device" Color="1" Value="&lt;I=G=MBDEVICE&gt;: Open/close iDroid" />
+    <Entry LangId="tutorial_searchlight_onoff" Color="1" Value="&lt;I=G=PAD_RIGHT&gt;: Turn light ON/OFF" />
+    <Entry Key="4109286980" Color="1" Value="&lt;I=G=ACTION&gt;: Hide inside toilet/exit toilet" />
+    <Entry Key="3824852359" Color="1" Value="&lt;I=G=RELOAD&gt;: Place inside toilet" />
+    <Entry LangId="tutorial_garbagebox_hide" Color="1" Value="&lt;I=G=ACTION&gt;: Hide inside dumpster/exit dumpster" />
+    <Entry Key="1428327800" Color="1" Value="&lt;I=G=RELOAD&gt;: Place inside dumpster" />
+    <Entry Key="851107802" Color="1" Value="&lt;I=G=ACTION&gt;: Climb up/down ladder" />
+    <Entry LangId="tutorial_cliff" Color="1" Value="&lt;I=G=ACTION&gt;: Climb up/down cliff" />
+    <Entry Key="3591131680" Color="1" Value="&lt;I=G=ACTION&gt;: Turn power ON/OFF" />
+    <Entry LangId="tutorial_attack" Color="1" Value="&lt;I=G=HOLD&gt;+&lt;I=G=ATTACK&gt;: Use weapon (ready + attack)" />
+    <Entry LangId="tutorial_elude_up" Color="1" Value="&lt;I=G=ACTION&gt;: Climb back up" />
+    <Entry LangId="tutorial_elude_down" Color="1" Value="&lt;I=G=STANCE&gt;: Drop down" />
+    <Entry LangId="tutorial_cure" Color="1" Value="&lt;I=G=ACTION&gt;: First Aid" />
+    <Entry LangId="tutorial_reload" Color="1" Value="&lt;I=G=RELOAD&gt;: Reload" />
+    <Entry LangId="tutorial_jump" Color="1" Value="&lt;I=G=ACTION&gt; while tilting &lt;I=G=MOVE&gt;: Jump " />
+    <Entry LangId="tutorial_shoulder" Color="1" Value="&lt;I=G=RELOAD&gt; Hold: Carry/set down" />
+    <Entry LangId="tutorial_shoulder_throw" Color="1" Value="&lt;I=G=ATTACK&gt;: Throw" />
+    <Entry LangId="tutorial_stance" Color="1" Value="&lt;I=G=STANCE&gt;: Change stance (stand/crouch/prone)" />
+    <Entry LangId="tutorial_equipment_wp" Color="1" Value="&lt;I=G=PAD_RS&gt; while holding &lt;I=G=PAD_ALL&gt;: Select/equip weapon or item" />
+    <Entry LangId="tutorial_look_in" Color="1" Value="&lt;I=G=STOCK&gt; Hold: Peek" />
+    <Entry LangId="tutorial_fence_jump" Color="1" Value="&lt;I=G=ACTION&gt;: Climb obstacle/fence" />
+    <Entry LangId="tutorial_rolling" Color="1" Value="&lt;I=G=MOVE&gt;+&lt;I=G=DASH&gt; while holding &lt;I=G=HOLD&gt;: Roll (move + roll)" />
+    <Entry LangId="tutorial_cover_attack" Color="1" Value="&lt;I=G=HOLD&gt;+&lt;I=G=ATTACK&gt;: Cover attack (ready + attack)" />
+    <Entry Key="4072456444" Color="1" Value="&lt;I=G=PAUSE&gt;: Pause" />
+    <Entry Key="2371945978" Color="1" Value="&lt;I=G=ACTION&gt;: Enter vehicle" />
+    <Entry Key="1273799808" Color="1" Value="&lt;I=G=RELOAD&gt; Hold: Place in vehicle" />
+    <Entry LangId="tutorial_accelarater" Color="1" Value="&lt;I=G=PAD_R2&gt;: Accelerate" />
+    <Entry LangId="tutorial_brake" Color="1" Value="&lt;I=G=PAD_L2&gt;: Brake/reverse" />
+    <Entry LangId="tutorial_heli_rideon" Color="1" Value="&lt;I=G=ACTION&gt;: Board helicopter" />
+    <Entry Key="74265584" Color="1" Value="&lt;I=G=RELOAD&gt; Hold: Place in helicopter" />
+    <Entry LangId="tutorial_attack_machinegun" Color="1" Value="&lt;I=G=ATTACK&gt;: Attack using machine gun" />
+    <Entry LangId="tutorial_attack_mortar" Color="1" Value="&lt;I=G=ATTACK&gt;: Attack using mortar" />
+    <Entry LangId="tutorial_attack_anti_aircraft" Color="1" Value="&lt;I=G=ATTACK&gt;: Attack using anti-air cannon" />
+    <Entry LangId="tutorial_hulton" Color="1" Value="&lt;I=G=ACTION&gt; Hold: Fulton recovery" />
+    <Entry LangId="tutorial_pipe" Color="1" Value="&lt;I=G=ACTION&gt;: Climb up/down pipe" />
+    <Entry LangId="tutorial_cqc" Color="1" Value="&lt;I=G=ATTACK&gt;: CQC (strike/throw/restrain)" />
+    <Entry LangId="tutorial_cqc_punch" Color="1" Value="&lt;I=G=ATTACK&gt; Repeatedly: Strike" />
+    <Entry LangId="tutorial_cqc_throw" Color="1" Value="Tap &lt;I=G=ATTACK&gt; while tilting &lt;I=G=MOVE&gt;: throw" />
+    <Entry LangId="tutorial_restraint2" Color="1" Value="&lt;I=G=ATTACK&gt; Hold: Restrain" />
+    <Entry Key="2736986934" Color="1" Value="&lt;I=G=CQC&gt; Hold: Restrain" />
+    <Entry LangId="tutorial_interrogation" Color="1" Value="&lt;I=G=PAD_RS&gt; while holding &lt;I=G=CALL&gt;: Interrogate" />
+    <Entry LangId="tutorial_swoon" Color="1" Value="&lt;I=G=ATTACK&gt; Repeatedly: Choke (knock out)" />
+    <Entry LangId="tutorial_kill" Color="1" Value="&lt;I=G=ACTION&gt;: Slit throat (kill)" />
+    <Entry Key="524352877" Color="1" Value="While striking, hold &lt;I=G=HOLD&gt;: Steal weapon" />
+    <Entry LangId="tutorial_cqc_combo" Color="1" Value="After throwing, tap &lt;I=G=ATTACK&gt; again: Consecutive CQC" />
+    <Entry Key="3333697528" Color="1" Value="&lt;I=G=RELOAD&gt; Hold: Pick up item" />
+    <Entry Key="2318475079" Color="1" Value="&lt;I=G=ACTION&gt;: Pick up supply drop" />
+    <Entry LangId="tutorial_C4_set" Color="1" Value="&lt;I=G=HOLD&gt;+&lt;I=G=ATTACK&gt;: Place C-4 (ready + place)" />
+    <Entry LangId="tutorial_C4_exploding" Color="1" Value="&lt;I=G=HOLD&gt;+&lt;I=G=ACTION&gt;: Detonate C-4 (ready + detonate)" />
+    <Entry LangId="tutorial_change_camera" Color="1" Value="&lt;I=G=BINOS&gt; Tap: Switch camera (shoulder/first-person)" />
+    <Entry LangId="tutorial_heli_getoff" Color="1" Value="&lt;I=G=ACTION&gt;: Disembark helicopter" />
+    <Entry Key="453645899" Color="1" Value="&lt;I=G=PAD_RS&gt; while holding &lt;I=G=CALL&gt;: Knock (lure enemy)" />
+    <Entry LangId="tutorial_change_barrel" Color="1" Value="&lt;I=G=HOLD&gt;+&lt;I=G=ACTION&gt;: Switch to underbarrel (ready + change)" />
+    <Entry LangId="tutorial_camera_move" Color="1" Value="&lt;I=G=CAMERA&gt;: Move camera" />
+    <Entry LangId="tutorial_camera_zoom" Color="1" Value="&lt;I=G=CAMERA&gt; Hold: Zoom camera" />
+    <Entry LangId="tutorial_camera_change" Color="1" Value="&lt;I=G=STOCK&gt; Tap: Switch camera position left/right" />
+    <Entry LangId="tutorial_play_move" Color="1" Value="&lt;I=G=MOVE&gt;: Move" />
+    <Entry LangId="tutorial_play_cover" Color="1" Value="Tilt &lt;I=G=MOVE&gt; toward a wall: Cover (stick to wall)" />
+    <Entry LangId="tutorial_play_dash" Color="1" Value="&lt;I=G=DASH&gt;: Dash" />
+    <Entry LangId="tutorial_play_evade" Color="1" Value="&lt;I=G=EVADE&gt;: Quick dive" />
+    <Entry Key="1871380621" Color="1" Value="Slowly tilt &lt;I=G=MOVE&gt; toward a cliff: Hang" />
+    <Entry Key="2962995495" Color="1" Value="While in cover, hold &lt;I=G=STOCK&gt;: Peek" />
+    <Entry Key="2734749330" Color="1" Value="&lt;I=G=CANCEL&gt;: Cancel" />
+    <Entry Key="3839086289" Color="1" Value="&lt;I=G=PAD_RS&gt; while holding &lt;I=G=CALL&gt;: Use sonar (bio-detector)" />
+    <Entry Key="3784150389" Color="1" Value="&lt;I=G=PAD_RS&gt; while holding &lt;I=G=CALL&gt;: Orders to buddy" />
+    <Entry LangId="tutorial_order_child" Color="1" Value="&lt;I=G=PAD_RS&gt; while holding &lt;I=G=CALL&gt;: Orders to children" />
+    <Entry Key="828898696" Color="1" Value="&lt;I=G=STANCE&gt;: In vehicle, hide/return upright" />
+    <Entry Key="1840317425" Color="1" Value="&lt;I=G=PAUSE&gt;: View tips (pause screen)" />
+    <Entry LangId="tutorial_show_controller" Color="1" Value="&lt;I=G=PAUSE&gt;: View controls (pause screen)" />
+    <Entry LangId="tutorial_stance2" Color="1" Value="&lt;I=G=STANCE&gt; Hold: Prone" />
+    <Entry LangId="tutorial_stance3" Color="1" Value="&lt;I=G=STANCE&gt;: Crouch" />
+    <Entry LangId="tutorial_shield2" Color="1" Value="&lt;I=G=ACTION&gt; while readying shield: Hide behind shield/exit cover" />
+    <Entry LangId="tutorial_v_fps_tps" Color="1" Value="&lt;I=G=PAD_R1&gt;: Switch camera (third-person/shoulder/first-person)" />
+    <Entry LangId="tutorial_v_attack" Color="1" Value="&lt;I=G=PAD_L1&gt;: Attack" />
+  </Entries>
+</LangFile>

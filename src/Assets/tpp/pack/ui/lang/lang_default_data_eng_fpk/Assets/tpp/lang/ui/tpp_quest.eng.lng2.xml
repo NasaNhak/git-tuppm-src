@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="1723990323" Color="5" Value="Search for the Sniper &quot;Quiet&quot;" />
+    <Entry Key="1581895161" Color="5" Value="Make Contact with Emmerich" />
+    <Entry Key="3668393327" Color="5" Value="Visit Quiet" />
+    <Entry Key="2501468992" Color="5" Value="Secure Quiet" />
+    <Entry Key="2929930434" Color="5" Value="Extract the AI Pod" />
+    <Entry Key="758178472" Color="5" Value="Secure the Remains of the Man on Fire" />
+    <Entry Key="3733192225" Color="5" Value="Eli's Challenge" />
+    <Entry Key="558064570" Color="5" Value="Curing Paz's Amnesia" />
+    <Entry Key="529775534" Color="5" Value="Extract the Legendary Gunsmith" />
+    <Entry Key="2383942310" Color="5" Value="Extract the Legendary Gunsmith Again" />
+    <Entry Key="1337309610" Color="5" Value="Extract the Legendary Gunsmith Yet Again" />
+    <Entry Key="1340607932" Color="5" Value="Capture the Legendary Brown Bear" />
+    <Entry Key="4244466134" Color="5" Value="Capture the Legendary Ibis" />
+    <Entry Key="1753003097" Color="5" Value="Capture the Legendary Jackal" />
+    <Entry Key="2323889417" Color="1" Value="Search for the sniper known as Quiet.&#xA;Not only guerrillas, but also Soviet Army officials have been falling prey to this sniper. The target is said to be capable of eliminating all traces, disappearing into thin air." />
+    <Entry Key="2819557815" Color="1" Value="Head to Serak Power Plant and make contact with the scientist Dr. Emmerich, who wants to defect. Emmerich is suspected of being involved with the attack on Mother Base 9 years ago." />
+    <Entry Key="2421502092" Color="1" Value="Visit Quiet's cell on the Medical Platform and receive Ocelot's report." />
+    <Entry Key="601544413" Color="1" Value="Quiet has been captured by the Soviet Army and detained at Aabe Shifap Village, East Guard Post.&#xA;Make contact with and secure Quiet." />
+    <Entry Key="3189828842" Color="1" Value="Head to Afghanistan Central Base Camp and extract the AI pod. &#xA;It may provide information that will verify the suspicions against Emmerich." />
+    <Entry Key="3536334167" Color="1" Value="Recover the remains of the Man on Fire." />
+    <Entry Key="1271691881" Color="1" Value="Eli has challenged you to a rematch.&#xA;Fight Eli once more on Mother Base, and teach him a lesson." />
+    <Entry Key="993720279" Color="1" Value="Show memento photos to Paz, and help her regain her memories." />
+    <Entry Key="2775972560" Color="1" Value="Extract the legendary gunsmith wandering the conflict zones." />
+    <Entry Key="627500578" Color="1" Value="The gunsmith you found at Masa Village was just an apprentice of the true legendary gunsmith. Search out the legendary gunsmith, and extract him for sure this time." />
+    <Entry Key="407844249" Color="1" Value="The gunsmith you found at the Central Base Camp... was also just an apprentice.&#xA;Extract the legendary gunsmith wandering the conflict zones. Third time's the charm." />
+    <Entry Key="3973243736" Color="1" Value="Capture a particular brown bear that is the stuff of legend.&#xA;Its mighty strength may cause difficulties in its capture." />
+    <Entry Key="3217010464" Color="1" Value="Capture a particular ibis that is the stuff of legend.&#xA;Its coloring is said to be reminiscent of the ancient Egyptian god Thoth." />
+    <Entry Key="709398482" Color="1" Value="Capture a particular jackal that is the stuff of legend.&#xA;Its coloring is said to be reminiscent of the ancient Egyptian god Anubis." />
+    <Entry Key="3809814704" Color="5" Value="Eliminate the Heavy Infantry 01" />
+    <Entry Key="2860817517" Color="5" Value="Eliminate the Heavy Infantry 02" />
+    <Entry Key="2355568157" Color="5" Value="Eliminate the Heavy Infantry 03" />
+    <Entry Key="3281369690" Color="5" Value="Eliminate the Heavy Infantry 04" />
+    <Entry Key="1377469352" Color="5" Value="Eliminate the Heavy Infantry 11" />
+    <Entry Key="1100709999" Color="5" Value="Eliminate the Heavy Infantry 08" />
+    <Entry Key="1533518256" Color="5" Value="Eliminate the Heavy Infantry 15" />
+    <Entry Key="2832746046" Color="5" Value="Eliminate the Heavy Infantry 07" />
+    <Entry Key="3771034654" Color="5" Value="Eliminate the Heavy Infantry 09" />
+    <Entry Key="921529538" Color="5" Value="Eliminate the Heavy Infantry 16" />
+    <Entry Key="411089866" Color="5" Value="Eliminate the Heavy Infantry 06" />
+    <Entry Key="616575634" Color="5" Value="Eliminate the Heavy Infantry 13" />
+    <Entry Key="2564264375" Color="5" Value="Eliminate the Heavy Infantry 05" />
+    <Entry Key="181856559" Color="5" Value="Eliminate the Heavy Infantry 12" />
+    <Entry Key="3273033471" Color="5" Value="Eliminate the Heavy Infantry 10" />
+    <Entry Key="3324314459" Color="5" Value="Eliminate the Heavy Infantry 14" />
+    <Entry Key="3085773317" Color="5" Value="Eliminate the Wandering Puppets 01" />
+    <Entry Key="3816726059" Color="5" Value="Eliminate the Wandering Puppets 03" />
+    <Entry Key="1655246173" Color="5" Value="Eliminate the Wandering Puppets 05" />
+    <Entry Key="3002682439" Color="5" Value="Eliminate the Wandering Puppets 10" />
+    <Entry Key="79367390" Color="5" Value="Eliminate the Wandering Puppets 07" />
+    <Entry Key="3375585597" Color="5" Value="Eliminate the Wandering Puppets 12" />
+    <Entry Key="2750909144" Color="5" Value="Eliminate the Wandering Puppets 06" />
+    <Entry Key="3521205313" Color="5" Value="Eliminate the Wandering Puppets 11" />
+    <Entry Key="2876592910" Color="5" Value="Eliminate the Wandering Puppets 09" />
+    <Entry Key="3506148338" Color="5" Value="Eliminate the Wandering Puppets 15" />
+    <Entry Key="3102620748" Color="5" Value="Eliminate the Wandering Puppets 02" />
+    <Entry Key="1268080082" Color="5" Value="Eliminate the Wandering Puppets 14" />
+    <Entry Key="909368096" Color="5" Value="Eliminate the Wandering Puppets 13" />
+    <Entry Key="2013915683" Color="5" Value="Eliminate the Wandering Puppets 04" />
+    <Entry Key="2844493223" Color="5" Value="Eliminate the Wandering Puppets 08" />
+    <Entry Key="1649140654" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="994294185" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="2683779817" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="912118234" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="2912100359" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="4013097998" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="507663258" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="930164262" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="2104851141" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="1467823096" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="4256145304" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="2839272661" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="268428444" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="844257112" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="1983350580" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="2636139325" Color="1" Value="Eliminate the heavy infantry.&#xA;Their defensive capabilities should not be underestimated." />
+    <Entry Key="1025268134" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="4071556911" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="560028453" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="1338267747" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="1934386383" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="4245907157" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="2001491611" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="720926896" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="882507017" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="499863957" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="2150191188" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="268526968" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="2326836261" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="609781828" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="2156625170" Color="1" Value="Eliminate the wandering puppet soldiers.&#xA;Despite being freed of the Skulls' control, it seems their sanity is gone for good." />
+    <Entry Key="3143257127" Color="5" Value="Search for the Escaped Children 04" />
+    <Entry Key="1310949262" Color="5" Value="Search for the Escaped Children 05" />
+    <Entry Key="2694408994" Color="5" Value="Search for the Escaped Children 03" />
+    <Entry Key="1731003384" Color="5" Value="Search for the Escaped Children 01" />
+    <Entry Key="699693009" Color="5" Value="Search for the Escaped Children 02" />
+    <Entry Key="3425664520" Color="5" Value="Extract the Highly-Skilled Soldier 01" />
+    <Entry Key="3291931758" Color="5" Value="Extract the Highly-Skilled Soldier 02" />
+    <Entry Key="3312224600" Color="5" Value="Extract the Highly-Skilled Soldier 13" />
+    <Entry Key="3956968767" Color="5" Value="Extract the Highly-Skilled Soldier 05" />
+    <Entry Key="3849514104" Color="5" Value="Extract the Highly-Skilled Soldier 04" />
+    <Entry Key="458780440" Color="5" Value="Extract the Highly-Skilled Soldier 06" />
+    <Entry Key="2256174813" Color="5" Value="Extract the Highly-Skilled Soldier 14" />
+    <Entry Key="145328835" Color="5" Value="Extract the Highly-Skilled Soldier 03" />
+    <Entry Key="3329106993" Color="5" Value="Extract the Highly-Skilled Soldier 16" />
+    <Entry Key="1993324849" Color="5" Value="Extract the Highly-Skilled Soldier 08" />
+    <Entry Key="2067343096" Color="5" Value="Extract the Highly-Skilled Soldier 07" />
+    <Entry Key="2186654609" Color="5" Value="Extract the Highly-Skilled Soldier 09" />
+    <Entry Key="2662786376" Color="5" Value="Extract the Highly-Skilled Soldier 11" />
+    <Entry Key="1131853624" Color="5" Value="Extract the Highly-Skilled Soldier 10" />
+    <Entry Key="433551871" Color="5" Value="Extract the Highly-Skilled Soldier 12" />
+    <Entry Key="4223739565" Color="5" Value="Extract the Highly-Skilled Soldier 15" />
+    <Entry Key="1892588859" Color="5" Value="Extract Interpreter (Russian)" />
+    <Entry Key="1319079560" Color="5" Value="Extract Interpreter (Afrikaans)" />
+    <Entry Key="1408185227" Color="5" Value="Extract Interpreter (Kikongo)" />
+    <Entry Key="4040259623" Color="5" Value="Eliminate the Armored Vehicle Unit 02" />
+    <Entry Key="4133102293" Color="5" Value="Eliminate the Armored Vehicle Unit 04" />
+    <Entry Key="2801515837" Color="5" Value="Eliminate the Armored Vehicle Unit 01" />
+    <Entry Key="2058448579" Color="5" Value="Eliminate the Armored Vehicle Unit 03" />
+    <Entry Key="1560526639" Color="5" Value="Eliminate the Armored Vehicle Unit 05" />
+    <Entry Key="20447022" Color="5" Value="Eliminate the Armored Vehicle Unit 07" />
+    <Entry Key="227394520" Color="5" Value="Eliminate the Armored Vehicle Unit 06" />
+    <Entry Key="2007419728" Color="5" Value="Eliminate the Armored Vehicle Unit 08" />
+    <Entry Key="3360077369" Color="5" Value="Eliminate the Armored Vehicle Unit 09" />
+    <Entry Key="611122907" Color="5" Value="Eliminate the Armored Vehicle Unit 10" />
+    <Entry Key="1740012638" Color="5" Value="Eliminate the Tank Unit 03" />
+    <Entry Key="2502859296" Color="5" Value="Eliminate the Tank Unit 02" />
+    <Entry Key="2123770556" Color="5" Value="Eliminate the Tank Unit 01" />
+    <Entry Key="749818490" Color="5" Value="Eliminate the Tank Unit 06" />
+    <Entry Key="3190693801" Color="5" Value="Eliminate the Tank Unit 07" />
+    <Entry Key="786267787" Color="5" Value="Eliminate the Tank Unit 05" />
+    <Entry Key="2103675625" Color="5" Value="Eliminate the Tank Unit 04" />
+    <Entry Key="763247237" Color="5" Value="Eliminate the Tank Unit 09" />
+    <Entry Key="2533737183" Color="5" Value="Eliminate the Tank Unit 08" />
+    <Entry Key="3462552390" Color="5" Value="Eliminate the Tank Unit 10" />
+    <Entry Key="2602115542" Color="1" Value="Locate and extract the children who escaped from Mother Base." />
+    <Entry Key="2803428655" Color="1" Value="Locate and extract the children who escaped from Mother Base." />
+    <Entry Key="2811195806" Color="1" Value="Locate and extract the children who escaped from Mother Base." />
+    <Entry Key="2877166242" Color="1" Value="Locate and extract the children who escaped from Mother Base." />
+    <Entry Key="476500211" Color="1" Value="Locate and extract the children who escaped from Mother Base." />
+    <Entry Key="2059533327" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="56702087" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="25742727" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="1605234698" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="395837412" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="901637645" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="386264631" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="629786046" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="50221381" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="3459439817" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="875759665" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="2019116413" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="2979754239" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="322214537" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="1756439387" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="4252632302" Color="1" Value="Extract the highly-skilled soldier from among the enemy ranks." />
+    <Entry Key="1619208445" Color="1" Value="Extract a soldier with the Russian language interpretation skill." />
+    <Entry Key="2635027668" Color="1" Value="Extract a soldier with the Afrikaans language interpretation skill." />
+    <Entry Key="92384844" Color="1" Value="Extract a prisoner with the Kikongo language interpretation skill." />
+    <Entry Key="4073796601" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="677405897" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="4126673059" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="33748739" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="1151313028" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="2190089453" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="3109781961" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="870362760" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="465758016" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="2083880366" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="3587645485" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="1995454539" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="967183956" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="3360529679" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="2212826105" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="2067007005" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="2917253751" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="3538569805" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="3176140994" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="2682242111" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="3009275399" Color="5" Value="Extract the Wandering Mother Base Soldiers 07" />
+    <Entry Key="4128354717" Color="5" Value="Mine Clearing 01" />
+    <Entry Key="3319784275" Color="5" Value="Extract Materials Containers" />
+    <Entry Key="1324371821" Color="5" Value="Unlucky Dog 01" />
+    <Entry Key="3086425414" Color="5" Value="Extract Interpreter (Pashto)" />
+    <Entry Key="3432940681" Color="5" Value="Extract the Little Lost Sheep" />
+    <Entry Key="1342475141" Color="5" Value="Eliminate the Gunship Unit" />
+    <Entry Key="1523674012" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="2600180270" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="496519307" Color="1" Value="Extract materials containers that will aid in the development of Mother Base." />
+    <Entry Key="2834962209" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="1534924663" Color="1" Value="Extract a prisoner with the Pashto language interpretation skill." />
+    <Entry Key="1051467592" Color="1" Value="Extract the sheep that has separated from the herd and wandered into the specified area." />
+    <Entry Key="185485217" Color="1" Value="Eliminate the enemy gunship unit." />
+    <Entry Key="2572043057" Color="5" Value="Extract the Wandering Mother Base Soldiers 02" />
+    <Entry Key="3336506161" Color="5" Value="Extract the Wandering Mother Base Soldiers 10" />
+    <Entry Key="3182845506" Color="5" Value="Extract the Wandering Mother Base Soldiers 01" />
+    <Entry Key="1175423123" Color="5" Value="Extract the Wandering Mother Base Soldiers 09" />
+    <Entry Key="2095809343" Color="5" Value="Extract the Wandering Mother Base Soldiers 03" />
+    <Entry Key="1044125739" Color="5" Value="Extract the Wandering Mother Base Soldiers 04" />
+    <Entry Key="3515558234" Color="5" Value="Extract the Wandering Mother Base Soldiers 06" />
+    <Entry Key="3642822036" Color="5" Value="Extract the Wandering Mother Base Soldiers 05" />
+    <Entry Key="1608397057" Color="5" Value="Extract the Wandering Mother Base Soldiers 08" />
+    <Entry Key="1414866021" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="3947393148" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="716448726" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="1507115298" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="3167841237" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="603522247" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="2386806131" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="3516590522" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="3737125180" Color="1" Value="Locate and extract survivors from the old Mother Base.&#xA;They scattered after the attack 9 years ago, but still walk the battlefields." />
+    <Entry Key="1672851500" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="2192523972" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="3356748388" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="2171797677" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="3750483578" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="3890521645" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="3632449862" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="1766244223" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="3341441570" Color="1" Value="Clear landmines that have been set and left behind.&#xA;Diamond Dogs has been contracted by an NGO to undertake peacekeeping activities such as these." />
+    <Entry Key="883204407" Color="5" Value="Mine Clearing 02" />
+    <Entry Key="2710570935" Color="5" Value="Mine Clearing 07" />
+    <Entry Key="3749892063" Color="5" Value="Mine Clearing 04" />
+    <Entry Key="2584413143" Color="5" Value="Mine Clearing 09" />
+    <Entry Key="1688487242" Color="5" Value="Mine Clearing 06" />
+    <Entry Key="2644774673" Color="5" Value="Mine Clearing 05" />
+    <Entry Key="325919202" Color="5" Value="Mine Clearing 10" />
+    <Entry Key="71510415" Color="5" Value="Mine Clearing 08" />
+    <Entry Key="2014720878" Color="5" Value="Mine Clearing 03" />
+    <Entry Key="402725062" Color="5" Value="Secure the [STUN ARM] Blueprint" />
+    <Entry Key="216791974" Color="5" Value="Secure the [IR-SENSOR] Blueprint" />
+    <Entry Key="3479130511" Color="5" Value="Secure the [ANTITHEFT DEVICE] Blueprint" />
+    <Entry Key="1447666959" Color="5" Value="Secure the [GUN-CAM DEFENDER] Blueprint" />
+    <Entry Key="1185685277" Color="5" Value="Secure the [UA-DRONE] Blueprint" />
+    <Entry Key="3710009894" Color="1" Value="Secure the blueprint to help advance R&amp;D at Mother Base." />
+    <Entry Key="1403190885" Color="1" Value="Secure the blueprint to help advance R&amp;D at Mother Base." />
+    <Entry Key="3795326607" Color="1" Value="Secure the blueprint to help advance R&amp;D at Mother Base." />
+    <Entry Key="1595272547" Color="1" Value="Secure the blueprint to help advance R&amp;D at Mother Base." />
+    <Entry Key="3179106183" Color="1" Value="Secure the blueprint to help advance R&amp;D at Mother Base." />
+    <Entry Key="2972589506" Color="5" Value="Prisoner Extraction 02" />
+    <Entry Key="154520299" Color="5" Value="Prisoner Extraction 07" />
+    <Entry Key="1108699094" Color="5" Value="Prisoner Extraction 09" />
+    <Entry Key="3565870788" Color="5" Value="Prisoner Extraction 18" />
+    <Entry Key="13109341" Color="5" Value="Prisoner Extraction 01" />
+    <Entry Key="523069994" Color="5" Value="Prisoner Extraction 03" />
+    <Entry Key="1945390708" Color="5" Value="Unlucky Dog 02" />
+    <Entry Key="3085823588" Color="5" Value="Unlucky Dog 05" />
+    <Entry Key="1353382359" Color="5" Value="Prisoner Extraction 11" />
+    <Entry Key="2040642350" Color="5" Value="Unlucky Dog 03" />
+    <Entry Key="510518602" Color="5" Value="Prisoner Extraction 06" />
+    <Entry Key="2464355775" Color="5" Value="Prisoner Extraction 20" />
+    <Entry Key="1759015143" Color="5" Value="Prisoner Extraction 13" />
+    <Entry Key="3554678851" Color="5" Value="Prisoner Extraction 14" />
+    <Entry Key="3365453203" Color="5" Value="Unlucky Dog 04" />
+    <Entry Key="639494370" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="4161887356" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="2563879581" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="3895767480" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="2143463691" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="2986258755" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="3976752508" Color="1" Value="A Diamond Dogs staff member has been captured while trying to rescue a prisoner. Rescue the staff member and the prisoner." />
+    <Entry Key="2341645088" Color="1" Value="A Diamond Dogs staff member has been captured while trying to rescue a prisoner. Rescue the staff member and the prisoner." />
+    <Entry Key="591420756" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="420278524" Color="1" Value="A Diamond Dogs staff member has been captured while trying to rescue a prisoner. Rescue the staff member and the prisoner." />
+    <Entry Key="1070049065" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="3410288066" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="2157851511" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="2232890039" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="176831364" Color="1" Value="A Diamond Dogs staff member has been captured while trying to rescue a prisoner. Rescue the staff member and the prisoner." />
+    <Entry Key="423272576" Color="5" Value="Intel Agent Extraction" />
+    <Entry Key="2945433437" Color="1" Value="Extract the Intel Team member being held captive by the enemy.&#xA;The target is of critical importance... or maybe even more than that." />
+    <Entry Key="1293390117" Color="1" Value="Secure the blueprint to help advance R&amp;D at Mother Base." />
+    <Entry Key="1682696603" Color="5" Value="Secure the [RIOT SMG] Blueprint" />
+    <Entry Key="1904842127" Color="5" Value="Eliminate the Armored Vehicle Unit 11" />
+    <Entry Key="2855383102" Color="5" Value="Eliminate the Armored Vehicle Unit 12" />
+    <Entry Key="717163547" Color="5" Value="Eliminate the Armored Vehicle Unit 13" />
+    <Entry Key="2729157500" Color="5" Value="Eliminate the Armored Vehicle Unit 14" />
+    <Entry Key="2157609189" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="2765537438" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="2330634896" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="205031603" Color="1" Value="Eliminate the enemy armored vehicle unit." />
+    <Entry Key="3540782144" Color="5" Value="Eliminate the Tank Unit 11" />
+    <Entry Key="609155719" Color="5" Value="Eliminate the Tank Unit 12" />
+    <Entry Key="1167302328" Color="5" Value="Eliminate the Tank Unit 13" />
+    <Entry Key="581008575" Color="5" Value="Eliminate the Tank Unit 14" />
+    <Entry Key="3213284165" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="4024931440" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="614072189" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="2492638630" Color="1" Value="Eliminate the enemy tank unit." />
+    <Entry Key="2166606646" Color="5" Value="Prisoner Extraction 04" />
+    <Entry Key="1754791959" Color="5" Value="Prisoner Extraction 05" />
+    <Entry Key="4153225599" Color="5" Value="Prisoner Extraction 08" />
+    <Entry Key="2677676817" Color="5" Value="Prisoner Extraction 10" />
+    <Entry Key="94173179" Color="5" Value="Prisoner Extraction 12" />
+    <Entry Key="2206757829" Color="5" Value="Prisoner Extraction 15" />
+    <Entry Key="2131358428" Color="5" Value="Prisoner Extraction 17" />
+    <Entry Key="936845933" Color="5" Value="Prisoner Extraction 16" />
+    <Entry Key="3945191091" Color="5" Value="Prisoner Extraction 19" />
+    <Entry Key="970098207" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="1385753296" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="1462827886" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="2203529081" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="2518599367" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="2089073052" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="3019061288" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="3182190786" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="1473886307" Color="1" Value="Extract the prisoner being held captive by the enemy.&#xA;The prisoner is said to be highly skilled..." />
+    <Entry Key="3221710458" Color="5" Value="Target Practice (Command Platform)" />
+    <Entry Key="1131864855" Color="5" Value="Target Practice (R&amp;D Platform)" />
+    <Entry Key="286372371" Color="5" Value="Target Practice (Support Unit Platform)" />
+    <Entry Key="1822674696" Color="5" Value="Target Practice (Base Development Platform)" />
+    <Entry Key="2932686543" Color="5" Value="Target Practice (Medical Platform)" />
+    <Entry Key="501923351" Color="5" Value="Target Practice (Intel Team Platform)" />
+    <Entry Key="704022670" Color="5" Value="Target Practice (Combat Unit Platform)" />
+    <Entry Key="3459095479" Color="1" Value="Destroy all the shooting targets on the platform within the time limit. Stand at the starting point and press the Action Button (&lt;I=G=ACTION&gt;) to make the targets appear and the training begin.&#xA;&#xA;Weapons: Non-lethal weapons only" />
+    <Entry Key="3181231365" Color="1" Value="Destroy all the shooting targets on the platform within the time limit. Stand at the starting point and press the Action Button (&lt;I=G=ACTION&gt;) to make the targets appear and the training begin.&#xA;&#xA;Weapons: Non-lethal weapons only" />
+    <Entry Key="743089309" Color="1" Value="Destroy all the shooting targets on the platform within the time limit. Stand at the starting point and press the Action Button (&lt;I=G=ACTION&gt;) to make the targets appear and the training begin.&#xA;&#xA;Weapons: Non-lethal weapons only" />
+    <Entry Key="3578541577" Color="1" Value="Destroy all the shooting targets on the platform within the time limit. Stand at the starting point and press the Action Button (&lt;I=G=ACTION&gt;) to make the targets appear and the training begin.&#xA;&#xA;Weapons: Non-lethal weapons only" />
+    <Entry Key="1839677605" Color="1" Value="Destroy all the shooting targets on the platform within the time limit. Stand at the starting point and press the Action Button (&lt;I=G=ACTION&gt;) to make the targets appear and the training begin.&#xA;&#xA;Weapons: Non-lethal weapons only" />
+    <Entry Key="1937980568" Color="1" Value="Destroy all the shooting targets on the platform within the time limit. Stand at the starting point and press the Action Button (&lt;I=G=ACTION&gt;) to make the targets appear and the training begin.&#xA;&#xA;Weapons: Non-lethal weapons only" />
+    <Entry Key="808263374" Color="1" Value="Destroy all the shooting targets on the platform within the time limit. Stand at the starting point and press the Action Button (&lt;I=G=ACTION&gt;) to make the targets appear and the training begin.&#xA;&#xA;Weapons: Non-lethal weapons only" />
+    <Entry LangId="time_quest" Color="1" Value="Time until training ends:" />
+    <Entry Key="2667941963" Color="1" Value="Driver's Ed 01" />
+    <Entry Key="2990040951" Color="1" Value="Driver's Ed 02" />
+    <Entry Key="2699169502" Color="1" Value="Driver's Ed 03" />
+    <Entry Key="1752642242" Color="1" Value="Pass through all the checkpoints on the deck of Mother Base within the time limit. Stop a vehicle on the starting point to make the markers appear and the training begin." />
+    <Entry Key="4174012303" Color="1" Value="Pass through all the checkpoints on the deck of Mother Base within the time limit. Stop a vehicle on the starting point to make the markers appear and the training begin." />
+    <Entry Key="2807756852" Color="1" Value="Pass through all the checkpoints on the deck of Mother Base within the time limit. Stop a vehicle on the starting point to make the markers appear and the training begin." />
+  </Entries>
+</LangFile>
