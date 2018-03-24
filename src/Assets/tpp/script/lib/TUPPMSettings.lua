@@ -16,6 +16,7 @@ local this={
 	-- your customized settings file when starting up, then reload the settings when in game using the mentioned key combination.
 	-- This will print the exact error message to the iDroid console(hopefully!)
 
+
 	--:DEBUG MODE SETTINGS
 	_debug_ENABLE=false, --DEFAULT: false --Enable or disable debug mode. Leads to logging under TUPPM folder in game directory. Hold <DASH> and <RELOAD> at any time to enable debug mode
 	_debug_ENABLE_forcePrintLogs=false, --DEFAULT: false --Enables forced logging to work. This is purely for my testing/debugging purposes when I don't want all logs to print i.e. when _debug_ENABLE is false
@@ -194,6 +195,7 @@ local this={
 	mbBaseDev_fixedBuildTime=10, --DEFAULT: 10 --Set a fixed time for base platform development. mbBaseDev_ENABLE_buildTimeOverride has to be true. Min 0
 	mbBaseDev_ENABLE_maxOfflineMBStafflimits=false, --DEFAULT: false --Set to true to exceed offline MB unit limits to accommodate 700 staff under each unit for a fully built MB. Total MB staff limit will still be 700 but you can move more than 100 staff into a unit and build some of the higher level gear. Should ONLY be used if you are playing offline and do not own FOBs at all otherwise this will bug out your staff - you have been warned!
 
+
 	--:MOTHERBASE SUPPORT SETTINGS
 	mbSup_enemySoldierEnmityMultiplier=0, --DEFAULT: 0, VANILLA:1 --This sets the multiplier for the brig time it takes for captured soldiers to convert to DD Staff. Anything higher than 1 will increase the vanilla game brig time significantly! Safe values are between 0 and 1. Min 0
 	mbSup_medBayTreatmentTimeMultiplier=0.5, --DEFAULT: 0.5, VANILLA:1 --Med bay treatment time multiplier. Min 0
@@ -206,6 +208,7 @@ local this={
 	development_timeMultiplier=0, --DEFAULT: 0, VANILLA:1 --Multiplier for equipment development time. Anything higher than 1 will increase the vanilla game development time significantly! Safe values are between 0 and 1. Min 0
 	development_ENABLE_reduceUnitLvlReq=false, --DEFAULT: false --Reduce dev unit level requirements to 1
 	development_ENABLE_removeSpecialEquipDevReq=false, --DEFAULT: false --Removes special requirements from equip dev like Tranq Specialist etc
+	development_ENABLE_onlineGearOffline=false, --DEFAULT: false --BUGGY! Enable this, build everything and disable it else mission end screen will hang. Develop all online gear offline. Will be removed if you connect online however
 
 
 	--:DEPLOYMENT SETTINGS

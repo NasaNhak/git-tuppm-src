@@ -1054,8 +1054,8 @@ function this.Update()
 	--rX69 Code to show movement speed
 	--this.ShowSpeed()
 	
-	--r70 Auto fulton soldiers
-	this.AutoFultonSoldiers()
+	--r70 Auto add staff to MB
+	this.AutoAddStaffToMB()
 	
 end
 
@@ -1138,8 +1138,8 @@ function this.IsFemaleStaffId( staffId )
 end
 
 ---r70
---Auto fulton soldiers added
-function this.AutoFultonSoldiers()
+--Auto add soldiers to MB
+function this.AutoAddStaffToMB()
 	
 	if not TUPPMSettings.fastFillStaff_ENABLE then return end
 	if mvars.mis_missionStateIsNotInGame then return end

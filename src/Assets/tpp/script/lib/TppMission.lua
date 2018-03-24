@@ -1068,7 +1068,7 @@ function this.ReserveMissionClear(options)
 	return true
 end
 function this.MissionGameEnd(options)
-	--TUPPMLog.Log("TppMission.MissionGameEnd START",1)
+	--TUPPMLog.Log("TppMission.MissionGameEnd START",1,true)
 	local delayTime=0
 	local fadeDelayTime=0
 	local fadeSpeed=TppUI.FADE_SPEED.FADE_NORMALSPEED
@@ -1090,7 +1090,7 @@ function this.MissionGameEnd(options)
 	mvars.mis_missionGameEndDelayTime=delayTime
 	this.FadeOutOnMissionGameEnd(fadeDelayTime,fadeSpeed,"MissionGameEndFadeOutFinish")
 	PlayRecord.RegistPlayRecord"MISSION_CLEAR"
-	TUPPMLog.Log("TppMission.MissionGameEnd END",1)
+	--TUPPMLog.Log("TppMission.MissionGameEnd END",1,true)
 end
 function this.FadeOutOnMissionGameEnd(n,i,s)
 	--TUPPMLog.Log("TppMission.FadeOutOnMissionGameEnd START",1)
@@ -1168,25 +1168,37 @@ function this.ExecuteShowGameOverMenu()
 	TppUiCommand.StartGameOver(e)
 end
 function this.ShowMissionGameEndAnnounceLog()
+	--TUPPMLog.Log("TppMission.ShowMissionGameEndAnnounceLog START",1,true)
 	this.SetMissionClearState(TppDefine.MISSION_CLEAR_STATE.MISSION_GAME_END)
 	if mvars.res_noResult then
+		--TUPPMLog.Log("mvars.res_noResult true so OnEndResultBlockLoad",1,true)
 		this.ShowAnnounceLogOnFadeOut(this.OnEndResultBlockLoad)
 	else
+		--TUPPMLog.Log("mvars.res_noResult false so TppUiCommand.StartResultBlockLoad",1,true)
 		this.ShowAnnounceLogOnFadeOut(TppUiCommand.StartResultBlockLoad)
 	end
+	--TUPPMLog.Log("TppMission.ShowMissionGameEndAnnounceLog END",1,true)
 end
 function this.ShowAnnounceLogOnFadeOut(e)
+	--TUPPMLog.Log("TppMission.ShowAnnounceLogOnFadeOut START",1,true)
 	if TppUiCommand.GetSuspendAnnounceLogNum()>0 then
-		TppUiStatusManager.ClearStatus"AnnounceLog"mvars.mis_endAnnounceLogFunction=e
+		--TUPPMLog.Log("GetSuspendAnnounceLogNum > 0",1,true)
+		TppUiStatusManager.ClearStatus"AnnounceLog"
+		mvars.mis_endAnnounceLogFunction=e
+		--TUPPMLog.Log("mvars.mis_endAnnounceLogFunction assigned as e",1,true)
 	else
+		--TUPPMLog.Log("GetSuspendAnnounceLogNum < 0",1,true)
 		e()
 	end
+	--TUPPMLog.Log("TppMission.ShowAnnounceLogOnFadeOut END",1,true)
 end
 function this.OnEndResultBlockLoad()
+	--TUPPMLog.Log("TppMission.OnEndResultBlockLoad START",1,true)
 	TppUiStatusManager.SetStatus("GmpInfo","INVALID")
 	if this.systemCallbacks.OnDisappearGameEndAnnounceLog then
 		this.systemCallbacks.OnDisappearGameEndAnnounceLog(svars.mis_missionClearType)
 	end
+	--TUPPMLog.Log("TppMission.OnEndResultBlockLoad END",1,true)
 end
 function this.EnablePauseForShowResult()
 	if not gvars.enableResultPause then
@@ -1854,9 +1866,12 @@ function this.Messages()
 				option={isExecMissionClear=true,isExecGameOver=true}},
 			{msg="EndAnnounceLog",
 				func=function()
+					--TUPPMLog.Log("EndAnnounceLog message from UI",1,true)
 					if mvars.mis_endAnnounceLogFunction then
+						--TUPPMLog.Log("Calling func assigned to mis_endAnnounceLogFunction",1,true)
 						mvars.mis_endAnnounceLogFunction()
 						mvars.mis_endAnnounceLogFunction=nil
+						--TUPPMLog.Log("Completed calling func assigned to mis_endAnnounceLogFunction",1,true)
 					end
 				end,
 				option={isExecMissionClear=true,isExecGameOver=true,isExecMissionPrepare=true}},
@@ -3179,7 +3194,7 @@ function this.EstablishedMissionClear()
 	this.systemCallbacks.OnEstablishMissionClear(svars.mis_missionClearType)
 end
 function this.OnMissionGameEndFadeOutFinish()
-	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish START",1)
+	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish START",1,true)
 	local n=this.IsHelicopterSpace(gvars.mis_nextMissionCodeForMissionClear)
 	if not n then
 		this.ReserveMissionStartRecoverSoundDemo()
@@ -3200,10 +3215,10 @@ function this.OnMissionGameEndFadeOutFinish()
 	else
 		GkEventTimerManagerStart("Timer_MissionGameEndStart",.1)
 	end
-	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish END",1)
+	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish END",1,true)
 end
 function this.OnMissionGameEndFadeOutFinish2nd()
-	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish2nd START",1)
+	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish2nd START",1,true)
 	TppUiStatusManager.ClearStatus"GmpInfo"
 	TppStory.UpdateStorySequence{updateTiming="OnMissionClear",missionId=this.GetMissionID()}
 	TppResult.SetMissionFinalScore()
@@ -3297,7 +3312,7 @@ function this.OnMissionGameEndFadeOutFinish2nd()
 		TppSave.VarSave()
 	end
 	GkEventTimerManagerStart("Timer_MissionGameEndStart2nd",.1)
-	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish2nd END",1)
+	--TUPPMLog.Log("TppMission.OnMissionGameEndFadeOutFinish2nd END",1,true)
 end
 function this.SetMissionObjectives(i,n,e)
 	mvars.mis_missionObjectiveDefine=i
