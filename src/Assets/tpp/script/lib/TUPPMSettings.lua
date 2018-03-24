@@ -23,6 +23,7 @@ local this={
 
 
 	--:NEW GAME+ MODE SETTINGS
+	-- CAUTION: Before enabling NEW GAME+ MODE SETTINGS settings, backup your save folder '311340' under 'Steam\userdata\<your user id>\'
 	newGamePlus_ENABLE=false, --DEFAULT: false --Switches the mod to New Game+ mode. *BACKUP YOUR SAVE* before you switch this on! There are no issues but your save state will never be the same!
 
 
@@ -148,7 +149,7 @@ local this={
 
 
 	--:ENEMY PHASE SETTINGS
-	phase_ENABLE_alwaysAlertCPs=false, --DEFAULT: false --When true combat alerts will be triggered constantly for nearby CPs. 
+	phase_ENABLE_alwaysAlertCPs=false, --DEFAULT: false --When true combat alerts will be triggered constantly for nearby CPs.
 
 
 	--:WILDCARD SOLDIER SETTINGS
@@ -191,7 +192,7 @@ local this={
 	mbBaseDev_resourceMultiplier=1, --DEFAULT: 1, VANILLA: 1  --Base dev resources multiplier
 	mbBaseDev_ENABLE_buildTimeOverride=true, --DEFAULT: true --Allow changing base dev time
 	mbBaseDev_fixedBuildTime=10, --DEFAULT: 10 --Set a fixed time for base platform development. mbBaseDev_ENABLE_buildTimeOverride has to be true. Min 0
-  mbBaseDev_ENABLE_maxOfflineMBStafflimits=false, --DEFAULT: false --Set to true to exceed offline MB unit limits to accommodate 700 staff under each unit for a fully built MB. Should ONLY be used if you are playing offline and do not own FOBs at all otherwise this will bug out your staff - you have been warned!
+	mbBaseDev_ENABLE_maxOfflineMBStafflimits=false, --DEFAULT: false --Set to true to exceed offline MB unit limits to accommodate 700 staff under each unit for a fully built MB. Total MB staff limit will still be 700 but you can move more than 100 staff into a unit and build some of the higher level gear. Should ONLY be used if you are playing offline and do not own FOBs at all otherwise this will bug out your staff - you have been warned!
 
 	--:MOTHERBASE SUPPORT SETTINGS
 	mbSup_enemySoldierEnmityMultiplier=0, --DEFAULT: 0, VANILLA:1 --This sets the multiplier for the brig time it takes for captured soldiers to convert to DD Staff. Anything higher than 1 will increase the vanilla game brig time significantly! Safe values are between 0 and 1. Min 0
@@ -301,6 +302,15 @@ local this={
 	cheats_ENABLE_wormholeWarping=true, --DEFAULT: true --Hold <CALL> + <ACTION> for 0.25 seconds to warp to last placed marker. If set to true, warping will use the wormhole effect. When false warping will be instantaneous
 	cheats_wormholeWarpOutHeight=3, --DEFAULT: 3 --Set the height for wormhole warp-out. 3 is a decent number and ensures you do not clip through the floor. Min 0
 	cheats_ENABLE_quickSaveAnywhere=false, --DEFAULT: false --Hold <CALL> + <RELOAD> for 0.25 seconds to save the game anywhere while in game. BACKUP your save before you try this everywhere as it may cause issues.  Cannot save during cutscenes or certain missions. This is for my debugging. cheats_ENABLE has to be true
+
+
+	--:FAST FILL STAFF SETTINGS
+	-- CAUTION: Before enabling FAST FILL STAFF settings, backup your save folder '311340' under 'Steam\userdata\<your user id>\'
+	-- Faces assigned may also be unique!
+	-- If both fastFillStaff_ENABLE_maleOnly and fastFillStaff_ENABLE_femaleOnly are true together, fastFillStaff_ENABLE_maleOnly is higher priority
+	fastFillStaff_ENABLE=false, --DEFAULT: false --Set to true and load into any mission/free roam to start filling up MB staff. Adds *both* male and female staff. If unit levels stop increasing, trigger checkpoint, return to ACC and go into mission/free roam again. Obviously this may make some missions unplayable.
+	fastFillStaff_ENABLE_maleOnly=false, --DEFAULT: false --Randomizes all soldier face Ids to male and adds them for an all male MB.
+	fastFillStaff_ENABLE_femaleOnly=false, --DEFAULT: false --Randomizes all soldier face Ids to female and adds them for an all female MB. Female face Id pool is quiet small so be ready for face and names disappointment
 
 
 	--:WEATHER SETTINGS

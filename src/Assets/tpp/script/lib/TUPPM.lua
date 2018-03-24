@@ -1053,6 +1053,10 @@ function this.Update()
 
 	--rX69 Code to show movement speed
 	--this.ShowSpeed()
+	
+	--r70 Auto fulton soldiers
+	this.AutoFultonSoldiers()
+	
 end
 
 
@@ -1116,5 +1120,94 @@ function this.ShowSpeed()
 	end
 end
 
+---r70
+--Joins two tables with simple value entries (not a deep join)
+function this.joinTables(t1, t2)
+   for k,v in ipairs(t2) do
+      table.insert(t1, v)
+   end 
+   return t1
+end
+
+---r70
+--Checks if staff id is female
+function this.IsFemaleStaffId( staffId )
+	local faceId = TppMotherBaseManagement.StaffIdToFaceId{ staffId=staffId }
+	local faceTypeList = TppSoldierFace.CheckFemale{ face={faceId  } }
+	return faceTypeList and faceTypeList[1] == 1
+end
+
+---r70
+--Auto fulton soldiers added
+function this.AutoFultonSoldiers()
+	
+	if not TUPPMSettings.fastFillStaff_ENABLE then return end
+	if mvars.mis_missionStateIsNotInGame then return end
+
+	if
+		vars.missionCode == 1
+		or vars.missionCode == 5
+		or vars.missionCode == 60000
+		or vars.missionCode == 50050
+		or vars.missionCode == 30050
+		or vars.missionCode == 30150
+		or vars.missionCode == 30250
+		or vars.missionCode == 40010
+		or vars.missionCode == 40020
+		or vars.missionCode == 40050
+		or vars.missionCode == 40060
+	then
+		return
+	end
+
+	local actuallyAdded = 0
+	local faceIdsTable={}
+
+	if mvars.ene_soldierDefine then
+		
+		faceIdsTable = this.joinTables(TppEneFova.GetAllFaceIds(TppEneFova.maleFaceIdsUncommon), TppEneFova.GetAllFaceIds(TppEneFova.femaleFaceIds))
+
+		if TUPPMSettings.fastFillStaff_ENABLE_maleOnly then
+			faceIdsTable=TppEneFova.GetAllFaceIds(TppEneFova.maleFaceIdsUncommon)
+		elseif TUPPMSettings.fastFillStaff_ENABLE_femaleOnly then
+			faceIdsTable=TppEneFova.GetAllFaceIds(TppEneFova.femaleFaceIds)
+		end
+		
+		for cpName, soldierNameList in pairs(mvars.ene_soldierDefine) do
+			for _, soldierName in pairs(soldierNameList) do
+				local gameObjectId = GameObject.GetGameObjectId("TppSoldier2", soldierName)
+				if gameObjectId ~= GameObject.NULL_ID then
+					local isFemaleStaffId = false
+					local staffId = nil
+
+					TppMain.Randomize()
+					
+					--This here is key to infinite adding of soldiers. Changing the face id on the game object, changes the staff id that is generated for some reason.
+					--If face ids are not applied randomly, then male soldiers are only extracted once till the face ids (and hence staff ids run out). In such a case, the mission
+					--needs to be restarted in order to add some more.
+					--When DirectAddStaff adds a soldier it seems to be using staff id to do so, as a result randomizing the male face fovas leads to somewhat infinite adding
+					--of staff
+					--This is still not truely infinite as staff ids may still run out eventually and DirectAddStaff will stop adding more staff 
+					local faceIndex=math.random(#faceIdsTable)
+					local selectedFaceId=faceIdsTable[faceIndex]
+					local changeToFaceFovaCommand={id="ChangeFova",faceId=selectedFaceId}
+					GameObject.SendCommand(gameObjectId,changeToFaceFovaCommand) --Soldier faces are still male (don't think they even change during gameplay), no interrogation voice if female fova is applied, extraction leads to female :)
+					
+					TppMotherBaseManagement.RegenerateGameObjectStaffParameter{gameObjectId=gameObjectId}
+					staffId=TppMotherBaseManagement.GetStaffIdFromGameObject{gameObjectId=gameObjectId}
+					isFemaleStaffId=this.IsFemaleStaffId(staffId)
+					
+					local tableToDirectAddStaff={staffId=staffId,section="Wait",isNew=true,specialContract=false}
+					TppMotherBaseManagement.DirectAddStaff(tableToDirectAddStaff)
+					actuallyAdded=actuallyAdded+1
+				end
+			end
+		end
+	end
+	
+--	TUPPMLog.Log("Soldiers auto extracted: "..tostring(actuallyAdded)
+--		..", femaleOnly: "..tostring(TUPPMSettings.fastFillStaff_ENABLE_femaleOnly),
+--		2, true)
+end
 
 return this
