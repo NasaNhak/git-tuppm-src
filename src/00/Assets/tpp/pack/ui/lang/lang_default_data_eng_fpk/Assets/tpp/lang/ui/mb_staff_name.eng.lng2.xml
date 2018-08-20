@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="128440050" Color="1" Value="Frigid Stallion" />
+    <Entry LangId="staff_name_99_025" Color="1" Value="Vile Buffalo" />
+    <Entry LangId="staff_name_99_024" Color="1" Value="Gray Salamander" />
+    <Entry LangId="staff_name_99_023" Color="1" Value="Brass Armadillo" />
+    <Entry LangId="staff_name_99_022" Color="1" Value="Roaring Hedgehog" />
+    <Entry LangId="staff_name_99_021" Color="1" Value="Sly Mastodon" />
+    <Entry LangId="staff_name_99_020" Color="1" Value="Devil Squirrel" />
+    <Entry LangId="staff_name_99_019" Color="1" Value="Bullet Platypus" />
+    <Entry LangId="staff_name_99_018" Color="1" Value="Green Tarantula" />
+    <Entry LangId="staff_name_99_017" Color="1" Value="Flaming Basilisk" />
+    <Entry LangId="staff_name_99_016" Color="1" Value="Night Crocodile" />
+    <Entry LangId="staff_name_99_015" Color="1" Value="Sadistic Buzzard" />
+    <Entry LangId="staff_name_99_014" Color="1" Value="Hungry Barracuda" />
+    <Entry LangId="staff_name_99_013" Color="1" Value="Growling Harrier" />
+    <Entry LangId="staff_name_99_012" Color="1" Value="Hunting Harrier" />
+    <Entry LangId="staff_name_99_011" Color="1" Value="Sunny Buzzard" />
+    <Entry LangId="staff_name_99_010" Color="1" Value="Howling Capybara" />
+    <Entry LangId="staff_name_99_009" Color="1" Value="Panzer Mongoose" />
+    <Entry LangId="staff_name_99_008" Color="1" Value="Mad Centipede" />
+    <Entry LangId="staff_name_99_007" Color="1" Value="Sly Harrier" />
+    <Entry LangId="staff_name_99_006" Color="1" Value="Rampant Buzzard" />
+    <Entry LangId="staff_name_99_005" Color="1" Value="Panzer Buffalo" />
+    <Entry LangId="staff_name_99_004" Color="1" Value="Roaring Stallion" />
+    <Entry LangId="staff_name_99_003" Color="1" Value="Dire Barracuda" />
+    <Entry LangId="staff_name_99_002" Color="1" Value="Stone Mastodon" />
+    <Entry LangId="staff_name_99_001" Color="1" Value="Raving Mongoose" />
+    <Entry LangId="staff_name_99_042" Color="1" Value="Eagle Ray" />
+    <Entry LangId="staff_name_99_041" Color="1" Value="Raven" />
+    <Entry LangId="staff_name_99_040" Color="1" Value="Grizzly Squirrel" />
+    <Entry LangId="staff_name_99_039" Color="1" Value="Doom Kangaroo" />
+    <Entry LangId="staff_name_99_038" Color="1" Value="Parrot" />
+    <Entry LangId="staff_name_99_037" Color="1" Value="Jackal" />
+    <Entry LangId="staff_name_99_036" Color="1" Value="Komodo Dragon" />
+    <Entry LangId="staff_name_99_035" Color="1" Value="Jade Capybara" />
+    <Entry LangId="staff_name_99_034" Color="1" Value="Bullet Armadillo" />
+    <Entry LangId="staff_name_99_033" Color="1" Value="Night Wallaby" />
+    <Entry LangId="staff_name_99_032" Color="1" Value="Cunning Stallion" />
+    <Entry LangId="staff_name_99_031" Color="1" Value="Laughing Wallaby" />
+    <Entry LangId="staff_name_99_030" Color="1" Value="Crystal Squirrel" />
+    <Entry LangId="staff_name_99_029" Color="1" Value="Silent Crocodile" />
+    <Entry LangId="staff_name_99_028" Color="1" Value="Dire Capybara" />
+    <Entry LangId="staff_name_99_027" Color="1" Value="Blue Kangaroo" />
+    <Entry LangId="staff_name_99_026" Color="1" Value="Copper Stallion" />
+    <Entry LangId="staff_name_99_060" Color="1" Value="Blazing Stallion" />
+    <Entry LangId="staff_name_99_059" Color="1" Value="Bullet Harrier" />
+    <Entry LangId="staff_name_99_058" Color="1" Value="Ochre Harrier" />
+    <Entry LangId="staff_name_99_057" Color="1" Value="Bitter Platypus" />
+    <Entry LangId="staff_name_99_056" Color="1" Value="Silent Basilisk" />
+    <Entry LangId="staff_name_99_055" Color="1" Value="Steel Kangaroo" />
+    <Entry LangId="staff_name_99_054" Color="1" Value="Howling Stallion" />
+    <Entry LangId="staff_name_99_053" Color="1" Value="Stalking Wallaby" />
+    <Entry LangId="staff_name_99_052" Color="1" Value="Jumping Harrier" />
+    <Entry LangId="staff_name_99_051" Color="1" Value="Copper Buzzard" />
+    <Entry LangId="staff_name_99_050" Color="1" Value="Hungry Stallion" />
+    <Entry LangId="staff_name_99_049" Color="1" Value="Blazing Buzzard" />
+    <Entry LangId="staff_name_99_048" Color="1" Value="Greedy Barracuda" />
+    <Entry LangId="staff_name_99_047" Color="1" Value="Steel Mongoose" />
+    <Entry LangId="staff_name_99_046" Color="1" Value="Gray Mongoose" />
+    <Entry LangId="staff_name_99_045" Color="1" Value="Pouncing Wallaby" />
+    <Entry LangId="staff_name_99_044" Color="1" Value="Elephant" />
+    <Entry LangId="staff_name_99_043" Color="1" Value="Viper" />
+    <Entry LangId="staff_name_99_079" Color="1" Value="Doom Squirrel" />
+    <Entry Key="4227986143" Color="1" Value="Prowling Wallaby" />
+    <Entry LangId="staff_name_99_077" Color="1" Value="Blue Mastodon" />
+    <Entry LangId="staff_name_99_076" Color="1" Value="Sky Centipede" />
+    <Entry LangId="staff_name_99_075" Color="1" Value="Vampire Platypus" />
+    <Entry LangId="staff_name_99_074" Color="1" Value="Goblin Squirrel" />
+    <Entry LangId="staff_name_99_073" Color="1" Value="Wild Chameleon" />
+    <Entry LangId="staff_name_99_072" Color="1" Value="Doom Centipede" />
+    <Entry LangId="staff_name_99_071" Color="1" Value="Brutal Centipede" />
+    <Entry LangId="staff_name_99_070" Color="1" Value="Dizzy Capybara" />
+    <Entry LangId="staff_name_99_069" Color="1" Value="Pouncing Harrier" />
+    <Entry LangId="staff_name_99_068" Color="1" Value="Bloody Crocodile" />
+    <Entry LangId="staff_name_99_067" Color="1" Value="Poison Buffalo" />
+    <Entry LangId="staff_name_99_066" Color="1" Value="Killer Squirrel" />
+    <Entry LangId="staff_name_99_065" Color="1" Value="Pouncing Buzzard" />
+    <Entry LangId="staff_name_99_064" Color="1" Value="Greedy Armadillo" />
+    <Entry LangId="staff_name_99_063" Color="1" Value="Jade Tree Frog" />
+    <Entry LangId="staff_name_99_062" Color="1" Value="Spunky Crocodile" />
+    <Entry LangId="staff_name_99_061" Color="1" Value="Black Harrier" />
+    <Entry LangId="staff_name_99_099" Color="1" Value="Silent Mastodon" />
+    <Entry Key="1806495299" Color="1" Value="Flaming Stallion" />
+    <Entry Key="2982270626" Color="1" Value="Ashen Mongoose" />
+    <Entry Key="3776760760" Color="1" Value="Cannibal Harrier" />
+    <Entry LangId="staff_name_99_095" Color="1" Value="White Mastodon" />
+    <Entry LangId="staff_name_99_094" Color="1" Value="Green Tree Frog" />
+    <Entry LangId="staff_name_99_093" Color="1" Value="Ashen Stallion" />
+    <Entry LangId="staff_name_99_092" Color="1" Value="Green Sturgeon" />
+    <Entry LangId="staff_name_99_091" Color="1" Value="Bastard Harrier" />
+    <Entry LangId="staff_name_99_090" Color="1" Value="Brutal Tree Frog" />
+    <Entry LangId="staff_name_99_089" Color="1" Value="Killer Stallion" />
+    <Entry LangId="staff_name_99_088" Color="1" Value="Raging Buzzard" />
+    <Entry LangId="staff_name_99_087" Color="1" Value="Night Sturgeon" />
+    <Entry LangId="staff_name_99_086" Color="1" Value="Hulking Mastiff" />
+    <Entry LangId="staff_name_99_085" Color="1" Value="Hungry Squirrel" />
+    <Entry LangId="staff_name_99_084" Color="1" Value="Dizzy Centipede" />
+    <Entry LangId="staff_name_99_083" Color="1" Value="Lonely Buffalo" />
+    <Entry LangId="staff_name_99_082" Color="1" Value="Dancing Mongoose" />
+    <Entry LangId="staff_name_99_081" Color="1" Value="Cunning Mongoose" />
+    <Entry LangId="staff_name_99_080" Color="1" Value="Sadistic Mastiff" />
+    <Entry Key="516914556" Color="1" Value="Sly Sturgeon" />
+    <Entry LangId="unique_staff_tan" Color="1" Value="Ziang Tan" />
+    <Entry LangId="unique_staff_hideo" Color="1" Value="Hideo" />
+    <Entry LangId="unique_staff_eye" Color="1" Value="Eye" />
+    <Entry LangId="unique_staff_finger" Color="1" Value="Finger" />
+    <Entry LangId="unique_staff_mosquito" Color="1" Value="Mosquito" />
+    <Entry LangId="unique_staff_Malak" Color="1" Value="Malak" />
+    <Entry LangId="unique_staff_Viscount" Color="1" Value="Viscount" />
+    <Entry Key="47392923" Color="1" Value="Sly" />
+    <Entry Key="2032084623" Color="1" Value="Vengeful" />
+    <Entry Key="212226502" Color="1" Value="Cunning" />
+    <Entry Key="4041100675" Color="1" Value="Bloody" />
+    <Entry Key="2569923541" Color="1" Value="Flaming" />
+    <Entry Key="2525263417" Color="1" Value="Frigid" />
+    <Entry Key="3212419205" Color="1" Value="Raging" />
+    <Entry Key="205181661" Color="1" Value="Mad" />
+    <Entry Key="41006832" Color="1" Value="Killer" />
+    <Entry Key="488087058" Color="1" Value="Lonely" />
+    <Entry Key="2668032953" Color="1" Value="Running" />
+    <Entry Key="2578811310" Color="1" Value="Hissing" />
+    <Entry Key="4104393235" Color="1" Value="Roaring" />
+    <Entry Key="1835531192" Color="1" Value="Wild" />
+    <Entry Key="2421949079" Color="1" Value="Thunder" />
+    <Entry Key="3206088702" Color="1" Value="Howling" />
+    <Entry Key="107987338" Color="1" Value="Growling" />
+    <Entry Key="367487215" Color="1" Value="Charging" />
+    <Entry Key="4067774077" Color="1" Value="Rampant" />
+    <Entry Key="926742177" Color="1" Value="Spying" />
+    <Entry Key="3891633878" Color="1" Value="Creeping" />
+    <Entry Key="425156695" Color="1" Value="Stalking" />
+    <Entry Key="569905756" Color="1" Value="Raving" />
+    <Entry Key="2859495612" Color="1" Value="Punching" />
+    <Entry Key="73115944" Color="1" Value="Spitting" />
+    <Entry Key="1940031295" Color="1" Value="Vile" />
+    <Entry Key="3833141498" Color="1" Value="Death" />
+    <Entry Key="4290212285" Color="1" Value="Bullet" />
+    <Entry Key="3673946645" Color="1" Value="Glacier" />
+    <Entry Key="3118823082" Color="1" Value="Armored" />
+    <Entry Key="1807206143" Color="1" Value="Brass" />
+    <Entry Key="457148125" Color="1" Value="Prowling" />
+    <Entry Key="438954702" Color="1" Value="Crawling" />
+    <Entry Key="352709349" Color="1" Value="Blazing" />
+    <Entry Key="1493332435" Color="1" Value="Sly" />
+    <Entry Key="3526668340" Color="1" Value="Vengeful" />
+    <Entry Key="3027055154" Color="1" Value="Cunning" />
+    <Entry Key="1167181667" Color="1" Value="Bloody" />
+    <Entry Key="4227583265" Color="1" Value="Flaming" />
+    <Entry Key="4236109030" Color="1" Value="Frigid" />
+    <Entry Key="1634086182" Color="1" Value="Raging" />
+    <Entry Key="1436190084" Color="1" Value="Mad" />
+    <Entry Key="447128218" Color="1" Value="Killer" />
+    <Entry Key="1208152611" Color="1" Value="Lonely" />
+    <Entry Key="226542019" Color="1" Value="Running" />
+    <Entry Key="126982434" Color="1" Value="Hissing" />
+    <Entry Key="707950371" Color="1" Value="Roaring" />
+    <Entry Key="2421315046" Color="1" Value="Wild" />
+    <Entry Key="707890719" Color="1" Value="Thunder" />
+    <Entry Key="3129388423" Color="1" Value="Howling" />
+    <Entry Key="2616304867" Color="1" Value="Growling" />
+    <Entry Key="539415095" Color="1" Value="Charging" />
+    <Entry Key="1922882231" Color="1" Value="Rampant" />
+    <Entry Key="1231928502" Color="1" Value="Spying" />
+    <Entry Key="4155646298" Color="1" Value="Creeping" />
+    <Entry Key="3811606075" Color="1" Value="Stalking" />
+    <Entry Key="698593800" Color="1" Value="Raving" />
+    <Entry Key="2576700075" Color="1" Value="Punching" />
+    <Entry Key="1289530671" Color="1" Value="Spitting" />
+    <Entry Key="3701262967" Color="1" Value="Vile" />
+    <Entry Key="3900240887" Color="1" Value="Death" />
+    <Entry Key="215950613" Color="1" Value="Bullet" />
+    <Entry Key="1659596782" Color="1" Value="Glacier" />
+    <Entry Key="446451850" Color="1" Value="Armored" />
+    <Entry Key="4050036467" Color="1" Value="Brass" />
+    <Entry Key="3681496882" Color="1" Value="Prowling" />
+    <Entry Key="4068615183" Color="1" Value="Crawling" />
+    <Entry Key="867504440" Color="1" Value="Seething" />
+    <Entry Key="935272616" Color="1" Value="Hunting" />
+    <Entry Key="2838144770" Color="1" Value="Blazing" />
+    <Entry Key="3107018193" Color="1" Value="Boa" />
+    <Entry Key="3737775390" Color="1" Value="Marlin" />
+    <Entry Key="1928584925" Color="1" Value="Python" />
+    <Entry Key="3201897397" Color="1" Value="Jackal" />
+    <Entry Key="3211319071" Color="1" Value="Eel" />
+    <Entry Key="1588001751" Color="1" Value="Whale" />
+    <Entry Key="328060364" Color="1" Value="Serpent" />
+    <Entry Key="581933730" Color="1" Value="Buzzard" />
+    <Entry Key="1026358434" Color="1" Value="Osprey" />
+    <Entry Key="979615535" Color="1" Value="Harrier" />
+    <Entry Key="777009586" Color="1" Value="Agama" />
+    <Entry Key="2469159987" Color="1" Value="Husky" />
+    <Entry Key="446242376" Color="1" Value="Wallaby" />
+    <Entry Key="2485701010" Color="1" Value="Roach" />
+    <Entry Key="3063686699" Color="1" Value="Dingo" />
+    <Entry Key="415748230" Color="1" Value="Raptor" />
+    <Entry Key="886459910" Color="1" Value="Vulture" />
+    <Entry Key="2548853084" Color="1" Value="Panther" />
+    <Entry Key="3165358997" Color="1" Value="Hound" />
+    <Entry Key="1803157819" Color="1" Value="Rhino" />
+    <Entry Key="1353883256" Color="1" Value="Hyena" />
+    <Entry Key="3539916787" Color="1" Value="Viper" />
+    <Entry Key="377118900" Color="1" Value="Hippo" />
+    <Entry Key="2156236785" Color="1" Value="Mammoth" />
+    <Entry Key="286186678" Color="1" Value="Badger" />
+    <Entry Key="2959267155" Color="1" Value="Gibbon" />
+    <Entry Key="1564811768" Color="1" Value="Shark" />
+    <Entry Key="58838251" Color="1" Value="Eagle" />
+    <Entry Key="2507409683" Color="1" Value="Bat" />
+    <Entry Key="2390707771" Color="1" Value="Bear" />
+    <Entry Key="68764688" Color="1" Value="Hawk" />
+    <Entry Key="2238816803" Color="1" Value="Cobra" />
+    <Entry Key="788671114" Color="1" Value="Dragon" />
+    <Entry Key="2387975912" Color="1" Value="Crow" />
+    <Entry Key="2151448180" Color="1" Value="Cat" />
+    <Entry Key="3383739845" Color="1" Value="Beetle" />
+    <Entry Key="3928260704" Color="1" Value="Gecko" />
+    <Entry Key="1158818867" Color="1" Value="Octopus" />
+    <Entry Key="2694289450" Color="1" Value="Crab" />
+    <Entry Key="1170362334" Color="1" Value="Ox" />
+    <Entry Key="1599058777" Color="1" Value="Bull" />
+    <Entry Key="3972981695" Color="1" Value="Ram" />
+    <Entry Key="2627181288" Color="1" Value="Bison" />
+    <Entry Key="4197287578" Color="1" Value="Wasp" />
+    <Entry Key="2391851344" Color="1" Value="Boa" />
+    <Entry Key="3418324416" Color="1" Value="Marlin" />
+    <Entry Key="3432354372" Color="1" Value="Python" />
+    <Entry Key="3927584351" Color="1" Value="Jackal" />
+    <Entry Key="298877382" Color="1" Value="Eel" />
+    <Entry Key="3185908883" Color="1" Value="Whale" />
+    <Entry Key="2553912404" Color="1" Value="Serpent" />
+    <Entry Key="1789801693" Color="1" Value="Buzzard" />
+    <Entry Key="3940194729" Color="1" Value="Osprey" />
+    <Entry Key="3896369574" Color="1" Value="Harrier" />
+    <Entry Key="3817118307" Color="1" Value="Agama" />
+    <Entry Key="3444566650" Color="1" Value="Husky" />
+    <Entry Key="561867366" Color="1" Value="Wallaby" />
+    <Entry Key="3807764025" Color="1" Value="Roach" />
+    <Entry Key="3308261828" Color="1" Value="Weasel" />
+    <Entry Key="1583883494" Color="1" Value="Wombat" />
+    <Entry Key="3545494239" Color="1" Value="Boar" />
+    <Entry Key="3523322575" Color="1" Value="Leopard" />
+    <Entry Key="2029270054" Color="1" Value="Mole" />
+    <Entry Key="1120648294" Color="1" Value="Piranha" />
+    <Entry Key="3059022072" Color="1" Value="Adder" />
+    <Entry Key="3149604996" Color="1" Value="Dhole" />
+    <Entry Key="4255505255" Color="1" Value="Llama" />
+    <Entry Key="2553877184" Color="1" Value="Echidna" />
+    <Entry Key="3652554333" Color="1" Value="Coyote" />
+    <Entry Key="1569318410" Color="1" Value="Ferret" />
+    <Entry Key="881668946" Color="1" Value="Orca" />
+    <Entry Key="2765082802" Color="1" Value="Spider" />
+    <Entry Key="2648759248" Color="1" Value="Hornet" />
+    <Entry Key="750006617" Color="1" Value="Cheetah" />
+    <Entry Key="3479890714" Color="1" Value="Gazelle" />
+    <Entry Key="3661628665" Color="1" Value="Elk" />
+    <Entry Key="1799324131" Color="1" Value="Griffon" />
+    <Entry Key="2576494927" Color="1" Value="Gopher" />
+    <Entry Key="2483288110" Color="1" Value="Marmot" />
+    <Entry Key="2657538867" Color="1" Value="Wolf" />
+    <Entry Key="2492323286" Color="1" Value="Zebra" />
+    <Entry Key="2641836415" Color="1" Value="Wombat" />
+    <Entry Key="2774971555" Color="1" Value="Lizard" />
+    <Entry Key="3275425948" Color="1" Value="Weevil" />
+    <Entry Key="4078987123" Color="1" Value="Raccoon" />
+    <Entry Key="351623898" Color="1" Value="Wasp" />
+    <Entry Key="3071661315" Color="1" Value="Razor" />
+    <Entry Key="3084995764" Color="1" Value="Rumble" />
+    <Entry Key="4020338751" Color="1" Value="Rabid" />
+    <Entry Key="3049470435" Color="1" Value="Devil" />
+    <Entry Key="2740203294" Color="1" Value="Frantic" />
+    <Entry Key="2685303084" Color="1" Value="Sinister" />
+    <Entry Key="787511810" Color="1" Value="Rancid" />
+    <Entry Key="1940664565" Color="1" Value="Dark" />
+    <Entry Key="153182160" Color="1" Value="Greedy" />
+    <Entry Key="1022036555" Color="1" Value="Sadistic" />
+    <Entry Key="3422719116" Color="1" Value="Scowling" />
+    <Entry Key="1903715043" Color="1" Value="Hungry" />
+    <Entry Key="3819217703" Color="1" Value="Smoking" />
+    <Entry Key="564550205" Color="1" Value="Bitter" />
+    <Entry Key="1106806433" Color="1" Value="Dizzy" />
+    <Entry Key="1073433322" Color="1" Value="Panzer" />
+    <Entry Key="1898134411" Color="1" Value="Pouncing" />
+    <Entry Key="3923670292" Color="1" Value="Rogue" />
+    <Entry Key="3402251029" Color="1" Value="Night" />
+    <Entry Key="1477954198" Color="1" Value="Green" />
+    <Entry Key="1889230215" Color="1" Value="Dancing" />
+    <Entry Key="2151104046" Color="1" Value="Ashen" />
+    <Entry Key="1294041640" Color="1" Value="Jumping" />
+    <Entry Key="170307623" Color="1" Value="Onyx" />
+    <Entry Key="3016224581" Color="1" Value="Crystal" />
+    <Entry Key="623506068" Color="1" Value="Obsidian" />
+    <Entry Key="3006596623" Color="1" Value="Sky" />
+    <Entry Key="3548942901" Color="1" Value="Blue" />
+    <Entry Key="4277293708" Color="1" Value="Crimson" />
+    <Entry Key="689722938" Color="1" Value="White" />
+    <Entry Key="3133623709" Color="1" Value="Laughing" />
+    <Entry Key="1328247812" Color="1" Value="Silent" />
+    <Entry Key="1405153410" Color="1" Value="Smiling" />
+    <Entry Key="2279684001" Color="1" Value="Shining" />
+    <Entry Key="528402261" Color="1" Value="Silver" />
+    <Entry Key="248871459" Color="1" Value="Poison" />
+    <Entry Key="2285871902" Color="1" Value="Assassin" />
+    <Entry Key="2987363539" Color="1" Value="Ice" />
+    <Entry Key="103556227" Color="1" Value="Twilight" />
+    <Entry Key="1469596805" Color="1" Value="Jade" />
+    <Entry Key="4100776023" Color="1" Value="Spunky" />
+    <Entry Key="2659338852" Color="1" Value="Sunny" />
+    <Entry Key="765441734" Color="1" Value="Seething" />
+    <Entry Key="799141399" Color="1" Value="Hunting" />
+    <Entry Key="1530087303" Color="1" Value="Razor" />
+    <Entry Key="3349658335" Color="1" Value="Rumble" />
+    <Entry Key="2050302624" Color="1" Value="Rabid" />
+    <Entry Key="3316992871" Color="1" Value="Devil" />
+    <Entry Key="1967989041" Color="1" Value="Frantic" />
+    <Entry Key="1963495198" Color="1" Value="Sinister" />
+    <Entry Key="2223259785" Color="1" Value="Rancid" />
+    <Entry Key="1884556406" Color="1" Value="Dark" />
+    <Entry Key="567857639" Color="1" Value="Greedy" />
+    <Entry Key="75587325" Color="1" Value="Sadistic" />
+    <Entry Key="4285558448" Color="1" Value="Scowling" />
+    <Entry Key="1538630677" Color="1" Value="Hungry" />
+    <Entry Key="1931092572" Color="1" Value="Smoking" />
+    <Entry Key="3017697064" Color="1" Value="Bitter" />
+    <Entry Key="1464019913" Color="1" Value="Dizzy" />
+    <Entry Key="3138380942" Color="1" Value="Panzer" />
+    <Entry Key="1868069785" Color="1" Value="Pouncing" />
+    <Entry Key="204287578" Color="1" Value="Pirate" />
+    <Entry Key="3281209909" Color="1" Value="Ochre" />
+    <Entry Key="4201970007" Color="1" Value="Cannibal" />
+    <Entry Key="2794199424" Color="1" Value="Goblin" />
+    <Entry Key="3008736677" Color="1" Value="Gray" />
+    <Entry Key="3721539693" Color="1" Value="Stubborn" />
+    <Entry Key="2453137256" Color="1" Value="Steel" />
+    <Entry Key="1259825025" Color="1" Value="Copper" />
+    <Entry Key="1044163952" Color="1" Value="Iron" />
+    <Entry Key="2505147216" Color="1" Value="Black" />
+    <Entry Key="2431204192" Color="1" Value="Crying" />
+    <Entry Key="3870169100" Color="1" Value="Golden" />
+    <Entry Key="3566272969" Color="1" Value="Vampire" />
+    <Entry Key="1992037510" Color="1" Value="Biting" />
+    <Entry Key="975022467" Color="1" Value="Fire" />
+    <Entry Key="4099118707" Color="1" Value="Titanium" />
+    <Entry Key="3660483929" Color="1" Value="Midnight" />
+    <Entry Key="3343094361" Color="1" Value="Grizzly" />
+    <Entry Key="565879369" Color="1" Value="Stone" />
+    <Entry Key="2064740429" Color="1" Value="Hulking" />
+    <Entry Key="2373238221" Color="1" Value="Doom" />
+    <Entry Key="4107866382" Color="1" Value="Striker" />
+    <Entry Key="626492409" Color="1" Value="Dire" />
+    <Entry Key="2099582078" Color="1" Value="Bastard" />
+    <Entry Key="3682701688" Color="1" Value="Brutal" />
+    <Entry Key="2102752583" Color="1" Value="Sparrow" />
+    <Entry Key="1346661598" Color="1" Value="Falcon" />
+    <Entry Key="3683248305" Color="1" Value="Jaguar" />
+    <Entry Key="4129874273" Color="1" Value="Lynx" />
+    <Entry Key="3544528570" Color="1" Value="Owl" />
+    <Entry Key="269485318" Color="1" Value="Otter" />
+    <Entry Key="765471345" Color="1" Value="Heron" />
+    <Entry Key="3680651087" Color="1" Value="Macaw" />
+    <Entry Key="529091764" Color="1" Value="Koala" />
+    <Entry Key="2595911043" Color="1" Value="Turkey" />
+    <Entry Key="3558614338" Color="1" Value="Panda" />
+    <Entry Key="3799860480" Color="1" Value="Mouse" />
+    <Entry Key="480991015" Color="1" Value="Mantis" />
+    <Entry Key="2548097198" Color="1" Value="Kitten" />
+    <Entry Key="1390522556" Color="1" Value="Swan" />
+    <Entry Key="1890928781" Color="1" Value="Unicorn" />
+    <Entry Key="1803853464" Color="1" Value="Tigress" />
+    <Entry Key="2317939389" Color="1" Value="Phoenix" />
+    <Entry Key="2571445008" Color="1" Value="Lion" />
+    <Entry Key="2545834319" Color="1" Value="Tiger" />
+    <Entry Key="2178095239" Color="1" Value="Rooster" />
+    <Entry Key="2648118498" Color="1" Value="Buffalo" />
+    <Entry Key="3307217077" Color="1" Value="Moose" />
+    <Entry Key="3134739040" Color="1" Value="Moth" />
+    <Entry Key="3893819871" Color="1" Value="Slug" />
+    <Entry Key="712786606" Color="1" Value="Hog" />
+    <Entry Key="2004701790" Color="1" Value="Gator" />
+    <Entry Key="4238943941" Color="1" Value="Iguana" />
+    <Entry Key="2113642631" Color="1" Value="Goat" />
+    <Entry Key="3955933304" Color="1" Value="Mastiff" />
+    <Entry Key="2640117554" Color="1" Value="Hippo" />
+    <Entry Key="4131010897" Color="1" Value="Sloth" />
+    <Entry Key="1818695104" Color="1" Value="Worm" />
+    <Entry Key="3662337648" Color="1" Value="Mustang" />
+    <Entry Key="1162694380" Color="1" Value="Greedy Wallaby" />
+    <Entry LangId="staff_name_99_102" Color="1" Value="Rumble Tarantula" />
+    <Entry LangId="staff_name_99_103" Color="1" Value="Devil Chameleon" />
+    <Entry LangId="staff_name_99_104" Color="1" Value="Dire Crocodile" />
+    <Entry LangId="staff_name_99_105" Color="1" Value="Gray Stallion" />
+    <Entry LangId="staff_name_99_106" Color="1" Value="Raving Harrier" />
+    <Entry LangId="staff_name_99_107" Color="1" Value="Ochre Capybara" />
+    <Entry LangId="staff_name_99_108" Color="1" Value="Death Platypus" />
+    <Entry LangId="staff_name_99_109" Color="1" Value="Shining Kangaroo" />
+    <Entry LangId="staff_name_99_110" Color="1" Value="Sunny Mongoose" />
+    <Entry LangId="staff_name_99_111" Color="1" Value="Wild Platypus" />
+    <Entry LangId="staff_name_99_112" Color="1" Value="Gray Wallaby" />
+    <Entry LangId="staff_name_99_113" Color="1" Value="Ochre Chameleon" />
+    <Entry LangId="staff_name_99_114" Color="1" Value="Grizzly Hedgehog" />
+    <Entry LangId="staff_name_99_115" Color="1" Value="Hungry Crocodile" />
+    <Entry LangId="staff_name_99_116" Color="1" Value="Sunny Platypus" />
+    <Entry LangId="staff_name_99_117" Color="1" Value="Crying Harrier" />
+    <Entry LangId="staff_name_99_118" Color="1" Value="Crimson Kangaroo" />
+    <Entry LangId="staff_name_99_119" Color="1" Value="Wild Harrier" />
+    <Entry LangId="staff_name_99_120" Color="1" Value="Night Tree Frog" />
+    <Entry LangId="staff_name_99_121" Color="1" Value="Pirate Capybara" />
+    <Entry LangId="staff_name_99_122" Color="1" Value="Roaring Capybara" />
+    <Entry LangId="staff_name_99_123" Color="1" Value="Bitter Centipede" />
+    <Entry LangId="staff_name_99_124" Color="1" Value="Blue Chameleon" />
+    <Entry LangId="staff_name_99_125" Color="1" Value="Midnight Mastiff" />
+    <Entry LangId="staff_name_99_126" Color="1" Value="Frigid Mongoose" />
+    <Entry LangId="staff_name_99_127" Color="1" Value="Hunting Stallion" />
+    <Entry LangId="staff_name_99_128" Color="1" Value="Assassin Harrier" />
+    <Entry LangId="staff_name_99_129" Color="1" Value="Falcon" />
+    <Entry LangId="staff_name_99_130" Color="1" Value="Ostrich" />
+    <Entry LangId="staff_name_99_131" Color="1" Value="Mad Wallaby" />
+    <Entry LangId="staff_name_99_132" Color="1" Value="Wild Stallion" />
+    <Entry LangId="staff_name_99_133" Color="1" Value="Blue Armadillo" />
+    <Entry LangId="staff_name_99_134" Color="1" Value="Crying Sturgeon" />
+    <Entry LangId="staff_name_99_135" Color="1" Value="Rat" />
+    <Entry LangId="staff_name_99_136" Color="1" Value="Running Harrier" />
+    <Entry LangId="staff_name_99_137" Color="1" Value="Biting Barracuda" />
+    <Entry LangId="staff_name_99_138" Color="1" Value="Spunky Sturgeon" />
+    <Entry LangId="staff_name_99_139" Color="1" Value="Killer Hedgehog" />
+    <Entry LangId="staff_name_99_140" Color="1" Value="Ashen Platypus" />
+    <Entry LangId="staff_name_99_141" Color="1" Value="Running Basilisk" />
+    <Entry LangId="staff_name_99_142" Color="1" Value="Iron Harrier" />
+    <Entry LangId="staff_name_99_143" Color="1" Value="Jade Centipede" />
+    <Entry LangId="staff_name_99_144" Color="1" Value="Dire Armadillo" />
+    <Entry LangId="staff_name_99_145" Color="1" Value="Scowling Wallaby" />
+    <Entry LangId="staff_name_99_146" Color="1" Value="Fire Kangaroo" />
+    <Entry LangId="staff_name_99_147" Color="1" Value="Brass Squirrel" />
+    <Entry LangId="staff_name_99_148" Color="1" Value="Cunning Mastiff" />
+    <Entry LangId="staff_name_99_149" Color="1" Value="Spying Harrier" />
+    <Entry LangId="unique_staff_m_fh" Color="1" Value="Viridian Hound" />
+    <Entry LangId="unique_staff_f_fh" Color="1" Value="Emerald Hound" />
+    <Entry LangId="unique_staff_m_dd" Color="1" Value="Crimson Canine" />
+    <Entry LangId="unique_staff_f_dd" Color="1" Value="Garnet Canine" />
+    <Entry LangId="unique_staff_m_fx" Color="1" Value="Gold Fox" />
+    <Entry LangId="unique_staff_f_fx" Color="1" Value="Amber Fox" />
+    <Entry LangId="unique_staff_m_msf" Color="1" Value="Silver Skull" />
+    <Entry LangId="unique_staff_f_msf" Color="1" Value="Ivory Skull" />
+    <Entry LangId="staff_name_11_188" Color="1" Value="Flaming Buffalo" />
+    <Entry LangId="staff_name_11_189" Color="1" Value="Running Mongoose" />
+    <Entry LangId="staff_name_11_190" Color="1" Value="Frantic Squirrel" />
+    <Entry LangId="staff_name_11_191" Color="1" Value="Blazing Mastodon" />
+    <Entry LangId="staff_name_11_192" Color="1" Value="Biting Tree Frog" />
+    <Entry LangId="staff_name_11_193" Color="1" Value="Gray Chameleon" />
+    <Entry LangId="staff_name_11_194" Color="1" Value="Razor Hedgehog" />
+    <Entry LangId="staff_name_11_195" Color="1" Value="Howling Platypus" />
+    <Entry LangId="staff_name_11_196" Color="1" Value="Blue Salamander" />
+    <Entry LangId="staff_name_11_197" Color="1" Value="Creeping Buzzard" />
+    <Entry LangId="staff_name_11_198" Color="1" Value="Glacier Mongoose" />
+    <Entry LangId="staff_name_11_199" Color="1" Value="Spunky Platypus" />
+  </Entries>
+</LangFile>

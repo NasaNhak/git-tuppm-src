@@ -1,0 +1,723 @@
+r71
+- Option to develop online gear when offline (but buggy!):
+	development_ENABLE_onlineGearOffline: BUGGY! Enable this, build everything and disable it else mission end screen will hang. Develop all online gear offline. Will be removed if you connect online however
+
+
+r70
+- Added Fast Fill Staff settings:
+	-- CAUTION: Before enabling FAST FILL STAFF settings, backup your save folder '311340' under 'Steam\userdata\<your user id>\'
+	-- Faces assigned may also be unique!
+	-- If both fastFillStaff_ENABLE_maleOnly and fastFillStaff_ENABLE_femaleOnly are true together, fastFillStaff_ENABLE_maleOnly is higher priority
+	fastFillStaff_ENABLE=false, --DEFAULT: false --Set to true and load into any mission/free roam to start filling up MB staff. Adds *both* male and female staff. If unit levels stop increasing, trigger checkpoint, return to ACC and go into mission/free roam again. Obviously this may make some missions unplayable.
+	fastFillStaff_ENABLE_maleOnly=false, --DEFAULT: false --Randomizes all soldier face Ids to male and adds them for an all male MB.
+	fastFillStaff_ENABLE_femaleOnly=false, --DEFAULT: false --Randomizes all soldier face Ids to female and adds them for an all female MB. Female face Id pool is quiet small so be ready for face and names disappointment
+
+
+r69
+- Added new swimsuits for use by staff on Motherbase and Quarantine platform
+- New options:
+	mtbs_maleSwimSuit=0, --Range (0 to 3) - 0 Random, 1 for Great White, 2 Goblin, 3 Megalodon
+	mtbs_femaleSwimSuit=0, --Range (0 to 3) - 0 Random, 1 for Great White, 2 Goblin, 3 Megalodon
+	mtbs_ENABLE_tryForceAllFemaleMB=false, --DEFAULT: false --Set to true to try and force females only on MB *provided* you have enough females in your staffs. Max number of females will never exceed match mtbs_totalStaffCountOnEachMBCluster
+
+	
+r68
+- Added better increment value for demon points as suggested by SoullessMadness to tinmantex
+- Option rev_ENABLE_maxReinforceCalls: Allow 99 reinforcement calls during combat alert
+- BUGFIX: reinforcement calls were 99 with Combat revenge lvl 4
+- Option mbBaseDev_ENABLE_maxOfflineMBStafflimits: Change staff allowed in each unit to 700 for offline MB
+
+
+r67
+- Updated manual install/remove bat files as suggested by Ign0tus
+- BUGIX: Demos were resetting marker and X-ray effect - thanks to InvisisbleBlack for reporting
+- Modify Hand upgrade levels. Options:
+	tool_bioArm_activeSonar: Change the active sonar arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
+	tool_bioArm_mobility: Change the mobility arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
+	tool_bioArm_precision: Change the precision arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
+	tool_bioArm_medical: Change the medical arm upgrade levels. Range 0-3. Hand upgrades must be developed or will not equip
+- Modify Tool upgrade levels. Options:
+	tool_intScope: Change the intScope upgrade levels. Range 1-4. IntScope upgrades must be developed or will not equip
+	tool_iDroid: Change the iDroid upgrade levels. Range 1-4. iDroid upgrades must be developed or will not equip
+
+r66
+- Option ui_disableHeadMarkers: Disables head markers for soldiers etc
+- Option ui_disableXrayMarkers: Disables X-Ray effect for soldiers so you cannot sense them through solid objects. Changing this effect requires a checkpoint reload
+- Option ui_disableWorldMarkers: Disables world markers etc
+- Option ui_disableAnnounceLog: Disables announce log completely. While re-enabling this, the message for TUPPM settings being reloaded will not appear
+
+r65
+- Remove MGS1 cam code as  it's aiming from 3rd person was mostly broken
+- Options startup_ENABLE_reattempLogin and startup_maxReloginAttempts: Attempt re-login on failed login attempt at startup
+- Option game_ENABLE_missionFailureOnCombatAlert: Instant mission failure on combat alert
+- Option game_ENABLE_ignoreFreePlayForMissionFailureOnCombatAlert: Ignore free play from instant mission failure when game_ENABLE_missionFailureOnCombatAlert is set to true
+- Better reload mod settings functionality - thanks to DenVildeHest for bringing it to my attention
+
+r64
+- Options camera_ENABLE_mgs1StyleCam and camera_mgs1SettingsTable: MGS1 camera style settings
+
+r63
+- BUGFIX: Corrected M22 unlock condition when New Game+ is enabled
+- Reload mod settings at any time by holding <FIRE> + <DASH> + <CALL> for 1 second
+- Option _debug_ENABLE_skipMissionAndGoToACC: This will return you to the ACC if you are stuck/facing loading issues in any mission
+- Options camera_ENABLE_customSettings and camera_settingsTable: Customize third person shoulder camera settings. Reload mod settings to view changes instantly
+- Option buddy_ENABLE_setCustomPoints: Set buddy points for each buddy. Reload mod settings to view changes instantly
+- Option mtbs_ENABLE_maxStaffMorale: Max out staff morale and keep it there
+
+r62
+- Option weapons_weaponSwayMultiplier: Multiplier for weapons sway in Third person/ADS mode. Bullet drop effect of lethal weapons is not shown but still exists
+- Option cheats_ENABLE_quickSaveAnywhere: Hold <CALL> + <RELOAD> for 0.25 seconds to save the game anywhere while in game. BACKUP your save before you try this everywhere as it may cause issues. Cannot save during cutscenes or certain missions
+
+r61
+- Renamed 'hardcore_ENABLE_customSoldierParams' to 'hardcore_ENABLE_useCustomSoldierParams'
+- Removed 'hardcore_faintRecoverSec' - does not affect enemy knockout times with STN weapons at all
+- Renamed 'hardcore_ENABLE_useHardcoreModWeaponsSettings' to 'weapons_ENABLE_useCustomWeaponsSettings'
+- Renamed 'player_camoIndexValue' to 'camo_camoIndexValue'
+- Option camo_ENABLE_useCustomCamoSettings: Use custom camo index value
+
+r60
+- Option weapons_supportAmmoMultiplier: Multiplier for support weapons and items ammo
+- Option weapons_supportMagazineValue: Set the amount of spare magazines you want. This is the only setting in the whole entire mod that affects FOBs
+- Option weapons_damageMultiplier: Multiplier for all kinds of damage!
+- Option player_camoIndexValue: Camouflage index
+- Option cheats_DISABLE_godMode: Disable God mode settings if you do not want them - this includes infinite health, no damage reaction and infinite ammo
+
+r59
+- Better logic for weapons_infiniteSuppressorsValue
+- Option rev_ENABLE_minOutRevengePoints: Reset revenge points to 0. This is a one time setting and you do not want it enabled all the time!
+- Option rev_ENABLE_maxOutRevengePoints: Max out all revenge points. This is a one time setting and you do not want it enabled all the time!
+
+r58
+- BUGFIX: Hardcore mod override option hardcore_ENABLE_customSoldierParams works correctly again
+- Batch installers remove extra files and self delete after install
+- Option hardcore_ENABLE_useHardcoreModWeaponsSettings: Set to true if you would like to use Hardcore mod weapon settings instead of weapon settings from TUPPM
+- Options weapons_ENABLE_modifyInfiniteSuppressors and weapons_infiniteSuppressorsValue: Enables modifications to infinite suppressors
+- Option weapons_normalSuppressorMultiplier: Multiplier for normal suppressors
+- Option weapons_totalAmmoMultiplier: Multiplier for total weapon ammo
+
+r57
+- Option mtbs_ENABLE_alwaysUseSwimsuitsOnMB: Always use swimsuit on MB for Staff
+- Option player_ENABLE_demonPointsManipViaZoo: Kill animals at the Zoo to gain 40,000 demon points each. Fulton a single animal at the Zoo to reset demon points to 0
+- Fixed missing settings checks for Zoo
+- Fixed missing dependency between rev_ENABLE_maxRevengeAlways and rev_ENABLE_maxRevengeLvlLimitFromStart
+
+r56
+- Edited Settings file variable names and moved things around
+- Startup time Lua modules loading
+- Option phase_ENABLE_alwaysAlertCPs: Always alert mode - alert is re-triggered as soon as it stops
+- Options heli_ENABLE_customLife and heli_lifePoints: Change support heli health points
+- Option heli_ENABLE_heroicMusicOnLeaveMotherbase: Plays the awesome BGM from M2 every time you leave MB via heli
+- Fixed reinforcements not being auto marked if game_ENABLE_autoMarkWithoutSRank is true
+
+r55
+- Enabled additional chat dialogue since max revenge can now be toggled via settings
+- Fixed salute dialogue playing before story condition
+- Option: automarkWithoutSRank - Enables auto marking even if Intel Unit Scouting Function is not S rank. enableAutoMarking has to be true
+- Fixed issues with MB layouts and LZs for skip heli rides
+
+r54
+- Minor fixes
+
+r53
+- BUGFIX: Time scale option useCustomTimeScale should now work correctly
+
+r52
+- BUGFIX: Fixed a variable name preventing mbBaseDevFixedTime from applying correctly and breaking fultoning in M2 along with base dev completely
+
+r51
+- Enabled animals auto marking again - may need fine tuning
+- Added settings based check. Simply place 'TUPPMSettings.lua' in your MGS_TPP folder with the exe and customize any settings you want. Read the description before you toggle a setting!
+- Since a lot of options are now toggles, reverted certain UI message changes
+- Option to start M1 with Avatar instead of Snake when playing a new game
+- NewGame+ mode is now a setting(isNewGamePlusMode) that can be turned on
+- Skip Heli Rides is now a setting(skipHeliRides)
+- NEW! Options for adjusting equip dev and deployment costs
+- NEW! Option to change time it takes before little chicken hat is reusable
+- NEW! Option to start the game with cheats always enabled
+- NEW! Option to set player health
+- NEW! Option to refresh flies effect between missions. This removes the health reduction applied with the flies effect
+- NEW! Option to refresh blood effect between missions
+- NEW! Tonnes of weather options
+- NEW! Options for soldier params to override Hardcore mod
+- NEW! Options for Time Scale added
+- BUG: Heli locations on a not fully developed MB may cause issues as it turns out!
+
+r50
+- Added a 'No Fulton Device' - while this makes the fulton disabling optional in a new game now, the player cannot switch from the 'No Fulton Device' to the Grade 1 Balloon Fulton mid-mission. Can switch to all other fultons just fine so a minor annoyance
+- FIX for NG+ patch - some dev items not having lvl 1 unit requirement
+
+r49
+- Enabled route shuffle for soldiers - no more "armored soldier here, sniper there" mission runs
+- BUGFIX corrected pullout route for M6 LZ
+
+r48
+- More staff on MB platforms, max of 9 per platform - thanks again to tinmantex
+- Shifts change for MB staff now on both MB and MBQF
+- Fixed Retail bug with fulton although this doesn't matter with max revenge anyway
+- Fulton revenge is always maxed so instead of having enemies always shoot down fultons, added some controlled randomization to soldier alertness for fultons
+- CHEAT mode - wormhole effect added back to warping
+- Any hostages being carried will warp to your new location - use with caution cause falling through the floor will prove fatal in most cases. Does not work on soldiers
+- With DEBUG mode on warping to user marker will not use wormhole effect
+- All salute dialogue is under highNormal category - that means equal priority
+- Adjustments to Helmet/NVG/Gasmask usage
+
+r47
+- Radio is now disabled if a cassette tape is playing - some game action noises are still too loud though but at least Miller/Ocelot shut up
+- New Definitive Edition weapons enabled for enemy soldiers and MB Staff. For enemies only those weapons are assigned which are non broken when used
+	Enemy soldiers:
+		HANDGUN: WEAPON_ADAM_SKA_SP DLC Grade 3, WEAPON_WU_S333_CB_SP DLC Grade 3
+		SMG: WEAPON_MACHT_P5_WEISS DLC Grade 3
+	DD Staff:
+		HANDGUN: WEAPON_ADAM_SKA_SP DLC Grade 3, WEAPON_WU_S333_CB_SP DLC Grade 3
+		SMG: WEAPON_MACHT_P5_WEISS DLC Grade 3
+		SHOTGUN: WEAPON_RASP_SB_SG_GOLD DLC Grade 3
+		SHIELDS: Olive Drab, Gold, Silver, White
+- Now to drop equip, aim the weapon and hold <FLASHLIGHT TOGGLE> to help gamepad users - a bit inconvenient but game recognizes only a select few masked keys and not the keyboard/gamepad buttons. Let's be honest here, you have to take out the weapon in order to drop it right. So what if Venom's Bionic Arm causes him to clumsily flip the light switch as well
+- CHEAT Mode - wormhole effect no longer used during warping. This greatly improves things that I hadn't tried before - like warping while carrying somebody. Wormhole effect would cause that soldier/hostage to be dropped. Without wormhole effect, the carried person is warped with Snake as well
+- CHEAT Mode - warping now happens to last placed marker instead of first placed marker, this makes moving about with warping much more easier
+- DEBUG Mode - logs will only write to a file on Windows
+
+r46 
+- Debug Mode logs are now actually printed to a log file for better debugging :) - thanks tex!
+- File IO by tinmantex
+- Better logger calls
+- Debug Mode - Logs can be enabled or disabled anywhere now - Enabling debug logs will create the folder 'TUPPM' inside the game folder and print logs to the folder as long as Debug Mode is enabled. To do this a CMD command is called from withing the game. Can somebody hack your PC by hooking into this call made by the game? Probably. Can somebody hack you PC anyways? Yes. Still, you've been warned
+- When Debug Mode is enabled, Checkpoint and Restart options become available in the pause menu - trust me, this is more for me than the players. Restart the mission or better yet, quit to the title screen and continue to see the menu options restored
+- NONE weapon slots can be equipped for ASSUALT, SHOTGUN, GRENADE LAUNCHER, HANDGUN and SMG at the sortie prep screen, OSP runs possible without the use of an OSP patch now - thanks to unknown123 for his research. WARNING! Do not play FOBs with these NONE slots - you have been warned
+- Drop weapons and support weapons, hold <FLASHLIGHT TOGGLE> button to drop a weapon or support weapon. Default keyboard mapping is 'X'. For gamepad players, aim the weapon and hold the light toggle button to drop. Items cannot be dropped
+- Keep weapons between free roam->mission and mission->free roam allowing for better OSP runs
+- Enabled lots of chat dialogue that otherwise gets closed off due to certain story or revenge conditions
+- Enabled salute dialogue that otherwise gets closed off due to certain story or revenge conditions
+- FOB goal doors on MB are now unlocked
+- BB posters may sometimes appear on MB command platform(15% chance) even after completing M43, livens the mood a little
+- MBQF now has DD soldiers with different outfits even after capturing the SKULLS or somebody somebody
+- Live weapons now available on MBQF - killing staff or support heli is not allowed of course
+- MB and MBQF now have DD staff outfits randomized on checkpoint reloads as well to be in sync with vanilla MB Staff randomization
+- Staff on MBQF is now randomized from entire staff pool instead of Security Team alone(vanilla game)
+- Better random staff face handling for MBQF
+- Female staff may appear on MBQF
+- Finally applied the best way for enabling/disabling fulton support in the game while switching between Grade 1 Balloon Fulton and others
+- When playing a new game, start M1 as Snake again, no more Avatar, am fed up with that guy
+- Weather durations adjusted for longer sandstorms, rains, mist
+- Adjusted random time for MB morale boost between 15 and 25 minutes of play
+- Morale boost on visiting MBQF as well now
+- Return to ACC option now available if game over at MB
+- Pause menu abort option for MB/Zoo/MBQF changed to 'Return to ACC'. This allows players to shower and return to the ACC without calling in the heli, and it also allows for instant application of demon points based on the player's actions at the Zoo
+- Activating cheat mode now removes damage and damage collision completely
+- Removed High Speed Cam effect when teleporting using cheat mode
+
+r45
+- BUGFIX for no heli rides patch - even with the patch heli rides were missing when going to MB/Zoo/MBQF from ACC. This has been fixed now and the patch will restore MB heli rides correctly as well
+- BUGFIX M25 now has heli gimmick correctly placed with mission start from ACC
+- BUGFIX vehicles in free roam will no longer randomize again on loading checkpoints or coming from the title menu
+- MB may now have between 2 and 18 female soldiers on a platform provided there are as many in the particular unit type
+- Show announce log during loading with Debug Mode On. Plus Loading tips are not shown if Debug Mode is On
+- M2 and M43 will no longer use all Assault and Handgun weapons available but only those that have been developed
+- Fixed LZ rotation for all MB LZs, no more random facing directions
+- Adjusted vehicle positions for every single LZ - no more exploding vehicle or heli
+- Changed the way the heli gimmick is placed in free roam/missions. The heli is now available for ordering before a pullout occurs. Pullout is now smooth and follows the area leaving route for each LZ. Any commands given to the support heli will disable the pullout
+- A checkpoint now fires as the gimmick heli departs after gameplay startup. This fixes the issue with Quiet having weird sniping points on checkpoint reloads. The issue would still be present if the player quickly goes to the title menu after a mission start and then continues
+- Enabled gimmick heli drop for MB/Zoo/MBQF even with on foot start. In order to ensure buddies (Quiet and D-Dog) don't jump into the ocean, starting positions have been adjusted a little so the BuddyController can fire and spawn them correctly before the heli takes off
+- The only remaining issue with heli gimmick is getting the doors to open up
+- Soldiers are now in salute pos at MB command platform deck and roof helipads when starting on foot. They'll only salute when the player moves closer however
+- Disabled animals auto marking till I figure out a better way to mark/unmark them. Currently implemented marking method does not increase the player's total mark count when animals are auto marked and with the "More Animals" mods, soldier markers start breaking
+- Quiet's cell radio now starts correctly with on foot deployment to Med platform
+- "Fulton air support withdrawn" message no longer appears when playing a New Game
+
+
+r44
+- Reinforce heli is now RED - strongest heli type in the game
+- Added a DEBUG Print log mode - hold <DASH> and <RELOAD> in the ACC to enable debug logs - haven't implemented any debug logs yet however
+- MB Morale Boost is now given based on actual game played time instead of in game time
+- Increased MB morale boost MAX random amount
+- Better weather randomness
+
+r43
+- BUGFIX - weapon varieties code crashing the game on MB when weapons not developed
+- BUGFIX(somewhat of a) - vehicles should no longer spawn into the heli and destroy it when starting on foot. However they won't spawn in their vanilla game positions any longer so the downside is that players are gonna have to walk a bit. Some LZs may still have issues and sometimes vehicles may take a long fall and explode. Can fine tune, very boring work, will fine tune
+- Added unique soldiers to free roam similar to Infinite Heaven's WildCard soldiers - males only. The map will be randomly populated with 16 unique soldiers
+- Some code cleanup regarding revenge powers config
+- All enemy abilities like notice, reflex, health, reload, grenades, fulton etc are now set to max (holdup excluded cause otherwise no soldier can be held up)
+- Revenge blocking dispatch missions now appear immediately even after being used. In the vanilla game, a revenge type is blocked for 3 missions and the dispatch mission reappears on the 4th mission. Now they reappear immediately. This allows for better spamming of the dispatch missions if the player would like to do so
+- Reverted back to Active Decoys as shock decoys may sometimes be advantageous
+- Actual weapons randomization on Motherbase now
+- Even more weapons randomization
+
+r42
+- BUGFIX - Had accidentally removed different DD Staff weapons, only assault rifles ended up being used
+- BUGFIX - Shields work for DD Staff again
+- Fixed Grade 1 Balloon fulton deployment cost to 0 GMP, again -_-
+- Better logic for random DD staff outfits
+- Added Beach Party mode - DD Staff have a 15% chance of wearing bikinis provided at least one has been developed
+- Removed Honey Bee Grade 1 and Killer Bee Grade 3 from enemy weapons
+- Added all weapon varieties for DD Staff
+- Cheat Mode - No more squatting in order to teleport(warping)
+- Added High Speed Camera distortion effect during warping
+
+r41
+- Updated sources for game version 1.10
+- BUGFIX - FOB helmets were not applied correctly, my bad
+- BUGFIX - FOBs excluded from any kind of weapons/powers randomization, my bad
+- Enemies use strongest grenade type
+- Weapon varieties updated - every possible NPC usable weapon is now made available:
+    HANDGUN: Burkov Grade 1, AM D114 Grade 1, AM D114 Grade 4 + FL + SUP, Tornado Grade 7
+    SMG: ZE'EV Grade 3, Mach 37 Grade 3, Sz. 336 Grade 3, Sz. 336 Grade 3 + SUP + FL, Sz. 336 CS Grade 5
+    ASSAULT: AM MRS-4 Grade 1, SVG-76 Grade 1, SVG-76 Grade 1 + FL, AM MRS-4R Grade 3, AM MRS-4R Grade 3 +FL, UN-ARC-PT CS Grade 4 + FL, AM MRS-4R Grade 5, SVG-67 Grade 4, SVG-67 CS Grade 6, SVG-67 CS Grade 6 + FL
+    SNIPER: Renov-ICKX CS Grade 1, M2000-D Grade 2, M2000-D CS Grade 2, Bambetov SV CS Grade 4, AM MRS-71 CS Grade 5, Molotok-68 Grade 9
+    SHOTGUN: S1000 CS Grade 2, S1000 CS Grade 2 + FL, Kabarga 83 Grade 4, Kabarga 83 Grade 4 + FL
+    MG: UN-AAM Grade 2, ALM 48 Grade 2, LPG-61 Grade 4, ALM 48 Grade 5
+    MISSILE: Grom-11 Grade 2, Honey Bee Grade 1, FB MR R-Launcher Grade 3, Killer Bee Grade 3, Killer Bee Grade 5
+    SHIELD(XOF Only): Soviet, CFA, Rogue Coyote, ZRS
+- Added NVGs(at night) and Gasmasks for non armored reinforcement soldiers
+- Adjusted weapon random chances - ASSAULT 30%, MG 22%, SHOTGUN 22%, SHIELD 16%, SNIPER 5%, MISSILE 5%. These are applied AFTER default game powers are applied to soldiers
+
+r40
+- Cheat Mode: Now become invincible for a short time on taking damage
+- Weapon varieties added - enemies use different weapons for each weapon type:
+    HANDGUN: Burkov Grade 1, AM D114 Grade 4, Tornado Grade 7
+    SMG: ZE'EV Grade 3, Mach 37 Grade 3, Sz. 336 CS Grade 5
+    ASSAULT: AM MRS-4 Grade 1, SVG-76 Grade 1, UN-ARC-PT CS Grade 4, AM MRS-4R Grade 5, SVG-67 CS Grade 6
+    SNIPER: Renov-ICKX CS Grade 1, M2000-D CS Grade 2, Bambetov SV CS Grade 4, AM MRS-71 CS Grade 5, Molotok-68 Grade 9
+    SHOTGUN: S1000 CS Grade 2, Kabarga 83 Grade 4
+    MG: UN-AAM Grade 2, LPG-61 Grade 4, ALM 48 Grade 5
+    MISSILE: FB MR R-Launcher Grade 3, Honey Bee Grade 1, Killer Bee Grade 5
+    SHIELD(XOF Only): Soviet, CFA, Rogue Coyote, ZRS
+- For weapon varieties I have enabled only those weapons that do not have missing textures/HUD icons. For each weapon available, the highest grade version that is not broken has been used
+- DD weapons on MB are now varied too. Will add more weapons into the mix over time
+- Removed certain weapon restrictions for enemies. Certain missions would not allow for MISSILES/SHIELDS or MG/SHOTGUN to be used together. Now this is possible
+- Auto marking no longer works for Prologue and M46
+
+r39
+- BUGFIX - when starting a new game, Grade 1 Balloon Fulton will no longer allow fultoning. Lack of oversight and testing on my part
+- BUGFIX - fixed health scaling for DD staff when using cheat mode
+- Infinite ammo and suppressors when cheat mode is activated
+- Infinite fultons when cheat mode is activated
+- Auto marking and fulton handler timers now start after 1 second
+
+r38
+- BUGFIX - auto marking and fulton handler now activate at the end of demos correctly
+- BUGFIX - auto marking fixed on Zoo
+- Total marked count correctly increases for sniper bosses(Quiet and SKULLS snipers) with each subsequent marking
+- Weapons free at the Zoo
+- Killing any animal at the Zoo increases demon points by 40,000. Accompanied with a jingle. Applies only when the player exits via heli
+- Fultoning an animal at the Zoo resets demon points to zero. Accompanied with a jingle. Applies only when the player exits via heli
+- MB Morale Boost now accompanied with a jingle
+- Weapons free at MB - killing DD staff is still not allowed however - just looks and feels weird anyway
+- D-Dog can follow the player all over MB
+- Destroying support heli on MB/Zoo will result in game over. This is not, surprisingly, a vanilla game check anywhere except for maybe a few missions, and I have added it myself for MB/Zoo
+- More female staff on platforms - randomized between 2 and 10, provided the player have as many in their ranks
+- Since morale boost happens in-game now so new message is displayed
+- Different colors used for special custom messages
+
+r37
+- Better random seed so that vehicles remain the same on continue from title screen
+- BUG FIX - auto marking no longer breaks on fultoning an LRRP vehicle
+- Using timers now instead of update for auto marking, fulton handler and heli remover
+- MB Staff morale boost information now displayed with Abort/Return to ACC
+- ADDED CHEAT MODE - Super Health, Player Warping
+- Hold AIM, RADIO CALL and QUICK DIVE for 2 seconds to activate cheat mode - hold again to deactivate. Remember to reactivate after loading checkpoints/missions
+- Activating cheat mode sets Health to max value
+- Crouch and then hold RADIO CALL and ACTION BUTTON to warp to first placed marker position
+
+r36
+- Removed two doors in Africa from being reset
+- Fixed weather probabilities/durations randomization
+- No more hitting SPACE to Continue after loading - turns out the game has much shorter load times than it would have the player believe
+- Changed mine type to one that D-Dog can mark on the map - some mines are mission specific and are default type
+
+r35
+- Fixed LZ rotations for all start on foot LZs
+- Support heli searchlight is now always on
+- When starting from the ACC on foot, the support heli will be spawned overhead - this is just a gimmick. Report any weirdness for any ( missions/free roam/missions started from free roam ) with regards to starts/restarts/checkpoints
+- When starting from the ACC on foot, Quiet and D-Dog now drop from the support heli that is spawned
+- Side effects include not being able to use the support heli for 5 seconds after the player starts the mission - plus Pequod leaves violently as if he has to take a huge crapper back at Motherbase
+- Mortars, Machineguns, Containers, AA Guns and Guardtowers now reset when starting a mission/changing locations - happy farming. They do not reset on checkpoint reloading however
+
+r34
+- Perishable tapes are now automatically gained back after usage once Mission 31 is complete. Additional conditions listed below
+    Afghan Lullaby
+    African Lullaby
+    Enemy Eliminated both Afghan and PF
+    Recorded in the Toilet
+    Love Deterrence --Meet Paz
+    Quiet's Theme --Have over 60% bond with Quiet
+    Bird Calls --Capture at least one bird
+    Goat Bleats --Capture at least one Goat
+    Horse Neighs --Capture at least one Zebra/Nubian
+    Wolf Howls --Capture at least one Wolf/Jackal
+    Bear Growls --Capture at least one Bear
+
+r33
+- All landmines for Outposts are laid out - thanks again to tinmantex
+- Landmines are now of the strongest type available
+- All decoys now pack a shocking surprise
+- Radios that play cassettes now repopulate with their cassettes offering a much livelier game world (somewhat)
+- All weather types have completely random durations and probabilities - does not affect FOBs
+- Weather durations may be longer than vanilla game
+- Some missions in Afghanistan now allow for dynamic weather types, unlike vanilla game
+
+r32
+- S+ and S++ MAX spawn chances fixed - now are 50% and 40% respectively
+- Combat deployment mission times are now 1 minute fixed and 19 minutes random to allow for better variations
+- Revenge blocking combat deployment missions complete instantly - the player can now spam and block all revenge types. To each their own style of play
+- Armored vehicles in free roam will have random classes (Normal, Red, Gray - although I find Gray to be more of a bluish color but your opinion may differ XD) applied to them except for PF Jeeps and Trucks
+- Total marking count now increases with auto marking for soldiers, vehicles and bosses. For Quiet and SKULLS Snipers, unlike vanilla game, *total* marking count will increase only once
+- In mission marking count now increases with auto marking for soldiers and bosses - vanilla game behavior. This leads to marking bonus score being granted on mission completion
+- Even more better fulton enable/disable logic
+
+r31
+- Walker Gears are automarked - except mission targets
+- Vehicles are automarked - except mission and side ops targets
+- All Animals and Birds are automarked - except side ops targets(did not test though). May set this to only hostile animals based on feedback
+- Deployment missions adjusted to 5 minutes fixed and 15 minutes random
+- Revenge combat deployment missions take 1 minute fixed and 2 minutes random
+- Auto marking code now executes once every 4 seconds, this should stop stealing CPU cycles and help improve performance
+- Improved Fulton enable/disable code
+
+r30.1
+- Fixed(Reset) a NG+ check for The White Mamba sequence condition
+
+r30
+- Fulton code fixed, the following missions now handle fulton controls themselves: Prologue, M2, M22, M43, M46. Thanks to DanteKannWeinen11 for bringing this to my attention
+
+r29
+- Grade 1 Balloon Fulton cost reset to 0 GMP
+- Online dev(all Grade 7+) item/weapon costs are now 1/8
+- Container processing amounts increased but there is a cap on the amount of resources that can be gained
+- Fulton code fixed for New Game
+
+r29 NG+
+- Base development is only possible after beating 1 mission
+
+r28
+- Updated sources for game version 1.09
+- Fixed bugs caused due to earlier changes in TppReinforceBlock namely with free roam/M3/M35 reinforcement calls. These came to light because of the auto marking code
+- Increased mission completion resource rewards:
+    Resources    : S=5000,A=3000,B=2000,C=1000,D=500,E=100
+    Plants        : S=250,A=150,B=100,C=50,D=25,E=10
+- All deployment costs are now 1/4 for all items/weapons. Online dev items/weapons still tend to not follow this strictly
+- Combat Dispatch Mission times are now 10 minutes fixed and 10 minutes random
+- Fixed LZ rotations for all mission LZs
+- Removed random rotations for other LZs. The direction the player faces will be fixed but may not be convenient
+- Fulton now enables/disables instantly on changing from/to Grade 1 Balloon Fulton
+- Fulton icon disabled in iDroid map menu when fulton is disabled
+- Fulton code altered to work with Motherbase
+- Removed mission specific fulton code as it is no longer needed
+- Enemy soldiers now use the Tornado-6 Grade 7 pistol
+- Reinforcements should now be auto marked correctly
+- High rank soldiers added for increased MB levels
+
+r27
+- PERFECTED auto marking as I had always envisioned it. Soldiers are auto marked in about a 300m radius
+- SKULLS auto marked
+- Quiet auto marked
+- No Heli Rides code bug fixed - should not cause problems anymore for players who had previously reported issues
+- Start facing a random direction at LZs since am too lazy/hardworking to fix rotations
+- Used a different random seed for each soldier. Weapons distribution is now truly random. Outpost weapon powers are still applied though
+- Instant re-population of small collectibles like plants, diamonds and processed resources
+- Processed resources and medicinal plants are rewarded on mission completion based on clear rank
+- Added new messages for resource rewards in tuppm_custom.lng2
+- Parasites recovered are now 500 for all types
+- Fulton fixed when starting a New Game, other wise fulton would be enabled but not usable in Mission 1
+- Adjusted weapon random chances ASSAULT 30%, MG 20%, SHOTGUN 20%, SHIELD 10%, SNIPER 10% and MISSILE 10%
+- Fixed incorrect entry key in tpp_announce_log.eng.lng2
+
+-r27 NG+
+- Make sure to go through all the tutorials first. Do not rush into building everything
+- Unlocked development item requirements from the start
+- Unlocked development requirements - weapons/items need at least a level 1 in required unit level
+- Unlocked base development requirements - instant platform development
+- Buddies unlocked after M2
+- DDog becomes unavailable after 2 missions are cleared from M3, M4, M5 to enable a cutscene. Simply visit MB to get him back
+- DDog becomes unavailable after 3 missions are cleared from M7, M8, M9, M10 to enable a cutscene. Simply visit MB to get him back
+- Quiet becomes unavailable after 1 mission is cleared from M7, M8, M9, M10. This is to meet M11 unlock requirement. Complete M11 to unlock her again
+- Quiet becomes unavailable after Huey's Exile scene provided the player has a 100% bond with her and do not use the Butterfly Emblem. This is done in order to unlock Side Ops 150 which leads to Mission 45.
+- Quiet is immediately regained after M45, no reunion necessary
+- All language translators unlocked from Mission 1- Phantom Limbs
+- Gun customization unlocked after M2
+- Bionic arm upgrades unlocked after M2
+- All MB unit sections unlocked after M2
+- SKULLS can be fultoned after M2
+- DLC soldiers unlocked after M2
+- FOB construction allowed after M2
+- FOB missions unlocked after M2
+- Parasite Suit unlocked after M2
+- Nukes can be developed after M2
+- All Key Dispatch missions unlocked after M2
+- Avatar unlocked after M2
+- Fire support unlocked after M2
+- Security devices development unlocked after M2
+- Animal Conservation platform unlocked after M2
+- Unlocked the possibility of viewing the nuclear abolition cutscene after M2
+- Buddy Dev menu opens after any of the first three missions M3, M4 or M5 is cleared
+- Vehicles customization is unlocked after the player's first vehicle fulton, no way to by pass this without some unnecessary effort
+- Some things unlock after going into free mission or a mission and heading to MB via helicopter
+
+r26
+- Added custom messages to let players know when to visit MB for staff Morale Boost - this is displayed only a maximum of three times to avoid spamming
+- Nerfed Morale Boost - still much better than vanilla game with no boost
+- Morale Boost time limit randomized between 20 and 30 minutes. Additional random time (max of 15 minutes) will be added after the player visits MB and receives a Morale Boost
+
+r25
+- MB Staff auto marking added
+- Marking code improved a little
+- Marked soldiers' count now accounts for eliminated/fultoned soldiers
+- Posters give x10 gmp reward
+- Auto resource harvesting increased to x5
+- Auto GMP x4
+- Container processing times reduced to (1/5)
+- Container processed resources cannot be increased at all and this has been removed from the list of features
+- MB staff gain Morale Boost on playing for over 30 minutes and visiting Mother Base. Each subsequent visit for Morale boost needs to be an additional 15 minutes later i.e. 30, 45, 60, 75, 90 and so on. The player can exit the game and boot it up again to reset to 30 minutes for the first visit
+- Added custom message for Morale Boost
+- Had missed the double mission rewards, no rank restrictions and Honor Medal file from the mod's build since r23. Sorry!
+- Created a better Snakebite build. No more swapping qar_dictionary files before installing
+
+r24
+- Deployment mission rewards increased. S+ and S++ soldiers now given as rewards as rewards for A Rank missions
+- Key Deployment missions have 100% chance for staff and increased staff counts
+- Deployment missions adjusted to 7 minutes fixed and 7 minutes random
+- Rank restrictions removed from Stealth PP, Stealth Camo, D-Walker's Fulton Canon, Parasite Camo, Infinity Bandanna and Higher Grade Sneaking Suit, Battle Dress and Ground Zeroes Sneaking Suit
+- Rank restrictions removed from Air Strikes and Helicopter support
+- Rank restrictions messages removed in iDroid Menus, Sortie prep screen and Results screen
+- The only rank restricting item is the Chicken Hat(s) now
+- Added Custom lng2 file for messages
+- Messages for marked soldiers and fulton enabled/disabled now correctly appear under Messages tab of the Log on the iDroid
+- Heli departing time set to 0 seconds in free roam if a combat alert has been triggered. If all the soldiers are neutralized, or outpost/guardpost captured then the default 5 seconds take off time is reset. In missions this is already taken care of if the mission objectives are complete. Otherwise Miller yaps on and the player sits there for a while before the Heli departs so have excluded missions from this condition
+- Auto marking enabled for reinforcements
+- Added auto marking to Mission 45 - A Quiet Exit, this was really fun!
+- Adjusted weapon random chances: ASSUALT 33%, MG 32%, SHOTGUN 20%, SHIELD 5%, SNIPER 5%, MISSILE 5%
+- Randomness is applied to patrols and guardpost mostly after the game applies
+- Sometimes LRRP soldiers may not be automarked, this is due to the way the armored vehicle changes works, small hindrance at most
+
+r23
+- Quest and Mission Targets no longer auto marked and do not have their markers reset to non-important markers
+- Motherbase and Zoo diamonds and plants now repopulate over time
+- S+ and S++ soldiers added to the field
+- S+ have a max 30% chance to appear and S++ have a max 20% chance to appear
+- S+ start to appear when average Motherbase unit level is 45
+- S++ start to appear when average Motherbase unit level is 50
+- Honor Medal for Staff made available offline when a Mission is S Ranked with No Kills and No Alerts. This is normally earned by DD Staff on neutralizing/fultoning an intruder on FOBs
+- Increased combat deployment rewards(including staff gained) and % chances
+- Added S+ and S++ soldiers as rewards for some deployment missions
+- Doubled GMP rewards for all story missions
+- Side Ops GMP rewards doubled
+- GMP reward for a mission no longer decreases once the mission is cleared
+- Always enable fulton for Motherbase
+- Completed missions tasks are not grayed out anymore when doing a mission again. Objectives completed are still considered completed towards total mission goals. The player will see them added to the task list in the ACC. Let me know in case of any issues. I feel that seeing a few objectives already completed removes the drive of the total mission completion. Wanted to put this in for a long while, didn't think it would be possible :)
+
+r22
+- Updated sources for 1.0.8.1 (not really, no files were changed)
+- Fulton can be enabled or disabled mid mission by hitting a checkpoint. Equip Grade 1 Fulton to disable fultoning and any other Fulton to enable fultoning
+- Added appropriate messages to inform when fulton has been enabled or disabled
+- Added fulton enable/disable function to Mission 6 - Where Do the Bees Sleep. Had missed this all along
+- Code rework for enable/disable fulton for Missions:
+    Mission 1 - Phantom Limbs
+    Mission 16 - Traitors Caravan
+    Mission 28 - Code Talker
+    Mission 29 - Metallic Archaea
+    Mission 37 - [Extreme] Traitors Caravan
+    Mission 42 - [Extreme] Metallic Archaea
+    Mission 48 - [Extreme] Code Talker
+- Code rework for Mission 22 - Retake the Platform to always enable fulton
+- Code rework for Mission 43 to always disable fulton
+- Added appropriate message for auto marking enemy soldiers along with map update voice information
+- Added Auto marking for Mission 22 - Retake the Platform
+- Quest soldier markers appear as important markers and no longer disappear or reset to non-important markers
+- Resource container mining fixed. Extracting the same containers multiple times after restarting missions(Mission 12 - Hellbound for example) no longer gives reduced amounts of resources. You're welcome :)
+- Plants harvested amount is 250 for all types
+- Small resource boxes amount is 1,000 for all types
+- White containers contain 5,000 resources for all types
+- Red containers contain 10,000 resources for all types
+- Small diamonds give 30,000 GMP
+- Large diamonds give 300,000 GMP
+
+r21
+- Auto marking fix - world markers no longer disappear in free roam(only during VERY long sessions in Africa and only if the player never fultons/kills anybody at all)
+- Introduced the ability to add back heli rides with very little code rework
+
+r20
+- All soldiers are auto marked when Scouting Unit Function is S Rank for Intel Unit
+- Soldier movement fields are highly accurate and updated in real time when Scouting Unit Function is A Rank for Intel Unit
+- Buddy menu during Sortie Prep available for MB/Zoo/Ward to allow D-Dog at least
+- Friendly testing
+
+r19
+- Added armored vehicles and tanks in free roam
+- Removed vehicle randomization on checkpoints
+- Added vehicle randomization when continuing from title screen
+- Fixed vehicle LRRP soldiers count
+- Automatic Combat deployment GMP rewards doubled for all Rank tiers
+- Automatic resource mining doubled
+- Doubled resources processed from containers
+- Reduced container procession times in half for all resources for all Rank tiers
+- Halved treatment time for staff
+
+r18
+- Fixed - Missions now start correctly on foot from LZs when started from the ACC
+- Hostile LZs now start with Heli ride
+- No Heli rides when moving between MB/Zoo/Ward
+- Allowed mission prep for Missions 33 and 49(both Subsistence missions) to allow changing characters at least
+- Mission prep time selection allowed for Missions 13, 33 and 49
+- S Rank Enemy Search is now very accurate and updates in real time on the map
+- Sahelanthropus is now available on R&D platform. I consider a certain cutscene non-canon. Pretty much like this whole entire game
+
+r17
+- Mission prep added for Missions 2, 43 and Motherbase/Zoo/Quarantine facility
+
+r16
+- Grade 1 Fulton device deployment cost is now 0 GMP(Fulton is disabled)
+- Removed Sign In option from ACC pause menu
+- Diamonds give x2 GMP rewards
+- Posters give x4 GMP rewards
+- Small resources increased x10
+- Plants increased x10
+- Increased amounts in resource containers: white containers x10; red containers x2; used(yellow) containers are equal to red containers
+- Deployment costs reduced to 1/4 for offline and 1/10 for online items
+- Support Strike(Fire, Smoke, Sleep, Chaff, Weather) costs reduced to 1/4
+- No item and weapon development times
+- Brig time for captured soldiers reduced to about 15 minutes
+- 10 minutes development time for MB platforms
+- All dispatch missions are about 10 minutes long
+- Sandstorms, Rain and Fog in Afghanistan and Africa
+- Rain and Fog in Motherbase adjusted
+
+r15
+- Updated sources for version 1.08
+- Added ARMOR to free roam. Each outpost now has 2 ARMORed soldiers. Do report any bugs or issues seen with this and/or Heavy Infantry sideops.
+- Added ARMORed reinforcements in free roam.
+- Slightly improved randomization.
+- Added a very small chance of NVGs and Gasmasks used together by a soldier.
+- Fixed a bug where LRRP Soviet soldiers were accidentally given soft armor resulting in missing radios.
+- Fixed a bug where Helmet collision was not applied correctly in free roam. Not all soldiers have Helmets in free roam anymore as the game has a limit on this.
+- Fixed a bug where debug commands were being printed in certain SKULLS bossfight missions.
+
+r14
+- Replaced missiles with Killer Bee Grade 5 for soldiers. CPG-25 had broken explosions and firing and locking.
+
+r13
+- Removed Mission 43 restrictions
+- More powerful weapons given to soldiers.
+- Better weapons randomization.
+- Weapons are balanced as ASSUALT 30%, MG 20%, SHOTGUN 20%, SHIELD 10%, SNIPER 10% and MISSILE 10%.
+- Weapons/Equipment is now properly removed by Revenge Blocking Dispatch Missions.
+- Created a really cool algorithm to manage weapon blocking. Any weapon type blocked from the above list adds its randomization percentage to assault rifles.
+- Removed weapons randomization for FOBs - should no longer be a problem.
+- Custom DD weapons table for MB staff - now they carry the following weapons *once developed*:
+    HANDGUN= AM D114 Grade 4
+    SMG= Sz. 336 Grade 3
+    SMG= Sz. 336 Grade 5
+    SHOTGUN= Kabarga 83 Grade 4
+    ASSAULT= AM MRS-4R Grade 3
+    ASSAULT= AM MRS-4R Grade 5
+    SNIPER= AM MRS-71
+    MG= ALM 48 Grade 2
+    MG= ALM 48 Grade 4
+    MG= ALM 48 Grade 5
+    MISSILE= Killer Bee Grade 3
+    MISSILE= Killer Bee Grade 5
+    
+    Other soldier equippable weapons have broken features.
+        
+- Randomized male and female outfits for MB staff. Males wear Sneaking Suit, Battle Dress and Tiger camo while females in addition to these wear Olive Drab as well. All combinations are randomized.
+- Introduced weapons randomization for MB staff to be in tune with vanilla(default game behavior) staff randomization.
+- Removed Sign In while starting up. Start straight into offline mode without any annoying popups.
+- Added option to 'Connect Online' through pause menu once in ACC.
+- ARMOR is now used in the following missions:
+    Mission 1 - Phantom Limbs
+    Mission 9 - Backup Back Down
+    Mission 12 - Hellbound
+    Mission 13 - Pitch Dark
+    Mission 18 - Blood Runs Deep
+    Mission 20 - Voices
+    Mission 25 - Aim True Ye Vengeful
+    Mission 28 - Code Talker
+    Mission 34 - [Extreme] Backup, Back Down
+    Mission 44 - [Total Stealth] Pitch Dark
+    Mission 48 - [Extreme] Code Talker
+    
+- Soldier weapon restrictions removed from the following missions:
+    Mission 12 - Hellbound (try aiming for an S rank now)
+    Mission 13 - Pitch Dark
+    Mission 16 - Traitors Caravan
+    Mission 26 - Hunting Down
+    Mission 37 - [Extreme] Traitors Caravan
+    Mission 44 - [Total Stealth] Pitch Dark
+
+r12
+- Randomized DD outfits for Motherbase between Sneaking Suit, Battle Dress and Tiger camo
+- Abort to ACC option added to Pause Menu at MB/MBQF/Zoo
+
+r11
+closed- fixed randomization problem. Now CP equipment is only randomized when starting the mission over again from the ACC. Checkpoints/Restarts do not randomize the equipment.
+closed- Better balance of random weapons.
+
+r10
+closed- Helmet plus NVG/Gas mask combos.
+closed- Soviet patrols excluded from SOFT_ARMOR to avoid radio disappearing problems.
+closed- Check if Reinforcements given shields
+closed- removed forced SOFT_ARMOR - LRRPs end up losing radios
+
+r09
+closed- Fulton disabled when selecting Level 1 device, cannot fulton anything now. Fulton Supply drops don't enable fulton either. However, getting a higher grade fulton and hitting then reloading a checkpoint enables the fulton again.
+    Mission 1 - Phantom Limbs has an override for this and enables fulton. This has been fixed.
+    Mission 16 - Traitors Caravan - fixed
+    Mission 22 Retake the Platform - already has a fix in place - Fulton cannot be disabled there as need to extract DD hostages.
+    Mission 28 - Code Talker - fixed
+    Mission 29 - Metallic Archaea - fixed
+    Mission 35 - Cursed Legacy - Exclusion added for this mission as need to fulton containers.
+    Mission 37 - Traitors Caravan EXTREME - fixed
+    Mission 42 - Metallic Archaea EXTREME - fixed
+    Mission 48 - Code Talker EXTREME - fixed
+
+closed- Completely random weapons for Outposts/Patrols/Guardposts
+closed- New weapon combos for SHIELDs and MISSILEs
+closed- ARMOR CPs now have random pickings between MG/SHOTGUN
+closed- Removed the checkpoint option from the PAUSE menu! The option to continue from a checkpoint now only appears at the Game Over/Mission Failed screen. Got spotted and it turned into a shitty situation? Deal with it. :) Kinda makes it similar to previous MGS games.
+
+r08
+- Bug fix that was preventing Super Heli from spawning alongside Super Vehicles in certain side ops
+- Removed ARMOR from free roam as the Fova/Collision would not load properly. Also certain sideops would not look good
+
+r07
+closed- Updated sources to work with game version 1.0.7.0
+
+r06
+closed- Free roam - ARMORed soldiers now spawn! Yay! Also this change works with previous changes as well and as a result reinforcement soldiers in free roam are also ARMORed with random weapons - but the game is not very good at loading ARMORed soldiers in Afghanistan correctly, some ARMORed soldiers may appear without ARMOR but will behave as if they were equipped while some who look ARMORed are actually not.
+closed- Guard posts and patrols have random weapons! :D
+closed- Changed MISSILE carrying soldiers back to 4(vanilla) as free roam balance had drastically changed
+
+r05
+closed- Number of MISSILE carriers reduced from 4 to 2 per outpost in hopes of spawning more SHIELD carriers
+closed- Reinforcements system toughened/improved
+closed- Reinforcements all have ARMOR(heavy infantry one)
+closed- Reinforcements have random equipment instead of all carrying either SHOTGUNs or MGs
+closed- Reinforcements now carry weapons randomly chosen from SNIPER, MISSILE, MG, SHOTGUN, SHIELD - 20% chance of spawning with each
+closed- If an ARMORed reinforcement soldier carries a SHIELD, he will carry a SHOTGUN with it! Be careful
+closed- If an ARMORed reinforcement soldier carries a MISSILE, he will carry an MG with it
+closed- Reinforcements now arrive along with very first helicopter/armored vehicle call
+closed- Reinforcement helicopter is Black Super Heli always
+
+r04
+closed- Remove cutscene credits - English only, ask for other languages if needed.
+closed- Better enemy weapons - No more XOF weapons, slightly improved Higher grade guns.
+closed- Altered enemy helmet/nvg/gasmasks ratio - gasmasks now definitely spawn.
+
+r03
+closed- A Quiet Exit - Need helicopter ride
+closed- MB/Zoo/MBQF - No helicopter ride while deploying from ACC menu
+closed- All soldiers carry torches
+closed- TppPlayer - no heli ride dependency - test Missions from ACC and free roam. Test Free roam, MB, Zoo, MBQF
+closed- Mission 43 - Shining Lights, Even in Death - Snake/Avatar/DD defaults - any bionic arm for now
+
+
+r02
+closed- Moved free roam landing zones table from TppDefine to TppMain
+closed- No auto save pop up
+closed- No opening logos
+closed- Shining Light Mission 43 fix - When using DD soldiers, replaced with Avatar - Scarf and Tiger Stripes
+closed- Shining Light Avatar/Snake - raiden/cyborgNinja/mgs1/gold/silver/parasite outfits are replaced with Scarf and Tiger Stripes
+closed- Starting a new Game - Outer Heaven no Avatar - obviously
+closed- The Truth - Avatar/DD not available in closing cutscene - obviously
+
+r01
+First release

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="454827343" Color="1" Value="Outpost Defense" />
+    <Entry Key="3167208965" Color="1" Value="VIP Security" />
+    <Entry Key="2189055750" Color="1" Value="Plants Gathering" />
+    <Entry Key="4165572055" Color="1" Value="Medical Assistance" />
+    <Entry Key="627151426" Color="1" Value="Staff Headhunting" />
+    <Entry Key="2438270481" Color="1" Value="Staff Recruitment" />
+    <Entry Key="28024231" Color="1" Value="Cargo Transport" />
+    <Entry Key="102143497" Color="1" Value="Reconstruction Support" />
+    <Entry Key="674466945" Color="1" Value="Far Waters Exploitation" />
+    <Entry Key="551137582" Color="1" Value="Near Waters Exploitation" />
+    <Entry Key="4144559810" Color="1" Value="Joint Development" />
+    <Entry Key="2384100307" Color="1" Value="Technical Assistance" />
+    <Entry Key="891287128" Color="1" Value="Outpost Capture" />
+    <Entry Key="2829976934" Color="1" Value="Force Elimination" />
+    <Entry Key="3750003089" Color="1" Value="Eliminate enemy force in the conflict zone" />
+    <Entry Key="2868477016" Color="1" Value="Defend outpost in the conflict zone" />
+    <Entry Key="1280377445" Color="1" Value="Guard VIP in the conflict zone" />
+    <Entry Key="588797588" Color="1" Value="Capture enemy outpost in the conflict zone" />
+    <Entry Key="4046960779" Color="1" Value="Provide technical assistance to local forces in the conflict zone" />
+    <Entry Key="86458124" Color="1" Value="Conduct joint development with an arms manufacturer" />
+    <Entry Key="1749912346" Color="1" Value="Mine/gather materials from nearby waters" />
+    <Entry Key="3625002218" Color="1" Value="Mine/gather materials from distant waters" />
+    <Entry Key="4266755120" Color="1" Value="Conduct infrastructure repairs (etc.) in the conflict zone" />
+    <Entry Key="1145120168" Color="1" Value="Transport supplies through the conflict zone" />
+    <Entry Key="410774892" Color="1" Value="Conduct widespread recruitment in the conflict zone" />
+    <Entry Key="3286858409" Color="1" Value="Headhunt elite new recruits in the conflict zone" />
+    <Entry Key="2702519883" Color="1" Value="Provide medical training in the conflict zone" />
+    <Entry Key="3182062929" Color="1" Value="Gather medicinal plants in the area of operations" />
+    <Entry Key="2484584748" Color="1" Value="Unofficial assignment from the UN. Famine has broken out in the south of an African nation locked in civil war. Plans for food relief are being blocked by the government in the north, which has sealed the nation's main highway. Escort a transport convoy and ensure the food relief arrives." />
+    <Entry Key="2640889575" Color="1" Value="Assignment from the southern government of a divided state located in Europe. A northern militia has made repeated incursions into the DMZ (de-militarized zone). Eliminate the militia and restore the DMZ." />
+    <Entry Key="1278589225" Color="1" Value="Assignment from a resource-producing country in southern Africa. The up-and-coming private force OE has occupied a coltan mine. The coltan, necessary as the ore for smelting rare metals, is being hastily mined and is in danger of running out. Eliminate the OE unit and retake the mine." />
+    <Entry Key="1663376024" Color="1" Value="Assignment from a minor nation in Southeast Asia. Despite their civil war having ended, rebel forces are becoming active once more in the lead-up to the nation's first general election. Eradicate the remaining forces hiding out in remote regions of the country and ensure the election is a success." />
+    <Entry Key="517101324" Color="1" Value="Unofficial assignment from the UN. Government forces of a maritime nation in East Asia have surrounded a village of the nation's ethnic minority. If nothing is done, they are in danger of being slaughtered. Break through the government forces' blockade and help the villagers evacuate." />
+    <Entry Key="770616934" Color="1" Value="Assignment from a Western resources corporation. Armed forces in the region have stormed a tanker passing through the Gulf of Aden, and are demanding a massive ransom. Launch a counter-strike against the armed forces and free the tanker and her crew." />
+    <Entry Key="2465874289" Color="1" Value="Assignment from the president of a minor South American nation that has just shifted to civil government. A group of generals displeased with the adoption of democracy have plotted to assassinate the president, and have hired OE to achieve this end. Both snipers and covert strike squads are expected to be employed. Prevent the assassination, and protect the president." />
+    <Entry Key="4112477920" Color="1" Value="Confidential assignment from a Western nation. A Middle Eastern oil nation has been invaded by the national army of its neighbor. The invading force is closing in on the country's main airport as foreign nationals attempt to leave. Slow the advance of the hostile forces to buy time for the civilians to evacuate." />
+    <Entry Key="722872186" Color="1" Value="Unofficial assignment from the UN. Hostile forces have surrounded a refugee camp in the Middle East. The forces claim the camp is harboring guerrillas. The refugees will likely be massacred if nothing is done. Fight off the hostile forces and protect the refugees." />
+    <Entry Key="2987471894" Color="1" Value="Confidential assignment from a Western nation. A pilot of the client nation's newly-developed fighter aircraft has made a forced landing in Eastern Europe and declared his intention to defect. Make a covert infiltration into the airfield, break through the security forces, and destroy the aircraft before it can be studied. The facility is under a heavy lockdown; this infiltration may be a one-way ticket." />
+    <Entry Key="2739293442" Color="1" Value="Assignment from a Central American socialist government. Western-backed militia forces have repeatedly crossed the border and conducted assaults on the country. Deploy to the region and fight off the militia forces. The enemy is equipped with cutting-edge Western weaponry, so defeating them will not be easy." />
+    <Entry Key="2728616990" Color="1" Value="Assignment from pro-independence ethnic group on the frontline in Western Sahara. An OE detachment has occupied port facilities in the region. Eliminate the OE forces and liberate the port facilities. OE's equipment has drastically improved; it seems someone is providing them with financial assistance." />
+    <Entry Key="2542086021" Color="1" Value="Confidential assignment from an Eastern nation. A country in the region is secretly constructing uranium enrichment centrifuges. Infiltrate the country, break through their security forces, and destroy all the enrichment facilities. The assault must be precise in order to avoid leakage of nuclear fuel." />
+    <Entry Key="2730736436" Color="1" Value="Assignment from a mountainous South American nation. A drug cartel based in the nation has been expanding its forces, and is now big enough to threaten the government. Conduct a search-and-destroy operation and disrupt the cartel's drug distribution network. The cartel's massive wealth has provided it with armament on par with a national army." />
+    <Entry Key="3190514363" Color="1" Value="Request from a landlocked West Asian nation. OE squads have been conducting a campaign of sabotage attacks against the nation's almost-complete natural gas pipeline. The Intel Team suspects they are being backed by Cipher, as a means to maintain a grip on the world's energy distribution. Defend the pipeline, and fight off attacking OE units." />
+    <Entry Key="3730910476" Color="1" Value="Unofficial assignment from an international coalition force. An aircraft engaged in peacekeeping activities in a Southeast Asian civil war nation has been shot down by local forces, and the crew have been taken hostage. Deploy to the region and rescue the crew. Insertion and mission success will be severely hampered by the ongoing state of battle." />
+    <Entry Key="1250523900" Color="1" Value="Confidential assignment from a Western nation. A Central American dictatorship has sealed off a canal, interrupting international trade. Infiltrate the capital, break through the presidential guard, and eliminate the dictator. The presidential guard are known for their high morale and fervor. Prepare for a difficult battle." />
+    <Entry Key="2966061846" Color="1" Value="Assignment from a West African oil-producing nation. OE has been hired by rebel forces to occupy an oilfield facility. OE is using its oil-rights-based funding to deploy state-of-the-art weaponry and a sizable force. Eliminate the OE force and retake the oilfield facility." />
+    <Entry Key="1138470711" Color="1" Value="Top secret assignment from a Western nation. Its overseas territory in South America has been occupied by an enemy nation, and the client nation is currently planning a counterattack. Land on the islands in question in advance of the client's main forces, and secure strategic bridgeheads. The enemy has deployed a major force to hold the islands, so success in this mission will not be easy." />
+    <Entry Key="76070475" Color="1" Value="Assignment from a mountainous Southern African nation. OE has invaded the nation and taken control of the mechanisms of government and the national broadcast station. It appears that OE, having lost its oil rights, is making a desperate last stand by attempting to take over a nation. Crush the enemy forces and put a stop to OE's madness. Prepare for total war against everything OE can mobilize." />
+    <Entry Key="4220127486" Color="1" Value="Break Through the Blockade Force" />
+    <Entry Key="3460811466" Color="1" Value="Restore the DMZ" />
+    <Entry Key="2232416632" Color="1" Value="Recapture the Coltan Mine" />
+    <Entry Key="3468586761" Color="1" Value="Search and Destroy Remaining Forces" />
+    <Entry Key="2136507965" Color="1" Value="Break Through the Cordon" />
+    <Entry Key="2989183107" Color="1" Value="Liberate the Tanker" />
+    <Entry Key="1033408543" Color="1" Value="Presidential Escort" />
+    <Entry Key="180212811" Color="1" Value="Assist the Civilian Evacuation" />
+    <Entry Key="3560036674" Color="1" Value="Defend the Refugee Camp" />
+    <Entry Key="3105168447" Color="1" Value="Destroy the New Fighter Aircraft" />
+    <Entry Key="141266645" Color="1" Value="Repel the Border Forces" />
+    <Entry Key="1833473008" Color="1" Value="Recapture the Port Facilities" />
+    <Entry Key="2745738246" Color="1" Value="Destroy the Uranium Centrifuges" />
+    <Entry Key="4076928399" Color="1" Value="Crush the Drug Cartel" />
+    <Entry Key="2057620467" Color="1" Value="Defend the Pipeline" />
+    <Entry Key="3207634976" Color="1" Value="Rescue the Peacekeepers" />
+    <Entry Key="844185194" Color="1" Value="Eliminate the Dictator" />
+    <Entry Key="1515163594" Color="1" Value="Recapture the Oilfield Facility" />
+    <Entry Key="3608340728" Color="1" Value="Secure the Bridgeheads" />
+    <Entry Key="1953518227" Color="1" Value="Prevent the Coup d'état" />
+    <Entry Key="219141610" Color="1" Value="Storage Shed Destruction (Gas Masks)" />
+    <Entry Key="3931288917" Color="1" Value="Storage Shed Destruction (Helmets)" />
+    <Entry Key="41867669" Color="1" Value="Transport Squad Ambush (Surveillance Cameras)" />
+    <Entry Key="4050809325" Color="1" Value="Transport Squad Ambush (Decoys)" />
+    <Entry Key="900269108" Color="1" Value="Munitions Factory Sabotage (Directional Mines)" />
+    <Entry Key="1928816627" Color="1" Value="Munitions Factory Sabotage (Night-vision Goggles)" />
+    <Entry Key="3766568379" Color="1" Value="Storage Shed Destruction (Shotguns)" />
+    <Entry Key="579462121" Color="1" Value="Transport Squad Ambush (Machine Guns)" />
+    <Entry Key="3941124269" Color="1" Value="Storage Shed Destruction (Body Armor)" />
+    <Entry Key="852001748" Color="1" Value="Transport Squad Ambush (Shields)" />
+    <Entry Key="1585904178" Color="1" Value="Munitions Factory Sabotage (Riot Suits)" />
+    <Entry Key="1586470812" Color="1" Value="Storage Shed Destruction (Flashlights)" />
+    <Entry Key="1556920415" Color="1" Value="Transport Squad Ambush (Sniper Rifles)" />
+    <Entry Key="45080680" Color="1" Value="Munitions Factory Sabotage (Missiles)" />
+    <Entry Key="2214773498" Color="1" Value="Destroy enemy storage sheds in the AO (area of operations) to cut off the supply of gas masks to enemy soldiers." />
+    <Entry Key="1219261092" Color="1" Value="Destroy enemy storage sheds in the AO (area of operations) to cut off the supply of helmets to enemy soldiers." />
+    <Entry Key="2731694379" Color="1" Value="Ambush enemy transport squads to cut off the supply of surveillance cameras in the AO (area of operations)." />
+    <Entry Key="117306460" Color="1" Value="Ambush enemy transport squads to cut off the supply of decoys in the AO (area of operations)." />
+    <Entry Key="3778722858" Color="1" Value="Sabotage enemy munitions production facilities to cut off the supply of directional mines in the AO (area of operations)." />
+    <Entry Key="3867014399" Color="1" Value="Sabotage enemy munitions production facilities to cut off the supply of night-vision goggles to enemy soldiers in the AO (area of operations)." />
+    <Entry Key="258778103" Color="1" Value="Destroy enemy storage sheds in the AO (area of operations) to cut off the supply of shotguns to enemy soldiers." />
+    <Entry Key="378572443" Color="1" Value="Ambush enemy transport squads to cut off the supply of machine guns to enemy soldiers in the AO (area of operations)." />
+    <Entry Key="2948145970" Color="1" Value="Destroy enemy storage sheds in the AO (area of operations) to cut off the supply of body armor to enemy soldiers." />
+    <Entry Key="891188664" Color="1" Value="Ambush enemy transport squads to cut off the supply of shields to enemy soldiers in the AO (area of operations)." />
+    <Entry Key="3566337168" Color="1" Value="Sabotage enemy munitions production facilities to cut off the supply of riot suits to enemy soldiers in the AO (area of operations)." />
+    <Entry Key="1977669301" Color="1" Value="Destroy enemy storage sheds in the AO (area of operations) to cut off the supply of flashlights to enemy soldiers." />
+    <Entry Key="1583464130" Color="1" Value="Ambush enemy transport squads to cut off the supply of sniper rifles to enemy soldiers in the AO (area of operations)." />
+    <Entry Key="2196863764" Color="1" Value="Sabotage enemy munitions production facilities to cut off the supply of missiles to enemy soldiers in the AO (area of operations)." />
+  </Entries>
+</LangFile>

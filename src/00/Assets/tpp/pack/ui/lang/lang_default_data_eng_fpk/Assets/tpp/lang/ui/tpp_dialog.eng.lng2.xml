@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="103721065" Color="1" Value="Once staff are fired, they can never return. Are you sure?" />
+    <Entry Key="3370529802" Color="1" Value="Drop in at this position?" />
+    <Entry Key="834786242" Color="1" Value="Accept this mission?" />
+    <Entry Key="628451324" Color="1" Value="Switch to this mission?" />
+    <Entry Key="4236978763" Color="1" Value="%s has been developed.&#xA;&#xA;Request supply drop?" />
+    <Entry Key="1784693021" Color="1" Value="Request development?" />
+    <Entry Key="1434898864" Color="1" Value="This will put your GMP in the red. Are you sure?" />
+    <Entry Key="72940126" Color="1" Value="Request weapon drop?" />
+    <Entry Key="1097262925" Color="1" Value="TOTAL" />
+    <Entry Key="499362594" Color="1" Value="COST" />
+    <Entry Key="113887042" Color="1" Value="FUNDS" />
+    <Entry Key="33009176" Color="1" Value="GMP" />
+    <Entry Key="70115172" Color="1" Value="Construct this platform?" />
+    <Entry Key="1528100100" Color="1" Value="CANCEL" />
+    <Entry Key="2403811423" Color="1" Value="DEFAULT" />
+    <Entry Key="1047475042" Color="1" Value="NO" />
+    <Entry Key="1910281081" Color="1" Value="OK" />
+    <Entry Key="3399075710" Color="1" Value="YES" />
+    <Entry Key="3236028071" Color="1" Value="Helicopter music has been cleared." />
+    <Entry Key="1525465996" Color="1" Value="Music to be played when the support helicopter arrives." />
+    <Entry Key="2895773180" Color="1" Value="Failed to upload rankings.&#xA;Try again?" />
+    <Entry Key="1683454163" Color="1" Value="Failed to obtain rankings.&#xA;Try again?" />
+    <Entry Key="2269258616" Color="1" Value="Failed to register Rival." />
+    <Entry Key="3214138002" Color="1" Value="This player is not logged into game server.&#xA;You cannot register them as a rival." />
+    <Entry Key="3189554786" Color="1" Value="Failed to delete Rival." />
+    <Entry Key="1827336235" Color="1" Value="Failed to obtain Rivals List." />
+    <Entry Key="3489130528" Color="1" Value="Failed to save data.&#xA;Returning to title menu." />
+    <Entry Key="1036043356" Color="1" Value="Failed to save data.&#xA;Your game progress will not be saved.&#xA;Do you want to continue?" />
+    <Entry Key="729987432" Color="1" Value="Failed to save data.&#xA;Reselect data storage device." />
+    <Entry Key="151945175" Color="1" Value="Failed to upload records.&#xA;Try again?" />
+    <Entry Key="2777631487" Color="1" Value="You have signed out.&#xA;You will not be able to use any online features.&#xA;Returning to Title Menu." />
+    <Entry Key="1936285351" Color="1" Value="You have signed out.&#xA;You will not be able to use online features &#xA;such as uploading rankings or records." />
+    <Entry Key="4258347243" Color="1" Value="This will cancel the import process.&#xA;Are you sure?" />
+    <Entry Key="546491235" Color="1" Value="This will import the selected tracks.&#xA;Proceed?" />
+    <Entry Key="2628113984" Color="1" Value="No music tracks that can be imported." />
+    <Entry Key="2268748631" Color="1" Value="Mission will begin.&#xA;Do you want to continue?" />
+    <Entry Key="3253923065" Color="1" Value="Abandon the mission and quit the game?&#xA;All game progress since the last&#xA;checkpoint will be lost." />
+    <Entry Key="3692300308" Color="1" Value="Restart the mission from the beginning?&#xA;All mission progress will be lost." />
+    <Entry Key="2778489364" Color="1" Value="Restart from checkpoint?&#xA;All mission progress since the last&#xA;checkpoint will be lost." />
+    <Entry Key="2677209373" Color="1" Value="Abandon the mission and return to the title screen?&#xA;All mission progress since the last &#xA;checkpoint will be lost." />
+    <Entry Key="2943021064" Color="1" Value="This track has been set as your support helicopter arrival music." />
+    <Entry Key="2956407905" Color="1" Value="Some settings have been changed. &#xA;Your changes will be lost." />
+    <Entry Key="574480641" Color="1" Value="Apply settings changes?" />
+    <Entry Key="252861845" Color="1" Value="Return all settings to their default values?" />
+    <Entry Key="2723581736" Color="1" Value="Spend GMP/materials and begin development?" />
+    <Entry Key="3004634716" Color="1" Value="%s has been developed." />
+    <Entry Key="258521582" Color="1" Value="Reassign all staff?" />
+    <Entry Key="2802646232" Color="1" Value="Return to helicopter?&#xA;All mission progress since the last &#xA;checkpoint will be lost." />
+    <Entry Key="2233882768" Color="1" Value="Cannot be developed as requirements have not been met." />
+    <Entry Key="1021899807" Color="1" Value="Spend GMP/resources and begin development?" />
+    <Entry Key="1387857453" Color="1" Value="Request %s supply drop?" />
+    <Entry Key="3526432080" Color="1" Value="Cancel emergency mission sortie?" />
+    <Entry Key="3269204294" Color="1" Value="Cancel mission sortie?" />
+    <Entry Key="514178525" Color="1" Value="Accept emergency mission?&#xA;&#xA;When accepting an emergency mission, your progress since the last checkpoint is lost. Also, the mission in progress must be restarted from the beginning." />
+    <Entry Key="52374972" Color="1" Value="Abort emergency mission?&#xA;&#xA;If you abort an emergency mission, it will no longer be available." />
+    <Entry Key="2045765223" Color="1" Value="Unequipped&#xA;%s&#xA;as its usage requirements are not met." />
+    <Entry Key="3684677709" Color="1" Value="Supply drop is already en route.&#xA;Unable to accept new request." />
+    <Entry Key="2434803136" Color="1" Value="Apply customization?" />
+    <Entry Key="1706581882" Color="1" Value="Cancel customization?&#xA;Current changes will be discarded." />
+    <Entry Key="2631084568" Color="1" Value="Not all necessary parts have been selected.&#xA;Select all necessary parts." />
+    <Entry Key="1778749127" Color="1" Value="There are one or more parts that cannot be combined with the selected part.&#xA;Select this part anyway?" />
+    <Entry Key="642271171" Color="1" Value="A network error has occurred." />
+    <Entry Key="431161551" Color="1" Value="Add %s to sortie equipment?" />
+    <Entry Key="1079215729" Color="1" Value="Equip %s for this sortie?" />
+    <Entry Key="668312088" Color="1" Value="Artillery support has already been requested.&#xA;Cancel current request and submit a new one?" />
+    <Entry Key="3771163578" Color="1" Value="Request supply drop of %s?" />
+    <Entry Key="1397004521" Color="1" Value="Request supply drop of %s?&#xA;(If resupply is not performed now, it will automatically be upgraded on next sortie.)" />
+    <Entry Key="90068520" Color="1" Value="Request supply drop of %s?" />
+    <Entry Key="3296528063" Color="1" Value="Deploy with %s on next sortie?" />
+    <Entry Key="1857868019" Color="1" Value="Deploy with %s on next sortie?" />
+    <Entry Key="2318071828" Color="1" Value="Deploy with %s on next sortie?" />
+    <Entry Key="1367262126" Color="1" Value="Deploy with %s on next sortie?&#xA;(To change a buddy's weapon or equipment, leave the mission area first.)" />
+    <Entry Key="610118661" Color="1" Value="Deploy with %s on next sortie?&#xA;(To change support helicopter's armament, leave the mission area first.)" />
+    <Entry Key="3490492280" Color="1" Value="Deploy with %s on next sortie?&#xA;(To change Battle Gear's armament, leave the mission area first.)" />
+    <Entry Key="633262735" Color="1" Value="Equip %s for this sortie?" />
+    <Entry Key="1457460761" Color="1" Value="Upgraded %s." />
+    <Entry Key="811482719" Color="1" Value="Equip %s for this sortie?" />
+    <Entry Key="3857330191" Color="1" Value="Deploy with %s on this sortie?" />
+    <Entry Key="1357704553" Color="1" Value="Deploy with %s on this sortie?" />
+    <Entry Key="2703461349" Color="1" Value="Deploy with %s on this sortie?" />
+    <Entry Key="1463103847" Color="1" Value="Abort mission?&#xA;All mission progress will be lost." />
+    <Entry Key="248391603" Color="1" Value="Infiltrating platform.&#xA;Are you sure?" />
+    <Entry Key="1728851618" Color="1" Value="Deploying to defend FOB.&#xA;Are you sure?" />
+    <Entry Key="608687744" Color="1" Value="Dispatch this unit on mission?" />
+    <Entry Key="3359102522" Color="1" Value="Accept all rewards?" />
+    <Entry Key="1724916305" Color="1" Value="Fire selected staff?" />
+    <Entry Key="3928430809" Color="1" Value="Cannot reassign to this unit as this would exceed unit's capacity.&#xA;Reduce the number of staff to reassign." />
+    <Entry Key="2223205828" Color="1" Value="Selected staff includes staff who cannot be fired.&#xA;To proceed with firing, unselect the staff in question.&#xA;&#xA;Non-dismissible staff: %s" />
+    <Entry Key="213790021" Color="1" Value="Purchase these waters?&#xA;%s" />
+    <Entry Key="1173230432" Color="1" Value="You cannot dispatch any more staff." />
+    <Entry Key="3663945342" Color="1" Value="You cannot construct any more FOBs." />
+    <Entry Key="2256732227" Color="1" Value="Accept reward?" />
+    <Entry Key="2370395343" Color="1" Value="You already have valid insurance.&#xA;New insurance will take effect after your current policy expires.&#xA;Proceed?" />
+    <Entry Key="4055412571" Color="1" Value="Signing up for insurance. Are you sure?&#xA;*Once insurance period expires, you will be unable to sign up for a set period of time (the &quot;Usage Interval&quot;)." />
+    <Entry Key="2847033904" Color="1" Value="Discontinue support of this user?" />
+    <Entry Key="1214190249" Color="1" Value="Support this user?" />
+    <Entry Key="309984237" Color="1" Value="Failed to create save data.&#xA;Exit the game and delete save data." />
+    <Entry Key="1231473632" Color="1" Value="Save data is corrupted.  &#xA;Restoring to previous save." />
+    <Entry Key="4101371155" Color="1" Value="Failed to load save data.&#xA;The data could be corrupted.&#xA;&#xA;Create new save data?&#xA;Current data will be overwritten.&#xA;&#xA;Select &quot;NO&quot; to attempt to load current data again." />
+    <Entry Key="3526803270" Color="1" Value="You have signed out.&#xA;You will not be able to use online features.&#xA;&#xA;*You will not be able to use GMP or resources stored in your online inventory.&#xA;Connect online again to access your online inventory." />
+    <Entry Key="639484624" Color="1" Value="As you have not agreed to the Terms of Use, you will not be able to use online features such as uploading rankings or records. You must agree to the Terms of Use in order to use online features.&#xA;&#xA;Begin game in offline mode?" />
+    <Entry Key="2246377083" Color="1" Value="You cannot use this feature because you are in offline mode." />
+    <Entry Key="1799460398" Color="1" Value="Logging in to server..." />
+    <Entry Key="3404051590" Color="1" Value="Logged in to server." />
+    <Entry Key="3917302036" Color="1" Value="Failed to log in to server.&#xA;You will not be able to use online features.&#xA;&#xA;*You will not be able to use GMP or resources stored in your online inventory.&#xA;Connect online again to access your online inventory." />
+    <Entry Key="1168443969" Color="1" Value="Failed to log in to server.&#xA;You will not be able to use online features." />
+    <Entry Key="2265050688" Color="1" Value="The server is undergoing maintenance. You will not be able to use online features such as uploading rankings or records. Game will begin in offline mode.&#xA;&#xA;For maintenance information, visit the official game website.&#xA;&#xA;*You will not be able to use GMP or resources stored in your online inventory.&#xA;Connect online again to access your online inventory." />
+    <Entry Key="1218498030" Color="1" Value="Online services have concluded. You will not be able to use online features such as uploading rankings or records. Game will begin in offline mode. &#xA;&#xA;For further information, visit the official game website.&#xA;&#xA;*You will not be able to use GMP or resources stored in your online inventory.&#xA;Connect online again to access your online inventory." />
+    <Entry Key="4004883383" Color="1" Value="Failed to establish connection with server due to high traffic. You will not be able to use online features such as uploading rankings or records. Game will begin in offline mode.&#xA;&#xA;*You will not be able to use GMP or resources stored in your online inventory.&#xA;Connect online again to access your online inventory." />
+    <Entry Key="3063980308" Color="1" Value="Failed to establish connection with server. You will not be able to use online features such as uploading rankings or records. Game will begin in offline mode.&#xA;&#xA;*You will not be able to use GMP or resources stored in your online inventory.&#xA;Connect online again to access your online inventory." />
+    <Entry Key="1001164855" Color="1" Value="Failed to establish connection with server. You will not be able to use online features such as uploading rankings or records. Game will begin in offline mode." />
+    <Entry Key="2385503179" Color="1" Value="This account is banned from logging in to the game server.&#xA;Rankings and other online functions will be disabled.&#xA;Starting Game..." />
+    <Entry Key="3784637659" Color="1" Value="Connecting to server..." />
+    <Entry LangId="system_3300_all" Color="1" Value="A network error has occurred.&#xA;You will not be able to use online features.&#xA;&#xA;*You will not be able to use GMP or resources stored in your online inventory.&#xA;Connect online again to access your online inventory." />
+    <Entry Key="954097048" Color="1" Value="You have been disconnected from session." />
+    <Entry Key="288779953" Color="1" Value="Another player is already infiltrating.&#xA;FOB infiltration aborted." />
+    <Entry Key="3419374287" Color="1" Value="Infiltrator no longer present.&#xA;Aborting FOB defense." />
+    <Entry Key="764275713" Color="1" Value="Another player is defending.&#xA;Aborting FOB defense." />
+    <Entry Key="458057666" Color="1" Value="Failed to add to Supporting List." />
+    <Entry Key="1769870992" Color="1" Value="Failed to discontinue support." />
+    <Entry Key="849542106" Color="1" Value="Invite received from METAL GEAR ONLINE.&#xA;Starting METAL GEAR ONLINE." />
+    <Entry Key="2828625356" Color="1" Value="Accept METAL GEAR ONLINE invite?&#xA;If you accept, all game progress since last checkpoint will be lost." />
+    <Entry Key="827031978" Color="1" Value="Checking downloadable content..." />
+    <Entry Key="3823628680" Color="1" Value="METAL GEAR SOLID V: GROUND ZEROES&#xA;save data will be downloaded.&#xA;Downloaded save data can be carried over to&#xA;METAL GEAR SOLID V: THE PHANTOM PAIN.&#xA;Download save data?" />
+    <Entry Key="3657335518" Color="1" Value="No save data found.&#xA;Canceling download.&#xA;&#xA;*To carry over save data, you must first start&#xA;METAL GEAR SOLID V: GROUND ZEROES&#xA;and upload your save data." />
+    <Entry Key="3779045271" Color="1" Value="Downloading save data..." />
+    <Entry Key="1152957481" Color="1" Value="Save data download completed." />
+    <Entry Key="305385265" Color="1" Value="Save data download failed." />
+    <Entry Key="1523898137" Color="1" Value="Returning to title menu." />
+    <Entry Key="1931578272" Color="1" Value="Fetching data..." />
+    <Entry Key="2669021153" Color="1" Value="No data found." />
+    <Entry Key="1136185691" Color="1" Value="Failed to fetch data." />
+    <Entry Key="2011803536" Color="1" Value="Exiting session." />
+    <Entry Key="3408687116" Color="1" Value="Entering offline mode." />
+    <Entry Key="649161201" Color="1" Value="Creating session..." />
+    <Entry Key="432236719" Color="1" Value="Failed to create session." />
+    <Entry Key="1408470674" Color="1" Value="No units are available for dispatch.&#xA;&#xA;[HINT]&#xA;Constructing Forward Operating Bases (FOBs) increases the maximum number of units you can dispatch at once." />
+    <Entry Key="3154496568" Color="1" Value="Unit has insufficient staff." />
+    <Entry Key="1248771216" Color="1" Value="Cannot dispatch due to transport vehicle insufficiency.&#xA;&#xA;[HINT]&#xA;Need vehicles? Try Fulton extracting enemy vehicles in the AO." />
+    <Entry Key="2181548024" Color="1" Value="Cannot dispatch due to fighting vehicle insufficiency.&#xA;&#xA;[HINT]&#xA;Need vehicles? Try Fulton extracting enemy vehicles in the AO." />
+    <Entry Key="1511694261" Color="1" Value="Cannot dispatch due to Walker Gear insufficiency.&#xA;&#xA;[HINT]&#xA;Low on Walker Gears? Try Fulton extracting enemy Walker Gears in the AO." />
+    <Entry Key="1799009807" Color="1" Value="This unit is currently dispatched and cannot be selected." />
+    <Entry Key="1190614331" Color="1" Value="Save this emblem?" />
+    <Entry Key="1463537296" Color="1" Value="Emblem has been modified.&#xA;Discard changes?" />
+    <Entry Key="1363815721" Color="1" Value="Use this face?" />
+    <Entry Key="4065940798" Color="1" Value="Face changes will be discarded.&#xA;Are you sure you want to exit?" />
+    <Entry Key="3214160304" Color="1" Value="Move to this location?" />
+    <Entry Key="3193699576" Color="1" Value="Develop nuclear weapon?" />
+    <Entry Key="292551887" Color="1" Value="Dispose of nuclear weapons?" />
+    <Entry Key="3931446164" Color="1" Value="Spend MB Coins to finish immediately?" />
+    <Entry Key="2887151214" Color="1" Value="Spend MB Coins to finish immediately?" />
+    <Entry Key="2208333217" Color="1" Value="Cancel previous request and request %s? Supplies not received will be lost." />
+    <Entry Key="252456068" Color="1" Value="Equip the Chicken Hat?&#xA;If you use the Chicken Hat, enemies will not detect you even if you enter their field of vision (up to three times), but it will limit your mission completion rank to an A or below.&#xA;The Chicken Hat can be turned on/off under Options in the Pause menu." />
+    <Entry Key="2412944721" Color="1" Value="Unable to use this feature since you are in offline mode.&#xA;&#xA;To switch to online mode, select CONNECT ONLINE from the Pause menu." />
+    <Entry Key="2040535018" Color="1" Value="Unable to develop any more simultaneously." />
+    <Entry Key="2529157713" Color="1" Value="Apply recommended settings to platforms of all FOBs?" />
+    <Entry Key="1983981161" Color="1" Value="Apply security settings?" />
+    <Entry Key="1815829876" Color="1" Value="Apply to this platform" />
+    <Entry Key="1704054983" Color="1" Value="Apply to [%s] on all FOBs" />
+    <Entry Key="590742142" Color="1" Value="Apply to all platforms on all FOBs" />
+    <Entry Key="3292152368" Color="1" Value="MB Coins spent." />
+    <Entry Key="3281242418" Color="1" Value="Failed to spend MB Coins.&#xA;Your MB Coin balance is unaffected." />
+    <Entry Key="2022531774" Color="1" Value="Your Supporting List has reached maximum capacity. &#xA;Discontinue support of players you no longer require, and try again." />
+    <Entry Key="1603990458" Color="1" Value="Equip the Lil' Chick Hat?&#xA;The Lil' Chick Hat will prevent enemies from spotting you, but will reduce your mission completion score to 0." />
+    <Entry Key="1991540383" Color="1" Value="Are you sure?" />
+    <Entry Key="3952294378" Color="1" Value="Exchanged rewards can be accepted via the REWARDS screen." />
+    <Entry Key="3993653615" Color="1" Value="Unable to deploy: Battle Gear requirement not met" />
+    <Entry Key="600516312" Color="1" Value="Deploy to FOB for training?&#xA;&#xA;The FOB will not take any damage during training.&#xA;Also, you will not incur costs for equipment used." />
+    <Entry Key="2009099884" Color="1" Value="Visiting FOB.&#xA;Are you sure?" />
+    <Entry Key="4165466612" Color="1" Value="Cancel movement?" />
+    <Entry Key="3050095402" Color="1" Value="Moving to platform.&#xA;Are you sure?" />
+    <Entry Key="783236496" Color="1" Value="Deploying to defend FOB.&#xA;Are you sure?&#xA;There will be no damage to the FOB in question." />
+    <Entry Key="412463736" Color="1" Value="Product in question has already been purchased; no MB Coins spent." />
+    <Entry Key="2719939663" Color="1" Value="Area of operations is different.&#xA;Accept mission from the Aerial Command Center." />
+    <Entry Key="4029599055" Color="1" Value="Deploy?" />
+    <Entry Key="3493176983" Color="1" Value="Change location?" />
+    <Entry Key="1395573789" Color="1" Value="The selected loadout is now designated for rental." />
+    <Entry Key="2034677610" Color="1" Value="Failed to load save data.&#xA;Game progress was saved, but part of the data is corrupted.&#xA;Repairing save data." />
+    <Entry Key="378645327" Color="1" Value="Suspending the tutorial for now." />
+    <Entry Key="3998110118" Color="1" Value="Exit Tutorial" />
+    <Entry Key="458954832" Color="1" Value="Remove uniforms/bandanas that cannot be used during FOB Missions." />
+    <Entry Key="2184245480" Color="1" Value="Other player has left session." />
+    <Entry Key="411793314" Color="1" Value="Apply to all of [%s]" />
+    <Entry Key="1752481111" Color="1" Value="Cancel return to base?" />
+    <Entry Key="2488719884" Color="1" Value="Cancel visit?" />
+    <Entry Key="1792719803" Color="1" Value="You have no open support weapon slots. If you pick up this supply drop, it will replace the last support weapon you equipped.&#xA;Request supply drop?" />
+    <Entry Key="2368754162" Color="1" Value="You have no open item slots. If you pick up this supply drop, it will replace the last item you equipped.&#xA;Request supply drop?" />
+    <Entry Key="870021811" Color="1" Value="Deploy to this position?" />
+    <Entry Key="3322075396" Color="1" Value="Placing injured or ill staff anywhere other than sickbay could worsen their condition and result in death.&#xA;Reassign selected staff?" />
+    <Entry Key="3203323018" Color="1" Value="Ensure that all Word letters fit within the screen." />
+    <Entry Key="3506339318" Color="1" Value="Emblem will be reset to its default design. Are you sure?" />
+    <Entry Key="2112948513" Color="1" Value="An enemy unit has occupied Mother Base.&#xA;(Mother Base: %s)&#xA;Deploy in response?" />
+    <Entry Key="1214284890" Color="1" Value="Intruder detected at FOB.&#xA;(FOB %d: %s)&#xA;Deploy in response?" />
+    <Entry Key="1893380353" Color="1" Value="All nuclear arms have been eliminated from this world." />
+    <Entry Key="3141267184" Color="1" Value="The number of nuclear weapons in this world has been reduced to %d." />
+    <Entry Key="3798751979" Color="1" Value="The number of nuclear weapons in this world has reached %d." />
+    <Entry Key="1111888420" Color="1" Value="Rewards have arrived.&#xA;Check now?" />
+    <Entry Key="2225395550" Color="1" Value="GMP has fallen into the red.&#xA;Staff morale will drop unless remedial measures are taken." />
+    <Entry Key="1533474248" Color="1" Value="Quiet recovered and has been discharged from sickbay." />
+    <Entry Key="3151379134" Color="1" Value="Waters surrounding FOB have been sealed off.&#xA;Rivals cannot infiltrate while waters are sealed off.&#xA;Time until waters re-open: %d:%d" />
+    <Entry Key="4152063593" Color="1" Value="FOB defense successful thanks to supporter backup.&#xA;(FOB %d: %s)" />
+    <Entry Key="1936816503" Color="1" Value="FOB successfully defended from intruder.&#xA;(FOB %d: %s)" />
+    <Entry Key="2818672935" Color="1" Value="FOB defense against intruder failed.&#xA;(FOB %d: %s)&#xA;Inspect damage?" />
+    <Entry Key="170194707" Color="1" Value="Dispatch Mission successful.&#xA;[%s]" />
+    <Entry Key="1169472654" Color="1" Value="Dispatch Mission failed.&#xA;[%s]" />
+    <Entry Key="52388119" Color="1" Value="Construction of FOB %d has been completed." />
+    <Entry Key="3958833432" Color="1" Value="Construction of platform has been completed.&#xA;(FOB %d: %s)" />
+    <Entry Key="659435419" Color="1" Value="Development has been completed.&#xA;[%s: %s]" />
+    <Entry Key="2002780123" Color="1" Value="%d/%d %d:%d (MM/DD HH:MM)" />
+    <Entry Key="2845325736" Color="1" Value="FOB Missions" />
+    <Entry Key="2995160674" Color="1" Value="Dispatch Missions" />
+    <Entry Key="832348049" Color="1" Value="Nuclear Weapons" />
+    <Entry Key="4166964407" Color="1" Value="Mother Base" />
+    <Entry Key="1738878528" Color="1" Value="Apply to all decks of this FOB" />
+    <Entry Key="1521111937" Color="1" Value="Weapon ammunition/suppressors and consumable items cannot be resupplied if you lack the necessary resources, or they have not been developed at Mother Base. &#xA;Request supply drop anyway?" />
+    <Entry Key="2712042552" Color="1" Value="Downloadable content has been added.&#xA;[%s] is now available for development." />
+    <Entry Key="3807351972" Color="1" Value="Downloadable content has been added.&#xA;[Mother Base Staff] can now join your unit.&#xA;&#xA;These staff will gradually join your unit as you progress through the game." />
+    <Entry Key="1659558309" Color="1" Value="Downloadable content has been added.&#xA;Emblem part [%s] is now available." />
+    <Entry Key="1447987205" Color="1" Value="Downloadable content has been deleted.&#xA;[%s]" />
+    <Entry Key="2171313348" Color="1" Value="Downloadable content has been deleted.&#xA;[Mother Base Staff] can no longer join your unit." />
+    <Entry Key="3600679991" Color="1" Value="Downloadable content has been deleted.&#xA;Emblem part [%s] is no longer available.&#xA;&#xA;If this part was in use, your emblem will revert to its default status." />
+    <Entry Key="1896850458" Color="1" Value="Save data transferred.&#xA;[%s] is now available for development." />
+    <Entry Key="3720919348" Color="1" Value="Save data transferred.&#xA;[Mother Base Staff] can now join your unit.&#xA;&#xA;These staff will gradually join your unit as you progress through the game." />
+    <Entry Key="4278481455" Color="1" Value="To view the Web Manual, use a browser to access the official website (http://www.konami.jp/mgs5/) and select &quot;Manual.&quot;" />
+    <Entry Key="703571096" Color="1" Value="Reduced Time features cannot be used in offline mode." />
+    <Entry Key="1513412359" Color="1" Value="Cannot be developed as requirements have not been met.&#xA;[%s %s] must be developed first." />
+    <Entry Key="1839709901" Color="1" Value="This tool is already upgraded to its maximum ability.&#xA;(Tools cannot be downgraded.)" />
+    <Entry Key="165343113" Color="1" Value="You have already completed this SIDE OP." />
+    <Entry Key="1053078309" Color="1" Value="You are currently in a mission.&#xA;Complete this SIDE OP during free roam." />
+    <Entry Key="612602619" Color="1" Value="Area of operations is different.&#xA;Move to the correct location from the Aerial Command Center." />
+    <Entry Key="240448278" Color="1" Value="Move to this SIDE OP location?" />
+    <Entry Key="4232078149" Color="1" Value="This will assign all staff in the Waiting Room to the units that suit them best.&#xA;Proceed?" />
+    <Entry Key="3436718505" Color="1" Value="This will reassign all staff to the units that suit them best.&#xA;Proceed?" />
+    <Entry Key="2505847470" Color="1" Value="Staff cannot be fired or dispatched while quarantine is in effect." />
+    <Entry Key="1960770152" Color="1" Value="This FOB is operating with a nuclear deterrent.&#xA;A great deal of Heroism is required to infiltrate it." />
+    <Entry Key="3550878695" Color="1" Value="Save data has been rebuilt." />
+    <Entry Key="1608634599" Color="1" Value="Confirming your selection.&#xA;If you choose not to rebuild data, previous server data will be deleted.&#xA;Are you sure?" />
+    <Entry Key="4055193933" Color="1" Value="Confirming your selection.&#xA;Are you sure you want to rebuild save data using previous data?&#xA;*Not all data may be recovered." />
+    <Entry Key="226919326" Color="1" Value="There is previous Mother Base data for this account on the server.&#xA;Rebuild save data using previous data?&#xA;*Not all data may be recovered.&#xA;*If you choose not to rebuild data, previous server data will be deleted." />
+    <Entry Key="475167974" Color="1" Value="Exchange points for rewards?" />
+    <Entry Key="1946810609" Color="1" Value="Equip new items at the Sortie Prep screen." />
+    <Entry Key="182599838" Color="1" Value="This will reassign all staff to the units that suit them best." />
+    <Entry Key="1532321019" Color="1" Value="This will assign all staff in the Waiting Room to the units that suit them best." />
+    <Entry Key="793553088" Color="1" Value="Failed to protect FOB from intruder.&#xA;&#xA;You incurred losses to security devices.&#xA;Loss total:&#xA;%d GMP&#xA;Compensation from insurance:&#xA;%d GMP" />
+    <Entry Key="480782647" Color="1" Value="Intruder has already vacated FOB." />
+    <Entry Key="2793001174" Color="1" Value="Are you sure you want to go to METAL GEAR ONLINE?" />
+    <Entry Key="910604122" Color="1" Value="You have received an invitation to play METAL GEAR ONLINE &#xA;but you cannot accept until you have proceeded further into the game." />
+    <Entry Key="2757015146" Color="1" Value="You have received an invitation to play METAL GEAR ONLINE &#xA;but you cannot accept since you have not agreed to the terms of use." />
+    <Entry Key="726329194" Color="1" Value="Items or ammo/suppressors for use with weapons not yet developed at Mother Base will be excluded from the supply drop.&#xA;Request supply drop?" />
+    <Entry Key="2255048063" Color="1" Value="Certain types of ammo/suppressors or items may not be included in the supply drop due to a lack of necessary resources.&#xA;Request supply drop?" />
+    <Entry Key="611899955" Color="1" Value="You are already connected to the server." />
+    <Entry Key="623284363" Color="1" Value="A network error occurred while processing your MB Coin transaction.&#xA;The game will continue in offline mode.&#xA;You may confirm your MB Coin transaction the next time you are online." />
+    <Entry Key="1348433004" Color="1" Value="Failed to spend MB Coins.&#xA;You do not have enough MB Coins." />
+    <Entry Key="2285412292" Color="1" Value="You must update the game in order to use online features." />
+    <Entry Key="2567692021" Color="1" Value="Unable to use this feature since you are in offline mode.&#xA;&#xA;To switch to online mode, select CONNECT ONLINE from the Pause menu in the Aerial Command Center (ACC)." />
+    <Entry Key="2704369121" Color="1" Value="You must be signed in to play METAL GEAR ONLINE." />
+    <Entry Key="916465217" Color="1" Value="Failed to start METAL GEAR ONLINE." />
+    <Entry Key="2340234572" Color="1" Value="Resuming METAL GEAR SOLID V: THE PHANTOM PAIN." />
+    <Entry Key="1205760559" Color="1" Value="Checking METAL GEAR ONLINE game data..." />
+    <Entry Key="3596176363" Color="1" Value="You have received an invitation to play METAL GEAR ONLINE, &#xA;but you cannot accept until you finish your current FOB Mission." />
+    <Entry Key="875522179" Color="1" Value="Abort emergency mission?&#xA;&#xA;If you abort an emergency mission, it will no longer be available.&#xA;*Espionage Points will be decreased." />
+    <Entry Key="660254516" Color="1" Value="Abort FOB mission?&#xA;FOB mission will be considered lost.&#xA;&#xA;*A retaliatory wormhole of the infiltrated FOB will open." />
+    <Entry Key="4016897418" Color="1" Value="Invitations can not be accepted with this version." />
+    <Entry Key="531970408" Color="1" Value="Checking installed game data." />
+    <Entry Key="1941474713" Color="1" Value="Downloadable content &quot;MGSV: TPP UPDATE DATA&quot; not found.&#xA;This feature cannot be used. " />
+    <Entry Key="2605076497" Color="1" Value="This player cannot lend or accept support since they do not yet own an FOB." />
+    <Entry Key="2760750758" Color="1" Value="Added to Supporters list." />
+    <Entry Key="529513721" Color="1" Value="Starting METAL GEAR ONLINE." />
+    <Entry Key="2023807075" Color="1" Value="You have not yet progressed far enough in the main game to access METAL GEAR ONLINE. Starting METAL GEAR SOLID V: THE PHANTOM PAIN instead. " />
+  </Entries>
+</LangFile>

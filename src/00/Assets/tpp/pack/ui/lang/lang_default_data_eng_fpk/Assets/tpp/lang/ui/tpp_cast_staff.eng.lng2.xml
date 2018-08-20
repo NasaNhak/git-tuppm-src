@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry LangId="staff_hideo_kojima" Color="1" Value="Hideo Kojima" />
+    <Entry Key="3127242405" Color="1" Value="Kenichiro Imaizumi" />
+    <Entry Key="2665995939" Color="1" Value="Kojima Productions Presents" />
+    <Entry LangId="staff_yuji_korekado" Color="1" Value="Yuji Korekado" />
+    <Entry Key="1660116707" Color="1" Value="Ikuya Nakamura" />
+    <Entry LangId="staff_yoshikazu_matsuhana" Color="1" Value="Yoshikazu Matsuhana" />
+    <Entry LangId="staff_hidenari_inamura" Color="1" Value="Hidenari Inamura" />
+    <Entry LangId="staff_shuyo_murata" Color="1" Value="Shuyo Murata" />
+    <Entry LangId="staff_etsu_tamari" Color="1" Value="Etsu Tamari" />
+    <Entry LangId="staff_satoshi_matsuno" Color="1" Value="Satoshi Matsuno" />
+    <Entry LangId="staff_tsuyoshi_osada" Color="1" Value="Tsuyoshi Osada" />
+    <Entry LangId="staff_jordan_amaro" Color="1" Value="Jordan Amaro" />
+    <Entry LangId="staff_takashi_hanyu" Color="1" Value="Takashi Hanyu" />
+    <Entry Key="3845876512" Color="1" Value="Atsuki Imada" />
+    <Entry LangId="staff_takuya_imaeda" Color="1" Value="Takuya Imaeda" />
+    <Entry Key="1314297312" Color="1" Value="Nobuyuki Imai" />
+    <Entry Key="3790594892" Color="1" Value="Tadashi Iwatou" />
+    <Entry LangId="staff_yuji_kaine" Color="1" Value="Yuji Kaine" />
+    <Entry LangId="staff_youngho_kim" Color="1" Value="Youngho Kim" />
+    <Entry LangId="staff_tadanobu_kishi" Color="1" Value="Tadanobu Kishi" />
+    <Entry Key="1135079922" Color="1" Value="Yosuke Kitazono" />
+    <Entry LangId="staff_arata_matsushita" Color="1" Value="Arata Matsushita" />
+    <Entry LangId="staff_ryo_nagatsuka" Color="1" Value="Ryo Nagatsuka" />
+    <Entry Key="2264490006" Color="1" Value="Takashi Nakagawa" />
+    <Entry LangId="staff_yu_sahara" Color="1" Value="Yu Sahara" />
+    <Entry Key="312383758" Color="1" Value="Masaki Saito" />
+    <Entry Key="1088227042" Color="1" Value="Kazuki Sakai" />
+    <Entry LangId="staff_naoyuki_shiraishi" Color="1" Value="Naoyuki Shiraishi" />
+    <Entry LangId="staff_takuya_sokukawa" Color="1" Value="Takuya Sokukawa" />
+    <Entry Key="4211999580" Color="1" Value="Runa Sugiyama" />
+    <Entry Key="1602323076" Color="1" Value="Takayoshi Takeuchi" />
+    <Entry LangId="staff_ziang_tan" Color="1" Value="Ziang Tan" />
+    <Entry LangId="staff_yusuke_tanaka" Color="1" Value="Yusuke Tanaka" />
+    <Entry LangId="staff_yota_tsutsumizaki" Color="1" Value="Yota Tsutsumizaki" />
+    <Entry LangId="staff_takeo_yagi" Color="1" Value="Takeo Yagi" />
+    <Entry LangId="staff_mokuto_yamamoto" Color="1" Value="Mokuto Yamamoto" />
+    <Entry LangId="staff_shinpei_yamamoto" Color="1" Value="Shinpei Yamamoto" />
+    <Entry LangId="staff_hiroaki_yoshiike" Color="1" Value="Hiroaki Yoshiike" />
+    <Entry Key="1948703563" Color="1" Value="Directed by" />
+    <Entry LangId="post_guest_characters" Color="1" Value="Guest Starring" />
+    <Entry LangId="post_level_design" Color="1" Value="Level Design" />
+    <Entry Key="3232909766" Color="1" Value="Producers" />
+    <Entry LangId="post_starring" Color="1" Value="Starring" />
+    <Entry LangId="post_wrriten_by" Color="1" Value="Written by" />
+    <Entry LangId="cast_kazuhira_miller" Color="1" Value="Benedict &quot;Kazuhira&quot; Miller" />
+    <Entry LangId="cast_sharashka_ocelot" Color="1" Value="Revolver &quot;Shalashaska&quot; Ocelot" />
+    <Entry LangId="cast_soldier_skulls" Color="1" Value="The &quot;SKULLS&quot; Parasite Unit" />
+    <Entry LangId="cast_soviet_soldiers" Color="1" Value="The Soviet Guards Airborne Regiment" />
+    <Entry LangId="cast_venom_snake" Color="1" Value="Punished &quot;Venom&quot; Snake" />
+    <Entry Key="3440636932" Color="1" Value="AND" />
+    <Entry Key="4153173125" Color="1" Value="J.F.Rey Eyewear" />
+    <Entry Key="3047137944" Color="1" Value="JF1142" />
+    <Entry LangId="cast_american_technician" Color="1" Value="The American Technician" />
+    <Entry LangId="cast_arms_dealer" Color="1" Value="The Arms Dealer" />
+    <Entry LangId="cast_bionics_engineer" Color="1" Value="The Bionics Engineer" />
+    <Entry LangId="cast_cfa" Color="1" Value="The Contract Forces of Africa" />
+    <Entry LangId="cast_cfa_executive" Color="1" Value="The CFA Executive" />
+    <Entry LangId="cast_child_soldiers" Color="1" Value="Child Soldiers" />
+    <Entry LangId="cast_child_soldiers_leader" Color="1" Value="Leader of the Child Soldiers" />
+    <Entry Key="1639447343" Color="1" Value="Chopper Pilot" />
+    <Entry LangId="cast_code_talker" Color="1" Value="Old Diné &quot;Code Talker&quot;" />
+    <Entry LangId="cast_da_shago_kallai_platoon_cmdr" Color="1" Value="Shago Platoon Commander" />
+    <Entry LangId="cast_da_wialo_kallai_company_cmdr" Color="1" Value="Wialo Company Commander" />
+    <Entry LangId="cast_diamond_dog_soldiers" Color="1" Value="Diamond Dog Soldiers" />
+    <Entry LangId="cast_emmerich" Color="1" Value="Dr. &quot;Huey&quot; Emmerich" />
+    <Entry Key="306666497" Color="1" Value="Gunsmith" />
+    <Entry LangId="cast_hamid_fighters_mujahid" Color="1" Value="Hamid Mujahideen Survivor" />
+    <Entry LangId="cast_intel_team_member" Color="1" Value="The Intel Team Member" />
+    <Entry LangId="cast_intel_team_members" Color="1" Value="Intel Team Members" />
+    <Entry Key="3050918524" Color="1" Value="ISHMAEL" />
+    <Entry LangId="cast_lamar_khaate_palace_prisoner_escort" Color="1" Value="Lamar Khaate Palace Prisoner Escort" />
+    <Entry LangId="cast_major" Color="1" Value="&quot;The Major&quot;" />
+    <Entry LangId="cast_malak" Color="1" Value="Malak" />
+    <Entry LangId="cast_man_on_fire" Color="1" Value="The Man on Fire" />
+    <Entry LangId="cast_mbelle_prisoner" Color="1" Value="The Mbele Prisoner" />
+    <Entry LangId="cast_mbelle_squad" Color="1" Value="The Mbele Squad" />
+    <Entry LangId="cast_militants_no.2" Color="1" Value="Militants' No.2" />
+    <Entry LangId="cast_mosquito" Color="1" Value="Mosquito" />
+    <Entry LangId="cast_quiet" Color="1" Value="Sniper &quot;Quiet&quot;" />
+    <Entry LangId="cast_rogue_coyote" Color="1" Value="Rogue Coyote" />
+    <Entry LangId="cast_sahelanthropus" Color="1" Value="Sahelanthropus" />
+    <Entry LangId="cast_sakhra_ee_village_colonel" Color="1" Value="Sakhra Ee Village Colonel" />
+    <Entry LangId="cast_shabani" Color="1" Value="Shabani" />
+    <Entry LangId="cast_skull_face" Color="1" Value="Skull Face" />
+    <Entry Key="2882913194" Color="1" Value="SNAKE" />
+    <Entry Key="432169502" Color="1" Value="Diamond Dog Soldiers" />
+    <Entry Key="1951024377" Color="1" Value="Soldier &quot;Mist Unit&quot;" />
+    <Entry LangId="cast_spetsnaz_commander" Color="1" Value="The Spetsnaz Commander" />
+    <Entry LangId="cast_technicians_assistant" Color="1" Value="The Technician's Assistant" />
+    <Entry LangId="cast_trafficker" Color="1" Value="The Trafficker" />
+    <Entry LangId="cast_tretij_rebenok" Color="1" Value="Tretij Rebenok" />
+    <Entry LangId="cast_tt-77" Color="1" Value="Battle Tank &quot;TT77 Nosorog&quot;" />
+    <Entry LangId="cast_viscount" Color="1" Value="&quot;The Viscount&quot;" />
+    <Entry Key="4202925771" Color="1" Value="VOLGIN" />
+    <Entry LangId="cast_wakh_sind_barracks_platoon_cmdr" Color="1" Value="Wakh Sind Platoon Commander" />
+    <Entry LangId="cast_white_manba" Color="1" Value="Eli the &quot;White Mamba&quot;" />
+    <Entry LangId="cast_zerorisk_security" Color="1" Value="Zero Risk Security" />
+    <Entry LangId="post_special_mechanic" Color="1" Value="Featured Mecha" />
+    <Entry LangId="staff_satoshi_hirano" Color="1" Value="Satoshi Hirano" />
+    <Entry LangId="telop_kde_presents" Color="1" Value="KONAMI DIGITAL ENTERTAINMENT PRESENTS" />
+    <Entry LangId="telop_kjp" Color="1" Value="KOJIMA PRODUCTIONS" />
+    <Entry LangId="telop_hideo_kojima_game" Color="1" Value="A HIDEO KOJIMA GAME" />
+    <Entry Key="1771291302" Color="1" Value="Akihiro Honda" />
+    <Entry Key="2292248078" Color="1" Value="Akihiro Teruta" />
+    <Entry Key="3410556473" Color="1" Value="Akira Kanke" />
+    <Entry Key="3806212961" Color="1" Value="Brian Robison" />
+    <Entry Key="1363085606" Color="1" Value="Harry Gregson-Williams" />
+    <Entry Key="188472698" Color="1" Value="Hideki Sasaki" />
+    <Entry Key="1598620722" Color="1" Value="Junji Tago" />
+    <Entry Key="95323529" Color="1" Value="Kazuki Muraoka" />
+    <Entry Key="1902584533" Color="1" Value="Keiichi Matate" />
+    <Entry Key="3388848561" Color="1" Value="Kotaro Oki" />
+    <Entry Key="4126597620" Color="1" Value="Ludvig Forssell" />
+    <Entry Key="638291294" Color="1" Value="Makoto Sonoyama" />
+    <Entry Key="2793060008" Color="1" Value="Masaaki Kawata" />
+    <Entry Key="1097979327" Color="1" Value="Masayuki Suzuki" />
+    <Entry Key="336695858" Color="1" Value="Mineshi Kimura" />
+    <Entry Key="284918411" Color="1" Value="Motosada Mori" />
+    <Entry Key="4194019062" Color="1" Value="Norifumi Hosoya" />
+    <Entry Key="3174129350" Color="1" Value="Ryoji Makimura" />
+    <Entry Key="3908719082" Color="1" Value="Steve Henifin" />
+    <Entry Key="3740171689" Color="1" Value="Takehiro Nomura" />
+    <Entry Key="3011149174" Color="1" Value="Takeya Inoguchi" />
+    <Entry Key="290400676" Color="1" Value="Tsuyoshi Osada" />
+    <Entry Key="2702309618" Color="1" Value="Yasuhiro Ikoma" />
+    <Entry Key="1223280977" Color="1" Value="Yoji Shinkawa" />
+    <Entry Key="2802938428" Color="1" Value="Yoshiharu Nishiyama" />
+    <Entry Key="2272996875" Color="1" Value="Justin Burnett" />
+    <Entry Key="4055020169" Color="1" Value="Story / Planning / Game Design" />
+    <Entry Key="4056697052" Color="1" Value="Character &amp; Mechanical Design" />
+    <Entry Key="1116434846" Color="1" Value="Music Produced by" />
+    <Entry Key="261381595" Color="1" Value="Music by" />
+    <Entry Key="3255095499" Color="1" Value="Lighting Supervisor" />
+    <Entry Key="1999860056" Color="1" Value="Lead Level Designers" />
+    <Entry Key="3978199006" Color="1" Value="Lead Programmers" />
+    <Entry Key="3723026333" Color="1" Value="Technical Director" />
+    <Entry Key="678124944" Color="1" Value="CG Art Director" />
+    <Entry Key="3966835491" Color="1" Value="Lead Character Artist" />
+    <Entry Key="2290495407" Color="1" Value="Lead Weapon / Mechanical Artist" />
+    <Entry Key="2169846653" Color="1" Value="Lead Environment Artist" />
+    <Entry Key="1470075076" Color="1" Value="Lead Effects Artist" />
+    <Entry Key="3067300250" Color="1" Value="Lead UI Artist" />
+    <Entry Key="2280802628" Color="1" Value="Lead Animator" />
+    <Entry Key="663724108" Color="1" Value="Lead Cinematic Artist" />
+    <Entry Key="3836907221" Color="1" Value="Lead Lighting Artist" />
+    <Entry Key="2998215234" Color="1" Value="Sound Director" />
+    <Entry Key="1291684427" Color="1" Value="Lead Composer" />
+    <Entry Key="2696043303" Color="1" Value="Composer" />
+    <Entry Key="2167369372" Color="1" Value="Lead Sound Designer" />
+    <Entry Key="1003699098" Color="1" Value="Lead Sound Editor" />
+    <Entry Key="3021766554" Color="1" Value="Art Director" />
+    <Entry Key="3770121992" Color="1" Value="Co-Director" />
+    <Entry LangId="post_Creative_Producers" Color="1" Value="Creative Producers" />
+    <Entry Key="1433869800" Color="1" Value="Military Advisor" />
+    <Entry Key="3439905092" Color="1" Value="Kiefer Sutherland" />
+    <Entry Key="764981647" Color="1" Value="Robin Atkin Downes" />
+    <Entry Key="1661655020" Color="1" Value="Troy Baker" />
+    <Entry Key="2408101468" Color="1" Value="Stefanie Joosten" />
+    <Entry Key="4040173011" Color="1" Value="Christopher Randolph" />
+    <Entry Key="1831494909" Color="1" Value="Piers Stubbs" />
+    <Entry Key="2334228611" Color="1" Value="Jay Tavare" />
+    <Entry Key="135491652" Color="1" Value="James Horan" />
+    <Entry Key="837693259" Color="1" Value="Time Winters" />
+    <Entry Key="321949181" Color="1" Value="Tara Strong" />
+    <Entry Key="3287966649" Color="1" Value="Dave Fouquette" />
+    <Entry Key="3558393155" Color="1" Value="Vanessa Marshall" />
+    <Entry Key="1879663989" Color="1" Value="Lori Alan" />
+    <Entry Key="3670340997" Color="1" Value="Akio Ohtsuka" />
+    <Entry Key="2521023617" Color="1" Value="Tomokazu Sugita" />
+    <Entry Key="2299058601" Color="1" Value="Satoshi Mikami" />
+    <Entry Key="2583940661" Color="1" Value="Hideyuki Tanaka" />
+    <Entry Key="2614793460" Color="1" Value="Osamu Saka" />
+    <Entry Key="1776963996" Color="1" Value="Yutaro Honjo" />
+    <Entry Key="3512971588" Color="1" Value="Banjo Ginga" />
+    <Entry Key="1794000334" Color="1" Value="Nana Mizuki" />
+    <Entry Key="1742290309" Color="1" Value="Yumi Kikuchi" />
+    <Entry Key="728322661" Color="1" Value="Kikuko Inoue" />
+    <Entry LangId="post_Enemy_Combatants" Color="1" Value="Enemy Combatants" />
+    <Entry LangId="cast_Spetsnaz" Color="1" Value="Spetsnaz" />
+    <Entry LangId="cast_Walker_Gear" Color="1" Value="Walker Gear" />
+    <Entry Key="1714386671" Color="1" Value="Cipher's &quot;XOF&quot; Strike Force" />
+    <Entry Key="3599413295" Color="1" Value="Eli the &quot;White Mamba&quot;" />
+    <Entry LangId="cast_The_CIA_Agent" Color="1" Value="The CIA Agent" />
+    <Entry LangId="cast_The_XOF_Agent" Color="1" Value="The XOF Agent" />
+    <Entry LangId="cast_Lufwa_Valley_Commander" Color="1" Value="Lufwa Valley Commander" />
+    <Entry LangId="cast_Armored_Column_Commander" Color="1" Value="Armored Column Commander" />
+    <Entry Key="3890938946" Color="1" Value="Takaya Hashi" />
+    <Entry Key="349237981" Color="1" Value="Donna Burke" />
+    <Entry Key="858465186" Color="1" Value="iDROID" />
+    <Entry Key="1372477269" Color="1" Value="Christos Vasilopoulos" />
+    <Entry Key="3770802453" Color="1" Value="Hochu Otsuka" />
+    <Entry LangId="cast_HP-48_Krokodil" Color="1" Value="Attack Helicopter &quot;HP-48 Krokodil&quot;" />
+    <Entry LangId="cast_Zhuk_RS-ZO" Color="1" Value="Multi-Rocket Launcher &quot;Zhuk RS-ZO&quot;" />
+    <Entry LangId="cast_UTH-66_Blackfoot" Color="1" Value="Utility Helicopter &quot;UTH-66 Blackfoot&quot;" />
+    <Entry LangId="cast_Stout_IFV-FS" Color="1" Value="Fire Support Vehicle &quot;Stout IFV-FS&quot;" />
+    <Entry LangId="cast_M84A_Magloader" Color="1" Value="Battle Tank &quot;M84A Magloader&quot;" />
+    <Entry LangId="post_Created_and_Directed_by" Color="1" Value="Created and Directed by" />
+    <Entry Key="671489315" Color="1" Value="Big Boss" />
+    <Entry Key="2325162148" Color="1" Value="&quot;Paz&quot; Pacifica Ocean" />
+    <Entry Key="2470051406" Color="1" Value="OCELOT GEAR" />
+    <Entry Key="4005636992" Color="1" Value="KAZ GEAR" />
+    <Entry Key="357703420" Color="1" Value="HIDEO GEAR" />
+    <Entry Key="2713257805" Color="1" Value="Xinpeng Huang" />
+    <Entry Key="2906051720" Color="1" Value="Julien Merceron" />
+    <Entry Key="2879318625" Color="1" Value="Shutaro Iida" />
+    <Entry Key="3885583631" Color="1" Value="Kazuki Yanashima" />
+    <Entry Key="2290277459" Color="1" Value="Masao Awaji" />
+    <Entry Key="3198676320" Color="1" Value="Yusuke Nishida" />
+    <Entry Key="2601893579" Color="1" Value="Masayuki Kobayashi" />
+    <Entry Key="736293235" Color="1" Value="Akio Sakamoto" />
+    <Entry Key="4215299787" Color="1" Value="Kunio Takabe" />
+    <Entry Key="3129087615" Color="1" Value="Hironobu Matsui" />
+    <Entry Key="465008250" Color="1" Value="Yoshikazu Hara" />
+    <Entry Key="2848427578" Color="1" Value="Takayuki Uchida" />
+    <Entry Key="805985511" Color="1" Value="Noriaki Nishimura" />
+    <Entry Key="2265933749" Color="1" Value="Technical Supervisor" />
+    <Entry Key="341128664" Color="1" Value="Lead Planners" />
+    <Entry Key="1029097712" Color="1" Value="Lead Scripter" />
+    <Entry Key="3660165002" Color="1" Value="UI Design" />
+    <Entry Key="975767822" Color="1" Value="Lead Programmer" />
+    <Entry Key="1176934527" Color="1" Value="Lead Game Programmers" />
+    <Entry Key="3031902531" Color="1" Value="Lead UI Programmer" />
+    <Entry Key="551390284" Color="1" Value="Lead FX Programmer" />
+    <Entry Key="685877140" Color="1" Value="Lead Animation Programmer" />
+    <Entry Key="2021927316" Color="1" Value="Lead Network Programmer" />
+    <Entry Key="3656504407" Color="1" Value="Technical Directors" />
+    <Entry Key="678124944" Color="1" Value="CG Art Director" />
+    <Entry Key="144506900" Color="1" Value="Lead Character Artists" />
+    <Entry Key="2571172198" Color="1" Value="Lead Weapon / Mechanical Artists" />
+    <Entry Key="1847571647" Color="1" Value="Lead Environment Artists" />
+    <Entry Key="1470075076" Color="1" Value="Lead Effects Artist" />
+    <Entry Key="3067300250" Color="1" Value="Lead UI Artist" />
+    <Entry Key="3662719010" Color="1" Value="Noriaki Okamura" />
+    <Entry Key="3612947982" Color="1" Value="Daizaburo Nakamura" />
+    <Entry Key="2453725276" Color="1" Value="Sniper &quot;Quiet&quot;" />
+    <Entry Key="922620449" Color="1" Value="Lead Cinematic Artists" />
+  </Entries>
+</LangFile>

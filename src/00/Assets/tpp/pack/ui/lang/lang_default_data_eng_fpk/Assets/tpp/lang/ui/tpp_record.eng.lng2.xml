@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry Key="2509466820" Color="1" Value="Play Records" />
+    <Entry Key="2380996754" Color="1" Value="Base Records" />
+    <Entry Key="1748091302" Color="1" Value="Animal Records" />
+    <Entry Key="586275188" Color="1" Value="Completion" />
+    <Entry Key="3147587081" Color="1" Value="Play time" />
+    <Entry Key="1433597083" Color="1" Value="Free roam time" />
+    <Entry Key="517014489" Color="1" Value="Mission play time" />
+    <Entry Key="3821363498" Color="1" Value="Missions completed" />
+    <Entry Key="1774623673" Color="1" Value="Perfect stealth, no kills completions" />
+    <Entry Key="421677906" Color="1" Value="Stealth completions" />
+    <Entry Key="352361348" Color="1" Value="Mission completions using Chicken Hat" />
+    <Entry Key="3168219273" Color="1" Value="Retries" />
+    <Entry Key="3924099996" Color="1" Value="Buddy deployments" />
+    <Entry Key="2793776067" Color="1" Value="Tactical takedowns" />
+    <Entry Key="2185773658" Color="1" Value="Headshots" />
+    <Entry Key="3702627470" Color="1" Value="Neutralizations" />
+    <Entry Key="320977681" Color="1" Value="Hold-ups" />
+    <Entry Key="1970480834" Color="1" Value="CQC (non-lethal)" />
+    <Entry Key="607023231" Color="1" Value="Non-lethal weapons" />
+    <Entry Key="3850219269" Color="1" Value="Knife" />
+    <Entry Key="3998749227" Color="1" Value="Handgun (lethal)" />
+    <Entry Key="1934614062" Color="1" Value="Handheld/mounted machine guns" />
+    <Entry Key="317913056" Color="1" Value="Throwing weapons (lethal)" />
+    <Entry Key="768042647" Color="1" Value="Placed weapons (lethal)" />
+    <Entry Key="1881745105" Color="1" Value="Vehicles" />
+    <Entry Key="2048715953" Color="1" Value="Support helicopter" />
+    <Entry Key="3265148681" Color="1" Value="Fire support" />
+    <Entry Key="2280060919" Color="1" Value="Kills" />
+    <Entry Key="707815192" Color="1" Value="Vehicles destroyed" />
+    <Entry Key="600270403" Color="1" Value="Walker Gears destroyed" />
+    <Entry Key="3522520126" Color="1" Value="Gunships destroyed" />
+    <Entry Key="1987925798" Color="1" Value="Weapon emplacements destroyed" />
+    <Entry Key="3740270856" Color="1" Value="Security devices destroyed" />
+    <Entry Key="707416864" Color="1" Value="Mines cleared" />
+    <Entry Key="2056294617" Color="1" Value="Outposts captured" />
+    <Entry Key="2099029765" Color="1" Value="Guard posts captured" />
+    <Entry Key="1161957555" Color="1" Value="Interrogations" />
+    <Entry Key="3787617362" Color="1" Value="Times spotted" />
+    <Entry Key="4140051094" Color="1" Value="Reflex mode activations" />
+    <Entry Key="1986863065" Color="1" Value="Enemy combat alerts triggered" />
+    <Entry Key="1878670753" Color="1" Value="Hits taken" />
+    <Entry Key="1091756275" Color="1" Value="Recruits added" />
+    <Entry Key="236092285" Color="1" Value="Prisoners rescued" />
+    <Entry Key="754731575" Color="1" Value="Soldiers extracted" />
+    <Entry Key="3460875806" Color="1" Value="Volunteers" />
+    <Entry Key="366158544" Color="1" Value="Staff rescued" />
+    <Entry Key="3332773322" Color="1" Value="Former staff" />
+    <Entry Key="3541368817" Color="1" Value="Staff KIA" />
+    <Entry Key="683921723" Color="1" Value="Staff abductees" />
+    <Entry Key="3605889463" Color="1" Value="Staff fired" />
+    <Entry Key="2792749695" Color="1" Value="AWOL staff" />
+    <Entry Key="928491011" Color="1" Value="Total GMP income" />
+    <Entry Key="699767792" Color="1" Value="Total GMP expenses" />
+    <Entry Key="3675686657" Color="1" Value="Total Heroism increases" />
+    <Entry Key="4026185795" Color="1" Value="Total Heroism decreases" />
+    <Entry Key="3147312790" Color="1" Value="Spoils of war" />
+    <Entry Key="54867937" Color="1" Value="Animals taken into care" />
+    <Entry Key="2425699539" Color="1" Value="Mission completion" />
+    <Entry Key="2796811480" Color="1" Value="Mission task completion" />
+    <Entry Key="4294236536" Color="1" Value="SIDE OPS completion" />
+    <Entry Key="2183711044" Color="1" Value="Handguns developed" />
+    <Entry Key="1466287145" Color="1" Value="Submachine guns developed" />
+    <Entry Key="39751321" Color="1" Value="Assault rifles developed" />
+    <Entry Key="568323767" Color="1" Value="Shotguns developed" />
+    <Entry Key="764884518" Color="1" Value="Grenade launchers developed" />
+    <Entry Key="2414313605" Color="1" Value="Sniper rifles developed" />
+    <Entry Key="2073336776" Color="1" Value="Machine guns developed" />
+    <Entry Key="3026551534" Color="1" Value="Missile launchers developed" />
+    <Entry Key="4008882642" Color="1" Value="Support weapons developed" />
+    <Entry Key="2264253062" Color="1" Value="Items developed" />
+    <Entry Key="3762729998" Color="1" Value="Tools developed" />
+    <Entry Key="143615172" Color="1" Value="Prostheses developed" />
+    <Entry Key="3772511525" Color="1" Value="Uniforms developed" />
+    <Entry Key="1768514219" Color="1" Value="Support helicopter armament developed" />
+    <Entry Key="3871112831" Color="1" Value="Equipment developed for Quiet" />
+    <Entry Key="2402153615" Color="1" Value="D-Dog equipment developed" />
+    <Entry Key="3517605786" Color="1" Value="D-Horse equipment developed" />
+    <Entry Key="1026974492" Color="1" Value="D-Walker armament developed" />
+    <Entry Key="2253829301" Color="1" Value="Battle Gear development" />
+    <Entry Key="3309899344" Color="1" Value="Security devices developed" />
+    <Entry Key="4031337652" Color="1" Value="Animal protection list completion" />
+    <Entry Key="2946246108" Color="1" Value="Cassette tapes obtained" />
+    <Entry Key="1847187523" Color="1" Value="Blueprints obtained" />
+    <Entry Key="4089950430" Color="1" Value="Memento photos obtained" />
+    <Entry Key="687971483" Color="1" Value="Emblem parts obtained" />
+    <Entry Key="515266650" Color="1" Value="Play time" />
+    <Entry Key="1932719674" Color="1" Value="Mission play time" />
+    <Entry Key="2656005145" Color="1" Value="Retries" />
+    <Entry Key="3496615843" Color="1" Value="Tactical takedowns" />
+    <Entry LangId="playdata_playing_headshot" Color="1" Value="Headshots" />
+    <Entry Key="4146410483" Color="1" Value="Neutralizations" />
+    <Entry Key="2578484326" Color="1" Value="Kills" />
+    <Entry Key="3197671527" Color="1" Value="Vehicles destroyed" />
+    <Entry Key="3322982639" Color="1" Value="Walker Gears destroyed" />
+    <Entry Key="2955370605" Color="1" Value="Gunships destroyed" />
+    <Entry Key="2942045626" Color="1" Value="Weapon emplacements destroyed" />
+    <Entry Key="1029284208" Color="1" Value="Security devices destroyed" />
+    <Entry Key="3753805435" Color="1" Value="Mines cleared" />
+    <Entry Key="3654567851" Color="1" Value="Outposts captured" />
+    <Entry Key="301307739" Color="1" Value="Guard posts captured" />
+    <Entry Key="3858165889" Color="1" Value="Interrogations" />
+    <Entry Key="700438332" Color="1" Value="Times spotted" />
+    <Entry Key="4257460967" Color="1" Value="Reflex mode activations" />
+    <Entry Key="1611723071" Color="1" Value="Enemy combat alerts triggered" />
+    <Entry Key="1685026096" Color="1" Value="Hits taken" />
+    <Entry Key="2772301127" Color="7" Value="FOB Missions: Successful Infiltrations" />
+    <Entry Key="3242597411" Color="7" Value="FOB Missions: Successful Defenses" />
+    <Entry Key="3954713464" Color="7" Value="Nuclear Weapon Disposals" />
+    <Entry Key="1818829427" Color="1" Value="Number of times you have infiltrated to the platform core in an FOB Mission (Infiltration)." />
+    <Entry Key="1695228469" Color="1" Value="Number of times you have successfully defended a platform in an FOB Mission (Defense)." />
+    <Entry Key="2772123940" Color="1" Value="Number of nuclear weapons disposed of." />
+    <Entry Key="186758589" Color="1" Value="Materials obtained" />
+    <Entry Key="1643419121" Color="1" Value="Plants obtained" />
+    <Entry Key="1107612905" Color="1" Value="Vehicles captured" />
+    <Entry Key="2804044554" Color="1" Value="Walker Gears captured" />
+    <Entry Key="2169917742" Color="1" Value="Weapon emplacements captured" />
+    <Entry Key="1622325765" Color="1" Value="Parasites obtained" />
+    <Entry Key="939956261" Color="1" Value="Nuclear weapons owned" />
+    <Entry Key="3571414594" Color="7" Value="Nuclear weapon disposals" />
+    <Entry Key="329879554" Color="1" Value="Development completion" />
+    <Entry Key="643735891" Color="1" Value="Documents Collected" />
+    <Entry Key="289068197" Color="1" Value="Mission Score" />
+    <Entry Key="3409606131" Color="1" Value="Play Skill" />
+    <Entry Key="1331036075" Color="1" Value="Mission Score (Official)" />
+    <Entry Key="3262327601" Color="1" Value="Mission Score (Reference Record)" />
+    <Entry Key="1875491261" Color="1" Value="Chicken Hat Uses" />
+    <Entry Key="3506154844" Color="1" Value="Lil' Chick Hat Uses" />
+    <Entry Key="3506177081" Color="1" Value="Total Markings" />
+    <Entry Key="4186072404" Color="1" Value="Overall Completion" />
+    <Entry Key="1988770338" Color="1" Value="Event Completion" />
+    <Entry Key="3885701239" Color="1" Value="Key Dispatch Mission Completion" />
+    <Entry Key="3116917803" Color="1" Value="Total Records" />
+    <Entry Key="3909938675" Color="1" Value="BIG BOSS [1]" />
+    <Entry Key="87462302" Color="1" Value="DIAMOND DOGS [1]" />
+    <Entry Key="1865459577" Color="1" Value="D-DOG [1]" />
+    <Entry Key="3539913557" Color="1" Value="SKULL FACE [1]" />
+    <Entry Key="3580466480" Color="1" Value="OCELOT" />
+    <Entry Key="3311036421" Color="1" Value="D-DOG [2]" />
+    <Entry Key="3536711444" Color="1" Value="PAZ [1]" />
+    <Entry Key="1197594704" Color="1" Value="QUIET [1]" />
+    <Entry Key="2819298621" Color="1" Value="SKULL FACE [2]" />
+    <Entry Key="3628378363" Color="1" Value="EMMERICH [1]" />
+    <Entry Key="2104186596" Color="1" Value="QUIET [2]" />
+    <Entry Key="873862375" Color="1" Value="QUIET [3]" />
+    <Entry Key="1567121916" Color="1" Value="EMMERICH [2]" />
+    <Entry Key="884041480" Color="1" Value="MAN ON FIRE [1]" />
+    <Entry Key="2489168122" Color="1" Value="ELI [1]" />
+    <Entry Key="3174016691" Color="1" Value="CODE TALKER [1]" />
+    <Entry Key="3888018538" Color="1" Value="EMMERICH [3]" />
+    <Entry Key="3248006767" Color="1" Value="SKULL FACE [3]" />
+    <Entry Key="445591238" Color="1" Value="DIAMOND DOGS [2]" />
+    <Entry Key="4090252320" Color="1" Value="PAZ [2]" />
+    <Entry Key="1707585977" Color="1" Value="PAZ [3]" />
+    <Entry Key="626157045" Color="1" Value="QUIET [4]" />
+    <Entry Key="2555938264" Color="1" Value="CODE TALKER [2]" />
+    <Entry Key="523618621" Color="1" Value="MAN ON FIRE [2]" />
+    <Entry Key="401230548" Color="1" Value="ELI [2]" />
+    <Entry Key="1236518398" Color="1" Value="DIAMOND DOGS [3]" />
+    <Entry Key="765073386" Color="1" Value="EMMERICH [4]" />
+    <Entry Key="1090062042" Color="1" Value="QUIET [5]" />
+    <Entry Key="483795461" Color="1" Value="BIG BOSS [2]" />
+    <Entry Key="1239792072" Color="1" Value="HIDEO" />
+    <Entry Key="3438137940" Color="1" Value="BIRTHDAY" />
+    <Entry Key="4098560203" Color="1" Value="SNAKE STINKS" />
+    <Entry Key="4149115144" Color="1" Value="NUCLEAR ABOLITION" />
+    <Entry Key="1715581295" Color="1" Value="PF GRADE" />
+    <Entry Key="3921751629" Color="1" Value="Espionage Grade Ranking" />
+    <Entry Key="262496412" Color="1" Value="&lt;I=G=PAD_Y&gt; Top/Self" />
+    <Entry Key="105092966" Color="1" Value="&lt;I=G=PAD_L1&gt;&lt;I=G=PAD_R1&gt; Switch Pages" />
+    <Entry Key="772482465" Color="1" Value="Trial based on your scores from missions completed using rank-restricting items.&#xA;Rank-restricting items: Chicken Hat, prototype stealth camouflage, stealth camouflage, Camouflage-type parasite supply cartridges, Infinite bandana, Fulton extraction ballista, support helicopter attacks, support strikes." />
+    <Entry Key="2179720129" Color="1" Value="Trial based on your scores from missions completed without relying on rank-restricting items.&#xA;Rank-restricting items: Chicken Hat, prototype stealth camouflage, stealth camouflage, Camouflage-type parasite supply cartridges, Infinite bandana, Fulton extraction ballista, support helicopter attacks, support strikes." />
+    <Entry Key="570490882" Color="1" Value="Trial based on player technique, judged under a variety of rules." />
+    <Entry Key="2967608073" Color="1" Value="Trial based on where you place in the PF Grades." />
+    <Entry Key="2122037109" Color="1" Value="Grade ranking based on your FOB Mission play status." />
+    <Entry Key="1481820201" Color="1" Value="Records" />
+    <Entry Key="3061206250" Color="1" Value="Submachine gun (lethal)" />
+    <Entry Key="1574249582" Color="1" Value="Shotgun (lethal)" />
+    <Entry Key="1161261575" Color="1" Value="Assault rifle (lethal)" />
+    <Entry Key="3315211571" Color="1" Value="Sniper rifle (lethal)" />
+    <Entry Key="4149057615" Color="1" Value="Man-portable/mounted missile launchers" />
+    <Entry Key="2193723969" Color="1" Value="Total Fulton extractions (of people)" />
+  </Entries>
+</LangFile>
