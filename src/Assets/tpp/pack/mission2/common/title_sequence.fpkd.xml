@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="title_sequence.fpkd" FpkType="Fpkd">
-  <Entries>
-    <Entry FilePath="/Assets/tpp/ui/GraphAsset/entry_datas/uig_title_menu.fox2" />
-    <Entry FilePath="/Assets/fox/ui/prefab/GraphAsset/entry/prefab_list_entry.fox2" />
-    <Entry FilePath="/Assets/tpp/level/mission2/common/title_sequence.lua" />
-  </Entries>
-  <References />
-</ArchiveFile>
