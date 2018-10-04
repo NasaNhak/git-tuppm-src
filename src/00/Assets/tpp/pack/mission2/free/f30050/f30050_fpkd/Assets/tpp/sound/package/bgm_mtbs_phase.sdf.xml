@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<fox formatVersion="2" fileVersion="0" originalVersion="Sat Jan 14 02:08:16 UTC+05:30 2017">
+<fox formatVersion="2" fileVersion="0">
   <classes>
     <class name="Entity" super="" version="2" />
     <class name="Data" super="Entity" version="2" />
@@ -10,7 +10,7 @@
     <entity class="DataSet" classVersion="0" addr="0x0463A2D0" unknown1="232" unknown2="704896">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
-          <value></value>
+          <value hash="0xB8A0BF169F98" />
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
@@ -29,10 +29,10 @@
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
           <value>0x0463A2D0</value>
         </property>
-        <property name="loadBanks" type="String" container="DynamicArray" arraySize="2">
+        <property name="loadBanks" type="String" container="DynamicArray" arraySize="3">
           <value>bgm_mtbs_phase</value>
           <value>p51_020030</value>
-		  <value>bgm_s10030</value>
+          <value>bgm_s10030</value>
         </property>
         <property name="prepareBanks" type="String" container="DynamicArray" />
         <property name="prepareEvents" type="String" container="DynamicArray" />

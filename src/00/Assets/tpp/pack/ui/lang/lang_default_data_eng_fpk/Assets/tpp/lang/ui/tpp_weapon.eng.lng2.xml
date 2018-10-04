@@ -35,7 +35,7 @@
     <Entry LangId="info_wp_7010" Color="1" Value="5.56mm general-purpose machine gun.&#xA;This squad fire support weapon combines belt-fed rapid fire capability with an ease of handling comparable to an assault rifle." />
     <Entry LangId="info_wp_8000" Color="1" Value="Soviet rocket-propelled grenade launcher.&#xA;Cheaper to use than other launchers, and also easy to modify." />
     <Entry LangId="name_wp_10000" Color="1" Value="MAGAZINE" />
-    <Entry Key="3215789660" Color="1" Value="FLYING DISK" />
+    <Entry LangId="name_wp_10010" Color="1" Value="FLYING DISK" />
     <Entry LangId="name_wp_10030" Color="1" Value="FLARE GRENADE" />
     <Entry LangId="name_wp_10033" Color="1" Value="FLARE SUPPLY" />
     <Entry LangId="name_wp_10040" Color="1" Value="HAND GRENADE" />
@@ -62,7 +62,7 @@
     <Entry LangId="name_wp_10060" Color="1" Value="STUN GRENADE" />
     <Entry LangId="name_wp_10080" Color="1" Value="PETROL BOMB" />
     <Entry LangId="name_wp_11013" Color="1" Value="ACTIVE DECOY" />
-    <Entry Key="662628894" Color="1" Value="FULTON FLOAT" />
+    <Entry LangId="name_wp_11020" Color="1" Value="FULTON FLOAT" />
     <Entry LangId="name_wp_11040" Color="1" Value="M21 D-MINE" />
     <Entry LangId="name_wp_11050" Color="1" Value="LLG-MINE" />
     <Entry LangId="name_wp_11060" Color="1" Value="ATB-MINE" />
@@ -77,7 +77,7 @@
     <Entry Key="297115941" Color="1" Value="SUP" />
     <Entry LangId="info_wp_10060" Color="1" Value="Flashbang grenade.&#xA;Incapacitates nearby enemies upon detonation." />
     <Entry LangId="info_wp_10080" Color="1" Value="Molotov cocktail.&#xA;Improvised incendiary weapon made from a bottle and fuel mixed with a thickening agent. " />
-    <Entry Key="1199597293" Color="1" Value="7.65mm compact submachine gun.&#xA;Boasts a higher rate of fire than other submachine guns, putting out more rounds in a shorter time." />
+    <Entry LangId="info_wp_2005" Color="1" Value="7.65mm compact submachine gun.&#xA;Boasts a higher rate of fire than other submachine guns, putting out more rounds in a shorter time." />
     <Entry LangId="info_wp_2020" Color="1" Value="9mm high-accuracy submachine gun.&#xA;Has the same internal mechanism as an assault rifle, giving it greater accuracy than other submachine guns." />
     <Entry LangId="info_wp_3050" Color="1" Value="7.62mm full-length assault rifle.&#xA;Its precision-machined long barrel gives it greater accuracy than other assault rifles." />
     <Entry LangId="info_wp_4040" Color="1" Value="Automatic shotgun.&#xA;Combines the power of a traditional shotgun with a large-capacity magazine." />
@@ -141,7 +141,7 @@
     <Entry LangId="name_wp_4008" Color="1" Value="RASP TB-SG LB" />
     <Entry LangId="name_wp_4012" Color="1" Value="RASP TB-SG SB" />
     <Entry LangId="name_wp_4025" Color="1" Value="S1000 SLUG" />
-    <Entry Key="144640180" Color="1" Value="S1000 SLUG M1" />
+    <Entry LangId="name_wp_4026" Color="1" Value="S1000 SLUG M1" />
     <Entry LangId="name_wp_4027" Color="1" Value="S1000 AIR-S" />
     <Entry LangId="name_wp_4029" Color="1" Value="S1000 EXT." />
     <Entry LangId="name_wp_4033" Color="1" Value="S1000 SHORTY" />
@@ -150,7 +150,7 @@
     <Entry LangId="name_wp_5003" Color="1" Value="FAKEL (SMOKE)" />
     <Entry LangId="name_wp_5004" Color="1" Value="FAKEL (STUN)" />
     <Entry LangId="name_wp_5005" Color="1" Value="FAKEL G-33" />
-    <Entry Key="461491961" Color="1" Value="FAKEL G-44" />
+    <Entry LangId="name_wp_5007" Color="1" Value="FAKEL G-44" />
     <Entry LangId="name_wp_5013" Color="1" Value="DGL103 (SMOKE)" />
     <Entry LangId="name_wp_5014" Color="1" Value="DGL103 (STUN)" />
     <Entry LangId="name_wp_5015" Color="1" Value="DGL103-LB" />
@@ -186,8 +186,8 @@
     <Entry LangId="ability_0002" Color="1" Value="7.62mm Conversion (Damage Up)" />
     <Entry LangId="ability_0003" Color="1" Value="9mm Conversion (Portable Ammo Count Up)" />
     <Entry LangId="ability_0010" Color="1" Value="Stopping Power Up" />
-    <Entry Key="3553443995" Color="1" Value="Stopping Power Up" />
-    <Entry Key="18628248" Color="1" Value="7.62mm Live Round Conversion (Attack Type: Lethal)" />
+    <Entry LangId="ability_0011" Color="1" Value="Stopping Power Up" />
+    <Entry LangId="ability_0020" Color="1" Value="7.62mm Live Round Conversion (Attack Type: Lethal)" />
     <Entry LangId="ability_0021" Color="1" Value="9mm Live Round Conversion (Attack Type: Lethal)" />
     <Entry LangId="ability_0022" Color="1" Value="Air Shock Round Conversion (Attack Type: Non-lethal)" />
     <Entry LangId="ability_0023" Color="1" Value="Rubber Bullet Conversion (Attack Type: Non-lethal)" />
@@ -219,12 +219,12 @@
     <Entry LangId="ability_0109" Color="1" Value="200-round Magazine (Loaded Ammo Count Up)" />
     <Entry LangId="ability_0110" Color="1" Value="Magazine Tube Extension 1 (Loaded Ammo Count Up)" />
     <Entry LangId="ability_0111" Color="1" Value="Long Banana Magazine (Loaded Ammo Count Up)" />
-    <Entry Key="775636496" Color="1" Value="Long Magazine (Loaded Ammo Count Up)" />
+    <Entry LangId="ability_0112" Color="1" Value="Long Magazine (Loaded Ammo Count Up)" />
     <Entry LangId="ability_0113" Color="1" Value="Long Magazine 1 (Loaded Ammo Count Up)" />
-    <Entry Key="3170646906" Color="1" Value="Long Magazine 1 (Loaded Ammo Count Up)" />
-    <Entry Key="1611905164" Color="1" Value="Extended Magazine (Loaded Ammo Count Up)" />
+    <Entry LangId="ability_0114" Color="1" Value="Long Magazine 1 (Loaded Ammo Count Up)" />
+    <Entry LangId="ability_0115" Color="1" Value="Extended Magazine (Loaded Ammo Count Up)" />
     <Entry LangId="ability_0116" Color="1" Value="Double-barrel Conversion (Loaded Ammo Count Up)" />
-    <Entry Key="982169122" Color="1" Value="200-round Magazine (Loaded Ammo Count Up)" />
+    <Entry LangId="ability_0117" Color="1" Value="200-round Magazine (Loaded Ammo Count Up)" />
     <Entry LangId="ability_0118" Color="1" Value="Drum Magazine (Loaded Ammo Count Up)" />
     <Entry LangId="ability_0119" Color="1" Value="5.56mm Drum Magazine (Loaded Ammo Count Up)" />
     <Entry LangId="ability_0120" Color="1" Value="Magazine Tube Extension 2 (Loaded Ammo Count Up)" />
@@ -237,7 +237,7 @@
     <Entry LangId="ability_0203" Color="1" Value="4x Rifle Scope (Soviet 2)" />
     <Entry LangId="ability_0204" Color="1" Value="4x Rifle Scope (U.S. 1)" />
     <Entry LangId="ability_0205" Color="1" Value="4x Rifle Scope (U.S. 2)" />
-    <Entry Key="4285988959" Color="1" Value="4x Rifle Scope (U.S. 2)" />
+    <Entry LangId="ability_0206" Color="1" Value="4x Rifle Scope (U.S. 2)" />
     <Entry LangId="ability_0207" Color="1" Value="6x Variable Zoom Rifle Scope (U.S./2-step)" />
     <Entry LangId="ability_0208" Color="1" Value="8x Variable Zoom Rifle Scope 1 (3-step)" />
     <Entry LangId="ability_0209" Color="1" Value="8x Variable Zoom Rifle Scope 2 (3-step)" />
@@ -256,29 +256,29 @@
     <Entry LangId="ability_0256" Color="1" Value="Laser Sight 2" />
     <Entry LangId="ability_0257" Color="1" Value="Laser Sight (U.S. 1)" />
     <Entry LangId="ability_0258" Color="1" Value="Laser Sight (U.S. 2)" />
-    <Entry Key="4180203012" Color="1" Value="Laser Sight (U.S. 1)" />
+    <Entry LangId="ability_0259" Color="1" Value="Laser Sight (U.S. 1)" />
     <Entry LangId="ability_0300" Color="1" Value="Suppressor (Durability: Low)" />
-    <Entry Key="3621679054" Color="1" Value="Suppressor (Durability: Low)" />
+    <Entry LangId="ability_0301" Color="1" Value="Suppressor (Durability: Low)" />
     <Entry LangId="ability_0302" Color="1" Value="Suppressor (Durability: High)" />
     <Entry LangId="ability_0303" Color="1" Value="Suppressor (Durability: Medium)" />
-    <Entry Key="2320861242" Color="1" Value="Suppressor (Durability: Medium)" />
+    <Entry LangId="ability_0304" Color="1" Value="Suppressor (Durability: Medium)" />
     <Entry LangId="ability_0305" Color="1" Value="Built-in Suppressor (Durability: Unlimited)" />
     <Entry LangId="ability_0400" Color="1" Value="Muzzle for High-accuracy Barrel" />
     <Entry LangId="ability_0401" Color="1" Value="Muzzle for Short Barrel" />
-    <Entry Key="3463871626" Color="1" Value="Muzzle for Short Barrel" />
+    <Entry LangId="ability_0402" Color="1" Value="Muzzle for Short Barrel" />
     <Entry LangId="ability_0403" Color="1" Value="Normal Barrel Muzzle" />
-    <Entry Key="4227576038" Color="1" Value="Normal Barrel Muzzle" />
-    <Entry Key="2870993019" Color="1" Value="Normal Barrel Muzzle" />
+    <Entry LangId="ability_0404" Color="1" Value="Normal Barrel Muzzle" />
+    <Entry LangId="ability_0405" Color="1" Value="Normal Barrel Muzzle" />
     <Entry LangId="ability_0406" Color="1" Value="Recoil Dampening Muzzle (Closer Shot Grouping)" />
-    <Entry Key="2673889466" Color="1" Value="Recoil Dampening Muzzle (Closer Shot Grouping)" />
+    <Entry LangId="ability_0407" Color="1" Value="Recoil Dampening Muzzle (Closer Shot Grouping)" />
     <Entry LangId="ability_0408" Color="1" Value="Muzzle Brake (Closer Shot Grouping)" />
     <Entry LangId="ability_0409" Color="1" Value="High-power Muzzle Brake (Closer Shot Grouping)" />
     <Entry LangId="ability_0410" Color="1" Value="Compensator (Closer Shot Grouping)" />
-    <Entry Key="2823899588" Color="1" Value="Compensator (Closer Shot Grouping)" />
+    <Entry LangId="ability_0411" Color="1" Value="Compensator (Closer Shot Grouping)" />
     <Entry LangId="ability_0412" Color="1" Value="Flash Hider" />
     <Entry LangId="ability_0500" Color="1" Value="High-accuracy Barrel (Effective Range Up)" />
     <Entry LangId="ability_0501" Color="1" Value="Short Barrel Conversion (Firing Speed/Auto-Aim Range Up)" />
-    <Entry Key="842388708" Color="1" Value="Short Barrel Conversion (Firing Speed/Auto-Aim Range Up)" />
+    <Entry LangId="ability_0502" Color="1" Value="Short Barrel Conversion (Firing Speed/Auto-Aim Range Up)" />
     <Entry LangId="ability_0503" Color="1" Value="Snub Nose Conversion (Firing Speed/Auto-Aim Range Up)" />
     <Entry LangId="ability_0504" Color="1" Value="Ultra-short Barrel Conversion (Firing Speed/Auto-Aim Range Up)" />
     <Entry LangId="ability_0505" Color="1" Value="Enhanced Barrel Accuracy (Effective Range Up)" />
@@ -298,22 +298,22 @@
     <Entry LangId="ability_0519" Color="1" Value="LMG Stock 1 (Improved Stability While Moving)" />
     <Entry LangId="ability_0520" Color="1" Value="LMG Stock 2 (Improved Stability While Moving)" />
     <Entry LangId="ability_0521" Color="1" Value="LMG Stock" />
-    <Entry Key="1780308933" Color="1" Value="Optional Stock (Improved Stability While Moving)" />
+    <Entry LangId="ability_0600" Color="1" Value="Optional Stock (Improved Stability While Moving)" />
     <Entry LangId="ability_0601" Color="1" Value="Sharpshooter's Stock 1 (Improved Stability While Moving)" />
     <Entry LangId="ability_0602" Color="1" Value="Sharpshooter's Stock 1" />
     <Entry LangId="ability_0603" Color="1" Value="Sharpshooter's Stock 2 (Improved Stability While Moving)" />
-    <Entry Key="503359921" Color="1" Value="Sharpshooter's Stock 2 (Improved Stability While Moving)" />
+    <Entry LangId="ability_0604" Color="1" Value="Sharpshooter's Stock 2 (Improved Stability While Moving)" />
     <Entry LangId="ability_0605" Color="1" Value="Enhanced Stock Performance (Improved Stability While Moving)" />
     <Entry LangId="ability_0606" Color="1" Value="Standard Stock 2 (Improved Stability While Moving)" />
     <Entry LangId="ability_0607" Color="1" Value="Standard Stock 1" />
-    <Entry Key="367107800" Color="1" Value="Standard Stock 1" />
-    <Entry Key="1044845988" Color="1" Value="Standard Stock 2 (Improved Stability While Moving)" />
-    <Entry Key="3405697321" Color="1" Value="Standard Stock 2 (Improved Stability While Moving)" />
+    <Entry LangId="ability_0608" Color="1" Value="Standard Stock 1" />
+    <Entry LangId="ability_0609" Color="1" Value="Standard Stock 2 (Improved Stability While Moving)" />
+    <Entry LangId="ability_0610" Color="1" Value="Standard Stock 2 (Improved Stability While Moving)" />
     <Entry LangId="ability_0611" Color="1" Value="Standard Stock 3 (Improved Stability While Moving)" />
     <Entry LangId="ability_0650" Color="1" Value="Foregrip (Improved Stability While Moving)" />
     <Entry LangId="ability_0651" Color="1" Value="Foregrip (Soviet/Improved Stability While Moving)" />
     <Entry LangId="ability_0652" Color="1" Value="Foregrip (European/Improved Stability While Moving)" />
-    <Entry Key="2209861270" Color="1" Value="Foregrip (European/Improved Stability While Moving)" />
+    <Entry LangId="ability_0653" Color="1" Value="Foregrip (European/Improved Stability While Moving)" />
     <Entry LangId="ability_0654" Color="1" Value="Foregrip (U.S./Improved Stability While Moving)" />
     <Entry LangId="ability_0700" Color="1" Value="Undermount (Lower Option Slot)" />
     <Entry LangId="ability_0701" Color="1" Value="Additional Option Slot (2x Upper Option Slots)" />
@@ -331,7 +331,7 @@
     <Entry LangId="ability_0903" Color="1" Value="Effective Range Up" />
     <Entry LangId="ability_0904" Color="1" Value="Durability Up" />
     <Entry LangId="ability_0905" Color="1" Value="Slug Round Enhancement (Damage Up)" />
-    <Entry Key="1949754770" Color="1" Value="Unmodified" />
+    <Entry LangId="ability_0906" Color="1" Value="Unmodified" />
     <Entry LangId="ability_0907" Color="1" Value="Added Shield" />
     <Entry LangId="ability_0908" Color="1" Value="Operating Precision Up (Grouping/Auto-Aim Range Up)" />
     <Entry LangId="ability_0909" Color="1" Value="3-round Burst Conversion (Enables 3-round Burst Fire)" />
@@ -540,17 +540,17 @@
     <Entry LangId="opt_ub_50136" Color="1" Value="DGL UDBL-GL-LR" />
     <Entry Key="429209646" Color="1" Value="LASER SIGHT" />
     <Entry LangId="name_wp_50009" Color="1" Value="ZE'EV CS" />
-    <Entry Key="386013937" Color="1" Value="MACHT 37 CS" />
-    <Entry Key="2565882446" Color="1" Value="Sz.-336 SMG CS" />
+    <Entry LangId="name_wp_50010" Color="1" Value="MACHT 37 CS" />
+    <Entry LangId="name_wp_50011" Color="1" Value="Sz.-336 SMG CS" />
     <Entry LangId="name_wp_50012" Color="1" Value="Sz.-336 SMG CS" />
     <Entry LangId="name_wp_50013" Color="1" Value="Sz.-336 SMG CS" />
     <Entry LangId="name_wp_50016" Color="1" Value="S1000 CS" />
     <Entry LangId="name_wp_50018" Color="1" Value="S1000 AIR-S CS" />
-    <Entry Key="1919492005" Color="1" Value="AM MRS-4R CS" />
+    <Entry LangId="name_wp_50020" Color="1" Value="AM MRS-4R CS" />
     <Entry LangId="name_wp_50021" Color="1" Value="UN-ARC CS" />
     <Entry LangId="name_wp_50022" Color="1" Value="UN-ARC-PT CS" />
-    <Entry Key="838614612" Color="1" Value="AM MRS-4R DD" />
-    <Entry Key="142270195" Color="1" Value="UN-ARC-NL DD" />
+    <Entry LangId="name_wp_50024" Color="1" Value="AM MRS-4R DD" />
+    <Entry LangId="name_wp_50026" Color="1" Value="UN-ARC-NL DD" />
     <Entry LangId="name_wp_50029" Color="1" Value="SVG-67 CS" />
     <Entry LangId="name_wp_50032" Color="1" Value="M2000-D CS" />
     <Entry LangId="name_wp_50033" Color="1" Value="AM MRS-71 CS" />
@@ -562,8 +562,8 @@
     <Entry LangId="name_wp_50058" Color="1" Value="RIOT SHIELD CFA" />
     <Entry LangId="name_wp_50059" Color="1" Value="RIOT SHIELD RC" />
     <Entry LangId="info_wp_50009" Color="1" Value="9mm general-purpose submachine gun.&#xA;Has a good balance of handling and stopping power, with a frame that can accept a number of upgrades.&#xA;Equipped with a flashlight." />
-    <Entry Key="751428972" Color="1" Value="9mm high-accuracy submachine gun.&#xA;Has the same internal mechanism as an assault rifle, giving it greater accuracy than other submachine guns.&#xA;Equipped with a flashlight." />
-    <Entry Key="3721813213" Color="1" Value="7.65mm compact submachine gun.&#xA;The use of low-caliber ammunition has allowed for a truly compact design.&#xA;Equipped with a flashlight." />
+    <Entry LangId="info_wp_50010" Color="1" Value="9mm high-accuracy submachine gun.&#xA;Has the same internal mechanism as an assault rifle, giving it greater accuracy than other submachine guns.&#xA;Equipped with a flashlight." />
+    <Entry LangId="info_wp_50011" Color="1" Value="7.65mm compact submachine gun.&#xA;The use of low-caliber ammunition has allowed for a truly compact design.&#xA;Equipped with a flashlight." />
     <Entry LangId="info_wp_50012" Color="1" Value="7.65mm compact submachine gun.&#xA;The use of low-caliber ammunition has allowed for a truly compact design.&#xA;Customized with various upgrades including a high firing rate receiver." />
     <Entry LangId="info_wp_50013" Color="1" Value="7.65mm compact submachine gun.&#xA;The use of low-caliber ammunition has allowed for a truly compact design.&#xA;Equipped with a flashlight." />
     <Entry LangId="info_wp_50016" Color="1" Value="Pump-action shotgun.&#xA;Has limited ammo, but enough power at close range to send enemies flying.&#xA;Fitted with a standard stock [2] for improved shot grouping. " />
@@ -581,7 +581,7 @@
     <Entry LangId="info_wp_50062" Color="1" Value="7.62mm semi-auto sniper rifle.&#xA;Expensive to develop, but avoids the drop in accuracy that usually accompanies an increased rate of fire.&#xA;Converted to fire tranquilizer rounds." />
     <Entry LangId="info_wp_50041" Color="1" Value="5.56mm general-purpose machine gun.&#xA;This squad fire support weapon combines belt-fed rapid fire capability with an ease of handling comparable to an assault rifle.&#xA;Equipped with a short scope." />
     <Entry LangId="info_wp_50049" Color="1" Value="Warhead-specific large-caliber recoilless rifle.&#xA;Customized to fire special warheads.&#xA;Converted to fire sleeping gas rounds." />
-    <Entry Key="1461478258" Color="1" Value="Soviet rocket-propelled grenade launcher.&#xA;Cheaper to use than other launchers, and also easy to modify.&#xA;Converted to use tandem warheads for greater damage on target." />
+    <Entry LangId="info_wp_50051" Color="1" Value="Soviet rocket-propelled grenade launcher.&#xA;Cheaper to use than other launchers, and also easy to modify.&#xA;Converted to use tandem warheads for greater damage on target." />
     <Entry LangId="info_wp_50052" Color="1" Value="Training rifle.&#xA;A wooden mockup of a rifle, used to teach new recruits the basics of handling a weapon." />
     <Entry LangId="info_wp_50054" Color="1" Value="Skull Custom.&#xA;A unique sawed-off lever-action rifle that was personally customized by Skull Face." />
     <Entry LangId="info_wp_50056" Color="1" Value="A defensive shield with a simple alloy construction.&#xA;Used extensively by everything from civilian to military organizations.&#xA;Carried on the back, and raised using the Ready Button (&lt;I=G=HOLD&gt;) to defend against attacks from the front.&#xA;Only secondary weapons can be used while the shield is raised." />
@@ -635,7 +635,7 @@
     <Entry LangId="info_wp_5060" Color="1" Value="40mm single-shot grenade launcher.&#xA;Uses cased ammunition for greater accuracy, and provides a wide casualty radius due to its multiple-warhead dispersal design. " />
     <Entry LangId="info_wp_6050" Color="1" Value="12.7mm anti-materiel rifle.&#xA;A large-caliber sniper rifle with an extremely long effective range and devastating power and penetration.&#xA;Has a slow rate of fire due to its bolt-action mechanism." />
     <Entry LangId="info_wp_11080" Color="1" Value="E-RB Wormhole Generator.&#xA;Remotely activated, it allows the user to warp to the location where it was placed.&#xA;Once placed, hold the Ready Button (&lt;I=G=HOLD&gt;) and press the Action Button (&lt;I=G=ACTION&gt;) to activate.&#xA;* Can be used only during FOB Missions." />
-    <Entry Key="1851348599" Color="1" Value="No. Placeable Up" />
+    <Entry LangId="ability_1096" Color="1" Value="No. Placeable Up" />
     <Entry LangId="name_mb_38040" Color="1" Value="CAM MARKING DVC." />
     <Entry LangId="info_mb_38040" Color="1" Value="SURVEILLANCE CAMERA MARKING DEVICE&#xA;A handgun-type invisible light pointer used on your FOB to specify positions to place your surveillance cameras/gun cameras.&#xA;Aim at a vertical wall surface and &quot;fire&quot; to automatically place a camera. That will be the designated placement for the camera from then on.&#xA;However, cameras cannot be set on surfaces blocked by obstacles." />
     <Entry LangId="name_mb_38043" Color="1" Value="D.MINE MARKER" />
@@ -644,11 +644,11 @@
     <Entry LangId="ability_1097" Color="1" Value="Cameras Placeable: 1" />
     <Entry LangId="ability_1098" Color="1" Value="Cameras Placeable: 2" />
     <Entry LangId="ability_1099" Color="1" Value="Cameras Placeable: 3" />
-    <Entry Key="366278293" Color="1" Value="Cameras Placeable: 4" />
+    <Entry LangId="ability_1100" Color="1" Value="Cameras Placeable: 4" />
     <Entry LangId="ability_1101" Color="1" Value="Mines Placeable: 4" />
     <Entry LangId="ability_1102" Color="1" Value="Mines Placeable: 8" />
     <Entry LangId="ability_1103" Color="1" Value="Mines Placeable: 12" />
-    <Entry Key="1896352825" Color="1" Value="Mines Placeable: 16" />
+    <Entry LangId="ability_1104" Color="1" Value="Mines Placeable: 16" />
     <Entry LangId="ability_1105" Color="1" Value="When discovering an FOB intruder, Security Team staff will use Stealth Camo for a fixed time." />
     <Entry LangId="ability_1106" Color="1" Value="Battery Vaporization Device Added" />
     <Entry LangId="ability_1107" Color="1" Value="Battery Vaporization Device Effect Range Up" />
@@ -669,6 +669,6 @@
     <Entry Key="1231972719" Color="1" Value="" />
     <Entry Key="910147341" Color="1" Value="" />
     <Entry Key="73923997" Color="1" Value="" />
-    <Entry Key="163133020" Color="1" Value="If the user is about to die, pass out, or similar, it will activate automatically." />
+    <Entry LangId="ability_1113" Color="1" Value="If the user is about to die, pass out, or similar, it will activate automatically." />
   </Entries>
 </LangFile>

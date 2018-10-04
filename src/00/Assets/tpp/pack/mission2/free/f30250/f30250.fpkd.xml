@@ -9,7 +9,7 @@
     <Entry FilePath="/Assets/tpp/level_asset/chara/npc/tpp_hostage2_30250_volgin.fox2" />
     <Entry FilePath="/Assets/tpp/level_asset/chara/npc/tpp_hostage2_30250_parasite.fox2" />
     <Entry FilePath="/Assets/tpp/level_asset/chara/heli/support_heli_mtbs.fox2" />
-	<Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_sound_music.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_sound_music.fox2" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_sequence.fox2" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_route.fox2" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_heli.fox2" />
@@ -76,7 +76,7 @@
     <Entry FilePath="/Assets/tpp/parts/chara/npc/NpcHumanTargetBushOffense.tgt" />
     <Entry FilePath="/Assets/tpp/parts/chara/human_def.phsd" />
     <Entry FilePath="/Assets/tpp/parts/chara/npc/ene0_v01.ph" />
-	<Entry FilePath="/Assets/tpp/sound/package/bgm_mtbs_phase.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_mtbs_phase.sdf" />
     <Entry FilePath="/Assets/tpp/chara/wmu/Fox_files/wmu1_bust.sim" />
     <Entry FilePath="/Assets/tpp/chara/oce/Fox_files/oce0_main0_hair.sim" />
     <Entry FilePath="/Assets/tpp/chara/oce/Fox_files/oce0_main0_def.sim" />
@@ -84,7 +84,7 @@
     <Entry FilePath="/Assets/tpp/motion/facial_setting_data/tppEnemy.fsd" />
     <Entry FilePath="/Assets/tpp/sound/package/vox_f30050.sdf" />
     <Entry FilePath="/Assets/tpp/script/mission/mission_main.lua" />
-	<Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_sound.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_sound.lua" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_sequence.lua" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_radio.lua" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30250/f30250_enemy.lua" />

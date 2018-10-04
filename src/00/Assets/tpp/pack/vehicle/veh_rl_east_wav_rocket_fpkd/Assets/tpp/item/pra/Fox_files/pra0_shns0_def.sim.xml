@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="SimOnPhysics" super="" version="2" />
+    <class name="SimObjectParam" super="" version="0" />
+    <class name="SimEngineOnPhysicsParam" super="" version="3" />
+    <class name="SimAssociationUnit" super="" version="1" />
+    <class name="SimAssociationUnitParam" super="" version="2" />
+    <class name="PhRigidBodyParam" super="" version="5" />
+    <class name="PhPrimitiveShapeParam" super="" version="0" />
+    <class name="PhBallsocketConstraintParam" super="" version="2" />
+    <class name="PhObjectDesc" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x06AEBD10" unknown1="232" unknown2="108446">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="2">
+          <value key="pra0_shns0_def">0x06AEBD80</value>
+          <value key="PhObjectDesc0000">0x040D2380</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimOnPhysics" classVersion="2" addr="0x06AEBD80" unknown1="328" unknown2="108448">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>pra0_shns0_def</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x06AEBD10</value>
+        </property>
+        <property name="objectParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x06AEBDF0</value>
+        </property>
+        <property name="engineParam" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x06AEBE60</value>
+        </property>
+        <property name="controls" type="EntityPtr" container="DynamicArray" />
+        <property name="simRootBones" type="EntityPtr" container="StringMap" arraySize="1">
+          <value key="SKL_000_ROOT">0x06AEBED0</value>
+        </property>
+        <property name="simBones" type="EntityPtr" container="StringMap" arraySize="2">
+          <value key="SKL_001_HARNESS_SIM">0x06AEBFB0</value>
+          <value key="SKL_002_HARNESS_SIM">0x06AEC090</value>
+        </property>
+        <property name="simTransBones" type="EntityPtr" container="StringMap" />
+        <property name="simHitBones" type="EntityPtr" container="StringMap" />
+        <property name="formatVersion" type="uint32" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="physicsData" type="EntityLink" container="StaticArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/item/pra/Fox_files/pra0_shns0_def.sim" nameInArchive="pra0_shns0_def_PhysicsData">0x06AEC170</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimObjectParam" classVersion="0" addr="0x06AEBDF0" unknown1="24" unknown2="108451">
+      <staticProperties />
+      <dynamicProperties />
+    </entity>
+    <entity class="SimEngineOnPhysicsParam" classVersion="3" addr="0x06AEBE60" unknown1="36" unknown2="108452">
+      <staticProperties>
+        <property name="isEnableGeoCheck" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="convertMoveToWind" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="minLodLevel" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="maxLodLevel" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimAssociationUnit" classVersion="1" addr="0x06AEBED0" unknown1="160" unknown2="108453">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x06AEBD80</value>
+        </property>
+        <property name="body" type="EntityLink" container="StaticArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x06AEC3A0</value>
+        </property>
+        <property name="constraint" type="EntityLink" container="StaticArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x00000000</value>
+        </property>
+        <property name="bodyOffsetPos" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="constraintOffsetPos" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetRot" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="param" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x06AEBF40</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimAssociationUnitParam" classVersion="2" addr="0x06AEBF40" unknown1="32" unknown2="108457">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_000_ROOT</value>
+        </property>
+        <property name="initialized" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimAssociationUnit" classVersion="1" addr="0x06AEBFB0" unknown1="160" unknown2="108458">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x06AEBD80</value>
+        </property>
+        <property name="body" type="EntityLink" container="StaticArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x06AEC6B0</value>
+        </property>
+        <property name="constraint" type="EntityLink" container="StaticArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x06AEC950</value>
+        </property>
+        <property name="bodyOffsetPos" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.618" z="0" w="0" />
+        </property>
+        <property name="constraintOffsetPos" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetRot" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="param" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x06AEC020</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimAssociationUnitParam" classVersion="2" addr="0x06AEC020" unknown1="32" unknown2="108462">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_001_HARNESS_SIM</value>
+        </property>
+        <property name="initialized" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimAssociationUnit" classVersion="1" addr="0x06AEC090" unknown1="160" unknown2="108463">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x06AEBD80</value>
+        </property>
+        <property name="body" type="EntityLink" container="StaticArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x06AECA30</value>
+        </property>
+        <property name="constraint" type="EntityLink" container="StaticArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePathHash="0xB8A0BF169F98" nameInArchiveHash="0xB8A0BF169F98">0x06AECCD0</value>
+        </property>
+        <property name="bodyOffsetPos" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.618" z="0" w="0" />
+        </property>
+        <property name="constraintOffsetPos" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetRot" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="param" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x06AEC100</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SimAssociationUnitParam" classVersion="2" addr="0x06AEC100" unknown1="32" unknown2="108467">
+      <staticProperties>
+        <property name="boneName" type="String" container="StaticArray" arraySize="1">
+          <value>SKL_002_HARNESS_SIM</value>
+        </property>
+        <property name="initialized" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhRigidBodyParam" classVersion="5" addr="0x06AEC3A0" unknown1="320" unknown2="108487">
+      <staticProperties>
+        <property name="defaultPosition" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="defaultRotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="mass" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="friction" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="restitution" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="maxLinearVelocity" type="float" container="StaticArray" arraySize="1">
+          <value>100</value>
+        </property>
+        <property name="maxAngularVelocity" type="float" container="StaticArray" arraySize="1">
+          <value>180</value>
+        </property>
+        <property name="linearVelocityDamp" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="angularVelocityDamp" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="permittedDepth" type="float" container="StaticArray" arraySize="1">
+          <value>0.01</value>
+        </property>
+        <property name="sleepEnable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="sleepLinearVelocityTh" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="sleepAngularVelocityTh" type="float" container="StaticArray" arraySize="1">
+          <value>30</value>
+        </property>
+        <property name="sleepTimeTh" type="float" container="StaticArray" arraySize="1">
+          <value>0.25</value>
+        </property>
+        <property name="collisionGroup" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="collisionType" type="uint16" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="collisionId" type="uint32" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="centerOfMassOffset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="motionType" type="int32" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="material" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="isNoGravity" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhPrimitiveShapeParam" classVersion="0" addr="0x06AEC4F0" unknown1="96" unknown2="108493">
+      <staticProperties>
+        <property name="offset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="rotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="size" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0.1" y="0.1" z="0.1" w="0" />
+        </property>
+        <property name="type" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhRigidBodyParam" classVersion="5" addr="0x06AEC6B0" unknown1="320" unknown2="108500">
+      <staticProperties>
+        <property name="defaultPosition" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.9946" z="0" w="0" />
+        </property>
+        <property name="defaultRotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="mass" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="friction" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="restitution" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="maxLinearVelocity" type="float" container="StaticArray" arraySize="1">
+          <value>100</value>
+        </property>
+        <property name="maxAngularVelocity" type="float" container="StaticArray" arraySize="1">
+          <value>180</value>
+        </property>
+        <property name="linearVelocityDamp" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="angularVelocityDamp" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="permittedDepth" type="float" container="StaticArray" arraySize="1">
+          <value>0.01</value>
+        </property>
+        <property name="sleepEnable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="sleepLinearVelocityTh" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="sleepAngularVelocityTh" type="float" container="StaticArray" arraySize="1">
+          <value>30</value>
+        </property>
+        <property name="sleepTimeTh" type="float" container="StaticArray" arraySize="1">
+          <value>0.25</value>
+        </property>
+        <property name="collisionGroup" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="collisionType" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="collisionId" type="uint32" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="centerOfMassOffset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="motionType" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+        <property name="material" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="isNoGravity" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhPrimitiveShapeParam" classVersion="0" addr="0x06AEC800" unknown1="96" unknown2="108506">
+      <staticProperties>
+        <property name="offset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="rotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="size" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0.1" y="0.618" z="0.1" w="0" />
+        </property>
+        <property name="type" type="int32" container="StaticArray" arraySize="1">
+          <value>5</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhBallsocketConstraintParam" classVersion="2" addr="0x06AEC950" unknown1="112" unknown2="108514">
+      <staticProperties>
+        <property name="defaultPosition" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.3766" z="0" w="0" />
+        </property>
+        <property name="limitedFlag" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="refA" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-1" z="0" w="0" />
+        </property>
+        <property name="refB" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-1" z="0" w="0" />
+        </property>
+        <property name="limit" type="float" container="StaticArray" arraySize="1">
+          <value>90</value>
+        </property>
+        <property name="springFlag" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="springRefCustomFlag" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="springRef" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="0" z="0" w="0" />
+        </property>
+        <property name="springConstant" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="flexibility" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="stopTwistFlag" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhRigidBodyParam" classVersion="5" addr="0x06AECA30" unknown1="320" unknown2="108521">
+      <staticProperties>
+        <property name="defaultPosition" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-2.2306" z="0" w="0" />
+        </property>
+        <property name="defaultRotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="mass" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="friction" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="restitution" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="maxLinearVelocity" type="float" container="StaticArray" arraySize="1">
+          <value>100</value>
+        </property>
+        <property name="maxAngularVelocity" type="float" container="StaticArray" arraySize="1">
+          <value>180</value>
+        </property>
+        <property name="linearVelocityDamp" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="angularVelocityDamp" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="permittedDepth" type="float" container="StaticArray" arraySize="1">
+          <value>0.01</value>
+        </property>
+        <property name="sleepEnable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="sleepLinearVelocityTh" type="float" container="StaticArray" arraySize="1">
+          <value>0.1</value>
+        </property>
+        <property name="sleepAngularVelocityTh" type="float" container="StaticArray" arraySize="1">
+          <value>30</value>
+        </property>
+        <property name="sleepTimeTh" type="float" container="StaticArray" arraySize="1">
+          <value>0.25</value>
+        </property>
+        <property name="collisionGroup" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="collisionType" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="collisionId" type="uint32" container="StaticArray" arraySize="1">
+          <value>1</value>
+        </property>
+        <property name="centerOfMassOffset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="motionType" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+        <property name="material" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="isNoGravity" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhPrimitiveShapeParam" classVersion="0" addr="0x06AECB80" unknown1="96" unknown2="108527">
+      <staticProperties>
+        <property name="offset" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="rotation" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="size" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0.1" y="0.618" z="0.1" w="0" />
+        </property>
+        <property name="type" type="int32" container="StaticArray" arraySize="1">
+          <value>5</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhBallsocketConstraintParam" classVersion="2" addr="0x06AECCD0" unknown1="112" unknown2="108535">
+      <staticProperties>
+        <property name="defaultPosition" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-1.6126" z="0" w="0" />
+        </property>
+        <property name="limitedFlag" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="refA" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-1" z="0" w="0" />
+        </property>
+        <property name="refB" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="-1" z="0" w="0" />
+        </property>
+        <property name="limit" type="float" container="StaticArray" arraySize="1">
+          <value>90</value>
+        </property>
+        <property name="springFlag" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="springRefCustomFlag" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="springRef" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="0" z="0" w="0" />
+        </property>
+        <property name="springConstant" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="flexibility" type="float" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="stopTwistFlag" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhObjectDesc" classVersion="0" addr="0x040D2380" unknown1="112" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>PhObjectDesc0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x06AEBD10</value>
+        </property>
+        <property name="bodies" type="EntityPtr" container="DynamicArray" arraySize="6">
+          <value>0x06AEC3A0</value>
+          <value>0x06AEC4F0</value>
+          <value>0x06AEC6B0</value>
+          <value>0x06AEC800</value>
+          <value>0x06AECA30</value>
+          <value>0x06AECB80</value>
+        </property>
+        <property name="constraints" type="EntityPtr" container="DynamicArray" arraySize="2">
+          <value>0x06AEC950</value>
+          <value>0x06AECCD0</value>
+        </property>
+        <property name="bodyIndices" type="int32" container="DynamicArray" arraySize="4">
+          <value>1</value>
+          <value>0</value>
+          <value>2</value>
+          <value>1</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

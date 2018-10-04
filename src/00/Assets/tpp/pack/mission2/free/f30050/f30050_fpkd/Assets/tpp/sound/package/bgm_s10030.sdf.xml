@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<fox formatVersion="2" fileVersion="0" originalVersion="Sat Jan 14 02:08:48 UTC+05:30 2017">
+<fox formatVersion="2" fileVersion="0">
   <classes>
     <class name="Entity" super="" version="2" />
     <class name="Data" super="Entity" version="2" />
@@ -10,7 +10,7 @@
     <entity class="DataSet" classVersion="0" addr="0x05DE0DA0" unknown1="232" unknown2="4405">
       <staticProperties>
         <property name="name" type="String" container="StaticArray" arraySize="1">
-          <value></value>
+          <value hash="0xB8A0BF169F98" />
         </property>
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
           <value>0x00000000</value>

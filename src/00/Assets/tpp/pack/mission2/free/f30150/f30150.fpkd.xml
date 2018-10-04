@@ -8,7 +8,7 @@
     <Entry FilePath="/Assets/tpp/level_asset/chara/heli/support_heli_mtbs.fox2" />
     <Entry FilePath="/Assets/tpp/level_asset/chara/buddy/buddy2_block_data.fox2" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_sound_se.fox2" />
-	<Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_sound_music.fox2" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_sound_music.fox2" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_sequence.fox2" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_path.fox2" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_heli.fox2" />
@@ -51,12 +51,12 @@
     <Entry FilePath="/Assets/tpp/parts/chara/ddg/dog_targetdefense.tgt" />
     <Entry FilePath="/Assets/tpp/parts/chara/bor/bor_targetdefense.tgt" />
     <Entry FilePath="/Assets/tpp/parts/chara/ber/bear_targetdefense.tgt" />
-	<Entry FilePath="/Assets/tpp/sound/package/bgm_mtbs_phase.sdf" />
+    <Entry FilePath="/Assets/tpp/sound/package/bgm_mtbs_phase.sdf" />
     <Entry FilePath="/Assets/tpp/chara/vlt/Fox_files/vlt0_main0_def_s00.sim" />
     <Entry FilePath="/Assets/tpp/chara/got/Fox_files/got0_main0_def.sim" />
     <Entry FilePath="/Assets/tpp/script/mission/mission_main.lua" />
     <Entry FilePath="/Assets/tpp/script/mission/animal_block.lua" />
-	<Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_sound.lua" />
+    <Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_sound.lua" />
     <Entry FilePath="/Assets/tpp/level/mission2/free/f30150/f30150_sequence.lua" />
   </Entries>
   <References />

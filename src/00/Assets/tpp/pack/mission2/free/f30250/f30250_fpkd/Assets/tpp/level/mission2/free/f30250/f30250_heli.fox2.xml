@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="NavxNavFileLocator" super="" version="2" />
+    <class name="TransformEntity" super="" version="0" />
+    <class name="TppLandingZoneData" super="" version="1" />
+    <class name="SphereShape" super="" version="0" />
+    <class name="GeoTrap" super="" version="2" />
+    <class name="GeoModuleCondition" super="" version="0" />
+    <class name="TppTrapCheckIsPlayerCallbackDataElement" super="" version="0" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x05A4A8F0" unknown1="232" unknown2="51480">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="6">
+          <value key="NavxNavFileLocator0000">0x05994990</value>
+          <value key="ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|lz_plnt">0x05999C40</value>
+          <value key="ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|trap_plnt_telop_shape">0x0599E2B0</value>
+          <value key="ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|trap_plnt_telop">0x0599E390</value>
+          <value key="ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|trap_plnt_telopr_condition">0x0599E4E0</value>
+          <value key="TexturePackLoadConditioner0000">0x063077F0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="NavxNavFileLocator" classVersion="2" addr="0x05994990" unknown1="304" unknown2="51830">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>NavxNavFileLocator0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05A4A8F0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x05994A00</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="sceneName" type="String" container="StaticArray" arraySize="1">
+          <value>MainScene</value>
+        </property>
+        <property name="worldName" type="String" container="StaticArray" arraySize="1">
+          <value>sky</value>
+        </property>
+        <property name="enable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="navFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/level/location/mtbs/block_common/mtbs_sky.nav2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x05994A00" unknown1="80" unknown2="51833">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05994990</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppLandingZoneData" classVersion="1" addr="0x05999C40" unknown1="272" unknown2="5494">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|lz_plnt</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05A4A8F0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x05999CB0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="approachRoute" type="String" container="StaticArray" arraySize="1">
+          <value>ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|rt_apr_lz_plnt</value>
+        </property>
+        <property name="returnRoute" type="String" container="StaticArray" arraySize="1">
+          <value>ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|rt_rtn_lz_plnt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x05999CB0" unknown1="80" unknown2="5497">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05999C40</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1.0000006" y="1" z="1.0000006" w="1.121039E-44" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.70710355" z="0" w="0.70711" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-162.735764" y="0.000121" z="-2104.98218" w="1" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SphereShape" classVersion="0" addr="0x0599E2B0" unknown1="256" unknown2="5875">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|trap_plnt_telop_shape</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05A4A8F0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0599E390</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x0599E320</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x0599E320" unknown1="80" unknown2="5878">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0599E2B0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="90" y="90" z="90" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GeoTrap" classVersion="2" addr="0x0599E390" unknown1="288" unknown2="5880">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|trap_plnt_telop</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05A4A8F0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x0599E400</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" arraySize="2">
+          <value>0x0599E4E0</value>
+          <value>0x0599E2B0</value>
+        </property>
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="conditionArray" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/level_asset/location/mtbs/block_common/mb_fndt_plnt_heli_30050.las" nameInArchive="trap_plnt_telopr_condition">0x0599E4E0</value>
+        </property>
+        <property name="enable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x0599E400" unknown1="80" unknown2="5886">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0599E390</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="1.121039E-44" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="2E-06" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-171.6422" y="0" z="-2062.491" w="1" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GeoModuleCondition" classVersion="0" addr="0x0599E4E0" unknown1="352" unknown2="5890">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>ly003_cl07_30050_heli0000|cl07pl0_mb_fndt_plnt_heli_30050|trap_plnt_telopr_condition</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05A4A8F0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0599E390</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x0599E550</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="trapCategory" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="trapPriority" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="enable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="isOnce" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="isAndCheck" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="checkFuncNames" type="String" container="DynamicArray" arraySize="1">
+          <value>IsPlayer</value>
+        </property>
+        <property name="execFuncNames" type="String" container="DynamicArray" />
+        <property name="checkCallbackDataElements" type="EntityPtr" container="DynamicArray" arraySize="1">
+          <value>0x0599E5C0</value>
+        </property>
+        <property name="execCallbackDataElements" type="EntityPtr" container="DynamicArray" />
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x0599E550" unknown1="80" unknown2="5893">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0599E4E0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-0.1" y="-0.1" z="-0.1" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppTrapCheckIsPlayerCallbackDataElement" classVersion="0" addr="0x0599E5C0" unknown1="32" unknown2="5895">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0599E4E0</value>
+        </property>
+        <property name="funcName" type="String" container="StaticArray" arraySize="1">
+          <value>IsPlayer</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x063077F0" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05A4A8F0</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

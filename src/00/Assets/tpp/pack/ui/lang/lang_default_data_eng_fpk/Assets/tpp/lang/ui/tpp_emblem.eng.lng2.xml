@@ -145,11 +145,11 @@
     <Entry LangId="emblem_text_013" Color="1" Value="DUCK" />
     <Entry LangId="emblem_text_014" Color="1" Value="METAL" />
     <Entry LangId="emblem_text_015" Color="1" Value="GEAR" />
-    <Entry Key="1483746703" Color="1" Value="FOX" />
-    <Entry Key="125916459" Color="1" Value="HOUND" />
+    <Entry LangId="emblem_text_016" Color="1" Value="FOX" />
+    <Entry LangId="emblem_text_017" Color="1" Value="HOUND" />
     <Entry LangId="emblem_text_018" Color="1" Value="OUTER" />
     <Entry LangId="emblem_text_019" Color="1" Value="HEAVEN" />
-    <Entry Key="3960910909" Color="1" Value="CHICKEN" />
+    <Entry LangId="emblem_text_020" Color="1" Value="CHICKEN" />
     <Entry LangId="emblem_text_021" Color="1" Value="MASTER" />
     <Entry LangId="emblem_text_022" Color="1" Value="MILLER" />
     <Entry LangId="emblem_text_023" Color="1" Value="WHITE" />
@@ -173,13 +173,13 @@
     <Entry LangId="emblem_text_041" Color="1" Value="REVOLVER" />
     <Entry LangId="emblem_text_042" Color="1" Value="OCELOT" />
     <Entry LangId="emblem_text_043" Color="1" Value="VULCAN" />
-    <Entry Key="560920157" Color="1" Value="RAVEN" />
+    <Entry LangId="emblem_text_044" Color="1" Value="RAVEN" />
     <Entry LangId="emblem_text_045" Color="1" Value="PSYCHO" />
-    <Entry Key="963344248" Color="1" Value="MANTIS" />
+    <Entry LangId="emblem_text_046" Color="1" Value="MANTIS" />
     <Entry LangId="emblem_text_047" Color="1" Value="SNIPER" />
-    <Entry Key="3425206968" Color="1" Value="WOLF" />
+    <Entry LangId="emblem_text_048" Color="1" Value="WOLF" />
     <Entry LangId="emblem_text_049" Color="1" Value="DECOY" />
-    <Entry Key="3927203649" Color="1" Value="OCTOPUS" />
+    <Entry LangId="emblem_text_050" Color="1" Value="OCTOPUS" />
     <Entry LangId="emblem_text_051" Color="1" Value="REX" />
     <Entry LangId="emblem_text_052" Color="1" Value="DIE" />
     <Entry LangId="emblem_text_053" Color="1" Value="SHADOW" />
@@ -260,7 +260,7 @@
     <Entry LangId="emblem_text_128" Color="1" Value="WALKER" />
     <Entry LangId="emblem_text_129" Color="1" Value="ZEKE" />
     <Entry LangId="emblem_text_130" Color="1" Value="MILITAIRES" />
-    <Entry Key="2607341474" Color="1" Value="SANS FRONTIERES" />
+    <Entry LangId="emblem_text_131" Color="1" Value="SANS FRONTIERES" />
     <Entry LangId="emblem_text_132" Color="1" Value="SENTINEL" />
     <Entry LangId="emblem_text_133" Color="1" Value="SKULL" />
     <Entry LangId="emblem_text_134" Color="1" Value="FACE" />
@@ -311,13 +311,13 @@
     <Entry LangId="emblem_text_179" Color="1" Value="GOLD" />
     <Entry LangId="emblem_text_180" Color="1" Value="SILVER" />
     <Entry LangId="emblem_text_181" Color="1" Value="BRONZE" />
-    <Entry Key="2425289064" Color="1" Value="KOJIMA" />
-    <Entry Key="2484600116" Color="1" Value="PRODUCTIONS" />
-    <Entry Key="1211650311" Color="1" Value="ARMS" />
-    <Entry Key="1921278682" Color="1" Value="TECH" />
-    <Entry Key="507180916" Color="1" Value="TOKUGAWA" />
-    <Entry Key="2142716653" Color="1" Value="HEAVY" />
-    <Entry Key="2258071064" Color="1" Value="INDUSTRIES" />
+    <Entry LangId="emblem_text_182" Color="1" Value="KOJIMA" />
+    <Entry LangId="emblem_text_183" Color="1" Value="PRODUCTIONS" />
+    <Entry LangId="emblem_text_184" Color="1" Value="ARMS" />
+    <Entry LangId="emblem_text_185" Color="1" Value="TECH" />
+    <Entry LangId="emblem_text_186" Color="1" Value="TOKUGAWA" />
+    <Entry LangId="emblem_text_187" Color="1" Value="HEAVY" />
+    <Entry LangId="emblem_text_188" Color="1" Value="INDUSTRIES" />
     <Entry LangId="emblem_text_300" Color="1" Value="WESTERN" />
     <Entry LangId="emblem_text_301" Color="1" Value="EASTERN" />
     <Entry LangId="emblem_text_302" Color="1" Value="NORTHERN" />
@@ -341,20 +341,20 @@
     <Entry LangId="emblem_text_320" Color="1" Value="EVASION" />
     <Entry LangId="emblem_text_321" Color="1" Value="RESISTANCE" />
     <Entry LangId="emblem_text_322" Color="1" Value="ESCAPE" />
-    <Entry Key="341004498" Color="1" Value="SECURITY" />
+    <Entry LangId="emblem_text_323" Color="1" Value="SECURITY" />
     <Entry LangId="emblem_text_324" Color="1" Value="CAMOUFLAGE" />
     <Entry LangId="emblem_text_325" Color="1" Value="CONCEALMENT" />
-    <Entry Key="3082387096" Color="1" Value="DECOY" />
+    <Entry LangId="emblem_text_326" Color="1" Value="DECOY" />
     <Entry LangId="emblem_text_327" Color="1" Value="ANTI" />
     <Entry LangId="emblem_text_328" Color="1" Value="TASK" />
     <Entry LangId="emblem_text_329" Color="1" Value="COMMAND" />
     <Entry LangId="emblem_text_330" Color="1" Value="OPERATIONS" />
     <Entry LangId="emblem_text_331" Color="1" Value="ELEMENTS" />
     <Entry LangId="emblem_text_332" Color="1" Value="DETACHMENT" />
-    <Entry Key="3724848057" Color="1" Value="UNIT" />
-    <Entry Key="123364013" Color="1" Value="FORCES" />
+    <Entry LangId="emblem_text_333" Color="1" Value="UNIT" />
+    <Entry LangId="emblem_text_334" Color="1" Value="FORCES" />
     <Entry LangId="emblem_text_335" Color="1" Value="GROUP" />
-    <Entry Key="4126460044" Color="1" Value="ARMY" />
+    <Entry LangId="emblem_text_336" Color="1" Value="ARMY" />
     <Entry LangId="emblem_text_337" Color="1" Value="CORPS" />
     <Entry LangId="emblem_text_338" Color="1" Value="DIVISION" />
     <Entry LangId="emblem_text_339" Color="1" Value="BRIGADE" />
@@ -363,7 +363,7 @@
     <Entry LangId="emblem_text_342" Color="1" Value="COMPANY" />
     <Entry LangId="emblem_text_343" Color="1" Value="PLATOON" />
     <Entry LangId="emblem_text_344" Color="1" Value="SQUAD" />
-    <Entry Key="3488964496" Color="1" Value="TEAM" />
+    <Entry LangId="emblem_text_345" Color="1" Value="TEAM" />
     <Entry LangId="emblem_text_346" Color="1" Value="INFANTRY" />
     <Entry LangId="emblem_text_347" Color="1" Value="ARMOR" />
     <Entry LangId="emblem_text_348" Color="1" Value="AVIATION" />
@@ -371,7 +371,7 @@
     <Entry LangId="emblem_text_350" Color="1" Value="RADIO" />
     <Entry LangId="emblem_text_351" Color="1" Value="RECON" />
     <Entry LangId="emblem_text_352" Color="1" Value="SCOUT" />
-    <Entry Key="2549390344" Color="1" Value="SNIPER" />
+    <Entry LangId="emblem_text_353" Color="1" Value="SNIPER" />
     <Entry LangId="emblem_text_354" Color="1" Value="RANGER" />
     <Entry LangId="emblem_text_355" Color="1" Value="POLICE" />
     <Entry LangId="emblem_text_356" Color="1" Value="ALFA" />

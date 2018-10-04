@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="veh_rl_west_tnk.fpkd" FpkType="Fpkd">
+  <Entries>
+    <Entry FilePath="/Assets/tpp/level_asset/vehicle/veh_rl_west_tnk.fox2" />
+    <Entry FilePath="/Assets/tpp/parts/weapon/hew/hw01_main0_def_wav0.parts" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/nbt/nbt0_main0_def.parts" />
+    <Entry FilePath="/Assets/tpp/parts/item/pra/pra0_shns0_def_v00.parts" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/weapon/fx_tpp_wepltb04_s0.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfgg01_s0FG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchwavlgthed01_m2FG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchstrmzlskw02_s2.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchstrmzlskw01_s8.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchstrmzlbls02_s8.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchstrmzlbls01_s8MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchnadblhsmk00_s1.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchlpbmbt00_s5MD.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchhw1blh00_s3.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchexhsmk01_s4MG.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/explosion/fx_tpp_expptl01_s3.vfx" />
+    <Entry FilePath="/Assets/tpp/effect/vfx_data/flare/fx_tpp_flrlnslgt11_s2VG.vfxlf" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/mbt/mbt.veh" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/mbt/mbt.bnd" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/wav/TargetBushOffenseStryker.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/nbt/nbt.tgt" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/mbt/mbt.phsd" />
+    <Entry FilePath="/Assets/tpp/parts/mecha/mbt/mbt.ph" />
+    <Entry FilePath="/Assets/tpp/item/pra/Fox_files/pra0_shns0_def.sim" />
+    <Entry FilePath="/Assets/tpp/sound/package/vehicle_nbt_media.sdf" />
+  </Entries>
+  <References />
+</ArchiveFile>

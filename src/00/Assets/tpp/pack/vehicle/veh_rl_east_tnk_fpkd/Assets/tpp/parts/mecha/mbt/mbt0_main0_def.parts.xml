@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="ModelDescription" super="" version="12" />
+    <class name="GeomSkeletonDescription" super="" version="1" />
+    <class name="PhysicsDescription" super="" version="0" />
+    <class name="FoxTargetDescription" super="" version="1" />
+    <class name="EffectDescription" super="" version="6" />
+    <class name="VehicleDescription" super="" version="0" />
+    <class name="SoundDescription" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x04684680" unknown1="232" unknown2="169951">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="21">
+          <value key="ModelDescription0000">0x046846F0</value>
+          <value key="GeomSkeletonDescription0000">0x04684760</value>
+          <value key="PhysicsDescription0000">0x046847D0</value>
+          <value key="FoxTargetDescription0000">0x04684840</value>
+          <value key="EffectDescription0003">0x046848B0</value>
+          <value key="EffectDescription0004">0x04684920</value>
+          <value key="EffectDescription0005">0x04684990</value>
+          <value key="VehicleDescription0000">0x04684A00</value>
+          <value key="SoundDescription0000">0x04684A70</value>
+          <value key="EffectDescription0009">0x04684AE0</value>
+          <value key="EffectDescription0011">0x04684B50</value>
+          <value key="EffectDescription0012">0x04684BC0</value>
+          <value key="EffectDescription0013">0x04684C30</value>
+          <value key="EffectDescription0000">0x04684CA0</value>
+          <value key="EffectDescription0001">0x04684D10</value>
+          <value key="EffectDescription0002">0x04684D80</value>
+          <value key="EffectDescription0006">0x04684DF0</value>
+          <value key="EffectDescription0007">0x04684E60</value>
+          <value key="EffectDescription0008">0x04684ED0</value>
+          <value key="EffectDescription0010">0x04684FB0</value>
+          <value key="EffectDescription0014">0x04685020</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="ModelDescription" classVersion="12" addr="0x046846F0" unknown1="288" unknown2="169953">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>ModelDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" />
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Body</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="modelFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/mecha/mbt/Scenes/mbt0_main0_def.fmdl</value>
+        </property>
+        <property name="connectPointFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/mecha/mbt/Scenes/mbt0_main0_def.fcnp</value>
+        </property>
+        <property name="gameRigFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="helpBoneFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/mecha/mbt/Scenes/mbt0_main0_def.frdv</value>
+        </property>
+        <property name="lipAdjustBinaryFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="facialSettingFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="invisibleMeshNames" type="String" container="DynamicArray" />
+        <property name="lodFarPixelSize" type="float" container="StaticArray" arraySize="1">
+          <value>50</value>
+        </property>
+        <property name="lodNearPixelSize" type="float" container="StaticArray" arraySize="1">
+          <value>400</value>
+        </property>
+        <property name="lodPolygonSize" type="float" container="StaticArray" arraySize="1">
+          <value>-1</value>
+        </property>
+        <property name="drawRejectionLevel" type="int32" container="StaticArray" arraySize="1">
+          <value>8</value>
+        </property>
+        <property name="rejectFarRangeShadowCast" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GeomSkeletonDescription" classVersion="1" addr="0x04684760" unknown1="112" unknown2="169958">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>GeomSkeletonDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="gsklFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/mecha/mbt/Scenes/mbt0_main0_def.gskl</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhysicsDescription" classVersion="0" addr="0x046847D0" unknown1="112" unknown2="169962">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>PhysicsDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="physicsFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/mbt/mbt.ph</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x04684840" unknown1="112" unknown2="169965">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>FoxTargetDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>RootDefenseTarget</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="targetFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/mbt/mbt.tgt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x046848B0" unknown1="232" unknown2="170130">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0003</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>CannonMuzzleFlash</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_mzf_cann</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value>spread_off</value>
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchstrmzlbls01_s8MG.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684920" unknown1="232" unknown2="170133">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0004</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>DamageSmoke</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_dmg_middle0</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="-1" y="-0.6" z="-0.35" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value>fx_tpp_smkmchbrk01_m1LG</value>
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684990" unknown1="232" unknown2="170136">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0005</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>BrokenSmoke</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_dmg_middle0</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="-0.7" y="-0.4" z="-0.25" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value>fx_tpp_smkmchbrk02_m2LG</value>
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="VehicleDescription" classVersion="0" addr="0x04684A00" unknown1="112" unknown2="170139">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>VehicleDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="PhysicsDescription0000">0x046847D0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="vehicleFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/mbt/mbt.veh</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SoundDescription" classVersion="0" addr="0x04684A70" unknown1="112" unknown2="170142">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>SoundDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="PhysicsDescription0000">0x046847D0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="soundFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/mecha/mbt/mbt.phsd</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684AE0" unknown1="232" unknown2="170145">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0009</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>ShockWave</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="1">
+          <value>SKL_000_ROOT</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchstrmzlskw01_s8.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684B50" unknown1="232" unknown2="170148">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0011</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>LightProbe</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="1">
+          <value>SKL_000_ROOT</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="-0.4" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchlpbmbt00_s5MD.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684BC0" unknown1="232" unknown2="170151">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0012</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>CannonShockWave</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchstrmzlskw02_s2.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684C30" unknown1="232" unknown2="170154">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0013</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>SubjectiveCannonMuzzleFlash</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchstrmzlbls02_s8.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684CA0" unknown1="232" unknown2="170157">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>ExhaustSmoke</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_smo_def</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="-0.14" y="0" z="0" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0.461749" z="0" w="0.887011" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchexhsmk01_s4MG.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684D10" unknown1="232" unknown2="170160">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>HeadLightL</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_light_l0</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchwavlgthed01_m2FG.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684D80" unknown1="232" unknown2="170163">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0002</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>HeadLightR</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_light_r0</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/mecha/fx_tpp_mchwavlgthed01_m2FG.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684DF0" unknown1="232" unknown2="170166">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0006</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>TailLamp</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="2">
+          <value>CNP_light_l1</value>
+          <value>CNP_light_r1</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="2">
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="2">
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value>fx_tpp_lgttil00_s0FG</value>
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684E60" unknown1="232" unknown2="170169">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0007</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>BreakHeadLightL</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_light_l0</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value>fx_tpp_brklgtgnt01_s1LG</value>
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684ED0" unknown1="232" unknown2="170172">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0008</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>BreakHeadLightR</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_light_r0</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value>fx_tpp_brklgtgnt01_s1LG</value>
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04684FB0" unknown1="232" unknown2="170175">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0010</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>SparkActive</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="6">
+          <value>SKL_000_ROOT</value>
+          <value>SKL_000_ROOT</value>
+          <value>SKL_000_ROOT</value>
+          <value>SKL_000_ROOT</value>
+          <value>SKL_000_ROOT</value>
+          <value>SKL_000_ROOT</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="6">
+          <value x="0" y="1" z="3.5" w="0" />
+          <value x="2" y="1" z="1.25" w="0" />
+          <value x="-2" y="1" z="1.25" w="0" />
+          <value x="2" y="1" z="-2.2" w="0" />
+          <value x="-2" y="1" z="-2.2" w="0" />
+          <value x="0" y="1" z="-4.3" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="6">
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0.707107" z="0" w="0.707107" />
+          <value x="0" y="-0.707107" z="0" w="0.707107" />
+          <value x="0" y="0.707107" z="0" w="0.707107" />
+          <value x="0" y="-0.707107" z="0" w="0.707107" />
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/weapon/fx_tpp_wepltb04_s0.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x04685020" unknown1="232" unknown2="170178">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0014</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04684680</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/mecha/mbt/mbt0_main0_def.parts" nameInArchive="ModelDescription0000">0x046846F0</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>PreExplosion</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" />
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" arraySize="1">
+          <value>CNP_dmg_large0</value>
+        </property>
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" />
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" arraySize="1">
+          <value x="0" y="0" z="-0.88" w="0" />
+        </property>
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" />
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" arraySize="1">
+          <value x="0.707107" y="0" z="0" w="0.707107" />
+        </property>
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/explosion/fx_tpp_expptl01_s3.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

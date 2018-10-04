@@ -5,30 +5,30 @@
     <Entry Key="2380996754" Color="1" Value="Base Records" />
     <Entry Key="1748091302" Color="1" Value="Animal Records" />
     <Entry Key="586275188" Color="1" Value="Completion" />
-    <Entry Key="3147587081" Color="1" Value="Play time" />
-    <Entry Key="1433597083" Color="1" Value="Free roam time" />
-    <Entry Key="517014489" Color="1" Value="Mission play time" />
-    <Entry Key="3821363498" Color="1" Value="Missions completed" />
+    <Entry LangId="playdata_play_time" Color="1" Value="Play time" />
+    <Entry LangId="playdata_play_time_free" Color="1" Value="Free roam time" />
+    <Entry LangId="playdata_play_time_mission" Color="1" Value="Mission play time" />
+    <Entry LangId="playdata_play_mission_clear" Color="1" Value="Missions completed" />
     <Entry Key="1774623673" Color="1" Value="Perfect stealth, no kills completions" />
     <Entry Key="421677906" Color="1" Value="Stealth completions" />
     <Entry Key="352361348" Color="1" Value="Mission completions using Chicken Hat" />
-    <Entry Key="3168219273" Color="1" Value="Retries" />
-    <Entry Key="3924099996" Color="1" Value="Buddy deployments" />
-    <Entry Key="2793776067" Color="1" Value="Tactical takedowns" />
-    <Entry Key="2185773658" Color="1" Value="Headshots" />
+    <Entry LangId="playdata_play_retry" Color="1" Value="Retries" />
+    <Entry LangId="playdata_play_buddy_call" Color="1" Value="Buddy deployments" />
+    <Entry LangId="playdata_play_tactical_takedown" Color="1" Value="Tactical takedowns" />
+    <Entry LangId="playdata_play_headshot" Color="1" Value="Headshots" />
     <Entry Key="3702627470" Color="1" Value="Neutralizations" />
     <Entry Key="320977681" Color="1" Value="Hold-ups" />
-    <Entry Key="1970480834" Color="1" Value="CQC (non-lethal)" />
+    <Entry LangId="playdata_play_cqc_kill" Color="1" Value="CQC (non-lethal)" />
     <Entry Key="607023231" Color="1" Value="Non-lethal weapons" />
-    <Entry Key="3850219269" Color="1" Value="Knife" />
-    <Entry Key="3998749227" Color="1" Value="Handgun (lethal)" />
-    <Entry Key="1934614062" Color="1" Value="Handheld/mounted machine guns" />
-    <Entry Key="317913056" Color="1" Value="Throwing weapons (lethal)" />
+    <Entry LangId="playdata_play_knife" Color="1" Value="Knife" />
+    <Entry LangId="playdata_play_handgun" Color="1" Value="Handgun (lethal)" />
+    <Entry LangId="playdata_play_machinegun" Color="1" Value="Handheld/mounted machine guns" />
+    <Entry LangId="playdata_play_throw_wp" Color="1" Value="Throwing weapons (lethal)" />
     <Entry Key="768042647" Color="1" Value="Placed weapons (lethal)" />
-    <Entry Key="1881745105" Color="1" Value="Vehicles" />
-    <Entry Key="2048715953" Color="1" Value="Support helicopter" />
-    <Entry Key="3265148681" Color="1" Value="Fire support" />
-    <Entry Key="2280060919" Color="1" Value="Kills" />
+    <Entry LangId="playdata_play_vehicle" Color="1" Value="Vehicles" />
+    <Entry LangId="playdata_play_heli" Color="1" Value="Support helicopter" />
+    <Entry LangId="playdata_play_spprt_battle" Color="1" Value="Fire support" />
+    <Entry LangId="playdata_play_kill_num" Color="1" Value="Kills" />
     <Entry Key="707815192" Color="1" Value="Vehicles destroyed" />
     <Entry Key="600270403" Color="1" Value="Walker Gears destroyed" />
     <Entry Key="3522520126" Color="1" Value="Gunships destroyed" />
@@ -38,10 +38,10 @@
     <Entry Key="2056294617" Color="1" Value="Outposts captured" />
     <Entry Key="2099029765" Color="1" Value="Guard posts captured" />
     <Entry Key="1161957555" Color="1" Value="Interrogations" />
-    <Entry Key="3787617362" Color="1" Value="Times spotted" />
-    <Entry Key="4140051094" Color="1" Value="Reflex mode activations" />
-    <Entry Key="1986863065" Color="1" Value="Enemy combat alerts triggered" />
-    <Entry Key="1878670753" Color="1" Value="Hits taken" />
+    <Entry LangId="playdata_play_found_num" Color="1" Value="Times spotted" />
+    <Entry LangId="playdata_play_reflex_num" Color="1" Value="Reflex mode activations" />
+    <Entry LangId="playdata_play_alert_num" Color="1" Value="Enemy combat alerts triggered" />
+    <Entry LangId="playdata_play_hit_num" Color="1" Value="Hits taken" />
     <Entry Key="1091756275" Color="1" Value="Recruits added" />
     <Entry Key="236092285" Color="1" Value="Prisoners rescued" />
     <Entry Key="754731575" Color="1" Value="Soldiers extracted" />
@@ -58,41 +58,41 @@
     <Entry Key="4026185795" Color="1" Value="Total Heroism decreases" />
     <Entry Key="3147312790" Color="1" Value="Spoils of war" />
     <Entry Key="54867937" Color="1" Value="Animals taken into care" />
-    <Entry Key="2425699539" Color="1" Value="Mission completion" />
-    <Entry Key="2796811480" Color="1" Value="Mission task completion" />
-    <Entry Key="4294236536" Color="1" Value="SIDE OPS completion" />
-    <Entry Key="2183711044" Color="1" Value="Handguns developed" />
-    <Entry Key="1466287145" Color="1" Value="Submachine guns developed" />
-    <Entry Key="39751321" Color="1" Value="Assault rifles developed" />
-    <Entry Key="568323767" Color="1" Value="Shotguns developed" />
+    <Entry LangId="playdata_complete_mission" Color="1" Value="Mission completion" />
+    <Entry LangId="playdata_complete_task" Color="1" Value="Mission task completion" />
+    <Entry LangId="playdata_complete_quest" Color="1" Value="SIDE OPS completion" />
+    <Entry LangId="playdata_complete_dev_handgun" Color="1" Value="Handguns developed" />
+    <Entry LangId="playdata_complete_dev_submachine" Color="1" Value="Submachine guns developed" />
+    <Entry LangId="playdata_complete_dev_assault" Color="1" Value="Assault rifles developed" />
+    <Entry LangId="playdata_complete_dev_shotgun" Color="1" Value="Shotguns developed" />
     <Entry Key="764884518" Color="1" Value="Grenade launchers developed" />
-    <Entry Key="2414313605" Color="1" Value="Sniper rifles developed" />
-    <Entry Key="2073336776" Color="1" Value="Machine guns developed" />
-    <Entry Key="3026551534" Color="1" Value="Missile launchers developed" />
-    <Entry Key="4008882642" Color="1" Value="Support weapons developed" />
-    <Entry Key="2264253062" Color="1" Value="Items developed" />
-    <Entry Key="3762729998" Color="1" Value="Tools developed" />
-    <Entry Key="143615172" Color="1" Value="Prostheses developed" />
-    <Entry Key="3772511525" Color="1" Value="Uniforms developed" />
-    <Entry Key="1768514219" Color="1" Value="Support helicopter armament developed" />
-    <Entry Key="3871112831" Color="1" Value="Equipment developed for Quiet" />
-    <Entry Key="2402153615" Color="1" Value="D-Dog equipment developed" />
-    <Entry Key="3517605786" Color="1" Value="D-Horse equipment developed" />
-    <Entry Key="1026974492" Color="1" Value="D-Walker armament developed" />
-    <Entry Key="2253829301" Color="1" Value="Battle Gear development" />
+    <Entry LangId="playdata_complete_dev_sniper" Color="1" Value="Sniper rifles developed" />
+    <Entry LangId="playdata_complete_dev_machine" Color="1" Value="Machine guns developed" />
+    <Entry LangId="playdata_complete_dev_missile" Color="1" Value="Missile launchers developed" />
+    <Entry LangId="playdata_complete_dev_spprt_wp" Color="1" Value="Support weapons developed" />
+    <Entry LangId="playdata_complete_dev_item" Color="1" Value="Items developed" />
+    <Entry LangId="playdata_complete_dev_tool" Color="1" Value="Tools developed" />
+    <Entry LangId="playdata_complete_dev_arm" Color="1" Value="Prostheses developed" />
+    <Entry LangId="playdata_complete_dev_suit" Color="1" Value="Uniforms developed" />
+    <Entry LangId="playdata_complete_dev_heli" Color="1" Value="Support helicopter armament developed" />
+    <Entry LangId="playdata_complete_dev_quiet" Color="1" Value="Equipment developed for Quiet" />
+    <Entry LangId="playdata_complete_dev_ddog" Color="1" Value="D-Dog equipment developed" />
+    <Entry LangId="playdata_complete_dev_dhorse" Color="1" Value="D-Horse equipment developed" />
+    <Entry LangId="playdata_complete_dev_dwalker" Color="1" Value="D-Walker armament developed" />
+    <Entry LangId="playdata_complete_dev_bgear" Color="1" Value="Battle Gear development" />
     <Entry Key="3309899344" Color="1" Value="Security devices developed" />
-    <Entry Key="4031337652" Color="1" Value="Animal protection list completion" />
-    <Entry Key="2946246108" Color="1" Value="Cassette tapes obtained" />
-    <Entry Key="1847187523" Color="1" Value="Blueprints obtained" />
-    <Entry Key="4089950430" Color="1" Value="Memento photos obtained" />
-    <Entry Key="687971483" Color="1" Value="Emblem parts obtained" />
-    <Entry Key="515266650" Color="1" Value="Play time" />
-    <Entry Key="1932719674" Color="1" Value="Mission play time" />
-    <Entry Key="2656005145" Color="1" Value="Retries" />
-    <Entry Key="3496615843" Color="1" Value="Tactical takedowns" />
+    <Entry LangId="playdata_complete_animal" Color="1" Value="Animal protection list completion" />
+    <Entry LangId="playdata_complete_tape" Color="1" Value="Cassette tapes obtained" />
+    <Entry LangId="playdata_complete_blueprint" Color="1" Value="Blueprints obtained" />
+    <Entry LangId="playdata_complete_photo" Color="1" Value="Memento photos obtained" />
+    <Entry LangId="playdata_complete_emblem" Color="1" Value="Emblem parts obtained" />
+    <Entry LangId="playdata_playing_time" Color="1" Value="Play time" />
+    <Entry LangId="playdata_playing_time_mission" Color="1" Value="Mission play time" />
+    <Entry LangId="playdata_playing_retry" Color="1" Value="Retries" />
+    <Entry LangId="playdata_playing_tactical_takedown" Color="1" Value="Tactical takedowns" />
     <Entry LangId="playdata_playing_headshot" Color="1" Value="Headshots" />
     <Entry Key="4146410483" Color="1" Value="Neutralizations" />
-    <Entry Key="2578484326" Color="1" Value="Kills" />
+    <Entry LangId="playdata_playing_kill_num" Color="1" Value="Kills" />
     <Entry Key="3197671527" Color="1" Value="Vehicles destroyed" />
     <Entry Key="3322982639" Color="1" Value="Walker Gears destroyed" />
     <Entry Key="2955370605" Color="1" Value="Gunships destroyed" />
@@ -102,10 +102,10 @@
     <Entry Key="3654567851" Color="1" Value="Outposts captured" />
     <Entry Key="301307739" Color="1" Value="Guard posts captured" />
     <Entry Key="3858165889" Color="1" Value="Interrogations" />
-    <Entry Key="700438332" Color="1" Value="Times spotted" />
-    <Entry Key="4257460967" Color="1" Value="Reflex mode activations" />
-    <Entry Key="1611723071" Color="1" Value="Enemy combat alerts triggered" />
-    <Entry Key="1685026096" Color="1" Value="Hits taken" />
+    <Entry LangId="playdata_playing_found_num" Color="1" Value="Times spotted" />
+    <Entry LangId="playdata_playing_reflex_num" Color="1" Value="Reflex mode activations" />
+    <Entry LangId="playdata_playing_alert_num" Color="1" Value="Enemy combat alerts triggered" />
+    <Entry LangId="playdata_playing_hit_num" Color="1" Value="Hits taken" />
     <Entry Key="2772301127" Color="7" Value="FOB Missions: Successful Infiltrations" />
     <Entry Key="3242597411" Color="7" Value="FOB Missions: Successful Defenses" />
     <Entry Key="3954713464" Color="7" Value="Nuclear Weapon Disposals" />
@@ -121,14 +121,14 @@
     <Entry Key="939956261" Color="1" Value="Nuclear weapons owned" />
     <Entry Key="3571414594" Color="7" Value="Nuclear weapon disposals" />
     <Entry Key="329879554" Color="1" Value="Development completion" />
-    <Entry Key="643735891" Color="1" Value="Documents Collected" />
+    <Entry LangId="playdata_complete_collection" Color="1" Value="Documents Collected" />
     <Entry Key="289068197" Color="1" Value="Mission Score" />
     <Entry Key="3409606131" Color="1" Value="Play Skill" />
     <Entry Key="1331036075" Color="1" Value="Mission Score (Official)" />
     <Entry Key="3262327601" Color="1" Value="Mission Score (Reference Record)" />
     <Entry Key="1875491261" Color="1" Value="Chicken Hat Uses" />
     <Entry Key="3506154844" Color="1" Value="Lil' Chick Hat Uses" />
-    <Entry Key="3506177081" Color="1" Value="Total Markings" />
+    <Entry LangId="playdata_play_marking_num" Color="1" Value="Total Markings" />
     <Entry Key="4186072404" Color="1" Value="Overall Completion" />
     <Entry Key="1988770338" Color="1" Value="Event Completion" />
     <Entry Key="3885701239" Color="1" Value="Key Dispatch Mission Completion" />
@@ -176,11 +176,11 @@
     <Entry Key="2967608073" Color="1" Value="Trial based on where you place in the PF Grades." />
     <Entry Key="2122037109" Color="1" Value="Grade ranking based on your FOB Mission play status." />
     <Entry Key="1481820201" Color="1" Value="Records" />
-    <Entry Key="3061206250" Color="1" Value="Submachine gun (lethal)" />
-    <Entry Key="1574249582" Color="1" Value="Shotgun (lethal)" />
+    <Entry LangId="playdata_play_submachine" Color="1" Value="Submachine gun (lethal)" />
+    <Entry LangId="playdata_play_shotgun" Color="1" Value="Shotgun (lethal)" />
     <Entry Key="1161261575" Color="1" Value="Assault rifle (lethal)" />
-    <Entry Key="3315211571" Color="1" Value="Sniper rifle (lethal)" />
-    <Entry Key="4149057615" Color="1" Value="Man-portable/mounted missile launchers" />
+    <Entry LangId="playdata_play_sniper" Color="1" Value="Sniper rifle (lethal)" />
+    <Entry LangId="playdata_play_missile" Color="1" Value="Man-portable/mounted missile launchers" />
     <Entry Key="2193723969" Color="1" Value="Total Fulton extractions (of people)" />
   </Entries>
 </LangFile>

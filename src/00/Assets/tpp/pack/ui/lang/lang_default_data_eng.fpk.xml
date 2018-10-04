@@ -19,7 +19,7 @@
     <Entry FilePath="/Assets/tpp/lang/ui/tpp_tips.eng.lng2" />
     <Entry FilePath="/Assets/tpp/lang/ui/tpp_tutorial.eng.lng2" />
     <Entry FilePath="/Assets/tpp/lang/ui/tpp_weapon.eng.lng2" />
-	<Entry FilePath="/Assets/tpp/lang/ui/tuppm_custom.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tuppm_custom.lng2" />
   </Entries>
   <References />
 </ArchiveFile>

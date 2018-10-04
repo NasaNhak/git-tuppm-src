@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ArchiveFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FpkFile" Name="lang_tuppm.fpk" FpkType="Fpk">
   <Entries>
-	<Entry FilePath="/Assets/tpp/lang/ui/tuppm_custom.lng2" />
+    <Entry FilePath="/Assets/tpp/lang/ui/tuppm_custom.lng2" />
   </Entries>
   <References />
 </ArchiveFile>

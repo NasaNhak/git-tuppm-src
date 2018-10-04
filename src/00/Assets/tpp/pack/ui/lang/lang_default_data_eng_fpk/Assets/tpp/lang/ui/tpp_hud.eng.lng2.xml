@@ -7,8 +7,8 @@
     <Entry Key="1658083500" Color="1" Value="STN" />
     <Entry Key="80995366" Color="1" Value="PRIMARY WEAPON (HIP)" />
     <Entry Key="1366510762" Color="1" Value="PRIMARY WEAPON (BACK)" />
-    <Entry Key="2305549111" Color="1" Value="FULL" />
-    <Entry Key="3784429972" Color="1" Value="AMMO" />
+    <Entry LangId="bullet_full" Color="1" Value="FULL" />
+    <Entry LangId="bullet_box" Color="1" Value="AMMO" />
     <Entry Key="2658025494" Color="1" Value="---" />
     <Entry Key="589874780" Color="1" Value="MISMATCH" />
     <Entry Key="2990779871" Color="1" Value="ZZZ" />
@@ -18,7 +18,7 @@
     <Entry Key="1279590439" Color="1" Value="SECONDARY WEAPON" />
     <Entry Key="2206232046" Color="1" Value="ITEM" />
     <Entry Key="1409672664" Color="1" Value="Change zoom" />
-    <Entry Key="1773778542" Color="1" Value="ELEVATION" />
+    <Entry LangId="bino_angle" Color="1" Value="ELEVATION" />
     <Entry Key="3604349637" Color="1" Value="EAST" />
     <Entry Key="655716177" Color="1" Value="NORTH" />
     <Entry Key="3459066385" Color="1" Value="NE" />
@@ -27,7 +27,7 @@
     <Entry Key="3573798400" Color="1" Value="SE" />
     <Entry Key="3423508040" Color="1" Value="SW" />
     <Entry Key="427692412" Color="1" Value="WEST" />
-    <Entry Key="57805216" Color="1" Value="ZOOM" />
+    <Entry LangId="bino_zoom" Color="1" Value="ZOOM" />
     <Entry Key="860372738" Color="1" Value="Intel radio" />
     <Entry Key="1524422008" Color="1" Value="NONE" />
     <Entry Key="2679672721" Color="1" Value="Get down" />
@@ -71,11 +71,11 @@
     <Entry Key="3758334928" Color="1" Value="SCANNING..." />
     <Entry Key="432211963" Color="1" Value="UNIT SUITABILITY" />
     <Entry Key="1529552969" Color="1" Value="SKILLS" />
-    <Entry Key="1365863107" Color="1" Value="TARGET" />
+    <Entry LangId="reticle_target" Color="1" Value="TARGET" />
     <Entry Key="595007902" Color="1" Value="LOCKED" />
     <Entry Key="326403090" Color="1" Value="&lt;I=G=DECISION&gt; USE" />
     <Entry Key="1085071424" Color="1" Value="SCAN COMPLETED" />
-    <Entry Key="3826884458" Color="1" Value="MIC" />
+    <Entry LangId="bino_mic" Color="1" Value="MIC" />
     <Entry Key="2083113819" Color="1" Value="Select" />
     <Entry Key="2195468327" Color="1" Value="&lt;I=G=PAUSE&gt;: %s" />
     <Entry Key="1669028384" Color="1" Value="Fire (tranq enemy)" />
@@ -113,24 +113,24 @@
     <Entry Key="2282310330" Color="1" Value="ERROR" />
     <Entry Key="1312761050" Color="1" Value="X" />
     <Entry Key="3503217664" Color="1" Value="RELOAD" />
-    <Entry Key="1277246977" Color="1" Value="COMMENCING SIDE OPS" />
+    <Entry LangId="hud_quest_start" Color="1" Value="COMMENCING SIDE OPS" />
     <Entry LangId="hud_quest_finish" Color="1" Value="SIDE OPS COMPLETE" />
-    <Entry Key="247750941" Color="1" Value="COMMENCING FOB MISSION" />
-    <Entry Key="148953249" Color="1" Value="FOB MISSION COMPLETE" />
-    <Entry Key="71151170" Color="1" Value="FOB MISSION CANCELED" />
-    <Entry Key="60690435" Color="1" Value="FOB DEFENSES ENGAGED" />
-    <Entry Key="2118648053" Color="1" Value="Player: %s" />
+    <Entry LangId="hud_fob_start" Color="1" Value="COMMENCING FOB MISSION" />
+    <Entry LangId="hud_fob_finish" Color="1" Value="FOB MISSION COMPLETE" />
+    <Entry LangId="hud_fob_abort" Color="1" Value="FOB MISSION CANCELED" />
+    <Entry LangId="hud_fob_defense" Color="1" Value="FOB DEFENSES ENGAGED" />
+    <Entry LangId="hud_fob_rival_name" Color="1" Value="Player: %s" />
     <Entry LangId="hud_fob_rival_approach" Color="1" Value="Rival Approaching" />
     <Entry Key="231462290" Color="1" Value="&lt;I=G=PAD_X&gt; Change Poster" />
     <Entry Key="2511542304" Color="1" Value="&lt;I=G=ACTION&gt; Equip/Unequip Underbarrel" />
     <Entry Key="4224088879" Color="1" Value="&lt;I=G=HUD_DECIDE&gt;: Use" />
-    <Entry Key="1487775341" Color="1" Value="&quot;The Man Who Sold The World&quot;&#xA;Written by David Bowie&#xA;Performed by Midge Ure" />
-    <Entry Key="3268206665" Color="1" Value="&quot;Sins of the Father&quot;&#xA;Written by Akihiro Honda&#xA;Lyrics by Ludvig Forssell&#xA;Performed by Donna Burke" />
+    <Entry LangId="mtv_The_Man_Who_Sold_The_World" Color="1" Value="&quot;The Man Who Sold The World&quot;&#xA;Written by David Bowie&#xA;Performed by Midge Ure" />
+    <Entry LangId="mtv_Sins_of_the_Father" Color="1" Value="&quot;Sins of the Father&quot;&#xA;Written by Akihiro Honda&#xA;Lyrics by Ludvig Forssell&#xA;Performed by Donna Burke" />
     <Entry Key="2635143781" Color="1" Value="&quot;Quiet's Theme&quot;&#xA;Written by Akihiro Honda&#xA;Lyrics by Ludvig Forssell&#xA;Performed by Stefanie Joosten" />
     <Entry LangId="mtv_Take_On_Me" Color="1" Value="&quot;Take On Me&quot;&#xA;Written by Magne Furuholmen,&#xA;Morten Harket, Pal Waaktaar&#xA;Performed by A-ha" />
     <Entry LangId="mtv_Only_Time_Will_Tell" Color="1" Value="&quot;Only Time Will Tell&quot; &#xA;Written by John Kenneth Wetton&#xA;and Geoffrey Downes&#xA;Performed by Asia" />
     <Entry LangId="mtv_You_Spin_Me_Round" Color="1" Value="&quot;You Spin Me Round (Like a Record)&quot;&#xA;Written by Peter Jozzepi Burns, Stephen Coy,&#xA;Michael David Percy, and Timothy John Lever&#xA;Performed by Dead or Alive" />
-    <Entry Key="2453033007" Color="1" Value="&quot;Party All The Time&quot;&#xA;Written by Rick James&#xA;Performed by Eddie Murphy" />
+    <Entry LangId="mtv_Party_All_The_Time" Color="1" Value="&quot;Party All The Time&quot;&#xA;Written by Rick James&#xA;Performed by Eddie Murphy" />
     <Entry LangId="mtv_The_Final_Countdown" Color="1" Value="&quot;The Final Countdown&quot;&#xA;Written by Joey Tempest&#xA;Performed by Europe" />
     <Entry LangId="mtv_Maneater" Color="1" Value="&quot;Maneater&quot;&#xA;Written by Daryl Hall, John Oates and Sara Allen&#xA;Performed by Daryl Hall and John Oates" />
     <Entry LangId="mtv_Love_Will_Tear_Us_Apart" Color="1" Value="&quot;Love Will Tear Us Apart&quot;&#xA;Written by Ian Kevin Curtis, Peter Hook,&#xA;Stephen Paul David Morris, Bernard Sumner&#xA;Performed by Joy Division" />

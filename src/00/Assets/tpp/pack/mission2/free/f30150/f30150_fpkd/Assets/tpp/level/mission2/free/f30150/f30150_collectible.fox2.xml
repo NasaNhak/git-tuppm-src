@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="GameObjectLocator" super="" version="2" />
+    <class name="TransformEntity" super="" version="0" />
+    <class name="TppPickableLocatorParameter" super="" version="0" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+    <class name="TppCollectionLocatorArray" super="" version="1" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x0455DF30" unknown1="232" unknown2="10073080">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="7">
+          <value key="itm_cassette_30150_0000">0x0455D4B0</value>
+          <value key="itm_cassette_30150_0001">0x045509B0</value>
+          <value key="itm_cassette_30150_0002">0x04550B70</value>
+          <value key="itm_cassette_30150_0003">0x04550E10</value>
+          <value key="itm_cassette_30150_0004">0x04550FD0</value>
+          <value key="TexturePackLoadConditioner0000">0x06E15D40</value>
+          <value key="TppCollectionLocatorArray0000">0x04E5AD50</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x0455D4B0" unknown1="272" unknown2="10073105">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>itm_cassette_30150_0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455DF30</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x0455D520</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppPickableSystem</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x0455D360</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x0455D520" unknown1="80" unknown2="10073108">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455D4B0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0.671847" y="-0.220484" z="0.220487" w="0.671858" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-3.717536" y="8.004159" z="-3.311078" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppPickableLocatorParameter" classVersion="0" addr="0x0455D360" unknown1="40" unknown2="10073112">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455D4B0</value>
+        </property>
+        <property name="equipIdStrCode32" type="uint32" container="StaticArray" arraySize="1">
+          <value>3115897383</value>
+        </property>
+        <property name="countRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>195</value>
+        </property>
+        <property name="countSubRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="flag" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="reserved" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x045509B0" unknown1="272" unknown2="10073400">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>itm_cassette_30150_0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455DF30</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x04550A20</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppPickableSystem</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x04550B00</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x04550A20" unknown1="80" unknown2="10073403">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x045509B0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0.707101" y="0" z="0" w="0.707112" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="109.709625" y="-4.306926" z="5.696287" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppPickableLocatorParameter" classVersion="0" addr="0x04550B00" unknown1="40" unknown2="10073407">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x045509B0</value>
+        </property>
+        <property name="equipIdStrCode32" type="uint32" container="StaticArray" arraySize="1">
+          <value>3115897383</value>
+        </property>
+        <property name="countRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>196</value>
+        </property>
+        <property name="countSubRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="flag" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="reserved" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x04550B70" unknown1="272" unknown2="10073409">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>itm_cassette_30150_0002</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455DF30</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x04550CC0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppPickableSystem</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x04550DA0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x04550CC0" unknown1="80" unknown2="10073412">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04550B70</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0.707101" y="0" z="0" w="0.707112" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-71.14988" y="-4.304039" z="-92.8720551" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppPickableLocatorParameter" classVersion="0" addr="0x04550DA0" unknown1="40" unknown2="10073416">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04550B70</value>
+        </property>
+        <property name="equipIdStrCode32" type="uint32" container="StaticArray" arraySize="1">
+          <value>3115897383</value>
+        </property>
+        <property name="countRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>197</value>
+        </property>
+        <property name="countSubRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="flag" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="reserved" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x04550E10" unknown1="272" unknown2="10073418">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>itm_cassette_30150_0003</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455DF30</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x04550E80</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppPickableSystem</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x04550F60</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x04550E80" unknown1="80" unknown2="10073421">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04550E10</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0.707101" y="0" z="0" w="0.707112" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-95.08675" y="-4.302405" z="69.6929245" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppPickableLocatorParameter" classVersion="0" addr="0x04550F60" unknown1="40" unknown2="10073425">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04550E10</value>
+        </property>
+        <property name="equipIdStrCode32" type="uint32" container="StaticArray" arraySize="1">
+          <value>3115897383</value>
+        </property>
+        <property name="countRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>198</value>
+        </property>
+        <property name="countSubRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="flag" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="reserved" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x04550FD0" unknown1="272" unknown2="10073427">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>itm_cassette_30150_0004</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455DF30</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x04551040</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppPickableSystem</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x04551120</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x04551040" unknown1="80" unknown2="10073430">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04550FD0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0.707101" y="0" z="0" w="0.707112" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-74.975296" y="-4.307885" z="85.0773849" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppPickableLocatorParameter" classVersion="0" addr="0x04551120" unknown1="40" unknown2="10073434">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x04550FD0</value>
+        </property>
+        <property name="equipIdStrCode32" type="uint32" container="StaticArray" arraySize="1">
+          <value>3115897383</value>
+        </property>
+        <property name="countRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>199</value>
+        </property>
+        <property name="countSubRaw" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="flag" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="reserved" type="uint16" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x06E15D40" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455DF30</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppCollectionLocatorArray" classVersion="1" addr="0x04E5AD50" unknown1="208" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TppCollectionLocatorArray0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0455DF30</value>
+        </property>
+        <property name="positions" type="Vector3" container="DynamicArray" arraySize="34">
+          <value x="-14.8414011" y="0.187603" z="-17.5003319" w="-59.9284134" />
+          <value x="-99.85884" y="-2.360866" z="53.7821426" w="-392.352753" />
+          <value x="-79.16953" y="-6.647845" z="53.43276" w="-296.7346" />
+          <value x="-65.57003" y="-4.3125" z="-97.89021" w="-249.342621" />
+          <value x="-68.32023" y="-4.3125" z="-93.84937" w="-260.3434" />
+          <value x="-65.3792648" y="-4.3125" z="-94.7545853" w="-248.579559" />
+          <value x="-66.52877" y="-4.3125" z="-95.5798" w="-253.177582" />
+          <value x="-67.63664" y="-4.3125" z="-98.8140259" w="-257.60907" />
+          <value x="-77.3399048" y="-4.3125" z="-103.216919" w="-296.422119" />
+          <value x="-80.53136" y="-4.3125" z="-101.391945" w="-309.187927" />
+          <value x="-81.26822" y="-4.3125" z="-103.690628" w="-312.135376" />
+          <value x="-76.93101" y="-4.3125" z="-101.012581" w="-294.78653" />
+          <value x="-82.45202" y="-4.3125" z="-105.237457" w="-316.870575" />
+          <value x="-75.23853" y="-4.3125" z="-81.07348" w="-288.016632" />
+          <value x="-74.9552155" y="-4.3125" z="-79.64524" w="-286.883362" />
+          <value x="-76.62244" y="-4.3125" z="-78.6001" w="-293.552246" />
+          <value x="-75.0467" y="-4.3125" z="-78.04556" w="-287.2493" />
+          <value x="-98.2560349" y="-4.3125" z="-93.7767" w="-380.086639" />
+          <value x="-96.98947" y="-4.3125" z="-95.6378555" w="-375.0204" />
+          <value x="125.433395" y="-4.3125" z="-16.220192" w="514.6711" />
+          <value x="122.181351" y="-4.3125" z="-16.5037174" w="501.6629" />
+          <value x="126.799088" y="-4.3125" z="-12.200119" w="520.13385" />
+          <value x="102.666832" y="-4.3125" z="-17.2557087" w="423.604828" />
+          <value x="102.522232" y="-4.3125" z="-14.4804258" w="423.026428" />
+          <value x="104.056908" y="-4.3125" z="-13.8817062" w="429.165131" />
+          <value x="102.190376" y="-4.3125" z="-15.9211693" w="421.699" />
+          <value x="129.57959" y="-4.3125" z="-10.7605572" w="531.255859" />
+          <value x="128.1261" y="-4.3125" z="-14.5679569" w="525.4419" />
+          <value x="121.561928" y="-4.3125" z="10.4787407" w="499.1852" />
+          <value x="121.60083" y="-4.3125" z="7.568123" w="499.34082" />
+          <value x="120.339851" y="-4.3125" z="13.514122" w="494.2969" />
+          <value x="119.446083" y="-4.3125" z="11.941" w="490.721832" />
+          <value x="99.97836" y="-4.3125" z="2.703629" w="412.850952" />
+          <value x="103.759453" y="-4.3125" z="0.874514" w="427.9753" />
+        </property>
+        <property name="rotations" type="uint32" container="DynamicArray" arraySize="34">
+          <value>234024228</value>
+          <value>671089663</value>
+          <value>2549089279</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>1197474815</value>
+          <value>2147483648</value>
+          <value>1571816447</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>173016063</value>
+          <value>1249903615</value>
+          <value>1274020863</value>
+          <value>137364479</value>
+          <value>1234174975</value>
+          <value>244319231</value>
+          <value>1438647295</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+          <value>2147483648</value>
+        </property>
+        <property name="infos" type="uint32" container="DynamicArray" arraySize="34">
+          <value>95459021</value>
+          <value>899752959</value>
+          <value>874637604</value>
+          <value>1746371371</value>
+          <value>1757835848</value>
+          <value>1759195816</value>
+          <value>1749044085</value>
+          <value>1756208354</value>
+          <value>1766257983</value>
+          <value>1769885083</value>
+          <value>1772882435</value>
+          <value>1772565550</value>
+          <value>1775420945</value>
+          <value>1710317889</value>
+          <value>1700284539</value>
+          <value>1701205948</value>
+          <value>1696076613</value>
+          <value>1739000733</value>
+          <value>1744609391</value>
+          <value>1691365540</value>
+          <value>1684525671</value>
+          <value>1693419564</value>
+          <value>1723538987</value>
+          <value>1719790464</value>
+          <value>1727018150</value>
+          <value>1721779407</value>
+          <value>1686276848</value>
+          <value>1680264327</value>
+          <value>1786899663</value>
+          <value>1787576377</value>
+          <value>1794663592</value>
+          <value>1792067061</value>
+          <value>1799920779</value>
+          <value>1805984433</value>
+        </property>
+        <property name="segmentIndices" type="uint16" container="DynamicArray" arraySize="6">
+          <value>8127</value>
+          <value>8254</value>
+          <value>7998</value>
+          <value>8129</value>
+          <value>8130</value>
+          <value>8257</value>
+        </property>
+        <property name="locatorIndices" type="uint16" container="DynamicArray" arraySize="6">
+          <value>0</value>
+          <value>1</value>
+          <value>3</value>
+          <value>19</value>
+          <value>26</value>
+          <value>28</value>
+        </property>
+        <property name="locatorCounts" type="uint16" container="DynamicArray" arraySize="6">
+          <value>1</value>
+          <value>2</value>
+          <value>16</value>
+          <value>7</value>
+          <value>2</value>
+          <value>6</value>
+        </property>
+        <property name="groupIds" type="uint8" container="DynamicArray" arraySize="2">
+          <value>0</value>
+          <value>1</value>
+        </property>
+        <property name="segmentInfoIndices" type="uint16" container="DynamicArray" arraySize="2">
+          <value>0</value>
+          <value>2</value>
+        </property>
+        <property name="segmentInfoCounts" type="uint16" container="DynamicArray" arraySize="2">
+          <value>2</value>
+          <value>4</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

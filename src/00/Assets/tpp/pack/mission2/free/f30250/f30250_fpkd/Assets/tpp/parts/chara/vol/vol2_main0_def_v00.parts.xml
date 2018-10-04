@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="ModelDescription" super="" version="12" />
+    <class name="EffectDescription" super="" version="6" />
+    <class name="FoxTargetDescription" super="" version="1" />
+    <class name="PhysicsDescription" super="" version="0" />
+    <class name="SoundDescription" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x0607F580" unknown1="232" unknown2="4532158">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="6">
+          <value key="ModelDescription0000">0x0607FC80</value>
+          <value key="EffectDescription0000">0x0607F9E0</value>
+          <value key="FoxTargetDescription0000">0x063005C0</value>
+          <value key="FoxTargetDescription0003">0x06300320</value>
+          <value key="PhysicsDescription0000">0x06300780</value>
+          <value key="SoundDescription0000">0x063012E0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="ModelDescription" classVersion="12" addr="0x0607FC80" unknown1="288" unknown2="4532160">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>ModelDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0607F580</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" />
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Body</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="modelFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/vol/Scenes/vol2_main0_def.fmdl</value>
+        </property>
+        <property name="connectPointFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/vol/Scenes/vol2_main0_def.fcnp</value>
+        </property>
+        <property name="gameRigFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/rig/frig/human_finger.frig</value>
+        </property>
+        <property name="helpBoneFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/chara/vol/Scenes/vol2_main0_def.frdv</value>
+        </property>
+        <property name="lipAdjustBinaryFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="facialSettingFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="invisibleMeshNames" type="String" container="DynamicArray" />
+        <property name="lodFarPixelSize" type="float" container="StaticArray" arraySize="1">
+          <value>50</value>
+        </property>
+        <property name="lodNearPixelSize" type="float" container="StaticArray" arraySize="1">
+          <value>400</value>
+        </property>
+        <property name="lodPolygonSize" type="float" container="StaticArray" arraySize="1">
+          <value>-1</value>
+        </property>
+        <property name="drawRejectionLevel" type="int32" container="StaticArray" arraySize="1">
+          <value>8</value>
+        </property>
+        <property name="rejectFarRangeShadowCast" type="int32" container="StaticArray" arraySize="1">
+          <value>2</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="EffectDescription" classVersion="6" addr="0x0607F9E0" unknown1="232" unknown2="4532162">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EffectDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0607F580</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/vol/vol2_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0607FC80</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>fx_tpp_firvol01lop_s0LG</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="connectDestinationSkelNames" type="String" container="DynamicArray" arraySize="21">
+          <value>SKL_004_HEAD</value>
+          <value>SKL_032_LFOOT</value>
+          <value>SKL_032_LFOOT</value>
+          <value>SKL_530_CLVR_HLP</value>
+          <value>SKL_500_LLRPZ_HLP</value>
+          <value>SKL_509_RLRPZ_HLP</value>
+          <value>SKL_526_RPTL_HLP</value>
+          <value>SKL_509_RLRPZ_HLP</value>
+          <value>SKL_012_LFARM</value>
+          <value>SKL_505_LFARL_HLP</value>
+          <value>SKL_506_LTNB_HLP</value>
+          <value>SKL_112_LF42</value>
+          <value>SKL_110_LF40</value>
+          <value>SKL_212_RF42</value>
+          <value>SKL_210_RF40</value>
+          <value>SKL_514_RFARL_HLP</value>
+          <value>SKL_022_RFARM</value>
+          <value>SKL_042_RFOOT</value>
+          <value>SKL_004_HEAD</value>
+          <value>SKL_515_RTNB_HLP</value>
+          <value>SKL_500_LLRPZ_HLP</value>
+        </property>
+        <property name="connectDestinationCnpNames" type="String" container="DynamicArray" />
+        <property name="offsetSkelPositions" type="Vector3" container="DynamicArray" arraySize="21">
+          <value x="0" y="-0.13" z="-0.05" w="0" />
+          <value x="0.05" y="0.3" z="0.05" w="0" />
+          <value x="0.05" y="0.15" z="0" w="0" />
+          <value x="0" y="-0.15" z="0.05" w="0" />
+          <value x="0.05" y="-0.1" z="0" w="0" />
+          <value x="-0.05" y="-0.1" z="0" w="0" />
+          <value x="-0.07" y="-0.1" z="-0.18" w="0" />
+          <value x="0.1" y="0" z="0.1" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="offsetCnpPositions" type="Vector3" container="DynamicArray" />
+        <property name="generalSkelParameters" type="Vector4" container="DynamicArray" arraySize="21">
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+        <property name="generalCnpParameters" type="Vector4" container="DynamicArray" />
+        <property name="effectConnect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="changeEffectConnectSetting" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="visibleModelWithEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="createStartEffect" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="effectRandomSeed" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectKind" type="int32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="effectVariationName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromVfxFileLoader" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="effectFileFromFilePtr" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/effect/vfx_data/fire/fx_tpp_firvol01lop_s0LG.vfx</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x063005C0" unknown1="112" unknown2="4532165">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>FoxTargetDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0607F580</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/vol/vol2_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0607FC80</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>Target</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="targetFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/npc/NpcHumanTargetDefense.tgt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="FoxTargetDescription" classVersion="1" addr="0x06300320" unknown1="112" unknown2="4532168">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>FoxTargetDescription0003</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0607F580</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/vol/vol2_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0607FC80</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value>TargetPushDefense</value>
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="targetFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/npc/NpcHumanTargetPushDefense.tgt</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="PhysicsDescription" classVersion="0" addr="0x06300780" unknown1="112" unknown2="4532171">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>PhysicsDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0607F580</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/vol/vol2_main0_def_v00.parts" nameInArchive="ModelDescription0000">0x0607FC80</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="physicsFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/npc/ene0_v01.ph</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="SoundDescription" classVersion="0" addr="0x063012E0" unknown1="112" unknown2="4532174">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>SoundDescription0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x0607F580</value>
+        </property>
+        <property name="depends" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePathHash="0xB8A0BF169F98" archivePath="/Assets/tpp/parts/chara/vol/vol2_main0_def_v00.parts" nameInArchive="PhysicsDescription0000">0x06300780</value>
+        </property>
+        <property name="partName" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="buildType" type="String" container="StaticArray" arraySize="1">
+          <value hash="0xB8A0BF169F98" />
+        </property>
+        <property name="soundFile" type="FilePtr" container="StaticArray" arraySize="1">
+          <value>/Assets/tpp/parts/chara/human_def.phsd</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

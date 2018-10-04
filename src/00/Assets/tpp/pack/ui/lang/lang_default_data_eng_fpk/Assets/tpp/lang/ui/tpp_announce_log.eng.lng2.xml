@@ -3,30 +3,30 @@
   <Entries>
     <Entry LangId="announce_collection_enemy" Color="5" Value="Extracted Soldier" />
     <Entry LangId="announce_collection_hostage" Color="5" Value="Extracted Prisoner" />
-    <Entry Key="926046780" Color="5" Value="Destroyed Anti-Air Cannon" />
-    <Entry Key="4198477576" Color="5" Value="Destroyed Armored Vehicle" />
-    <Entry Key="1321229531" Color="5" Value="Destroyed Gunship" />
-    <Entry Key="1061516425" Color="5" Value="Destroyed Wooden Watchtower" />
-    <Entry Key="3418640614" Color="5" Value="Destroyed Truck" />
-    <Entry Key="2748236965" Color="6" Value="Destroyed Four-Wheel Drive" />
-    <Entry Key="2121073119" Color="5" Value="Enemy Left the Area" />
-    <Entry Key="2661475194" Color="5" Value="Enemy Reinforcements Inbound" />
-    <Entry Key="368752706" Color="5" Value="Enemy No Longer Neutralized" />
-    <Entry Key="3739934441" Color="5" Value="Obtained Grenade Rounds [%s]" />
-    <Entry Key="2789730886" Color="5" Value="Obtained Air Stun Rounds [%s]" />
+    <Entry LangId="announce_destroy_AntiAirCraftGun" Color="5" Value="Destroyed Anti-Air Cannon" />
+    <Entry LangId="announce_destroy_APC" Color="5" Value="Destroyed Armored Vehicle" />
+    <Entry LangId="announce_destroy_heli" Color="5" Value="Destroyed Gunship" />
+    <Entry LangId="announce_destroy_tower" Color="5" Value="Destroyed Wooden Watchtower" />
+    <Entry LangId="announce_destroy_truck" Color="5" Value="Destroyed Truck" />
+    <Entry LangId="announce_destroy_vehicle" Color="6" Value="Destroyed Four-Wheel Drive" />
+    <Entry LangId="announce_enemyDecrease" Color="5" Value="Enemy Left the Area" />
+    <Entry LangId="announce_enemyIncrease" Color="5" Value="Enemy Reinforcements Inbound" />
+    <Entry LangId="announce_enemyRecovered" Color="5" Value="Enemy No Longer Neutralized" />
+    <Entry LangId="announce_get_bullet_grenade" Color="5" Value="Obtained Grenade Rounds [%s]" />
+    <Entry LangId="announce_get_bullet_stun" Color="5" Value="Obtained Air Stun Rounds [%s]" />
     <Entry LangId="announce_get_tape" Color="5" Value="Obtained Cassette Tape [%s]" />
-    <Entry Key="2336527286" Color="5" Value="Obtained XOF Patches [%d/%d]" />
-    <Entry Key="507835039" Color="5" Value="Helicopter Arrived at Rendezvous Point" />
-    <Entry Key="4289541307" Color="5" Value="Objectives Complete" />
-    <Entry Key="770814487" Color="5" Value="Objective Complete [%d/%d]" />
+    <Entry LangId="announce_get_xof" Color="5" Value="Obtained XOF Patches [%d/%d]" />
+    <Entry LangId="announce_heli_arrive_RV" Color="5" Value="Helicopter Arrived at Rendezvous Point" />
+    <Entry LangId="announce_mission_goal" Color="5" Value="Objectives Complete" />
+    <Entry LangId="announce_mission_goal_num" Color="5" Value="Objective Complete [%d/%d]" />
     <Entry LangId="announce_mission_info_update" Color="6" Value="Mission Info Updated:" />
     <Entry LangId="announce_doc_add" Color="6" Value="Document Added" />
     <Entry LangId="announce_map_update" Color="6" Value="Map Info Updated" />
     <Entry LangId="announce_target_extract" Color="5" Value="Target Secured" />
-    <Entry Key="581097625" Color="5" Value="Target %s Secured" />
+    <Entry LangId="announce_target_extract_a" Color="5" Value="Target %s Secured" />
     <Entry LangId="announce_target_eliminate" Color="5" Value="Target Eliminated" />
     <Entry LangId="announce_target_destroy" Color="5" Value="Target Destroyed&#xA;" />
-    <Entry Key="3484349736" Color="5" Value="Target %s Destroyed" />
+    <Entry LangId="announce_target_destroy_a" Color="5" Value="Target %s Destroyed" />
     <Entry LangId="announce_objective_complete" Color="6" Value="Objective Complete" />
     <Entry LangId="announce_mission_list_update" Color="5" Value="Mission List Updated:" />
     <Entry LangId="announce_mission_add" Color="6" Value="New Mission Added" />
@@ -34,36 +34,36 @@
     <Entry LangId="announce_left_hot_zone" Color="5" Value="Left Hot Zone" />
     <Entry LangId="announce_outpost_neutralize" Color="5" Value="Outpost Captured [Heroism +%d]" />
     <Entry LangId="announce_destroyed_support_heli" Color="6" Value="Support Helicopter Destroyed [Heroism -%d]" />
-    <Entry Key="2605152069" Color="5" Value="Support Unit: Supplies dropped" />
-    <Entry Key="2102351696" Color="5" Value="Support Unit: Strike request received" />
-    <Entry Key="1096992486" Color="6" Value="Support Unit: Commencing strike" />
+    <Entry LangId="announce_supplies_drop" Color="5" Value="Support Unit: Supplies dropped" />
+    <Entry LangId="announce_strike_request_received" Color="5" Value="Support Unit: Strike request received" />
+    <Entry LangId="announce_strike_prep_complete" Color="6" Value="Support Unit: Commencing strike" />
     <Entry LangId="announce_heli_arrive_LZ" Color="5" Value="Support Helicopter: Arrived at LZ" />
-    <Entry Key="568983487" Color="5" Value="Support Helicopter: Departed mission area" />
-    <Entry Key="128858418" Color="5" Value="Intel Team: Spotted approaching threat" />
-    <Entry Key="267839094" Color="5" Value="Intel Team: Spotted threat within outpost" />
-    <Entry Key="4097236592" Color="5" Value="Intel Team: Spotted new threat" />
-    <Entry Key="1643424259" Color="5" Value="Intel Team: Threat departed" />
+    <Entry LangId="announce_heli_escape" Color="5" Value="Support Helicopter: Departed mission area" />
+    <Entry LangId="announce_approaching_threat" Color="5" Value="Intel Team: Spotted approaching threat" />
+    <Entry LangId="announce_threat_within_outpost" Color="5" Value="Intel Team: Spotted threat within outpost" />
+    <Entry LangId="announce_new_threat" Color="5" Value="Intel Team: Spotted new threat" />
+    <Entry LangId="announce_threat_departed" Color="5" Value="Intel Team: Threat departed" />
     <Entry LangId="announce_phase_to_alert" Color="5" Value="%s CP: Entering combat status" />
     <Entry LangId="announce_phase_to_evasion" Color="5" Value="%s CP: Commencing search" />
     <Entry LangId="announce_phase_to_caution" Color="5" Value="%s CP: Entering alert status" />
     <Entry LangId="announce_phase_to_sneak" Color="5" Value="%s CP: Resuming normal patrol" />
-    <Entry Key="1729524985" Color="5" Value="%s CP: Shift change" />
-    <Entry Key="2445888006" Color="5" Value="%s CP: Checkpoint set up" />
-    <Entry Key="1576040720" Color="5" Value="Obtained Ammo [%s]" />
-    <Entry Key="370910591" Color="5" Value="Obtained Tranq. Rounds [%s]" />
-    <Entry Key="2624528984" Color="5" Value="Obtained Launcher Ammo [%s]" />
-    <Entry Key="3856065058" Color="5" Value="Obtained Suppressor" />
-    <Entry Key="2722538586" Color="5" Value="Obtained Ammo Type [%s]" />
-    <Entry Key="2432872761" Color="5" Value="Obtained Weapon [%s]" />
-    <Entry Key="2590854929" Color="5" Value="Obtained Item [%s]" />
+    <Entry LangId="announce_enemyReplacement" Color="5" Value="%s CP: Shift change" />
+    <Entry LangId="announce_mission_40_20030_004_from_0_prio_0" Color="5" Value="%s CP: Checkpoint set up" />
+    <Entry LangId="announce_get_bullet_default" Color="5" Value="Obtained Ammo [%s]" />
+    <Entry LangId="announce_get_bullet_tranq" Color="5" Value="Obtained Tranq. Rounds [%s]" />
+    <Entry LangId="announce_get_bullet_artillery" Color="5" Value="Obtained Launcher Ammo [%s]" />
+    <Entry LangId="announce_get_suppressor" Color="5" Value="Obtained Suppressor" />
+    <Entry LangId="announce_get_ammo_type" Color="5" Value="Obtained Ammo Type [%s]" />
+    <Entry LangId="announce_get_weapon" Color="5" Value="Obtained Weapon [%s]" />
+    <Entry LangId="announce_get_item" Color="5" Value="Obtained Item [%s]" />
     <Entry LangId="announce_extraction_failed" Color="5" Value="Support Unit: Extraction failed" />
     <Entry LangId="announce_extraction_arrived" Color="5" Value="Extraction Flight Arrived at Mother Base:" />
     <Entry LangId="announce_extract_soldier" Color="5" Value="Soldier x %d" />
     <Entry LangId="announce_extract_prisoner" Color="5" Value="Prisoner x %d" />
     <Entry LangId="announce_extract_animal" Color="5" Value="Wild Animal [%s] x %d" />
-    <Entry Key="2673446822" Color="5" Value="Medicinal Plant [%s] x %d" />
+    <Entry LangId="announce_extract_plant" Color="5" Value="Medicinal Plant [%s] x %d" />
     <Entry LangId="announce_get_diamond" Color="5" Value="Rough Diamonds [GMP +%d]" />
-    <Entry Key="970533684" Color="6" Value="Exceeded Personnel Capacity. %d Staff Dismissed" />
+    <Entry LangId="announce_staff_dismissed" Color="6" Value="Exceeded Personnel Capacity. %d Staff Dismissed" />
     <Entry LangId="announce_unit_lvup_RD" Color="6" Value="R&amp;D Team Leveled Up [LV. %d]" />
     <Entry LangId="announce_unit_lvup_base_dev" Color="6" Value="Base Development Unit Leveled Up [LV. %d]" />
     <Entry LangId="announce_unit_lvup_support" Color="6" Value="Support Unit Leveled Up [LV. %d]" />
@@ -78,176 +78,176 @@
     <Entry LangId="announce_unit_lvdown_combat" Color="6" Value="Combat Unit Leveled Down [LV. %d]" />
     <Entry LangId="announce_unit_lvdown_security" Color="6" Value="Security Team Leveled Down [LV. %d]" />
     <Entry LangId="announce_unit_lvdown_medical" Color="6" Value="Medical Team Leveled Down [LV. %d]" />
-    <Entry Key="987660622" Color="6" Value="Unit Function Added [%s]" />
-    <Entry Key="1687107540" Color="5" Value="Development Requirements Met [%s]" />
-    <Entry Key="3377902769" Color="5" Value="Spent [GMP -%d]" />
-    <Entry Key="1441458325" Color="6" Value="GMP in the Red" />
-    <Entry Key="2039765724" Color="5" Value="Primary Weapon (BACK)" />
-    <Entry Key="1950793319" Color="5" Value="Primary Weapon (HIP)" />
-    <Entry Key="587148857" Color="5" Value="Secondary Weapon" />
+    <Entry LangId="announce_unit_func_add" Color="6" Value="Unit Function Added [%s]" />
+    <Entry LangId="announce_dev_requirements_met" Color="5" Value="Development Requirements Met [%s]" />
+    <Entry LangId="announce_gmp_spent" Color="5" Value="Spent [GMP -%d]" />
+    <Entry LangId="announce_gmp_in_red" Color="6" Value="GMP in the Red" />
+    <Entry LangId="announce_weaponType_pb" Color="5" Value="Primary Weapon (BACK)" />
+    <Entry LangId="announce_weaponType_ph" Color="5" Value="Primary Weapon (HIP)" />
+    <Entry LangId="announce_weaponType_s" Color="5" Value="Secondary Weapon" />
     <Entry LangId="announce_gmp_cost_heli" Color="5" Value="Helicopter Expenses: [GMP -%d]" />
     <Entry LangId="announce_gmp_cost_attack" Color="5" Value="Support Strike Expenses: [GMP -%d]" />
     <Entry LangId="announce_gmp_cost_supply" Color="5" Value="Supply Drop Expenses: [GMP -%d]" />
     <Entry LangId="announce_gmp_cost_fulton" Color="5" Value="Fulton Recovery Expenses: [GMP -%d]" />
-    <Entry Key="1792757715" Color="5" Value="Tools Updated [%s]" />
+    <Entry LangId="announce_tool_update" Color="5" Value="Tools Updated [%s]" />
     <Entry LangId="announce_sunrise" Color="5" Value="Sunrise Imminent" />
     <Entry LangId="announce_sunset" Color="5" Value="Sunset Imminent" />
-    <Entry Key="3777346361" Color="5" Value="Materials Container [%s] x %d" />
-    <Entry Key="3513783543" Color="5" Value="Four-Wheel Drive [%s] x %d" />
+    <Entry LangId="announce_extract_resouce" Color="5" Value="Materials Container [%s] x %d" />
+    <Entry LangId="announce_extract_4wd" Color="5" Value="Four-Wheel Drive [%s] x %d" />
     <Entry LangId="announce_weather_fog" Color="5" Value="Intel Team: Fog approaching your vicinity" />
     <Entry LangId="announce_weather_sandstorm" Color="5" Value="Intel Team: Sandstorm approaching your vicinity" />
     <Entry LangId="announce_weather_rain" Color="5" Value="Intel Team: Rain approaching your vicinity" />
     <Entry LangId="announce_weather_cloudy" Color="5" Value="Intel Team: Cloudy weather in your vicinity" />
     <Entry LangId="announce_weather_sunny" Color="5" Value="Intel Team: Weather is clearing" />
-    <Entry Key="2046117996" Color="5" Value="Support Unit: Supply request received" />
-    <Entry Key="2890738889" Color="5" Value="Target %s Eliminated" />
+    <Entry LangId="announce_support_request_received" Color="5" Value="Support Unit: Supply request received" />
+    <Entry LangId="announce_target_eliminate_a" Color="5" Value="Target %s Eliminated" />
     <Entry LangId="announce_objective_complete_num" Color="6" Value="Objective Complete [%d/%d]" />
     <Entry LangId="announce_mission_add_emerg" Color="6" Value="New Emergency Mission" />
     <Entry LangId="announce_disposal_mine" Color="5" Value="Disposed of Mine [Heroism +%d]" />
-    <Entry Key="374542746" Color="5" Value="Cleared Minefield" />
+    <Entry LangId="announce_disposal_minefield" Color="5" Value="Cleared Minefield" />
     <Entry LangId="announce_mbstaff_died" Color="6" Value="Staff Died [Heroism -%d]" />
     <Entry LangId="announce_target_died" Color="6" Value="Target Died" />
     <Entry LangId="announce_hostage_died" Color="6" Value="Prisoner Died [Heroism -%d]" />
     <Entry LangId="announce_boy_died" Color="6" Value="Child Died" />
-    <Entry Key="328324625" Color="5" Value="Support Unit: Vehicle dropped" />
+    <Entry LangId="announce_vehicle_drop" Color="5" Value="Support Unit: Vehicle dropped" />
     <Entry LangId="announce_support_callheli_received" Color="5" Value="Support Unit: Chopper request received" />
     <Entry LangId="announce_support_callboddy_received" Color="5" Value="Support Unit: Dispatch request received [%s]" />
-    <Entry Key="2749167676" Color="5" Value="Quiet: Infiltrating outpost" />
-    <Entry Key="2642781383" Color="5" Value="Quiet: Recon complete. Standing by at sniping point" />
-    <Entry Key="368429689" Color="5" Value="Quiet: Reached sniping point" />
-    <Entry Key="3320586335" Color="5" Value="Quiet: Left mission area" />
-    <Entry Key="2867444277" Color="5" Value="Quiet: Engaging enemy" />
-    <Entry Key="3972516345" Color="5" Value="Quiet: Standing down" />
-    <Entry Key="2941352124" Color="5" Value="Quiet: On the move" />
-    <Entry Key="2927022896" Color="5" Value="Quiet: Moved to new position" />
-    <Entry Key="622141776" Color="6" Value="Quiet: Requesting rescue" />
-    <Entry Key="2139101358" Color="5" Value="D-Dog: Arrived at drop point" />
-    <Entry Key="2355190036" Color="5" Value="D-Dog: Left mission area" />
-    <Entry Key="1285067932" Color="5" Value="D-Dog: Found landmine" />
-    <Entry Key="3907094575" Color="5" Value="D-Dog: Found medicinal plant" />
-    <Entry Key="768701603" Color="5" Value="D-Dog: Found rough diamonds" />
-    <Entry Key="1081606336" Color="5" Value="D-Horse: Arrived at drop point" />
-    <Entry Key="710663657" Color="5" Value="D-Horse: Left mission area" />
-    <Entry Key="3914691220" Color="5" Value="D-Walker: Arrived at drop point" />
-    <Entry Key="1106098357" Color="5" Value="D-Walker: Left mission area" />
-    <Entry Key="344677244" Color="5" Value="D-Walker: Entering auto-search mode" />
-    <Entry Key="681683199" Color="5" Value="D-Walker: Auto-search mode disengaged" />
-    <Entry Key="4208136430" Color="5" Value="D-Walker: Entering auto-intercept mode" />
-    <Entry Key="2190572872" Color="5" Value="D-Walker: Intercept mode disengaged" />
-    <Entry Key="631501653" Color="5" Value="D-Walker: Entering stealth mode" />
-    <Entry Key="2245583205" Color="5" Value="D-Walker: Stealth mode disengaged" />
-    <Entry Key="2807908797" Color="5" Value="D-Walker: Enemy sighted" />
-    <Entry Key="2976600043" Color="5" Value="D-Walker: Enemy sighted, engaging" />
-    <Entry Key="33361883" Color="5" Value="D-Walker: Attack complete" />
-    <Entry Key="2744416555" Color="5" Value="D-Walker: Launching smoke" />
-    <Entry Key="1466104832" Color="5" Value="D-Walker: Launching flare" />
+    <Entry LangId="announce_quiet_sneaking" Color="5" Value="Quiet: Infiltrating outpost" />
+    <Entry LangId="announce_quiet_spy_to_snipe" Color="5" Value="Quiet: Recon complete. Standing by at sniping point" />
+    <Entry LangId="announce_quiet_snipe_point" Color="5" Value="Quiet: Reached sniping point" />
+    <Entry LangId="announce_quiet_escape" Color="5" Value="Quiet: Left mission area" />
+    <Entry LangId="announce_quiet_attack" Color="5" Value="Quiet: Engaging enemy" />
+    <Entry LangId="announce_quiet_attack_stop" Color="5" Value="Quiet: Standing down" />
+    <Entry LangId="announce_quiet_move_start" Color="5" Value="Quiet: On the move" />
+    <Entry LangId="announce_quiet_move_stop" Color="5" Value="Quiet: Moved to new position" />
+    <Entry LangId="announce_quiet_request" Color="6" Value="Quiet: Requesting rescue" />
+    <Entry LangId="announce_ddog_lz" Color="5" Value="D-Dog: Arrived at drop point" />
+    <Entry LangId="announce_ddog_escape" Color="5" Value="D-Dog: Left mission area" />
+    <Entry LangId="announce_ddog_find_mine" Color="5" Value="D-Dog: Found landmine" />
+    <Entry LangId="announce_ddog_find_plant" Color="5" Value="D-Dog: Found medicinal plant" />
+    <Entry LangId="announce_ddog_find_diamond" Color="5" Value="D-Dog: Found rough diamonds" />
+    <Entry LangId="announce_dhorse_lz" Color="5" Value="D-Horse: Arrived at drop point" />
+    <Entry LangId="announce_dhorse_escape" Color="5" Value="D-Horse: Left mission area" />
+    <Entry LangId="announce_dwalker_lz" Color="5" Value="D-Walker: Arrived at drop point" />
+    <Entry LangId="announce_dwalker_escape" Color="5" Value="D-Walker: Left mission area" />
+    <Entry LangId="announce_dwalker_search_start" Color="5" Value="D-Walker: Entering auto-search mode" />
+    <Entry LangId="announce_dwalker_search_stop" Color="5" Value="D-Walker: Auto-search mode disengaged" />
+    <Entry LangId="announce_dwalker_intercept_start" Color="5" Value="D-Walker: Entering auto-intercept mode" />
+    <Entry LangId="announce_dwalker_intercept_stop" Color="5" Value="D-Walker: Intercept mode disengaged" />
+    <Entry LangId="announce_dwalker_stealth_start" Color="5" Value="D-Walker: Entering stealth mode" />
+    <Entry LangId="announce_dwalker_stealth_stop" Color="5" Value="D-Walker: Stealth mode disengaged" />
+    <Entry LangId="announce_dwalker_find_enemy" Color="5" Value="D-Walker: Enemy sighted" />
+    <Entry LangId="announce_dwalker_attack_enemy" Color="5" Value="D-Walker: Enemy sighted, engaging" />
+    <Entry LangId="announce_dwalker_attack_stop" Color="5" Value="D-Walker: Attack complete" />
+    <Entry LangId="announce_dwalker_fire_smoke" Color="5" Value="D-Walker: Launching smoke" />
+    <Entry LangId="announce_dwalker_fire_flare" Color="5" Value="D-Walker: Launching flare" />
     <Entry LangId="announce_find_diamond" Color="5" Value="Rough Diamonds Spotted [GMP +%d]" />
-    <Entry Key="2618681850" Color="5" Value="Buddy x %d" />
-    <Entry Key="156671010" Color="5" Value="Child x %d" />
-    <Entry Key="2150800396" Color="5" Value="Skull Soldier [%s] x %d" />
-    <Entry Key="498216595" Color="5" Value="Truck [%s] x %d" />
-    <Entry Key="3279215242" Color="5" Value="Armored Vehicle [%s] x %d" />
-    <Entry Key="3610671942" Color="5" Value="Tank [%s] x %d" />
-    <Entry Key="4104170904" Color="5" Value="Walker Gear [%s] x %d" />
-    <Entry Key="2908584141" Color="5" Value="Gun Emplacement [%s] x %d" />
-    <Entry Key="2537718053" Color="5" Value="Mortar [%s] x %d" />
-    <Entry Key="3804483073" Color="5" Value="Anti-Air Cannon [%s] x %d" />
-    <Entry Key="806488757" Color="5" Value="Capture Cage [%s] x %d" />
-    <Entry Key="822605502" Color="5" Value="Lifesaver [Heroism +%d]" />
-    <Entry Key="3604087985" Color="5" Value="Animal Rescued [Heroism +%d] [GMP +%d]" />
-    <Entry Key="1877121673" Color="6" Value="Dispatch Mission [%s] Successful:" />
+    <Entry LangId="announce_extract_boddy" Color="5" Value="Buddy x %d" />
+    <Entry LangId="announce_extract_boy" Color="5" Value="Child x %d" />
+    <Entry LangId="announce_extract_skull_fog" Color="5" Value="Skull Soldier [%s] x %d" />
+    <Entry LangId="announce_extract_truck" Color="5" Value="Truck [%s] x %d" />
+    <Entry LangId="announce_extract_APC" Color="5" Value="Armored Vehicle [%s] x %d" />
+    <Entry LangId="announce_extract_tank" Color="5" Value="Tank [%s] x %d" />
+    <Entry LangId="announce_extract_walker_gear" Color="5" Value="Walker Gear [%s] x %d" />
+    <Entry LangId="announce_extract_gunsheat" Color="5" Value="Gun Emplacement [%s] x %d" />
+    <Entry LangId="announce_extract_mortar" Color="5" Value="Mortar [%s] x %d" />
+    <Entry LangId="announce_extract_antiair" Color="5" Value="Anti-Air Cannon [%s] x %d" />
+    <Entry LangId="announce_gauge" Color="5" Value="Capture Cage [%s] x %d" />
+    <Entry LangId="announce_lifesaving" Color="5" Value="Lifesaver [Heroism +%d]" />
+    <Entry LangId="announce_animal_protection" Color="5" Value="Animal Rescued [Heroism +%d] [GMP +%d]" />
+    <Entry LangId="announce_ops_success_mission" Color="6" Value="Dispatch Mission [%s] Successful:" />
     <Entry LangId="announce_ops_get_gmp" Color="5" Value="Payment [GMP +%d]" />
-    <Entry Key="285550623" Color="5" Value="Materials Container [%s] x %d" />
+    <Entry LangId="announce_ops_get_resource" Color="5" Value="Materials Container [%s] x %d" />
     <Entry LangId="announce_ops_get_item" Color="5" Value="Obtained Key Item [%s]" />
-    <Entry Key="2023517875" Color="5" Value="Volunteer x %d" />
-    <Entry Key="3457323717" Color="6" Value="Dispatch Mission [%s] Failed: " />
-    <Entry Key="383305414" Color="6" Value="%d KIA [Heroism -%d]" />
-    <Entry Key="163135692" Color="6" Value="Mother Base:" />
-    <Entry Key="1922414965" Color="5" Value="%d Recruits Transferred to Sickbay" />
-    <Entry Key="2796199055" Color="5" Value="%d Recruits Transferred to Brig" />
-    <Entry Key="1939556" Color="5" Value="%d Staff Transferred to Quarantine Platform" />
-    <Entry Key="3491785353" Color="5" Value="%d Recovered. Discharged from Sickbay" />
-    <Entry Key="1338993891" Color="5" Value="Convinced %d Recruit(s) to Join: Discharged from brig" />
-    <Entry Key="62518934" Color="5" Value="%d Staff Recovered. Discharged from Quarantine Platform" />
-    <Entry Key="1011289914" Color="6" Value="%d Staff Left Mother Base [Heroism -%d]" />
-    <Entry Key="3663024448" Color="6" Value="Platform Completed" />
+    <Entry LangId="announce_ops_volunteer" Color="5" Value="Volunteer x %d" />
+    <Entry LangId="announce_ops_failed_mission" Color="6" Value="Dispatch Mission [%s] Failed: " />
+    <Entry LangId="announce_ops_staff_dead" Color="6" Value="%d KIA [Heroism -%d]" />
+    <Entry LangId="announce_mb" Color="6" Value="Mother Base:" />
+    <Entry LangId="announce_staff_to_clinic" Color="5" Value="%d Recruits Transferred to Sickbay" />
+    <Entry LangId="announce_staff_to_brig" Color="5" Value="%d Recruits Transferred to Brig" />
+    <Entry LangId="announce_staff_to_isolate" Color="5" Value="%d Staff Transferred to Quarantine Platform" />
+    <Entry LangId="announce_staff_discharge" Color="5" Value="%d Recovered. Discharged from Sickbay" />
+    <Entry LangId="announce_staff_liberation" Color="5" Value="Convinced %d Recruit(s) to Join: Discharged from brig" />
+    <Entry LangId="announce_staff_release" Color="5" Value="%d Staff Recovered. Discharged from Quarantine Platform" />
+    <Entry LangId="announce_staff_escape" Color="6" Value="%d Staff Left Mother Base [Heroism -%d]" />
+    <Entry LangId="announce_platform_add" Color="6" Value="Platform Completed" />
     <Entry LangId="announce_fob_add" Color="6" Value="FOB Completed [Heroism +%d]" />
     <Entry LangId="announce_gmp_cost_ops" Color="5" Value="Dispatch Expenses: [GMP -%d]" />
-    <Entry Key="1841636791" Color="6" Value="R&amp;D Platform Completed [Heroism +%d]" />
-    <Entry Key="2024968594" Color="6" Value="Base Development Platform Completed [Heroism +%d]" />
-    <Entry Key="1962192103" Color="6" Value="Support Platform Completed [Heroism +%d]" />
-    <Entry Key="1788116048" Color="6" Value="Intel Platform Completed [Heroism +%d]" />
-    <Entry Key="825510162" Color="6" Value="Combat Unit Platform Completed [Heroism +%d]" />
-    <Entry Key="1054239574" Color="6" Value="Medical Platform Completed [Heroism +%d]" />
-    <Entry Key="2154062939" Color="6" Value="Command Platform Completed [Heroism +%d]" />
-    <Entry Key="2889642624" Color="6" Value="Multipurpose Platform Completed [Heroism +%d]" />
-    <Entry Key="1981673359" Color="6" Value="Nuclear Disposal Platform Completed [Heroism +%d]" />
-    <Entry Key="3186254433" Color="6" Value="Quarantine Platform Completed [Heroism +%d]" />
-    <Entry Key="659005302" Color="6" Value="Animal Conservation Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_RD" Color="6" Value="R&amp;D Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_base_dev" Color="6" Value="Base Development Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_support" Color="6" Value="Support Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_intel" Color="6" Value="Intel Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_combat" Color="6" Value="Combat Unit Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_medical" Color="6" Value="Medical Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_command" Color="6" Value="Command Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_multi" Color="6" Value="Multipurpose Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_nuclear" Color="6" Value="Nuclear Disposal Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_quarantine" Color="6" Value="Quarantine Platform Completed [Heroism +%d]" />
+    <Entry LangId="announce_platform_add_animal" Color="6" Value="Animal Conservation Platform Completed [Heroism +%d]" />
     <Entry LangId="announce_online_910_from_0_prio_0" Color="5" Value="Damage to FOB" />
     <Entry LangId="announce_online_900_from_0_prio_0" Color="5" Value="Intruder Detected at FOB" />
     <Entry LangId="announce_mission_del_emerg" Color="6" Value="Emergency Mission Canceled" />
     <Entry LangId="announce_quest_list_update" Color="6" Value="SIDE OPS List Updated:" />
     <Entry LangId="announce_quest_add" Color="6" Value="New SIDE OPS Added" />
     <Entry LangId="announce_quest_complete" Color="6" Value="[%s] Complete:" />
-    <Entry Key="644065947" Color="5" Value="Marker Erased (arrived at objective)" />
-    <Entry Key="1252221277" Color="5" Value="Approaching Limit of Support-Available Area" />
-    <Entry Key="1085094417" Color="5" Value="Target Near Death [Heroism -%d]" />
+    <Entry LangId="announce_arrived" Color="5" Value="Marker Erased (arrived at objective)" />
+    <Entry LangId="announce_support_area_warning" Color="5" Value="Approaching Limit of Support-Available Area" />
+    <Entry LangId="announce_target_dying" Color="5" Value="Target Near Death [Heroism -%d]" />
     <Entry LangId="announce_fame_up" Color="5" Value="Fame Increased [Heroism +%d]" />
     <Entry LangId="announce_fame_down" Color="5" Value="Fame Decreased [Heroism -%d]" />
-    <Entry Key="4024266932" Color="5" Value="D-Walker: Entering camera control mode" />
-    <Entry Key="2320397566" Color="5" Value="D-Walker: Entering weapon control mode" />
-    <Entry Key="2304250682" Color="5" Value="D-Walker: Entering normal mode" />
-    <Entry Key="1680247173" Color="5" Value="D-Walker: Mode disengaged" />
+    <Entry LangId="announce_dwalker_camera_start" Color="5" Value="D-Walker: Entering camera control mode" />
+    <Entry LangId="announce_dwalker_weapon_start" Color="5" Value="D-Walker: Entering weapon control mode" />
+    <Entry LangId="announce_dwalker_normal_start" Color="5" Value="D-Walker: Entering normal mode" />
+    <Entry LangId="announce_dwalker_mode_cancel" Color="5" Value="D-Walker: Mode disengaged" />
     <Entry LangId="announce_find_keyitem" Color="5" Value="Obtained Key Item [%s]" />
     <Entry LangId="announce_find_em_string" Color="5" Value="Obtained Emblem Part [Word: %s]" />
-    <Entry Key="1539558489" Color="5" Value="Emblem Part Spotted [Word: %s]" />
+    <Entry LangId="announce_find_em_char" Color="5" Value="Emblem Part Spotted [Word: %s]" />
     <Entry LangId="announce_find_processed_res" Color="5" Value="Processed Material Spotted [%s] x %d" />
     <Entry LangId="announce_find_plant" Color="5" Value="Medicinal Plant Spotted [%s] x %d" />
-    <Entry Key="1460830472" Color="5" Value="Key Item [%s]" />
-    <Entry Key="1513532805" Color="5" Value="Emblem Part [Word： %s]" />
-    <Entry Key="2274097830" Color="5" Value="Emblem Part [Word： %s]" />
-    <Entry Key="1164027129" Color="5" Value="Processed Material [%s] x %d" />
-    <Entry Key="158710310" Color="5" Value="R&amp;D Team Reached Max. Level [Heroism +%d]" />
-    <Entry Key="2396884007" Color="5" Value="Base Dev. Unit Reached Max. Level [Heroism +%d]" />
-    <Entry Key="2963088845" Color="5" Value="Support Unit Reached Max. Level [Heroism +%d]" />
-    <Entry Key="1273771014" Color="5" Value="Intel Team Reached Max. Level [Heroism +%d]" />
-    <Entry Key="4275740514" Color="5" Value="Combat Unit Reached Max. Level [Heroism +%d]" />
-    <Entry Key="1914133583" Color="5" Value="Security Team Reached Max. Level [Heroism +%d]" />
-    <Entry Key="448276719" Color="5" Value="Medical Team Reached Max. Level [Heroism +%d]" />
-    <Entry Key="661679063" Color="6" Value="Nuclear Development Complete [Heroism -%d]" />
-    <Entry Key="2011348785" Color="6" Value="Nuclear Disarmament Complete [Heroism +%d]" />
-    <Entry Key="437470366" Color="6" Value="All Primary Weapons (HIP) Developed [Heroism +%d]" />
-    <Entry Key="1068293698" Color="6" Value="All Primary Weapons (BACK) Developed [Heroism +%d]" />
-    <Entry Key="3290460829" Color="6" Value="All Secondary Weapons Developed [Heroism +%d]" />
-    <Entry Key="3382739378" Color="6" Value="All Support Weapons Developed [Heroism +%d]" />
-    <Entry Key="2211263813" Color="6" Value="All Items Developed [Heroism +%d]" />
-    <Entry Key="2311157895" Color="6" Value="All Tools Developed [Heroism +%d]" />
-    <Entry Key="2950458975" Color="6" Value="All Prosthetic Arms Developed [Heroism +%d]" />
-    <Entry Key="1567042253" Color="6" Value="All Uniforms Developed [Heroism +%d]" />
-    <Entry Key="283830904" Color="6" Value="All Support Chopper Armament Developed [Heroism +%d]" />
-    <Entry Key="196171735" Color="6" Value="All Quiet Weapons Developed [Heroism +%d]" />
-    <Entry Key="3346010538" Color="6" Value="All D-Dog Equipment Developed [Heroism +%d]" />
-    <Entry Key="423617409" Color="6" Value="All D-Horse Equipment Developed [Heroism +%d]" />
-    <Entry Key="261284975" Color="6" Value="All D-Walker Armament Developed [Heroism +%d]" />
-    <Entry Key="156379761" Color="6" Value="All Battle Gear Armament Developed [Heroism +%d]" />
-    <Entry Key="2981059779" Color="6" Value="All Security Devices Developed [Heroism +%d]" />
-    <Entry Key="2753312914" Color="5" Value="Mother Base Reached Expansion Limit [Heroism +%d]" />
-    <Entry Key="1027818286" Color="5" Value="FOB 1 Reached Expansion Limit [Heroism +%d]" />
-    <Entry Key="2257386832" Color="5" Value="FOB 2 Reached Expansion Limit [Heroism +%d]" />
-    <Entry Key="3804623936" Color="5" Value="FOB 3 Reached Expansion Limit [Heroism +%d]" />
-    <Entry Key="1776299637" Color="5" Value="FOB 4 Reached Expansion Limit [Heroism +%d]" />
-    <Entry Key="2233890129" Color="5" Value="Support Request from %s" />
-    <Entry Key="1659763200" Color="5" Value="Sent Support: " />
+    <Entry LangId="announce_extract_keyitem" Color="5" Value="Key Item [%s]" />
+    <Entry LangId="announce_extract_em_string" Color="5" Value="Emblem Part [Word： %s]" />
+    <Entry LangId="announce_extract_em_char" Color="5" Value="Emblem Part [Word： %s]" />
+    <Entry LangId="announce_extract_processed_res" Color="5" Value="Processed Material [%s] x %d" />
+    <Entry LangId="announce_unit_lvmax_RD" Color="5" Value="R&amp;D Team Reached Max. Level [Heroism +%d]" />
+    <Entry LangId="announce_unit_lvmax_base_dev" Color="5" Value="Base Dev. Unit Reached Max. Level [Heroism +%d]" />
+    <Entry LangId="announce_unit_lvmax_support" Color="5" Value="Support Unit Reached Max. Level [Heroism +%d]" />
+    <Entry LangId="announce_unit_lvmax_intel" Color="5" Value="Intel Team Reached Max. Level [Heroism +%d]" />
+    <Entry LangId="announce_unit_lvmax_combat" Color="5" Value="Combat Unit Reached Max. Level [Heroism +%d]" />
+    <Entry LangId="announce_unit_lvmax_security" Color="5" Value="Security Team Reached Max. Level [Heroism +%d]" />
+    <Entry LangId="announce_unit_lvmax_medical" Color="5" Value="Medical Team Reached Max. Level [Heroism +%d]" />
+    <Entry LangId="announce_fin_nuclear_develop" Color="6" Value="Nuclear Development Complete [Heroism -%d]" />
+    <Entry LangId="announce_fin_nuclear_destruction" Color="6" Value="Nuclear Disarmament Complete [Heroism +%d]" />
+    <Entry LangId="announce_alldev_pri_wp" Color="6" Value="All Primary Weapons (HIP) Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_pri_wp_b" Color="6" Value="All Primary Weapons (BACK) Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_sec_wp" Color="6" Value="All Secondary Weapons Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_sprt_wp" Color="6" Value="All Support Weapons Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_item" Color="6" Value="All Items Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_tool" Color="6" Value="All Tools Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_arm" Color="6" Value="All Prosthetic Arms Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_suit" Color="6" Value="All Uniforms Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_heli" Color="6" Value="All Support Chopper Armament Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_quiet" Color="6" Value="All Quiet Weapons Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_dd" Color="6" Value="All D-Dog Equipment Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_dh" Color="6" Value="All D-Horse Equipment Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_dw" Color="6" Value="All D-Walker Armament Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_bgear" Color="6" Value="All Battle Gear Armament Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_mb" Color="6" Value="All Security Devices Developed [Heroism +%d]" />
+    <Entry LangId="announce_extention_max_mb" Color="5" Value="Mother Base Reached Expansion Limit [Heroism +%d]" />
+    <Entry LangId="announce_extention_max_fob1" Color="5" Value="FOB 1 Reached Expansion Limit [Heroism +%d]" />
+    <Entry LangId="announce_extention_max_fob2" Color="5" Value="FOB 2 Reached Expansion Limit [Heroism +%d]" />
+    <Entry LangId="announce_extention_max_fob3" Color="5" Value="FOB 3 Reached Expansion Limit [Heroism +%d]" />
+    <Entry LangId="announce_extention_max_fob4" Color="5" Value="FOB 4 Reached Expansion Limit [Heroism +%d]" />
+    <Entry LangId="announce_fob_req_support" Color="5" Value="Support Request from %s" />
+    <Entry LangId="announce_fob_support_done" Color="5" Value="Sent Support: " />
     <Entry LangId="announce_fob_req_help" Color="6" Value="Backup Request from [Supporting] Player" />
     <Entry LangId="announce_fob_find_intruder" Color="5" Value="Intruder Spotted [Heroism +%d]" />
-    <Entry Key="3119201030" Color="5" Value="Intruder Spotted on FOB 1" />
-    <Entry Key="1555084696" Color="5" Value="Intruder Spotted on FOB 2" />
-    <Entry Key="2364438769" Color="5" Value="Intruder Spotted on FOB 3" />
-    <Entry Key="3944735109" Color="5" Value="Intruder Spotted on FOB 4" />
+    <Entry LangId="announce_fob_find_intruder_fob1" Color="5" Value="Intruder Spotted on FOB 1" />
+    <Entry LangId="announce_fob_find_intruder_fob2" Color="5" Value="Intruder Spotted on FOB 2" />
+    <Entry LangId="announce_fob_find_intruder_fob3" Color="5" Value="Intruder Spotted on FOB 3" />
+    <Entry LangId="announce_fob_find_intruder_fob4" Color="5" Value="Intruder Spotted on FOB 4" />
     <Entry LangId="announce_fob_found" Color="5" Value="Infiltration Discovered [Heroism -%d]" />
-    <Entry Key="1305151967" Color="5" Value="Damage to FOB" />
-    <Entry Key="1389822323" Color="5" Value="Assets [GMP +%d]" />
+    <Entry LangId="announce_fob_damage" Color="5" Value="Damage to FOB" />
+    <Entry LangId="announce_fob_gmp" Color="5" Value="Assets [GMP +%d]" />
     <Entry LangId="announce_staff_num" Color="5" Value="%d Staff Captured by Enemy Forces" />
     <Entry LangId="announce_fob_betray" Color="5" Value="Your Betrayal of %s Was Discovered" />
     <Entry LangId="announce_fob_batrayed" Color="5" Value="Betrayal by %s Discovered" />
@@ -255,112 +255,112 @@
     <Entry LangId="announce_fob_wormhole_to" Color="6" Value="Revenge Wormhole to %s Opened" />
     <Entry LangId="announce_destroy_radar" Color="5" Value="Destroyed Anti-Air Radar" />
     <Entry LangId="announce_unlock_lz" Color="5" Value="New LZ available nearby" />
-    <Entry Key="116520756" Color="6" Value="All Handguns Developed [Heroism +%d]" />
-    <Entry Key="1848354784" Color="6" Value="All Submachine Guns Developed [Heroism +%d]" />
-    <Entry Key="1262781265" Color="6" Value="All Assault Rifles Developed [Heroism +%d]" />
-    <Entry Key="941536392" Color="6" Value="All Shotguns Developed [Heroism +%d]" />
-    <Entry Key="3483162613" Color="6" Value="All Grenade Launchers Developed [Heroism +%d]" />
-    <Entry Key="2533111106" Color="6" Value="All Sniper Rifles Developed [Heroism +%d]" />
-    <Entry Key="1860461649" Color="6" Value="All Machine Guns Developed [Heroism +%d]" />
-    <Entry Key="971459906" Color="6" Value="All Missiles Developed [Heroism +%d]" />
-    <Entry Key="979107217" Color="5" Value="Combat Unit: Battle report" />
-    <Entry Key="4284916016" Color="5" Value="Merc Deployment [GMP +%d]" />
-    <Entry Key="4066980317" Color="5" Value="Base Development Unit: Status report" />
-    <Entry Key="3975876328" Color="5" Value="Materials Procured [%s] x %d" />
-    <Entry Key="3539184462" Color="5" Value="Intel Team: Materials located" />
-    <Entry Key="2894241129" Color="5" Value="FOB 1:" />
-    <Entry Key="634831489" Color="5" Value="FOB 2:" />
-    <Entry Key="3237790272" Color="5" Value="FOB 3:" />
-    <Entry Key="2511535717" Color="5" Value="FOB 4:" />
-    <Entry Key="1880487885" Color="5" Value="Support Helicopter: Target on board" />
+    <Entry LangId="announce_alldev_handgun" Color="6" Value="All Handguns Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_submachine" Color="6" Value="All Submachine Guns Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_assault" Color="6" Value="All Assault Rifles Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_shotgun" Color="6" Value="All Shotguns Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_grenade_launcher" Color="6" Value="All Grenade Launchers Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_sniper" Color="6" Value="All Sniper Rifles Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_machinegun" Color="6" Value="All Machine Guns Developed [Heroism +%d]" />
+    <Entry LangId="announce_alldev_missile" Color="6" Value="All Missiles Developed [Heroism +%d]" />
+    <Entry LangId="announce_battle_report" Color="5" Value="Combat Unit: Battle report" />
+    <Entry LangId="announce_mercenary_dispatch" Color="5" Value="Merc Deployment [GMP +%d]" />
+    <Entry LangId="announce_res_dev_report" Color="5" Value="Base Development Unit: Status report" />
+    <Entry LangId="announce_res_develop" Color="5" Value="Materials Procured [%s] x %d" />
+    <Entry LangId="announce_search_resource" Color="5" Value="Intel Team: Materials located" />
+    <Entry LangId="announce_fob1" Color="5" Value="FOB 1:" />
+    <Entry LangId="announce_fob2" Color="5" Value="FOB 2:" />
+    <Entry LangId="announce_fob3" Color="5" Value="FOB 3:" />
+    <Entry LangId="announce_fob4" Color="5" Value="FOB 4:" />
+    <Entry LangId="announce_heli_seating_target" Color="5" Value="Support Helicopter: Target on board" />
     <Entry LangId="announce_add_delivery_point" Color="5" Value="New Delivery Point Added" />
     <Entry LangId="announce_add_alt_machine" Color="6" Value="Dispatched Replacement Chopper [GMP -%d]" />
-    <Entry Key="1438053006" Color="6" Value="Dispatched Replacement Horse [GMP -%d]" />
-    <Entry Key="2973640434" Color="5" Value="Proficiency Has Increased Significantly" />
-    <Entry Key="3813504428" Color="5" Value="Proficiency Has Increased" />
-    <Entry Key="3943234010" Color="5" Value="Proficiency Has Increased Slightly" />
-    <Entry Key="43975759" Color="6" Value="Awarded Distinguished Service Medal" />
-    <Entry Key="3582401701" Color="6" Value="Awarded Medal of Honor" />
-    <Entry Key="127767516" Color="5" Value="Support Helicopter: Arrived at objective area" />
+    <Entry LangId="announce_add_alt_horse" Color="6" Value="Dispatched Replacement Horse [GMP -%d]" />
+    <Entry LangId="announce_proficiency_inc_l" Color="5" Value="Proficiency Has Increased Significantly" />
+    <Entry LangId="announce_proficiency_inc_m" Color="5" Value="Proficiency Has Increased" />
+    <Entry LangId="announce_proficiency_inc_s" Color="5" Value="Proficiency Has Increased Slightly" />
+    <Entry LangId="announce_achievement_medal" Color="6" Value="Awarded Distinguished Service Medal" />
+    <Entry LangId="announce_honor_medal" Color="6" Value="Awarded Medal of Honor" />
+    <Entry LangId="announce_heli_arrive_target" Color="5" Value="Support Helicopter: Arrived at objective area" />
     <Entry LangId="announce_get_film_case" Color="5" Value="Obtained Film Canister" />
     <Entry LangId="announce_get_intel_file" Color="5" Value="Obtained Intel File" />
     <Entry LangId="announce_get_gravure" Color="5" Value="Obtained Poster [%s] [GMP +%d]" />
     <Entry LangId="announce_get_invoice" Color="5" Value="Obtained Invoice" />
-    <Entry Key="3157535775" Color="5" Value="Wild Animal [Pup] x %d" />
-    <Entry Key="1641428370" Color="6" Value="%s Has Been Awarded Service Cross" />
-    <Entry Key="3960105289" Color="6" Value="Dispatch Mission Log Updated:" />
-    <Entry Key="719714621" Color="5" Value="[%s] Successful" />
-    <Entry Key="817405889" Color="5" Value="Dispatch Staff Proficiency Increased" />
-    <Entry Key="941605956" Color="5" Value="[%s] Failed" />
-    <Entry Key="3760002448" Color="5" Value="Visitor at Mother Base" />
+    <Entry LangId="announce_extract_puppy" Color="5" Value="Wild Animal [Pup] x %d" />
+    <Entry LangId="announce_cross_medal" Color="6" Value="%s Has Been Awarded Service Cross" />
+    <Entry LangId="announce_ops_log_update" Color="6" Value="Dispatch Mission Log Updated:" />
+    <Entry LangId="announce_ops_success" Color="5" Value="[%s] Successful" />
+    <Entry LangId="announce_ops_staff_proficiency_inc" Color="5" Value="Dispatch Staff Proficiency Increased" />
+    <Entry LangId="announce_ops_failed" Color="5" Value="[%s] Failed" />
+    <Entry LangId="announce_fob_visit_mb" Color="5" Value="Visitor at Mother Base" />
     <Entry LangId="announce_fob_visit_fob1" Color="5" Value="Visitor at FOB 1" />
     <Entry LangId="announce_fob_visit_fob2" Color="5" Value="Visitor at FOB 2" />
     <Entry LangId="announce_fob_visit_fob3" Color="5" Value="Visitor at FOB 3" />
     <Entry LangId="announce_fob_visit_fob4" Color="5" Value="Visitor at FOB 4" />
-    <Entry Key="1911657009" Color="5" Value="Visitor at Mother Base Has Left" />
-    <Entry Key="1002597482" Color="5" Value="Visitor at FOB 1 Has Left" />
-    <Entry Key="1569661553" Color="5" Value="Visitor at FOB 2 Has Left" />
-    <Entry Key="4207164162" Color="5" Value="Visitor at FOB 3 Has Left" />
-    <Entry Key="1438010976" Color="5" Value="Visitor at FOB 4 Has Left" />
+    <Entry LangId="announce_fob_leave_mb" Color="5" Value="Visitor at Mother Base Has Left" />
+    <Entry LangId="announce_fob_leave_fob1" Color="5" Value="Visitor at FOB 1 Has Left" />
+    <Entry LangId="announce_fob_leave_fob2" Color="5" Value="Visitor at FOB 2 Has Left" />
+    <Entry LangId="announce_fob_leave_fob3" Color="5" Value="Visitor at FOB 3 Has Left" />
+    <Entry LangId="announce_fob_leave_fob4" Color="5" Value="Visitor at FOB 4 Has Left" />
     <Entry LangId="announce_fob_req_practice" Color="5" Value="Training Request from [Supporting] Player" />
     <Entry LangId="announce_fob_practice_fin" Color="5" Value="Training with [Supporting] Player Has Finished" />
-    <Entry Key="1977585079" Color="6" Value="FOB Mission Log Updated:" />
+    <Entry LangId="announce_fob_log_update" Color="6" Value="FOB Mission Log Updated:" />
     <Entry LangId="announce_fob_def_success_pra" Color="6" Value="Successfully Defended FOB (Training)" />
-    <Entry Key="744540054" Color="5" Value="Security Team Proficiency Has Increased Slightly" />
-    <Entry Key="4025036448" Color="6" Value="Failed to Defend FOB (Training)" />
+    <Entry LangId="announce_sec_staff_proficiency_inc_s" Color="5" Value="Security Team Proficiency Has Increased Slightly" />
+    <Entry LangId="announce_fob_def_failed_pra" Color="6" Value="Failed to Defend FOB (Training)" />
     <Entry LangId="announce_fob_def_success" Color="6" Value="Successfully Defended FOB" />
-    <Entry Key="792283988" Color="5" Value="Security Team Proficiency Has Increased" />
+    <Entry LangId="announce_sec_staff_proficiency_inc_m" Color="5" Value="Security Team Proficiency Has Increased" />
     <Entry LangId="announce_fob_def_failed" Color="6" Value="Failed to Defend FOB" />
-    <Entry Key="802021958" Color="5" Value="D-Dog: Found enemy" />
-    <Entry Key="800601265" Color="5" Value="D-Dog: Found prisoner" />
-    <Entry Key="1468897102" Color="5" Value="D-Dog: Found wild animal" />
-    <Entry Key="676799777" Color="5" Value="D-Dog: Found weapon" />
+    <Entry LangId="announce_ddog_find_enemy" Color="5" Value="D-Dog: Found enemy" />
+    <Entry LangId="announce_ddog_find_hostage" Color="5" Value="D-Dog: Found prisoner" />
+    <Entry LangId="announce_ddog_find_animal" Color="5" Value="D-Dog: Found wild animal" />
+    <Entry LangId="announce_ddog_find_weapon" Color="5" Value="D-Dog: Found weapon" />
     <Entry LangId="announce_quest_delete" Color="6" Value="[%s] Canceled" />
-    <Entry Key="1447737096" Color="5" Value="D-Dog: Found materials container" />
-    <Entry Key="3652206701" Color="5" Value="Battle Gear: Arrived at drop point" />
-    <Entry Key="518534876" Color="5" Value="Battle Gear: Left mission area" />
-    <Entry Key="4142247122" Color="5" Value="Body x %d" />
-    <Entry Key="3654143104" Color="5" Value="Dispatch Mission Reward Has Arrived" />
+    <Entry LangId="announce_ddog_find_container" Color="5" Value="D-Dog: Found materials container" />
+    <Entry LangId="announce_bgear_lz" Color="5" Value="Battle Gear: Arrived at drop point" />
+    <Entry LangId="announce_bgear_escape" Color="5" Value="Battle Gear: Left mission area" />
+    <Entry LangId="announce_extract_corpse" Color="5" Value="Body x %d" />
+    <Entry LangId="announce_gmp_reward" Color="5" Value="Dispatch Mission Reward Has Arrived" />
     <Entry LangId="announce_extract_staff" Color="5" Value="Staff x %d" />
     <Entry LangId="announce_fob_intruder_escape" Color="5" Value="Security Team: Intruder has withdrawn" />
     <Entry LangId="announce_fob_helper_arrive" Color="5" Value="Rival Has Arrived" />
     <Entry LangId="announce_fob_helper_escape" Color="5" Value="Rival Has Withdrawn" />
-    <Entry Key="1189176290" Color="5" Value="Received Reward for Defending FOB from %s" />
+    <Entry LangId="announce_fob_def_reward" Color="5" Value="Received Reward for Defending FOB from %s" />
     <Entry LangId="announce_get_blueprint" Color="5" Value="Obtained Blueprint [%s]" />
-    <Entry Key="2467586836" Color="5" Value="Medical Team:" />
-    <Entry Key="1662647728" Color="5" Value="Quiet Moved to Sickbay" />
-    <Entry Key="698783763" Color="5" Value="Quiet Recovered: Discharged from sickbay" />
-    <Entry Key="1246402541" Color="5" Value="Base Development Unit:" />
-    <Entry Key="3098640088" Color="5" Value="(Highest Rank: %s)" />
+    <Entry LangId="announce_medical" Color="5" Value="Medical Team:" />
+    <Entry LangId="announce_quiet_to_clinic" Color="5" Value="Quiet Moved to Sickbay" />
+    <Entry LangId="announce_quiet_discharge" Color="5" Value="Quiet Recovered: Discharged from sickbay" />
+    <Entry LangId="announce_base_dev" Color="5" Value="Base Development Unit:" />
+    <Entry LangId="announce_extract_max_rank" Color="5" Value="(Highest Rank: %s)" />
     <Entry LangId="announce_guradpost_neutralize" Color="5" Value="Captured Guard Post [Heroism +%d]" />
     <Entry LangId="announce_get_hero" Color="6" Value="Awarded &quot;Hero&quot; Codename" />
     <Entry LangId="announce_lost_hero" Color="6" Value="Stripped of &quot;Hero&quot; Codename" />
-    <Entry Key="269128082" Color="5" Value="Support Unit: Supply request received. Canceling previous drop" />
-    <Entry Key="1740204807" Color="6" Value="Support Unit: Dispatch prep complete [%s]" />
-    <Entry Key="4227630274" Color="5" Value="Quiet: Has a shot" />
-    <Entry Key="825275856" Color="5" Value="Quiet: Ready for grenade ricochet" />
-    <Entry Key="733844849" Color="5" Value="Quiet: Unable to fire" />
-    <Entry Key="4043829318" Color="8" Value="Added trial:" />
+    <Entry LangId="announce_support_request_update" Color="5" Value="Support Unit: Supply request received. Canceling previous drop" />
+    <Entry LangId="announce_support_boddy_standby" Color="6" Value="Support Unit: Dispatch prep complete [%s]" />
+    <Entry LangId="announce_quiet_aiming" Color="5" Value="Quiet: Has a shot" />
+    <Entry LangId="announce_quiet_aim_granade" Color="5" Value="Quiet: Ready for grenade ricochet" />
+    <Entry LangId="announce_quiet_no_aiming" Color="5" Value="Quiet: Unable to fire" />
+    <Entry LangId="announce_trial_add" Color="8" Value="Added trial:" />
     <Entry LangId="announce_trial_update" Color="8" Value="New trial record:" />
-    <Entry Key="1516481085" Color="7" Value="Canceled trial:" />
+    <Entry LangId="announce_trial_cansel" Color="7" Value="Canceled trial:" />
     <Entry LangId="announce_task_complete" Color="5" Value="Completed mission task [%d/%d]" />
     <Entry LangId="announce_get_photo" Color="5" Value="Obtained Memento Photo [%s]" />
-    <Entry Key="2987926357" Color="6" Value="Acquired Personnel with New Skill" />
-    <Entry Key="1290707351" Color="5" Value="Development Complete [%s]" />
-    <Entry Key="202556884" Color="5" Value="Disposed of Mines %d/%d [Heroism +%d]" />
-    <Entry Key="53431337" Color="5" Value="Fulton Recovery Device Resupplied" />
-    <Entry Key="3314643252" Color="5" Value="Wormhole Extraction Device Resupplied" />
-    <Entry Key="3488610450" Color="5" Value="Unable to Resupply: Not enough resources [%s]" />
-    <Entry Key="443761379" Color="5" Value="Staff Morale Increased" />
-    <Entry Key="3671943138" Color="5" Value="Poster [GMP +%d]" />
-    <Entry Key="3874083288" Color="6" Value="%s Has Been Awarded Medal of Honor" />
-    <Entry Key="4188849089" Color="6" Value="%s Has Been Awarded Distinguished Service Medal" />
-    <Entry Key="1038972352" Color="5" Value="Items Resupplied" />
-    <Entry Key="1981859286" Color="5" Value="Intel Team: Medicinal plants located" />
-    <Entry Key="1810463464" Color="5" Value="Approaching Border" />
-    <Entry Key="3756390786" Color="5" Value="Entered Angola" />
-    <Entry Key="563822229" Color="5" Value="Entered Zaire" />
-    <Entry Key="4019408195" Color="5" Value="Arrived at Designated Area" />
+    <Entry LangId="announce_staff_skill" Color="6" Value="Acquired Personnel with New Skill" />
+    <Entry LangId="announce_develop_complete" Color="5" Value="Development Complete [%s]" />
+    <Entry LangId="announce_disposal_mine2" Color="5" Value="Disposed of Mines %d/%d [Heroism +%d]" />
+    <Entry LangId="announce_get_fulton_d" Color="5" Value="Fulton Recovery Device Resupplied" />
+    <Entry LangId="announce_get_fulton_w" Color="5" Value="Wormhole Extraction Device Resupplied" />
+    <Entry LangId="announce_support_res_luck" Color="5" Value="Unable to Resupply: Not enough resources [%s]" />
+    <Entry LangId="announce_staff_morale_up" Color="5" Value="Staff Morale Increased" />
+    <Entry LangId="announce_get_poster" Color="5" Value="Poster [GMP +%d]" />
+    <Entry LangId="announce_honor_award" Color="6" Value="%s Has Been Awarded Medal of Honor" />
+    <Entry LangId="announce_achievemnt_award" Color="6" Value="%s Has Been Awarded Distinguished Service Medal" />
+    <Entry LangId="announce_supply_item" Color="5" Value="Items Resupplied" />
+    <Entry LangId="announce_search_plant" Color="5" Value="Intel Team: Medicinal plants located" />
+    <Entry LangId="announce_approach_border" Color="5" Value="Approaching Border" />
+    <Entry LangId="announce_immigration_angola" Color="5" Value="Entered Angola" />
+    <Entry LangId="announce_immigration_zaire" Color="5" Value="Entered Zaire" />
+    <Entry LangId="announce_quest_arrive" Color="5" Value="Arrived at Designated Area" />
     <Entry LangId="announce_quest_defeat_armor" Color="5" Value="Heavy Infantry Eliminated [%d/%d]" />
     <Entry LangId="announce_quest_defeat_zombie" Color="5" Value="Wandering Puppet Eliminated [%d/%d]" />
     <Entry LangId="announce_quest_disposal_mine" Color="5" Value="Mine Cleared [%d/%d]" />
@@ -368,9 +368,9 @@
     <Entry LangId="announce_quest_extract_hostage" Color="5" Value="Prisoner Extracted [%d/%d]" />
     <Entry LangId="announce_quest_defeat_armor_vehicle" Color="5" Value="Armored Vehicle Unit Eliminated [%d/%d]" />
     <Entry LangId="announce_quest_defeat_tunk" Color="5" Value="Tank Unit Eliminated [%d/%d]" />
-    <Entry Key="4073899628" Color="5" Value="Materials Container Secured [%s] x %d" />
-    <Entry Key="2172858307" Color="5" Value="Surplus Supplies Retrieved" />
-    <Entry Key="1179411964" Color="6" Value="Contributed to Reduction of Nuclear Weapons [Heroism +%d]" />
+    <Entry LangId="announce_find_container" Color="5" Value="Materials Container Secured [%s] x %d" />
+    <Entry LangId="announce_realization" Color="5" Value="Surplus Supplies Retrieved" />
+    <Entry LangId="announce_10_nuclear_destruction" Color="6" Value="Contributed to Reduction of Nuclear Weapons [Heroism +%d]" />
     <Entry LangId="announce_nuclear_zero" Color="6" Value="Achieved Nuclear Disarmament [Heroism +%d]" />
     <Entry LangId="announce_find_em_front" Color="5" Value="Obtained Emblem Part [Front: %s]" />
     <Entry LangId="announce_find_em_back" Color="5" Value="Obtained Emblem Part [Back: %s]" />
@@ -379,38 +379,38 @@
     <Entry LangId="announce_staff_dead" Color="6" Value="Staff Died" />
     <Entry LangId="announce_staff_dying" Color="6" Value="Staff Casualties" />
     <Entry LangId="announce_fob_sneaking_failed" Color="6" Value="Infiltration Detected" />
-    <Entry Key="1182434796" Color="5" Value="%d Friendly Four-Wheel Drives Destroyed" />
-    <Entry Key="3127846906" Color="5" Value="%d Friendly Trucks Destroyed" />
-    <Entry Key="3964145632" Color="5" Value="%d Friendly Armored Vehicles Destroyed" />
-    <Entry Key="937935760" Color="5" Value="%d Friendly Tanks Destroyed" />
-    <Entry Key="2822856771" Color="5" Value="%d Friendly Walker Gears Destroyed" />
-    <Entry Key="55674489" Color="6" Value="SIDE OP [%s]:" />
-    <Entry Key="89922874" Color="5" Value="Fighting Has Broken out Among Staff" />
-    <Entry Key="2754674669" Color="5" Value="Working Environment Has Worsened Due to Being in the Red" />
-    <Entry Key="2308829301" Color="6" Value="Staff Morale Declined" />
-    <Entry Key="2887910183" Color="6" Value="%d Staff Dead Due to Injuries/Disease [Heroism -%d]" />
-    <Entry Key="2145268319" Color="6" Value="%d Staff Dead Due to Epidemic [Heroism -%d]" />
-    <Entry Key="4061057249" Color="5" Value="Support Weapons" />
+    <Entry LangId="announce_ops_destroy_4wd" Color="5" Value="%d Friendly Four-Wheel Drives Destroyed" />
+    <Entry LangId="announce_ops_destroy_truck" Color="5" Value="%d Friendly Trucks Destroyed" />
+    <Entry LangId="announce_ops_destroy_armerd" Color="5" Value="%d Friendly Armored Vehicles Destroyed" />
+    <Entry LangId="announce_ops_destroy_tank" Color="5" Value="%d Friendly Tanks Destroyed" />
+    <Entry LangId="announce_ops_destroy_wg" Color="5" Value="%d Friendly Walker Gears Destroyed" />
+    <Entry LangId="announce_quest_name" Color="6" Value="SIDE OP [%s]:" />
+    <Entry LangId="announce_staff_trouble_happen" Color="5" Value="Fighting Has Broken out Among Staff" />
+    <Entry LangId="announce_staff_poor_environment" Color="5" Value="Working Environment Has Worsened Due to Being in the Red" />
+    <Entry LangId="announce_staff_morale_down" Color="6" Value="Staff Morale Declined" />
+    <Entry LangId="announce_mbstaff_died_injuries" Color="6" Value="%d Staff Dead Due to Injuries/Disease [Heroism -%d]" />
+    <Entry LangId="announce_mbstaff_died_pestilence" Color="6" Value="%d Staff Dead Due to Epidemic [Heroism -%d]" />
+    <Entry LangId="announce_weaponType_sup" Color="5" Value="Support Weapons" />
     <Entry LangId="announce_refresh" Color="5" Value="Physically and Mentally Refreshed" />
-    <Entry Key="1120643391" Color="6" Value="D-Horse Near Death [Heroism -%d]" />
-    <Entry Key="3527447587" Color="6" Value="D-Dog Near Death [Heroism -%d]" />
-    <Entry Key="2495502975" Color="6" Value="Quiet Near Death [Heroism -%d]" />
-    <Entry Key="3014965150" Color="6" Value="D-Walker Has Taken Heavy Damage [Heroism -%d]" />
-    <Entry Key="631668979" Color="5" Value="Battle Gear Has Taken Heavy Damage [Heroism -%d]" />
-    <Entry Key="3409558525" Color="6" Value="Treated D-Horse's Wounds [GMP -%d]" />
-    <Entry Key="552115042" Color="6" Value="Treated D-Dog's Wounds [GMP -%d]" />
-    <Entry Key="2804597792" Color="6" Value="Quiet Moved to Sickbay" />
-    <Entry Key="3279387409" Color="6" Value="Repaired D-Walker [GMP -%d]" />
-    <Entry Key="974995920" Color="5" Value="Repaired Battle Gear [GMP -%d]" />
-    <Entry Key="602090522" Color="5" Value="Bond with D-Horse Has Decreased" />
-    <Entry Key="2417050760" Color="5" Value="Bond with D-Dog Has Decreased" />
-    <Entry Key="2550523856" Color="5" Value="Bond with Quiet Has Decreased" />
-    <Entry Key="2996963380" Color="5" Value="Bond with D-Horse Has Decreased Significantly" />
-    <Entry Key="2655337513" Color="5" Value="Bond with D-Dog Has Decreased Significantly" />
-    <Entry Key="1860470185" Color="5" Value="Bond with Quiet Has Decreased Significantly" />
+    <Entry LangId="announce_horse_dying" Color="6" Value="D-Horse Near Death [Heroism -%d]" />
+    <Entry LangId="announce_ddog_dying" Color="6" Value="D-Dog Near Death [Heroism -%d]" />
+    <Entry LangId="announce_quiet_dying" Color="6" Value="Quiet Near Death [Heroism -%d]" />
+    <Entry LangId="announce_dwalker_dying" Color="6" Value="D-Walker Has Taken Heavy Damage [Heroism -%d]" />
+    <Entry LangId="announce_bgear_dying" Color="5" Value="Battle Gear Has Taken Heavy Damage [Heroism -%d]" />
+    <Entry LangId="announce_horse_recovery" Color="6" Value="Treated D-Horse's Wounds [GMP -%d]" />
+    <Entry LangId="announce_ddog_recovery" Color="6" Value="Treated D-Dog's Wounds [GMP -%d]" />
+    <Entry LangId="announce_quiet_recovery" Color="6" Value="Quiet Moved to Sickbay" />
+    <Entry LangId="announce_dwalker_recovery" Color="6" Value="Repaired D-Walker [GMP -%d]" />
+    <Entry LangId="announce_bgear_recovery" Color="5" Value="Repaired Battle Gear [GMP -%d]" />
+    <Entry LangId="announce_horse_closeness_down" Color="5" Value="Bond with D-Horse Has Decreased" />
+    <Entry LangId="announce_ddog_closeness_down" Color="5" Value="Bond with D-Dog Has Decreased" />
+    <Entry LangId="announce_quiet_closeness_down" Color="5" Value="Bond with Quiet Has Decreased" />
+    <Entry LangId="announce_horse_closeness_down2" Color="5" Value="Bond with D-Horse Has Decreased Significantly" />
+    <Entry LangId="announce_ddog_closeness_down2" Color="5" Value="Bond with D-Dog Has Decreased Significantly" />
+    <Entry LangId="announce_quiet_closeness_down2" Color="5" Value="Bond with Quiet Has Decreased Significantly" />
     <Entry LangId="announce_disposal_decoy" Color="5" Value="Disposed of Decoy [Heroism +%d]" />
-    <Entry Key="732969969" Color="6" Value="Unit Function Suspended [%s]" />
-    <Entry Key="1550376394" Color="6" Value="Unit Function Resumed [%s]" />
+    <Entry LangId="announce_func_suspend" Color="6" Value="Unit Function Suspended [%s]" />
+    <Entry LangId="announce_func_resume" Color="6" Value="Unit Function Resumed [%s]" />
     <Entry LangId="announce_quest_target_destroy" Color="5" Value="Target Destroyed [%d/%d]" />
     <Entry LangId="announce_looting_weapon" Color="5" Value="Captured Enemy Vehicle" />
     <Entry LangId="announce_get_wgear" Color="5" Value="Walker Gear [%s] x %d" />
@@ -428,12 +428,12 @@
     <Entry LangId="announce_esp_marking_d" Color="5" Value="Intruder Sighted [Espionage Score +%d]" />
     <Entry LangId="announce_esp_kill_target_d" Color="5" Value="Eliminated [Intruder] [Espionage Score +%d]" />
     <Entry LangId="announce_destroyed_skull" Color="5" Value="Neutralized Skull [Heroism +%d]" />
-    <Entry Key="1385825865" Color="5" Value="Destroy the comms equipment:" />
-    <Entry Key="3028486932" Color="5" Value="Disable all external communication" />
+    <Entry LangId="announce_destroy_radio" Color="5" Value="Destroy the comms equipment:" />
+    <Entry LangId="announce_comm_cutoff" Color="5" Value="Disable all external communication" />
     <Entry LangId="announce_target_extract_num" Color="7" Value="Target Secured [%d/%d]" />
     <Entry LangId="announce_trial_time" Color="7" Value="%d:%d.%d" />
     <Entry LangId="announce_trial_length" Color="7" Value="%d.%d [m]" />
     <Entry LangId="announce_trial_num" Color="7" Value="%d" />
-    <Entry Key="3023077058" Color="5" Value="Prosthetic Arm Upgraded [%s]" />
+    <Entry LangId="announce_arm_update" Color="5" Value="Prosthetic Arm Upgraded [%s]" />
   </Entries>
 </LangFile>

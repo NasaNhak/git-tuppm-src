@@ -15,13 +15,13 @@
     <Entry LangId="tape_tp_etc_0240" Color="1" Value="The White Mamba [1]" />
     <Entry LangId="tape_tp_etc_0300" Color="1" Value="Vocal Cord Parasites [1]" />
     <Entry LangId="tape_tp_etc_0301" Color="1" Value="Metallic Archaea [1]" />
-    <Entry Key="4166353435" Color="1" Value="Code Talker and His Research" />
-    <Entry Key="341877747" Color="1" Value="Sahelanthropus" />
-    <Entry Key="2957738208" Color="1" Value="Truth Records" />
-    <Entry Key="3623622014" Color="1" Value="Skull Face's Objective" />
+    <Entry LangId="tape_tp_etc_0320_del" Color="1" Value="Code Talker and His Research" />
+    <Entry LangId="tape_tp_etc_0321_del" Color="1" Value="Sahelanthropus" />
+    <Entry LangId="tape_tp_etc_0322_del" Color="1" Value="Truth Records" />
+    <Entry LangId="tape_tp_etc_0323_del" Color="1" Value="Skull Face's Objective" />
     <Entry LangId="tape_tp_etc_0340" Color="1" Value="Informant's Report" />
     <Entry LangId="tape_tp_etc_0371" Color="1" Value="What Happened in the Laboratory [2]" />
-    <Entry Key="2143852996" Color="1" Value="About Quiet" />
+    <Entry LangId="tape_tp_etc_0380" Color="1" Value="About Quiet" />
     <Entry LangId="tape_tp_etc_1000" Color="1" Value="The Children Escape [1]" />
     <Entry LangId="tape_tp_etc_1010" Color="1" Value="Questioning Huey [1]" />
     <Entry LangId="tape_tp_etc_1100" Color="1" Value="Paz's Diary (Continued) [1]" />
@@ -178,12 +178,12 @@
     <Entry LangId="tp_m_10240_03" Color="1" Value="Thirst for Vengeance Parasitizing the Mind" />
     <Entry LangId="tp_m_10240_05" Color="1" Value="Urges Caused by the Vocal Cord Parasites" />
     <Entry LangId="tp_m_10260_01" Color="1" Value="Why Did Quiet Disappear?" />
-    <Entry Key="1122291595" Color="1" Value="Quiet's Parasite Therapy" />
+    <Entry LangId="tp_m_10260_02" Color="1" Value="Quiet's Parasite Therapy" />
     <Entry LangId="tp_m_10260_03" Color="1" Value="Quiet's Message" />
     <Entry LangId="tp_c_00000_02" Color="1" Value="Quiet's Mission Performance" />
     <Entry LangId="tp_c_00000_06" Color="1" Value="Quiet's Missile Interdiction Sniping" />
     <Entry LangId="tp_c_00000_13" Color="1" Value="Quiet on Mother Base" />
-    <Entry Key="2946134230" Color="1" Value="Where Sahelanthropus Headed" />
+    <Entry LangId="tp_m_10160_03" Color="1" Value="Where Sahelanthropus Headed" />
     <Entry LangId="tp_m_10160_04" Color="1" Value="Ocelot's Fears" />
     <Entry LangId="tp_m_10160_05" Color="1" Value="What Prompted the Escape" />
     <Entry LangId="tp_m_10160_06" Color="1" Value="The Mastermind" />
@@ -210,7 +210,7 @@
     <Entry LangId="tp_m_99060_03" Color="1" Value="Entry 3" />
     <Entry LangId="tp_m_99060_04" Color="1" Value="Entry 4" />
     <Entry LangId="tp_m_99060_05" Color="1" Value="Entry 5" />
-    <Entry Key="795104428" Color="1" Value="Diamond Dogs Anthem" />
+    <Entry LangId="tp_c_00000_15" Color="1" Value="Diamond Dogs Anthem" />
     <Entry LangId="tp_c_00001_01" Color="1" Value="Code Talker's Eating Habits" />
     <Entry LangId="tp_c_00001_02" Color="1" Value="Kazuhira Miller's Research" />
     <Entry LangId="tp_c_00001_03" Color="1" Value="Kazuhira Miller's Epiphany" />
@@ -283,7 +283,7 @@
     <Entry LangId="tape_tp_etc_0321" Color="1" Value="Code Talker and His Research [1]" />
     <Entry LangId="tape_tp_etc_0322" Color="1" Value="Code Talker and His Research [4]" />
     <Entry LangId="tape_tp_etc_0323" Color="1" Value="Code Talker and His Research [5]" />
-    <Entry Key="3574208957" Color="1" Value="Sahelanthropus [1]" />
+    <Entry LangId="tape_tp_etc_0324" Color="1" Value="Sahelanthropus [1]" />
     <Entry LangId="tape_tp_etc_0325" Color="1" Value="Sahelanthropus [2]" />
     <Entry LangId="tape_tp_etc_0326" Color="1" Value="Sahelanthropus [3]" />
     <Entry LangId="tape_tp_etc_0327" Color="1" Value="Skull Face's Objective [1]" />
