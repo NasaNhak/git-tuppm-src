@@ -6,3 +6,6 @@
 .settings/*.*
 
 bin/**
+!bin/compile.bat
+!bin/lang_dictionary.txt
+
