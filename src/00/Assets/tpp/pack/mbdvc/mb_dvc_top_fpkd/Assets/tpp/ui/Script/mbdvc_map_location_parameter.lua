@@ -1,5 +1,3 @@
---TUPPM Header
-
 mbdvc_map_location_parameter = {
 
 	
