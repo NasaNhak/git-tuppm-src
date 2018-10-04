@@ -1,3 +1,5 @@
+--TUPPM Header
+
 local this={}
 local IsTypeFunc=Tpp.IsTypeFunc
 local IsTypeTable=Tpp.IsTypeTable

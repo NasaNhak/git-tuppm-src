@@ -1,3 +1,5 @@
+--TUPPM Header
+
 --r51 Settings file driven approach
 local this={
 	--Yes this is a Lua file instead of a settings text file, I am just too lazy to write a Lua I/O read - does that make me a bad programmer? Well that's up for debate but this method saves unnecessary processing to read variables and assign them to a table

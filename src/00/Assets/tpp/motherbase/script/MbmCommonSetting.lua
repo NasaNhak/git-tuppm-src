@@ -1,3 +1,5 @@
+--TUPPM Header
+
 --r23 S+ and S++ in field --r16
 --Brig time for captured soldiers reduced
 --r32 S+ and S++ MAX spawn chances fixed - now are 50% and 40% respectively

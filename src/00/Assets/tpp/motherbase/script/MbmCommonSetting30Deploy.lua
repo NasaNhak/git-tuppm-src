@@ -1,3 +1,5 @@
+--TUPPM Header
+
 --r28 Adjusted to 10 minutes fixed 10 minutes random; --r24 Adjusted to 7 minutes fixed and 7 minutes random
 --r16 All deployment missions are about 10 minutes long
 --r31 Revenge deployment missions have 1 minute fixed and 2 minutes random

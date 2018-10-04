@@ -1,3 +1,5 @@
+--TUPPM Header
+
 local this={}
 local IsTypeTable=Tpp.IsTypeTable
 local SendCommand=GameObject.SendCommand

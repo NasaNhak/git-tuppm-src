@@ -1,3 +1,5 @@
+--TUPPM Header
+
 this={}
 
 local weapons_supportAmmoMultiplier=math.max(TUPPMSettings.weapons_supportAmmoMultiplier or 1,0)

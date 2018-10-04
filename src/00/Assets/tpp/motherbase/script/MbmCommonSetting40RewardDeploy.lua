@@ -1,3 +1,5 @@
+--TUPPM Header
+
 --r24 Rewards doubled; S+ and S++ rank soldiers are rewarded from A Rank missions; More soldiers for Key missions
 this={}
 --r51 Settings

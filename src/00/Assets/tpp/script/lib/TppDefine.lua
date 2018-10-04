@@ -1,3 +1,5 @@
+--TUPPM Header
+
 local this={}
 local bitBnot=bit.bnot
 local bitBand,bitBor,bitBxor=bit.band,bit.bor,bit.bxor

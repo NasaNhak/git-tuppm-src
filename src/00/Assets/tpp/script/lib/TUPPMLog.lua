@@ -1,3 +1,5 @@
+--TUPPM Header
+
 local this={}
 
 local MAX_ANNOUNCE_STRING=255

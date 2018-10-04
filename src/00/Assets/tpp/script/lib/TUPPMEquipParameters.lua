@@ -1,3 +1,5 @@
+--TUPPM Header
+
 this={}
 
 local weapons_normalSuppressorMultiplier=math.max(TUPPMSettings.weapons_normalSuppressorMultiplier or 1,-1)

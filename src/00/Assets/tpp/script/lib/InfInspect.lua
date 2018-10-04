@@ -1,3 +1,5 @@
+--TUPPM Header
+
 -- DOBUILD: 1
 -- FILE: InfInspect.lua
 -- DESC: Debug functions for inspecting lua.
