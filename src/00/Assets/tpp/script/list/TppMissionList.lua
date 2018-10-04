@@ -1,3 +1,5 @@
+--TUPPM Header
+
 local this={}
 local locationPackTable={}
 locationPackTable[TppDefine.LOCATION_ID.INIT]={"/Assets/tpptest/pack/location/empty/empty.fpk"}
